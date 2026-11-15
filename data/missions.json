@@ -1,0 +1,6540 @@
+[
+  {
+    "id": "ger-q-0009a7c45752",
+    "game": "ger",
+    "name_en": "Summer Horsefly",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-2558c510256baa3a",
+      "ev-9bc3ed2151551319"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 5,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-a4b55a512663",
+      "ger-a-dc90a0e31b7e",
+      "ger-a-4b6c72428dd1"
+    ],
+    "objectives_en": "3 Chi-Yous, Fallen Cocoon Maiden (Spark), Fallen Cocoon Maiden (Blaze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-011a64857f30",
+    "game": "ger",
+    "name_en": "Lantern Cutting",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-1e3f19dfe2252b81",
+      "ev-052bdac0c5b67b3e"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-d8f2b7ff68f0",
+      "ger-a-a023271bcec0"
+    ],
+    "objectives_en": "Tezcatlipoca, Zygote",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-0270d83ba27e",
+    "game": "ger",
+    "name_en": "Sunken Beacon",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-f6d077ace116e446"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-d8f2b7ff68f0",
+      "ger-a-383642d6c036",
+      "ger-a-4b6c72428dd1"
+    ],
+    "objectives_en": "Tezcatlipoca, Kongou, Fallen Cocoon Maiden (Blaze)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-02db51b696d8",
+    "game": "ger",
+    "name_en": "Tandall",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-5c4655d5236d4f1e",
+      "ev-85e7bfa41f2b0b79"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 8,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-7d38d15e2624",
+      "ger-a-1c2dd4819abe",
+      "ger-a-9ec2edfaeb35"
+    ],
+    "objectives_en": "Hannibal, Ogretail, Vajratail (Blaze)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-05c18c83cedc",
+    "game": "ger",
+    "name_en": "Dutch Oven",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-c467a838662aa99e",
+      "ev-c290078ec4d8df6b"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 9,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-42ffd31f5e4a",
+      "ger-a-edb038db4478"
+    ],
+    "objectives_en": "Sekhmet, Fallen Gboro-Gboro (Blaze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-066864caa5c9",
+    "game": "ger",
+    "name_en": "Spider Lily",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-8c058c85bd32ce04"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 14,
+    "type": "extra",
+    "variant": "Extra Missions / Predator Pack 2 / Difficulty 14",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-769a948234b6",
+      "ger-a-4bad81a705d9",
+      "ger-a-cda626d39a0a"
+    ],
+    "objectives_en": "Susano'o, Caligula, Blitz Hannibal",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-07ae46feb908",
+    "game": "ger",
+    "name_en": "Dance of the Lunar Hare",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-9ace58e6b47b3484",
+      "ev-f9843358712fba1a"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 13,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-e343fe69f84a",
+    "aragami_ids": [
+      "ger-a-3559595523da"
+    ],
+    "objectives_en": "Arius Nova",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-085dcdd4e0ae",
+    "game": "ger",
+    "name_en": "Runway Tank",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-8add71e55a0279ef",
+      "ev-aa7823e768a1198d"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 9,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-7f59fa145dbf"
+    ],
+    "objectives_en": "Quadriga",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-094291c07077",
+    "game": "ger",
+    "name_en": "Cardinal",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-184283f3929faf32",
+      "ev-4ca98c696bba3f6d"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 13,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-aaa98fec8ac7"
+    ],
+    "objectives_en": "Fallen Arda Nova",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-0dc9ebd23f76",
+    "game": "ger",
+    "name_en": "Fallen Angel Egg",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-d1634e1f3f102f6f",
+      "ev-aff908df1328b06c",
+      "ev-e45fea9de7fed5a9"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 1,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-a023271bcec0"
+    ],
+    "objectives_en": "Zygote",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-0e9f8e994e14",
+    "game": "ger",
+    "name_en": "Kongou Giant",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-53fdbfba585c7363",
+      "ev-c93394c6508c14a9",
+      "ev-87a8e26c27a5214a"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 2,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-383642d6c036",
+      "ger-a-1c2dd4819abe"
+    ],
+    "objectives_en": "Kongou, 3 Ogretails",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-10c05a91751e",
+    "game": "ger",
+    "name_en": "God of Thunder",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-b213fca4de2bc227"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 4,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-e4442679b5cc",
+      "ger-a-383642d6c036",
+      "ger-a-f1f9875f1759"
+    ],
+    "objectives_en": "Vajra, Kongou, Cocoon Maidens",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-113f94cc47d3",
+    "game": "ger",
+    "name_en": "Knight's Mind",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-ded9df2daa89a856"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 4,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-ca56f474370d"
+    ],
+    "objectives_en": "Borg Camlann",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-12fd666827f5",
+    "game": "ger",
+    "name_en": "Snowdrop",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-c1f51d69155d1c05"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 14,
+    "type": "extra",
+    "variant": "Extra Missions / Predator Pack 2 / Difficulty 14",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-e4442679b5cc",
+      "ger-a-7f59fa145dbf",
+      "ger-a-ca56f474370d",
+      "ger-a-505fb118f827"
+    ],
+    "objectives_en": "Vajra, Quadriga, Borg Camlann, Sariel",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-1356510a8054",
+    "game": "ger",
+    "name_en": "Sea Breeze",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-b6dd09bb01755937",
+      "ev-2dbec7f07975da12"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 5,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-afa34afb3842",
+      "ger-a-7f59fa145dbf",
+      "ger-a-dc90a0e31b7e"
+    ],
+    "objectives_en": "Fallen Kongou (Freeze), Quadriga, Fallen Cocoon Maiden (Spark)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-140e014b6fae",
+    "game": "ger",
+    "name_en": "Daytime Owl",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-50664f0da918a229"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 3,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-383642d6c036",
+      "ger-a-a023271bcec0",
+      "ger-a-f1f9875f1759"
+    ],
+    "objectives_en": "Kongou, Zygote, Cocoon Maiden",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-158572292d87",
+    "game": "ger",
+    "name_en": "Mole's Tunnel",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-03e1eff4021523af",
+      "ev-633577dc8857d832"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 11,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-fb4526992a64",
+      "ger-a-b9bc9ac1fbcc"
+    ],
+    "objectives_en": "Dyaus Pita, Fallen Chi-You (Spark)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-16b77ae64769",
+    "game": "ger",
+    "name_en": "Grounded Lightning",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-7c1360c328a346b4",
+      "ev-a714ea9c224ffa5b"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 13,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-cda626d39a0a"
+    ],
+    "objectives_en": "Blitz Hannibal",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-171a801b5406",
+    "game": "ger",
+    "name_en": "Home of Souls",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-a156b56490433677"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-a4b55a512663",
+      "ger-a-ca56f474370d",
+      "ger-a-5f3f5061ae7b",
+      "ger-a-5bb7dc995996"
+    ],
+    "objectives_en": "Chi-You, Borg Camlann, Fallen Ogretail, Fallen Cocoon Maiden (Freeze)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-18c6f234012c",
+    "game": "ger",
+    "name_en": "Poison Garnish",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-c31afea4622cf79c"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 9,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-8c5eafaa5690",
+      "ger-a-07720796c24e"
+    ],
+    "objectives_en": "Fallen Sariel, Yaksha Raja",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-18ee4e3db8f7",
+    "game": "ger",
+    "name_en": "Devourer of Tomorrow",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-28bd20946b9ddd25"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-769a948234b6",
+      "ger-a-2c17a0d1e245",
+      "ger-a-94305bba2f47"
+    ],
+    "objectives_en": "Susano'o, Fallen Zygote (Freeze), Fallen Zygote (Spark)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-19318bb4c04a",
+    "game": "ger",
+    "name_en": "Undertaker",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-67a3758f456b357f",
+      "ev-edd2cfc2a21aa5e6"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-8c5eafaa5690",
+      "ger-a-cd905643fe0e",
+      "ger-a-383642d6c036"
+    ],
+    "objectives_en": "Fallen Sariel, Fierce Kongou, Kongou",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-1b5cf6e473d7",
+    "game": "ger",
+    "name_en": "Fallen Vortex",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-c9067f796081bead",
+      "ev-35c1c6957d00c8ed",
+      "ev-02dcf3f2d2b159c4"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-d4444a6170d8"
+    ],
+    "objectives_en": "Fallen Ouroboros",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-1bf2b694120d",
+    "game": "ger",
+    "name_en": "Soulmate",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-41a492f0bfca3c43",
+      "ev-1540fea9449cd622"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-a4b55a512663",
+      "ger-a-505fb118f827"
+    ],
+    "objectives_en": "Chi-You, Sariel",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-1d4ee108e8f7",
+    "game": "ger",
+    "name_en": "An Aloof Dream",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-c3fda9054334dd69"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-204490f88904"
+    ],
+    "objectives_en": "Arda Nova",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-1ec769b6cb43",
+    "game": "ger",
+    "name_en": "Separated Kings",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-2aaeb5293564d5b3",
+      "ev-3bd97b4338ee53a5"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 8,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-fb4526992a64"
+    ],
+    "objectives_en": "Dyaus Pita",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-1f47fb419b0b",
+    "game": "ger",
+    "name_en": "Insulation",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-0371f090ca6b16b0",
+      "ev-45bf4c05de000baa"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 11,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-cd905643fe0e",
+      "ger-a-94305bba2f47"
+    ],
+    "objectives_en": "Fierce Kongou, Fallen Zygote (Spark)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-202ed24f928f",
+    "game": "ger",
+    "name_en": "Devourer of All",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-749d3be4694d4a70"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 10,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-faef635fc47e"
+    ],
+    "objectives_en": "Tsukuyomi",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-21946e6e92eb",
+    "game": "ger",
+    "name_en": "Forty-Niner",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-cf9113779e0c1fd1"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 14,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-742f68ffae47",
+      "ger-a-cd905643fe0e",
+      "ger-a-dc90a0e31b7e"
+    ],
+    "objectives_en": "Fallen Borg Camlann (Spark), Fierce Kongou, Fallen Cocoon Maidens (Spark)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-2220f2b86abc",
+    "game": "ger",
+    "name_en": "Trick Shot",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-5285dd502778796c",
+      "ev-7dfb7cb0412a7519"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-a016ef6928e6",
+      "ger-a-a023271bcec0",
+      "ger-a-1c2dd4819abe"
+    ],
+    "objectives_en": "Prithvi Mata, Zygote, Ogretail",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-224a15d91534",
+    "game": "ger",
+    "name_en": "Drifting Snow",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-73d173fd4d2398c6",
+      "ev-14de65f0e60abade"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 13,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-a016ef6928e6",
+      "ger-a-afa34afb3842",
+      "ger-a-30a03ad89563",
+      "ger-a-2c17a0d1e245"
+    ],
+    "objectives_en": "Prithvi Mata, Fallen Kongou (Freeze), Fallen Gboro-Gboro (Freeze), Fallen Zygote (Freeze)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-24f99d95ba00",
+    "game": "ger",
+    "name_en": "Pilgrim 2",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-34a16c4db911126b"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 14,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-cd905643fe0e"
+    ],
+    "objectives_en": "Fierce Kongou",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-2554b914d8e4",
+    "game": "ger",
+    "name_en": "Snail's Shell",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-ec96242372b93f81",
+      "ev-8df058c894ba08d2",
+      "ev-a6708e4f84a94e07"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 2,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-1c2dd4819abe",
+      "ger-a-a023271bcec0"
+    ],
+    "objectives_en": "Ogretail, Zygote",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-25ac80ddbb7d",
+    "game": "ger",
+    "name_en": "September Shadow",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-5b5584f5415ca3a6",
+      "ev-c82808781e79b940"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 11,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-15d8e0363efd",
+      "ger-a-bebb2f4712a1",
+      "ger-a-dc90a0e31b7e"
+    ],
+    "objectives_en": "Ravana, Yaksha, Fallen Cocoon Maidens (Spark)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-26c50f68889c",
+    "game": "ger",
+    "name_en": "Regal Bones",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-7cac29b35ca6c08c"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-fb4526992a64",
+      "ger-a-cd905643fe0e",
+      "ger-a-491bdf55c868",
+      "ger-a-2c17a0d1e245"
+    ],
+    "objectives_en": "Dyaus Pita, Fierce Kongou, Fallen Zygote (Blaze), Fallen Zygote (Freeze)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-2739c32542e9",
+    "game": "ger",
+    "name_en": "Lion's Revenge",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-4e1c8accd62b5e42",
+      "ev-7bbbbbd1364e2628"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-42ffd31f5e4a",
+      "ger-a-9ec2edfaeb35"
+    ],
+    "objectives_en": "Sekhmet, Vajratail (Blaze)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-276aabfd9045",
+    "game": "ger",
+    "name_en": "Dog Mines",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-7796b127c9e44816",
+      "ev-5a54726360ee56b2"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 8,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-ee053d83139f",
+      "ger-a-42ffd31f5e4a"
+    ],
+    "objectives_en": "Fallen Quadriga (Freeze), Sekhmet",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-27e02d7e89c5",
+    "game": "ger",
+    "name_en": "Gold Coast",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-bbbc9ec1fac0334c",
+      "ev-47d93a2439ffe35d"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-3ecc2414e6cd"
+    ],
+    "objectives_en": "Golden Gboro-Gboro",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-2811e9cd2a8c",
+    "game": "ger",
+    "name_en": "Heliamphora",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-4f8c2558717b0f97",
+      "ev-434f86c2ad63627e"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 11,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-cd905643fe0e",
+      "ger-a-8c5eafaa5690"
+    ],
+    "objectives_en": "Fierce Kongou, Fallen Sariel",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-2901bc5eeb5c",
+    "game": "ger",
+    "name_en": "Exiled Emperor",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-9ff638f3659ba67f"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-fb4526992a64"
+    ],
+    "objectives_en": "Dyaus Pita",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-2cf4eeb03e17",
+    "game": "ger",
+    "name_en": "Moth's Grave",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-86a5a561718b72f0",
+      "ev-ce9235588da6d8a3"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-8c5eafaa5690"
+    ],
+    "objectives_en": "Fallen Sariel",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-2ddf1c185e58",
+    "game": "ger",
+    "name_en": "Purple Sparks",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-8a65e18b9144450e",
+      "ev-bc8c3ea41fece2b6"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 8,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-7f59fa145dbf",
+      "ger-a-b9bc9ac1fbcc",
+      "ger-a-cd905643fe0e"
+    ],
+    "objectives_en": "Quadriga, Fallen Chi-You (Spark), Fierce Kongou",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-31e6165f55db",
+    "game": "ger",
+    "name_en": "Croc Three",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-29e56247385a4fe5",
+      "ev-08c0f8f5fe781b26"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-978b8ddc1252"
+    ],
+    "objectives_en": "Gboro-Gboro",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-337dbfa5860b",
+    "game": "ger",
+    "name_en": "Merciless Commander",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-5800cd375633945b",
+      "ev-1c2c940c4136eeec"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-bebb2f4712a1",
+      "ger-a-07720796c24e"
+    ],
+    "objectives_en": "Yaksha, Yaksha Raja",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-33a5ad1562da",
+    "game": "ger",
+    "name_en": "Ruffians",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-bf70a6ccf5ecc7b9"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-bebb2f4712a1"
+    ],
+    "objectives_en": "Yakshas",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-33f906159c1b",
+    "game": "ger",
+    "name_en": "Firefly",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-10125e0c403e6239"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 10,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-7f59fa145dbf",
+      "ger-a-742f68ffae47"
+    ],
+    "objectives_en": "Quadriga, Fallen Borg Camlann (Spark)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-3472c85cf332",
+    "game": "ger",
+    "name_en": "Dancing Ogre",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-98eaf4cb26c0a4b6",
+      "ev-9243d8e26393240f"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 5,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-1c2dd4819abe",
+      "ger-a-9ec2edfaeb35",
+      "ger-a-d50dded847d0"
+    ],
+    "objectives_en": "Ogretails, Vajratail (Blaze), Vajratail (Spark)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-35f0c3f813bd",
+    "game": "ger",
+    "name_en": "First Frost",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-997efac8cf9f9b1b",
+      "ev-0afc0f80109393ad",
+      "ev-675e5a8244fe505e"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 2,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-a023271bcec0"
+    ],
+    "objectives_en": "Zygotes",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-36deec6fd61f",
+    "game": "ger",
+    "name_en": "Troika",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-cef19e14099ca4fc"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 4,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-383642d6c036",
+      "ger-a-afa34afb3842",
+      "ger-a-5f3f5061ae7b",
+      "ger-a-a023271bcec0"
+    ],
+    "objectives_en": "Kongou, Fallen Kongou (Freeze), Fallen Ogretail, Zygote",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-39350a3cc3c3",
+    "game": "ger",
+    "name_en": "Artifacts",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-665f99d3539a643b"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 14,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-fb4526992a64",
+      "ger-a-42ffd31f5e4a"
+    ],
+    "objectives_en": "Dyaus Pita, 2 Sekhmet",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-3c8beb69e798",
+    "game": "ger",
+    "name_en": "Disjunction",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-bf31cb4a716da55b"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 14,
+    "type": "extra",
+    "variant": "Extra Missions / Predator Pack 2 / Difficulty 14",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-cd905643fe0e",
+      "ger-a-07720796c24e"
+    ],
+    "objectives_en": "Fierce Kongou, Yaksha Raja",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-3dde76e07854",
+    "game": "ger",
+    "name_en": "Eton Blazer",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-886190dab1e75f38",
+      "ev-ea8a193e7496e5df"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-afa34afb3842",
+      "ger-a-15d8e0363efd"
+    ],
+    "objectives_en": "2 Fallen Kongou (Freeze), Ravana",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-3ddfaf32b1b2",
+    "game": "ger",
+    "name_en": "Angels in a Refuge",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-ad403f63eb2098ff",
+      "ev-c4931514cc81528c"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-a023271bcec0",
+      "ger-a-491bdf55c868",
+      "ger-a-94305bba2f47"
+    ],
+    "objectives_en": "Zygote, Fallen Zygote (Blaze), Fallen Zygote (Spark)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-3fe64f73c6e3",
+    "game": "ger",
+    "name_en": "Devil's Tail",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-f58bfdeea0844550",
+      "ev-9447f90b544bb3a6",
+      "ev-db348cfb6526a31c"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 1,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-1c2dd4819abe"
+    ],
+    "objectives_en": "Ogretails",
+    "story": true,
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800
+  },
+  {
+    "id": "ger-q-430e58c6adee",
+    "game": "ger",
+    "name_en": "Three Gun Turret",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-d1c9b65d2b4b355b",
+      "ev-91bc91b0db2a0339"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-15d8e0363efd"
+    ],
+    "objectives_en": "3 Ravana",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-438779ac7c11",
+    "game": "ger",
+    "name_en": "Dragon-Tiger Fang",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-e210be32211cfc1a",
+      "ev-1dcf17aaa460da9f"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 9,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-7d38d15e2624",
+      "ger-a-e4442679b5cc"
+    ],
+    "objectives_en": "Hannibal, Vajra",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-4562249c9a20",
+    "game": "ger",
+    "name_en": "Frozen Elephant",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-06a1d0b76928392f",
+      "ev-5222113c86a67cd9"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 5,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-ee053d83139f"
+    ],
+    "objectives_en": "Fallen Quadriga (Freeze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-45ed2e0540fc",
+    "game": "ger",
+    "name_en": "Bow and Spear",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-b8a3b8be96cbc562",
+      "ev-d14d4af7af936808"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 5,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-7f59fa145dbf",
+      "ger-a-b9bc9ac1fbcc"
+    ],
+    "objectives_en": "Quadriga, Fallen Chi-You (Spark)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-46081782506f",
+    "game": "ger",
+    "name_en": "Cavern Bears",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-fbf2c6e0cd2bf242",
+      "ev-d3528035ca4ccbee"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-e4442679b5cc",
+      "ger-a-a4b55a512663",
+      "ger-a-b9bc9ac1fbcc"
+    ],
+    "objectives_en": "Vajra, Chi-You, Fallen Chi-You (Spark)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-4736a4cbfc66",
+    "game": "ger",
+    "name_en": "West-southwest",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-46b0108f0193461b",
+      "ev-674af7a96d0a24ad"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-afa34afb3842"
+    ],
+    "objectives_en": "Fallen Kongou (Freeze)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-47d4a2b923f6",
+    "game": "ger",
+    "name_en": "Carnage Feast",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-b5835872fa0c1ef1",
+      "ev-63968203177e064a"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 5,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-e4442679b5cc",
+      "ger-a-a4b55a512663"
+    ],
+    "objectives_en": "Vajra, Chi-You",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-47f9c99b3ace",
+    "game": "ger",
+    "name_en": "Lone Monkey",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-13bd374cc3900219"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 4,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-383642d6c036"
+    ],
+    "objectives_en": "Kongou",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-483f94bfba87",
+    "game": "ger",
+    "name_en": "Setting Sun",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-685e4430a055b8f4",
+      "ev-f925c6c76bcef9ec",
+      "ev-4e7ecd1676f3e3e2"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 2,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-a4b55a512663"
+    ],
+    "objectives_en": "Chi-You",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-484444beb164",
+    "game": "ger",
+    "name_en": "Gboro-Gboro Panic",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-c834c460da86ecd3",
+      "ev-88b10ca4a077e779",
+      "ev-40e7fdc9418d8c2f"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-fae90d5943d1",
+    "aragami_ids": [
+      "ger-a-978b8ddc1252",
+      "ger-a-30a03ad89563",
+      "ger-a-3ecc2414e6cd"
+    ],
+    "objectives_en": "Gboro-Gboro, Fallen Gboro-Gboro (Freeze), Golden Gboro-Gboro",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-48acdf096f01",
+    "game": "ger",
+    "name_en": "Deadly Flock",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-ae335728239a64a8",
+      "ev-e755d915b9033668"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-a4b55a512663"
+    ],
+    "objectives_en": "Chi-Yous",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-492d343b7424",
+    "game": "ger",
+    "name_en": "Swirl Fire",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-566beab4359ce80f"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 5,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-1a944b933680"
+    ],
+    "objectives_en": "Fallen Borg Camlann (Blaze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-4936a59dc315",
+    "game": "ger",
+    "name_en": "Water Lily",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-a6c51049f7ae1cbf",
+      "ev-68925ba46a697139"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 12,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-68fae44d3d2c"
+    ],
+    "objectives_en": "Venus",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-49e1248326cd",
+    "game": "ger",
+    "name_en": "Goddess' Duty",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-2ef7fbc01453e067",
+      "ev-238c11a185bfe278"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 9,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-42ffd31f5e4a"
+    ],
+    "objectives_en": "Sekhmet",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-4a90d693cc04",
+    "game": "ger",
+    "name_en": "The Venus",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-7f54aaf1b2e47f5f"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 9,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-d8f2b7ff68f0",
+      "ger-a-742f68ffae47"
+    ],
+    "objectives_en": "Tezcatlipoca, Fallen Borg Camlann (Spark)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-4ab0fbf0fe53",
+    "game": "ger",
+    "name_en": "Newcomer Trials",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-c7befc48edbe66f7",
+      "ev-bdd1670a689355a3"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 9,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-e4442679b5cc"
+    ],
+    "objectives_en": "Vajra",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-4be5a6ebf8c9",
+    "game": "ger",
+    "name_en": "Gboro-Gboro Paradise",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-52b359916d9479f4",
+      "ev-08eebf955f15065c"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-3ecc2414e6cd"
+    ],
+    "objectives_en": "Golden Gboro-Gboro",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-4cd570da9a45",
+    "game": "ger",
+    "name_en": "Crocodile Swagger",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-ec6403e016aed027"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 3,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-978b8ddc1252",
+      "ger-a-a4b55a512663",
+      "ger-a-a023271bcec0",
+      "ger-a-1c2dd4819abe"
+    ],
+    "objectives_en": "Gboro-Gboro, Chi-You, Zygote, Ogretail",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-4dba15390300",
+    "game": "ger",
+    "name_en": "Sailing Rock",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-113d26e95323ef36",
+      "ev-1290c6ba2be31917"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 12,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-4992e686cc07"
+    ],
+    "objectives_en": "Ouroboros",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-4ddfa7d25372",
+    "game": "ger",
+    "name_en": "Crocodile Two",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-95bae12d2ea3be80",
+      "ev-c02f6bc0f2e3ff44",
+      "ev-fb5bf4646f8c3782"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 2,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-978b8ddc1252",
+      "ger-a-1c2dd4819abe"
+    ],
+    "objectives_en": "Gboro-Gboro, Ogretail",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-4fc954c98980",
+    "game": "ger",
+    "name_en": "Wicked Fruit",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-8c7ea30a7880e6ee",
+      "ev-53c3f4b1dcb48dc1"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-383642d6c036"
+    ],
+    "objectives_en": "Kongou",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-5029d80fc134",
+    "game": "ger",
+    "name_en": "The Little Ones' Revenge",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-319bdadce4df3a8e"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 14,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-4b6c72428dd1",
+      "ger-a-dc90a0e31b7e",
+      "ger-a-491bdf55c868",
+      "ger-a-94305bba2f47",
+      "ger-a-2c17a0d1e245"
+    ],
+    "objectives_en": "Fallen Cocoon Maiden (Blaze), Fallen Cocoon Maiden (Spark), Fallen Zygote (Blaze), Fallen Zygote (Spark), Fallen Zygote (Freeze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-50ab5948630b",
+    "game": "ger",
+    "name_en": "Idle Warrior",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-173695b850357c09"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 3,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-bebb2f4712a1",
+      "ger-a-1c2dd4819abe"
+    ],
+    "objectives_en": "Yaksha, Ogretail",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-5197a393eb6e",
+    "game": "ger",
+    "name_en": "Quick Draw X",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-89037f6fde7f1ba3"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-a023271bcec0",
+      "ger-a-1c2dd4819abe"
+    ],
+    "objectives_en": "Zygote, Ogretail",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-521dbef24e92",
+    "game": "ger",
+    "name_en": "Sanghyang Jaran",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-abd7eaac87d254a1",
+      "ev-1036a28af130aeda"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 11,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-15d8e0363efd",
+      "ger-a-9ec2edfaeb35"
+    ],
+    "objectives_en": "Ravana, Vajratails (Blaze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-521f61dfa0cf",
+    "game": "ger",
+    "name_en": "Rebellion's Beacon",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-e5d723eee2164218"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 3,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-a4b55a512663",
+      "ger-a-383642d6c036"
+    ],
+    "objectives_en": "Chi-You, Kongou",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-5254cffc1163",
+    "game": "ger",
+    "name_en": "Lone Evil Eye",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-35067a2407747e7d"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 4,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-505fb118f827"
+    ],
+    "objectives_en": "Sariel",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-5497718ed2bd",
+    "game": "ger",
+    "name_en": "Reminiscence",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-cc5f7f1c3ecc29c8"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-fae90d5943d1",
+    "aragami_ids": [
+      "ger-a-fb4526992a64",
+      "ger-a-5e0e74a1da64",
+      "ger-a-f1f9875f1759",
+      "ger-a-1c2dd4819abe"
+    ],
+    "objectives_en": "Dyaus Pita, Corrosive Hannibal, Cocoon Maiden, Ogretail",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-5717e51b5cc8",
+    "game": "ger",
+    "name_en": "Sacred Rhythm",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-62bc7af054947bba",
+      "ev-03da840c07ef0785"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 13,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-4992e686cc07"
+    ],
+    "objectives_en": "Ouroboros",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-5818ea0150e7",
+    "game": "ger",
+    "name_en": "Devil's Festival",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-45bdfc70f3e8c1ed"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-7d38d15e2624",
+      "ger-a-1c2dd4819abe"
+    ],
+    "objectives_en": "Hannibal, Ogretails",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-59511484a5fc",
+    "game": "ger",
+    "name_en": "Dance Macabre",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-ebd9429643d79306",
+      "ev-70cc266c0723924c",
+      "ev-f734af1d69d00e49"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-4bad81a705d9",
+      "ger-a-b9bc9ac1fbcc"
+    ],
+    "objectives_en": "Caligula, 2 Fallen Chi-You (Spark)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-5b123d7e331d",
+    "game": "ger",
+    "name_en": "Enceladus Rapids",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-40cf2db18d759b6d",
+      "ev-e6e14bf10eaecad6"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 13,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-a016ef6928e6",
+      "ger-a-5bb7dc995996",
+      "ger-a-5f3f5061ae7b"
+    ],
+    "objectives_en": "Prithvi Mata, Fallen Cocoon Maiden (Freeze), Fallen Orgetail",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-5c238c37b018",
+    "game": "ger",
+    "name_en": "Braggart's Heart",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-c736998bc1b7d6f2",
+      "ev-d5a672ad9a59ec09"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 11,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-d4444a6170d8"
+    ],
+    "objectives_en": "Fallen Ouroboros",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-5c729d7a1290",
+    "game": "ger",
+    "name_en": "Disastrous Dance",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-4c4bd1d6231b762a"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-42ffd31f5e4a",
+      "ger-a-b9bc9ac1fbcc",
+      "ger-a-afa34afb3842",
+      "ger-a-30a03ad89563"
+    ],
+    "objectives_en": "Sekhmet, Fallen Chi-You (Spark), Fallen Kongou (Freeze), Fallen Gboro-Gboro (Freeze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-5cbc751e9544",
+    "game": "ger",
+    "name_en": "Storm Baptism",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-eb84a23ebb090a2d"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 4,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-505fb118f827",
+      "ger-a-a023271bcec0"
+    ],
+    "objectives_en": "Sariel, Zygote",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-5f10fc089934",
+    "game": "ger",
+    "name_en": "Coyote Warrior",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-396fa128b8b7009b",
+      "ev-3fa36109777afb41"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 8,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-d8f2b7ff68f0",
+      "ger-a-b9bc9ac1fbcc",
+      "ger-a-2c17a0d1e245"
+    ],
+    "objectives_en": "Tezcatlipoca, Fallen Chi-You (Spark), Fallen Zygote (Freeze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-617890574854",
+    "game": "ger",
+    "name_en": "Here, Here, Here",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-f365a89c13d007f2",
+      "ev-570bf71adcd6785d",
+      "ev-28fd8eacb209ba69"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-7d38d15e2624",
+      "ger-a-5e0e74a1da64",
+      "ger-a-f1f9875f1759"
+    ],
+    "objectives_en": "Hannibal, Corrosive Hannibal, Cocoon Maidens",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-61c91bce6d9a",
+    "game": "ger",
+    "name_en": "Corrupt Cocoon",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-d4b2e4d568325493",
+      "ev-c4daa99864b3df0f",
+      "ev-d73c31cb2d1a5f26"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 1,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-f1f9875f1759"
+    ],
+    "objectives_en": "2 Cocoon Maidens",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-61d9d5c42a47",
+    "game": "ger",
+    "name_en": "Ancient Battle Tank",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-c8a326d2c1047b46"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-d8f2b7ff68f0"
+    ],
+    "objectives_en": "Tezcatlipoca",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-63c5cb8d53f4",
+    "game": "ger",
+    "name_en": "Wing Scales",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-2ad878b122b7c298"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 10,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-8c5eafaa5690"
+    ],
+    "objectives_en": "Fallen Sariel",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-64124d52c59a",
+    "game": "ger",
+    "name_en": "Poison Needle Fence",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-8eebc037789ae0d8",
+      "ev-28af9607310d93df"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-fae90d5943d1",
+    "aragami_ids": [
+      "ger-a-742f68ffae47",
+      "ger-a-1a944b933680",
+      "ger-a-f1f9875f1759"
+    ],
+    "objectives_en": "Fallen Borg Camlann (Spark), Fallen Borg Camlann (Blaze), Cocoon Maiden",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-683a2700bd0e",
+    "game": "ger",
+    "name_en": "Quick Draw 3",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-f965469b32952f06"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-dc90a0e31b7e"
+    ],
+    "objectives_en": "Fallen Cocoon Maidens (Spark)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-68875f715ae6",
+    "game": "ger",
+    "name_en": "Screw Driver",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-a4272daed5978f27",
+      "ev-186bc2b5926b5238"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 8,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-afa34afb3842",
+      "ger-a-742f68ffae47",
+      "ger-a-491bdf55c868"
+    ],
+    "objectives_en": "Fallen Kongou (Freeze), Fallen Borg Camlann (Spark), Fallen Zygote (Blaze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-690e2b9b8574",
+    "game": "ger",
+    "name_en": "God Eater",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-d817c6a9b6867929"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 14,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-cd905643fe0e",
+      "ger-a-42ffd31f5e4a",
+      "ger-a-d8f2b7ff68f0",
+      "ger-a-fb4526992a64"
+    ],
+    "objectives_en": "Fierce Kongou, Sekhmet, Tezcatlipoca, Dyaus Pita",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-699b2809971e",
+    "game": "ger",
+    "name_en": "Blue Blade Dance",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-3485cfb29b045c89",
+      "ev-94ed18c60252ce8a",
+      "ev-28067baee06a9c32"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-4bad81a705d9",
+      "ger-a-2c17a0d1e245",
+      "ger-a-491bdf55c868"
+    ],
+    "objectives_en": "Caligula, Fallen Zygotes (Freeze), Fallen Zygote (Blaze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-6abbe0596acf",
+    "game": "ger",
+    "name_en": "Venus Trap",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-d4d4fec623ce68e1"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 4,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-e4442679b5cc",
+      "ger-a-a023271bcec0"
+    ],
+    "objectives_en": "Vajra, Zygotes",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-6ba7e5a6aaee",
+    "game": "ger",
+    "name_en": "Grouse of the Mist",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-0ef70079329526c2",
+      "ev-2429cb5b8f0c421a"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 5,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-b9bc9ac1fbcc"
+    ],
+    "objectives_en": "Fallen Chi-You (Spark)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-6cefb7cae76e",
+    "game": "ger",
+    "name_en": "Death Stalker",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-0c21187ab8209410"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-1a944b933680",
+      "ger-a-742f68ffae47"
+    ],
+    "objectives_en": "Fallen Borg Camlann (Blaze), Fallen Borg Camlann (Spark)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-6d5775c03f66",
+    "game": "ger",
+    "name_en": "Molten Iron",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-ed04b483d57743c7"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 3,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-4b6c72428dd1"
+    ],
+    "objectives_en": "Fallen Cocoon Maiden (Blaze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-6f8323af5e22",
+    "game": "ger",
+    "name_en": "Jungle Tiger",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-c8c73bf6680aafc2"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 4,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-e4442679b5cc"
+    ],
+    "objectives_en": "Vajra",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-708b977983cf",
+    "game": "ger",
+    "name_en": "Cephalotus",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-7836af437dbff34e"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-1a944b933680",
+      "ger-a-b9bc9ac1fbcc"
+    ],
+    "objectives_en": "Fallen Borg Camlann (Blaze), Fallen Chi-You (Spark)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-70b0a7eda4bf",
+    "game": "ger",
+    "name_en": "Coven Tea Party",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-0bdf191b624ebc8e",
+      "ev-d430299540e644c3"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-505fb118f827",
+      "ger-a-8c5eafaa5690",
+      "ger-a-42ffd31f5e4a"
+    ],
+    "objectives_en": "Sariel, Fallen Sariel, Sekhmet",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-71f1617a5a00",
+    "game": "ger",
+    "name_en": "Sleet",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-4e432dd344cfcbe3"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 4,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-afa34afb3842",
+      "ger-a-5f3f5061ae7b",
+      "ger-a-f1f9875f1759"
+    ],
+    "objectives_en": "Fallen Kongou (Freeze), Fallen Ogretails, Cocoon Maidens",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-72b66f770b42",
+    "game": "ger",
+    "name_en": "Thermal Jacket",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-2660a07cd3ee2bc5"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-30a03ad89563",
+      "ger-a-5bb7dc995996",
+      "ger-a-4b6c72428dd1"
+    ],
+    "objectives_en": "Fallen Gboro-Gboro (Freeze), Fallen Cocoon Maiden (Freeze), Fallen Cocoon Maiden (Blaze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-740078597122",
+    "game": "ger",
+    "name_en": "Hope",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-d1ff30cd220a4b4b"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-204490f88904"
+    ],
+    "objectives_en": "Arda Nova",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-761179694a69",
+    "game": "ger",
+    "name_en": "Soilder's Grave",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-0c8e6c2fbf920d5f",
+      "ev-5ecf5e48b1a5b5fe"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-fb4526992a64"
+    ],
+    "objectives_en": "2 Dyaus Pita",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-76cf9534cd95",
+    "game": "ger",
+    "name_en": "Bloody Rose",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-5ebaf8abc30d6542",
+      "ev-c3cfdd1f16874bfb"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-742f68ffae47",
+      "ger-a-fb4526992a64",
+      "ger-a-f1f9875f1759"
+    ],
+    "objectives_en": "Fallen Borg Camlann (Spark), Dyaus Pita, Cocoon Maidens",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-772b4f146f0f",
+    "game": "ger",
+    "name_en": "Into Thin Air",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-bb4d603266360ad3"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 10,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-70acb4113eb5"
+    ],
+    "objectives_en": "Aether",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-77496442181c",
+    "game": "ger",
+    "name_en": "Swawpside Heron",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-ba35f9d5bf7a50f7",
+      "ev-a7fbb3b0c650dccf"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 5,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-ca56f474370d",
+      "ger-a-978b8ddc1252"
+    ],
+    "objectives_en": "Borg Camlann, 2 Gboro-Gboro",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-78841c082bb0",
+    "game": "ger",
+    "name_en": "Rampage",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-5ce713e5eab04e8e"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 4,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-7f59fa145dbf"
+    ],
+    "objectives_en": "Quadriga",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-7a793d8dd3cf",
+    "game": "ger",
+    "name_en": "Fake Sun",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-27f749f34f040419",
+      "ev-b6fee045dde4341e"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 8,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-204490f88904"
+    ],
+    "objectives_en": "Arda Nova",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-7ad361c9d524",
+    "game": "ger",
+    "name_en": "Marianne",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-ea75eea59404a26f"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-a016ef6928e6",
+      "ger-a-bebb2f4712a1"
+    ],
+    "objectives_en": "Prithvi Mata, 4 Yaksha",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-7b70fcbb25ec",
+    "game": "ger",
+    "name_en": "Certainly Clear",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-2381a87dd5a55cbe",
+      "ev-438ef0c5f09fb810",
+      "ev-7d621d0f348e1060"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-42ffd31f5e4a",
+      "ger-a-b9bc9ac1fbcc",
+      "ger-a-a4b55a512663"
+    ],
+    "objectives_en": "Sekhmet, Fallen Chi-You (Spark), Chi-You",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-7c52b7437158",
+    "game": "ger",
+    "name_en": "Shopping Mall",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-b5b2e63494c20376"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 5,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-afa34afb3842",
+      "ger-a-491bdf55c868",
+      "ger-a-dc90a0e31b7e"
+    ],
+    "objectives_en": "2 Fallen Kongou (Freeze), Fallen Zygote (Blaze), Fallen Cocoon Maiden (Spark)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-7dd98d1ebc9c",
+    "game": "ger",
+    "name_en": "Dragon's Breath",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-41c5147ab03a1abc",
+      "ev-d3cae39f5fceffbb"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-4992e686cc07"
+    ],
+    "objectives_en": "Ouroboros",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-7e1b0f3e7460",
+    "game": "ger",
+    "name_en": "Monkey Wrath",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-f11c8a3f1b35bb4a",
+      "ev-24bf27ea84183884"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 9,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-cd905643fe0e"
+    ],
+    "objectives_en": "Fierce Kongou",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-7e47e4d2bf00",
+    "game": "ger",
+    "name_en": "Cracked Sanidine",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-0cd0fd6ab44f77cd"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 3,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-a023271bcec0",
+      "ger-a-1c2dd4819abe"
+    ],
+    "objectives_en": "2 Zygote, Ogretail",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-7f5d880315d7",
+    "game": "ger",
+    "name_en": "Whirlwind",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-92b42917c05adc74",
+      "ev-d317821f10b26d2b",
+      "ev-763612a4e3cda1f7"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 2,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-383642d6c036",
+      "ger-a-a023271bcec0"
+    ],
+    "objectives_en": "Kongou, Zygotes",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-80111109bb08",
+    "game": "ger",
+    "name_en": "Ink Clouds",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-21a8e8bc0a6b7f32",
+      "ev-a8449fcd8713da5d"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 12,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-204490f88904"
+    ],
+    "objectives_en": "Arda Nova",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-8052c5123725",
+    "game": "ger",
+    "name_en": "Flash of Light",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-29be3d14e5bb579d",
+      "ev-3c6c45461b76191b"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-f1f9875f1759",
+      "ger-a-4b6c72428dd1",
+      "ger-a-dc90a0e31b7e"
+    ],
+    "objectives_en": "Cocoon Maiden, Fallen Cocoon Maiden (Blaze), Fallen Cocoon Maiden (Spark)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-839c4acde402",
+    "game": "ger",
+    "name_en": "Test Tube",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-555a329480a49e21",
+      "ev-5d0b48cb75336b75"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 13,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-742f68ffae47",
+      "ger-a-cd905643fe0e"
+    ],
+    "objectives_en": "Fallen Borg Camlann (Spark), Fierce Kongou",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-844d7746cfd4",
+    "game": "ger",
+    "name_en": "Snowball",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-ffee67d6108f8aa9",
+      "ev-45fb9ccef3e983f2",
+      "ev-bd7ed7f00083f90f"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 2,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-1c2dd4819abe",
+      "ger-a-f1f9875f1759"
+    ],
+    "objectives_en": "Ogretails, Cocoon Maidens",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-8512078cd4d6",
+    "game": "ger",
+    "name_en": "Steady Flare",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-bfde24c341355bc1"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 5,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-1a944b933680",
+      "ger-a-9ec2edfaeb35",
+      "ger-a-5f3f5061ae7b"
+    ],
+    "objectives_en": "Fallen Borg Camlann (Blaze), Vajratail (Blaze), Fallen Ogretail",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-85898e5ed57f",
+    "game": "ger",
+    "name_en": "Ocean Wall",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-e011f1fdf97beadf",
+      "ev-99e9a113f1bd9f53",
+      "ev-9d8f52255a110d5b"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 2,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-383642d6c036"
+    ],
+    "objectives_en": "Kongous",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-85acca3b0a18",
+    "game": "ger",
+    "name_en": "Submarine",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-c73eda7a4143bc3d",
+      "ev-a1c0f2629e607b73"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-edb038db4478"
+    ],
+    "objectives_en": "Fallen Gboro-Gboro (Blaze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-86008844da92",
+    "game": "ger",
+    "name_en": "Phoenix Nest",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-80dded9581299637",
+      "ev-66a27e1041a4d5da"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-42ffd31f5e4a"
+    ],
+    "objectives_en": "Sekhmet",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-873e90d8a4dc",
+    "game": "ger",
+    "name_en": "Dragon God",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-01599efa9fb29fcd",
+      "ev-8110051412bd64f8"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-4bad81a705d9"
+    ],
+    "objectives_en": "Caligula",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-876331c2458c",
+    "game": "ger",
+    "name_en": "Martial Drill",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-452ee5898c0e3777",
+      "ev-11482ec137f62b8f"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-07720796c24e",
+      "ger-a-a4b55a512663"
+    ],
+    "objectives_en": "Yaksha Raja, Chi-You",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-877b34c359ef",
+    "game": "ger",
+    "name_en": "Big Family",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-96d0b0071c084c88"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-cd905643fe0e",
+      "ger-a-afa34afb3842",
+      "ger-a-383642d6c036",
+      "ger-a-1c2dd4819abe",
+      "ger-a-5f3f5061ae7b"
+    ],
+    "objectives_en": "Fierce Kongou, Fallen Kongou (Freeze), Kongou, Ogretail, Fallen Ogretail",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-87b2bd3852ec",
+    "game": "ger",
+    "name_en": "Archvillain",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-f636353e452aeb47",
+      "ev-ffdc014559d045c7"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 12,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-5e0e74a1da64",
+      "ger-a-9ec2edfaeb35"
+    ],
+    "objectives_en": "Corrosive Hannibal, Vajratails (Blaze)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-8854819d90f6",
+    "game": "ger",
+    "name_en": "Supply Retrieval",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-ab6a8d0748c555d6"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 3,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-383642d6c036",
+      "ger-a-a4b55a512663",
+      "ger-a-4b6c72428dd1"
+    ],
+    "objectives_en": "Kongou, Chi-You, Fallen Cocoon Maiden (Blaze)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-8919c957b829",
+    "game": "ger",
+    "name_en": "Pilgrim",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-a3fc5ccdc6d705d0",
+      "ev-e00f60dc9a0c1f02"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 5,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-383642d6c036"
+    ],
+    "objectives_en": "Kongou",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-89312bc5ad53",
+    "game": "ger",
+    "name_en": "Mouse Trap",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-e2d5e2f66bd8b4c0",
+      "ev-42325c507918c40e",
+      "ev-6695f78f1b56e983"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 2,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-1c2dd4819abe",
+      "ger-a-f1f9875f1759"
+    ],
+    "objectives_en": "Ogretail, Cocoon Maidens",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-89380fd77e89",
+    "game": "ger",
+    "name_en": "Fires of Caldera",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-5fef0b921b2b0e77"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 9,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-fb4526992a64"
+    ],
+    "objectives_en": "Dyaus Pita",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-89f985aa04ab",
+    "game": "ger",
+    "name_en": "A Pair of Predators",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-8d606bbc57f6a94b"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 14,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-769a948234b6"
+    ],
+    "objectives_en": "2 Susano'o",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-8f08ab5ab026",
+    "game": "ger",
+    "name_en": "Quick Draw",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-9b0aaee1ef1e419f",
+      "ev-ccac7e9df0c3222e",
+      "ev-0c2f2e3c980b7892"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-f1f9875f1759"
+    ],
+    "objectives_en": "Cocoon Maidens",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-91ae20c63f76",
+    "game": "ger",
+    "name_en": "Wildfire",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-9b08b1a78cc3732f",
+      "ev-4cee88310c9ef053"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 13,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-7d38d15e2624",
+      "ger-a-bebb2f4712a1"
+    ],
+    "objectives_en": "Hannibal, Yaksha",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-937259789d66",
+    "game": "ger",
+    "name_en": "Bog Offering",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-9fc15d5f2af78836",
+      "ev-8f0c9ae3be847935"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 12,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-30a03ad89563",
+      "ger-a-5f3f5061ae7b"
+    ],
+    "objectives_en": "Fallen Gboro-Gboro (Freeze), Fallen Ogretail",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-94e2ad1645fc",
+    "game": "ger",
+    "name_en": "Dead Charger",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-7ed791d7bef7347c",
+      "ev-75431d1efb7ea153"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 13,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-d8f2b7ff68f0",
+      "ger-a-dc90a0e31b7e"
+    ],
+    "objectives_en": "Tezcatlipoca, Fallen Cocoon Maiden (Spark)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-952b9acfefa0",
+    "game": "ger",
+    "name_en": "Speculum Dianae",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-748d87fbc33969a8",
+      "ev-4a0e8d15b29d81b0"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 13,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-4bad81a705d9"
+    ],
+    "objectives_en": "Caligula",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-9682f135e49b",
+    "game": "ger",
+    "name_en": "Angel's Ladder",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-7c5a30761b99fd1a",
+      "ev-9c20f3cedb45b16d"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 11,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-70acb4113eb5",
+      "ger-a-5bb7dc995996"
+    ],
+    "objectives_en": "Aether, Fallen Cocoon Maiden (Freeze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-96c05f7e7660",
+    "game": "ger",
+    "name_en": "Dark Shimmer",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-3dc9a181ffdec7d6",
+      "ev-82e19e4752506aff"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 8,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-d4444a6170d8"
+    ],
+    "objectives_en": "Fallen Ouroboros",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-976b1d84f062",
+    "game": "ger",
+    "name_en": "Watermill",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-1d7fe57b32a839fc",
+      "ev-734dabdcc70bd06a",
+      "ev-4fbb70a18a13034b"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 2,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-978b8ddc1252",
+      "ger-a-1c2dd4819abe"
+    ],
+    "objectives_en": "Gboro-Gboro, Ogretail",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-97edc0d2bdb6",
+    "game": "ger",
+    "name_en": "Assortment",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-5992c849494638d8"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-4bad81a705d9",
+      "ger-a-15d8e0363efd",
+      "ger-a-bebb2f4712a1",
+      "ger-a-07720796c24e"
+    ],
+    "objectives_en": "Caligula, Ravana, Yaksha, Yaksha Raja",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-990a842022ae",
+    "game": "ger",
+    "name_en": "Glow of Prestige",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-6646484a5c5f2f4f",
+      "ev-18a746961c408f89",
+      "ev-0151dade83fc032d"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 2,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-a023271bcec0",
+      "ger-a-f1f9875f1759"
+    ],
+    "objectives_en": "Zygotes, Cocoon Maidens",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-992b99268f73",
+    "game": "ger",
+    "name_en": "Twilight Monkey",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-b69d58182dcda285"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 4,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-afa34afb3842"
+    ],
+    "objectives_en": "Fallen Kongou (Freeze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-9ab1bbf7ce36",
+    "game": "ger",
+    "name_en": "Garimpeiro",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-0695552d1ffcae05",
+      "ev-ebe99c1bf63a2729"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 11,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-afa34afb3842",
+      "ger-a-a016ef6928e6"
+    ],
+    "objectives_en": "Fallen Kongou (Freeze), Prithvi Mata",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-9c95426eca42",
+    "game": "ger",
+    "name_en": "Nut Cracker",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-64fd080ae14977d0",
+      "ev-13210e7b0492d239"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 5,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-742f68ffae47",
+      "ger-a-dc90a0e31b7e",
+      "ger-a-4b6c72428dd1"
+    ],
+    "objectives_en": "Fallen Borg Camlann (Spark), Fallen Cocoon Maiden (Spark), Fallen Cocoon Maiden (Blaze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-9cb226c55072",
+    "game": "ger",
+    "name_en": "Oskopnir",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-03ba4ead6c0890ee",
+      "ev-ffc473d2db325fa5",
+      "ev-0f9490d12756b6b2"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-cd905643fe0e",
+      "ger-a-d8f2b7ff68f0",
+      "ger-a-70acb4113eb5"
+    ],
+    "objectives_en": "4 Fierce Kongou, Tezcatlipoca, Aether",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-9f11f1734716",
+    "game": "ger",
+    "name_en": "Knight and Rust",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-4c6b7db64761997d",
+      "ev-f3239400a8dd7c41"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 8,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-742f68ffae47"
+    ],
+    "objectives_en": "Fallen Borg Camlann (Spark)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-a4343ea146ca",
+    "game": "ger",
+    "name_en": "Moon in the Welkin",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-2d05003fb45cdc59"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 3,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-e4442679b5cc",
+      "ger-a-f1f9875f1759"
+    ],
+    "objectives_en": "Vajra, Cocoon Maidens",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-a52a881bf02c",
+    "game": "ger",
+    "name_en": "Dead Proof",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-1bbae0e929bd7eec"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-505fb118f827",
+      "ger-a-7f59fa145dbf"
+    ],
+    "objectives_en": "Sariel, Quadriga",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-a5ee51ad0b79",
+    "game": "ger",
+    "name_en": "A Devil's Heart",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-c8ec5df74484c841"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 9,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-d8f2b7ff68f0"
+    ],
+    "objectives_en": "Tezcatlipoca",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-a7b3a8addc4b",
+    "game": "ger",
+    "name_en": "Big Over Small",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-cbe4f8df4f71c7dc"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-70acb4113eb5",
+      "ger-a-fb4526992a64",
+      "ger-a-f1f9875f1759"
+    ],
+    "objectives_en": "Aether, Dyaus Pita, Cocoon Maidens",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-a8c2fb63426a",
+    "game": "ger",
+    "name_en": "Giant Spin",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-98309dc69b7a2560"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 14,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-f1f9875f1759"
+    ],
+    "objectives_en": "Cocoon Maidens",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-aa3d484b99da",
+    "game": "ger",
+    "name_en": "Snow Firefly",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-3e6d98e72f6c8abd",
+      "ev-e86e52a0f87d3ae6"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 13,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-42ffd31f5e4a",
+      "ger-a-edb038db4478",
+      "ger-a-9ec2edfaeb35"
+    ],
+    "objectives_en": "Sekhmet, Fallen Gboro-Gboro (Blaze), Vajratail (Blaze)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-ab2e15aef13d",
+    "game": "ger",
+    "name_en": "Ice-Cold Glare",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-4f6bbe1d6a232075"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 10,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-a016ef6928e6"
+    ],
+    "objectives_en": "Prithvi Mata",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-ab4ff20b1a1e",
+    "game": "ger",
+    "name_en": "Storm Queen",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-ebd842706c07cc3f",
+      "ev-ffacb3fd85c6b169"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 8,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-a016ef6928e6"
+    ],
+    "objectives_en": "Prithvi Mata",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-ac3ee01d1eb0",
+    "game": "ger",
+    "name_en": "Fire Prevention",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-c5db55b2bfcc8ad7",
+      "ev-71ca82d47d685cce"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 11,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-1a944b933680",
+      "ger-a-9ec2edfaeb35"
+    ],
+    "objectives_en": "Fallen Borg Camlann (Blaze), Vajratail (Blaze)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-ae9391e1fd5d",
+    "game": "ger",
+    "name_en": "Icebreaker Scouts",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-8f0e9ebfd9d522d8"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 9,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-30a03ad89563",
+      "ger-a-afa34afb3842",
+      "ger-a-ee053d83139f"
+    ],
+    "objectives_en": "Fallen Gboro-Gboro (Freeze), Fallen Kongou (Freeze), Fallen Quadriga (Freeze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-aedcc11b3c02",
+    "game": "ger",
+    "name_en": "Supernova",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-2be67387487a616b",
+      "ev-57b591cc492fdd0d",
+      "ev-72e0eae2d1a3fb78"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-aaa98fec8ac7"
+    ],
+    "objectives_en": "Fallen Arda Nova",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-af13bb321c3f",
+    "game": "ger",
+    "name_en": "Humpty Dumpty",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-9a2b03956a84a53b",
+      "ev-93a85113fd92c36d"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-fae90d5943d1",
+    "aragami_ids": [
+      "ger-a-a023271bcec0"
+    ],
+    "objectives_en": "Zygotes",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-b05f69a5b9a9",
+    "game": "ger",
+    "name_en": "Hailstorm",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-9ea1d01918e79c9d"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 3,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-5f3f5061ae7b",
+      "ger-a-f1f9875f1759"
+    ],
+    "objectives_en": "Fallen Ogretails, Cocoon Maiden",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-b0839e472ec6",
+    "game": "ger",
+    "name_en": "Demon Slaying",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-8807f3deafe741cc"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-7d38d15e2624",
+      "ger-a-5e0e74a1da64",
+      "ger-a-f1f9875f1759"
+    ],
+    "objectives_en": "Hannibal, Corrosive Hannibal, Cocoon Maiden",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-b32d3934cdd1",
+    "game": "ger",
+    "name_en": "Radiant Halo",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-95ddd80042e284e3",
+      "ev-cb830d859d453bb5"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 11,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-204490f88904"
+    ],
+    "objectives_en": "Arda Nova",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-b352242242e8",
+    "game": "ger",
+    "name_en": "Obsidian Heart",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-fb07df2d792d7d72",
+      "ev-ed47f0c47992ab88"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 12,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-d8f2b7ff68f0",
+      "ger-a-07720796c24e"
+    ],
+    "objectives_en": "Tezcatlipoca, Yaksha Raja",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-b58b25406da3",
+    "game": "ger",
+    "name_en": "Poison Butterfly",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-2579415af2e46fa4",
+      "ev-481dbe17e11a813c"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 5,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-8c5eafaa5690"
+    ],
+    "objectives_en": "Fallen Sariel",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-b77f8b3a51dc",
+    "game": "ger",
+    "name_en": "Mars Sublime",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-cee1f2142d2860ce",
+      "ev-cae87ee46b7e8ad4"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-68fae44d3d2c",
+      "ger-a-f1f9875f1759"
+    ],
+    "objectives_en": "Venus, Cocoon Maiden",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-b7af492698ed",
+    "game": "ger",
+    "name_en": "Kanon's Secret Training",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-1207f16e432fd1db"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 14,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-ee053d83139f",
+      "ger-a-742f68ffae47",
+      "ger-a-30a03ad89563"
+    ],
+    "objectives_en": "Fallen Quadriga (Freeze), Fallen Borg Camlann (Spark), Fallen Gboro-Gboro (Freeze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-bb25f97d59c4",
+    "game": "ger",
+    "name_en": "Devourer of the World",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-a004cb6ae532829a",
+      "ev-cbd88f5d9999ccbe"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 8,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-5430ef45c41e"
+    ],
+    "objectives_en": "Amaterasu",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-bbbc018f91eb",
+    "game": "ger",
+    "name_en": "Return",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-815cd50bcd93ab32"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 3,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-e4442679b5cc",
+      "ger-a-a4b55a512663"
+    ],
+    "objectives_en": "Vajra, 2 Chi-Yous",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-bd44b0011827",
+    "game": "ger",
+    "name_en": "Demonic Parade",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-59fd737515ec1182"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-bebb2f4712a1",
+      "ger-a-07720796c24e",
+      "ger-a-7d38d15e2624"
+    ],
+    "objectives_en": "Yaksha, Yaksha Raja, Hannibal",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-bd76d4c066fa",
+    "game": "ger",
+    "name_en": "One Breath",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-2618711e3a217ec3"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-15d8e0363efd",
+      "ger-a-30a03ad89563",
+      "ger-a-afa34afb3842"
+    ],
+    "objectives_en": "Ravana, Fallen Gboro-Gboro (Freeze), Fallen Kongou (Freeze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-bf665aad920c",
+    "game": "ger",
+    "name_en": "Looter's Night",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-ef8fc4f772ef0235",
+      "ev-0f0500584ebc2fc0"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 9,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-7f59fa145dbf",
+      "ger-a-ee053d83139f"
+    ],
+    "objectives_en": "Quadriga, Fallen Quadriga (Freeze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-c0b304ee85dc",
+    "game": "ger",
+    "name_en": "Thunderstorm",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-3beb851306ddfebf"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 9,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-742f68ffae47"
+    ],
+    "objectives_en": "Fallen Borg Camlann (Spark)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-c1adc68170e2",
+    "game": "ger",
+    "name_en": "Rice Chase",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-87ca8e0ffde34b24",
+      "ev-77f4f6ecb98adddc"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-f1f9875f1759",
+      "ger-a-4b6c72428dd1",
+      "ger-a-dc90a0e31b7e",
+      "ger-a-5bb7dc995996"
+    ],
+    "objectives_en": "Cocoon Maiden,Fallen Cocoon Maiden (Blaze), Fallen Cocoon Maiden (Spark), Fallen Cocoon Maiden (Freeze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-c3d3d77c8e69",
+    "game": "ger",
+    "name_en": "Harvest Festival",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-8c7baead85a59a70",
+      "ev-098e83f37c1fe227"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-505fb118f827",
+      "ger-a-7f59fa145dbf"
+    ],
+    "objectives_en": "Sariel, Quadriga",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-c3e02ac07d61",
+    "game": "ger",
+    "name_en": "Snow Dragon's Garden",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-8a0101839d6c8f15",
+      "ev-4d6bd4cd10e42fe4",
+      "ev-2a5d8eb7f4f1cc72"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-7d38d15e2624"
+    ],
+    "objectives_en": "Hannibal",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-c3fb4d14efb1",
+    "game": "ger",
+    "name_en": "Fool's Gold",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-46f5a1b75b12c3ac",
+      "ev-77bc59afe9322fcd"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 12,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-fd29a98b4f6e"
+    ],
+    "objectives_en": "Arius Nova (Larval)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-c464b6ddfdee",
+    "game": "ger",
+    "name_en": "Green Purebreeds",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-49d72608f74bb275",
+      "ev-b08a306e2e0724f9",
+      "ev-b2da2dbe0e54f623"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 2,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-a4b55a512663"
+    ],
+    "objectives_en": "2 Chi-Yous",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-c5f5130a6555",
+    "game": "ger",
+    "name_en": "Sweet Home",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-0ddfcc5704e2e55c"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 5,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-505fb118f827",
+      "ger-a-dc90a0e31b7e",
+      "ger-a-4b6c72428dd1"
+    ],
+    "objectives_en": "Sariel, Fallen Cocoon Maiden (Spark), Fallen Cocoon Maiden (Blaze)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-c86888f928fc",
+    "game": "ger",
+    "name_en": "Nocturnal Axe",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-271d233df19a9f0d",
+      "ev-dd220c23d30164ce"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 9,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-d8f2b7ff68f0",
+      "ger-a-dc90a0e31b7e",
+      "ger-a-94305bba2f47"
+    ],
+    "objectives_en": "Tezcatlipoca, Fallen Cocoon Maiden (Spark), Fallen Zygote (Spark)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-c8a8cb4b6df2",
+    "game": "ger",
+    "name_en": "Jewel Hoard",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-a3e256afc1c79fc4",
+      "ev-4e99de7c85c34b14"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-1c2dd4819abe"
+    ],
+    "objectives_en": "Ogretail",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-ca80a1036a4e",
+    "game": "ger",
+    "name_en": "Tequila Sunrise",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-31e2f946665bef38"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 4,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-ca56f474370d",
+      "ger-a-f1f9875f1759",
+      "ger-a-491bdf55c868"
+    ],
+    "objectives_en": "Borg Camlann, Cocoon Maiden, Fallen Zygotes (Blaze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-cd0208e5beb9",
+    "game": "ger",
+    "name_en": "Sunlight On Snow",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-ae311c7e97cab57f"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 4,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-978b8ddc1252",
+      "ger-a-a4b55a512663",
+      "ger-a-1c2dd4819abe",
+      "ger-a-5f3f5061ae7b"
+    ],
+    "objectives_en": "Gboro-Gboro, Chi-You, Ogretail, Fallen Ogretail",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-cdea48da865f",
+    "game": "ger",
+    "name_en": "Crocodile One",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-52dc70e465bc498b",
+      "ev-989cb76e944aebe6",
+      "ev-dc9323cf775f1367"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 2,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-978b8ddc1252"
+    ],
+    "objectives_en": "Gboro-Gboro",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-ce98589a352d",
+    "game": "ger",
+    "name_en": "Great Black",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-e76285496c14fce1",
+      "ev-6f75ecba735393a4"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 13,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-fb4526992a64",
+      "ger-a-e4442679b5cc"
+    ],
+    "objectives_en": "Dyaus Pita, Vajra",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-cebf63603ee1",
+    "game": "ger",
+    "name_en": "Slingshot",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-cdd3ca95603d9c6e"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 4,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-7f59fa145dbf",
+      "ger-a-978b8ddc1252"
+    ],
+    "objectives_en": "Quadriga, Gboro-Gboro",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-ced1b11d5cc5",
+    "game": "ger",
+    "name_en": "Sidecar",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-09af579bef84f67b",
+      "ev-8bc5ebd4800c1725"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 9,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-e4442679b5cc"
+    ],
+    "objectives_en": "2 Vajras",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-cf9313a4e56a",
+    "game": "ger",
+    "name_en": "Dionaea",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-025bf27ca25e08eb",
+      "ev-d5b5292857322097"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 13,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-8c5eafaa5690",
+      "ger-a-491bdf55c868",
+      "ger-a-d50dded847d0"
+    ],
+    "objectives_en": "Fallen Sariel, Fallen Zygote (Blaze), Vajratail (Spark)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-d28ef7d18cfd",
+    "game": "ger",
+    "name_en": "Grimsvotn",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-8a7fa53d190635e4",
+      "ev-5724374ba3ca3eb9"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 12,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-15d8e0363efd",
+      "ger-a-42ffd31f5e4a",
+      "ger-a-2c17a0d1e245"
+    ],
+    "objectives_en": "Ravana, 2 Sekhmet, Fallen Zygote (Freeze)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-d3be8bb08b91",
+    "game": "ger",
+    "name_en": "Sunken Arrow",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-5f5621eedd1885e6",
+      "ev-a5cc187a1a2b04c9"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-a4b55a512663"
+    ],
+    "objectives_en": "Chi-You",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-d41e0d231601",
+    "game": "ger",
+    "name_en": "Rat Trap",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-570d0e8e0dcbb2e4",
+      "ev-95597f20258193d4",
+      "ev-eb3d2372454c71dd"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 2,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-1c2dd4819abe"
+    ],
+    "objectives_en": "Ogretails",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-d4aab02d2c69",
+    "game": "ger",
+    "name_en": "Dirty Bomb",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-d1d4bfa888f72135",
+      "ev-3a9d5a303f148f47"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 8,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-1a944b933680",
+      "ger-a-e4442679b5cc"
+    ],
+    "objectives_en": "Fallen Borg Camlann (Blaze), Vajra",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-d5a6b779be6a",
+    "game": "ger",
+    "name_en": "Rumbling Treads",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-a1aa85a59ec28255"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 9,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-ee053d83139f"
+    ],
+    "objectives_en": "Fallen Quadriga (Freeze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-d5a6ef666cad",
+    "game": "ger",
+    "name_en": "Break Shot",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-90dc382c5e5e5ebc",
+      "ev-bf513916b8b63191"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-ee053d83139f",
+      "ger-a-dc90a0e31b7e",
+      "ger-a-9ec2edfaeb35"
+    ],
+    "objectives_en": "Fallen Quadriga (Freeze), Fallen Cocoon Maiden (Spark), Vajratail (Blaze)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-d6c3055eaf5e",
+    "game": "ger",
+    "name_en": "Budda Smile",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-62bc9acd6ae6b346",
+      "ev-d9337ac684b64bab"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 9,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-afa34afb3842"
+    ],
+    "objectives_en": "Fallen Kongou (Freeze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-d7a2523b0e3b",
+    "game": "ger",
+    "name_en": "Basement Fire-Croc",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-0546788c50cf0c52"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 4,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-edb038db4478"
+    ],
+    "objectives_en": "Fallen Gboro-Gboro (Blaze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-d846b2c78074",
+    "game": "ger",
+    "name_en": "City Riot",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-068663b05c2a15f9"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 3,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-a4b55a512663",
+      "ger-a-978b8ddc1252",
+      "ger-a-383642d6c036"
+    ],
+    "objectives_en": "Chi-You, Gboro-Gboro, Kongou",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-d90999356ad5",
+    "game": "ger",
+    "name_en": "Grand Prize",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-e37f9db1d1f29113"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 14,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-1c2dd4819abe"
+    ],
+    "objectives_en": "Ogretail",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-d93329b63e14",
+    "game": "ger",
+    "name_en": "Double Date",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-51723b8ce579693f",
+      "ev-34bb4156eb10b3ac"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 8,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-8c5eafaa5690",
+      "ger-a-a016ef6928e6",
+      "ger-a-491bdf55c868",
+      "ger-a-2c17a0d1e245"
+    ],
+    "objectives_en": "Fallen Sariel, Prithvi Mata, Fallen Zygote (Blaze), Fallen Zygote (Freeze)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-da5cbc76261f",
+    "game": "ger",
+    "name_en": "Primordial Spiral",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-76b0e51e35917fcc"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 5,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-4992e686cc07"
+    ],
+    "objectives_en": "Ouroboros",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-dc38f0d48678",
+    "game": "ger",
+    "name_en": "Awakening God of War",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-c783f8c99c46c1c4",
+      "ev-3c479d9f130d14ab",
+      "ev-3237f7c095ff0545"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 2,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-a4b55a512663",
+      "ger-a-f1f9875f1759"
+    ],
+    "objectives_en": "Chi-You, Cocoon Maidens",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-dd1e64008cae",
+    "game": "ger",
+    "name_en": "Hell's Kitchen",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-657b2faa3a142d6c"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 4,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-edb038db4478",
+      "ger-a-4b6c72428dd1"
+    ],
+    "objectives_en": "Fallen Gboro-Gboro (Blaze), Fallen Cocoon Maiden (Blaze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-df16a6a1df75",
+    "game": "ger",
+    "name_en": "Invasive Swarm",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-de7e0ae8f84114b8",
+      "ev-57f589feb11e72f2"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 8,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-bebb2f4712a1",
+      "ger-a-07720796c24e"
+    ],
+    "objectives_en": "Yaksha, Yaksha Raja",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-dfa283282f8a",
+    "game": "ger",
+    "name_en": "Purple Spark",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-82c03e9a012a782b"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 5,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-742f68ffae47"
+    ],
+    "objectives_en": "Fallen Borg Camlann (Spark)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-e0ad76e5bd78",
+    "game": "ger",
+    "name_en": "Storm and Stress",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-c3439c723aaa0113",
+      "ev-a6fb1d1759330b72"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-30a03ad89563",
+      "ger-a-42ffd31f5e4a",
+      "ger-a-fb4526992a64"
+    ],
+    "objectives_en": "Fallen Gboro-Gboro (Freeze), Sekhmet, Dyaus Pita",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-e12d581076ea",
+    "game": "ger",
+    "name_en": "Collector",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-db3cab2e00fd19d0"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-8c5eafaa5690",
+      "ger-a-1a944b933680"
+    ],
+    "objectives_en": "Fallen Sariel, Fallen Borg Camlann (Blaze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-e47f4d8c1ccd",
+    "game": "ger",
+    "name_en": "Cowboy",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-e5d54283a5e61ff2",
+      "ev-fa2e77ed44f44ccf",
+      "ev-d65e764d9188d21c"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 1,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-1c2dd4819abe"
+    ],
+    "objectives_en": "Ogretails",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-e56835681a84",
+    "game": "ger",
+    "name_en": "New Moon in the Welkin",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-35e06f220a8b2ffd"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 14,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-fb4526992a64",
+      "ger-a-a016ef6928e6"
+    ],
+    "objectives_en": "Dyaus Pita, Prithvi Mata",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-e72b4b1850ed",
+    "game": "ger",
+    "name_en": "Tsunami",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-5436b2b220fe390d",
+      "ev-b39d7763ffdf6c4a"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 8,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-70acb4113eb5",
+      "ger-a-30a03ad89563",
+      "ger-a-4b6c72428dd1",
+      "ger-a-dc90a0e31b7e"
+    ],
+    "objectives_en": "Aether, Fallen Gboro-Gboro (Freeze), Fallen Cocoon Maiden (Blaze), Fallen Cocoon Maiden (Spark)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-e75d45207385",
+    "game": "ger",
+    "name_en": "Fire Engine",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-acb287dc0206cc04",
+      "ev-3c10309e904f4356"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 8,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-1a944b933680",
+      "ger-a-30a03ad89563"
+    ],
+    "objectives_en": "Fallen Borg Camlann (Blaze), Fallen Gboro-Gboro (Freeze)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-e97d0973fa8f",
+    "game": "ger",
+    "name_en": "Obsidian Sacrifice",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-bb7871274e3b244e"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-d8f2b7ff68f0",
+      "ger-a-5f3f5061ae7b"
+    ],
+    "objectives_en": "Tezcatlipoca, Fallen Ogretail",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-e9eaa91da7ea",
+    "game": "ger",
+    "name_en": "Hunting Cloak",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-fed749ffb13bd092"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 5,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-ca56f474370d",
+      "ger-a-383642d6c036"
+    ],
+    "objectives_en": "Borg Camlann, 2 Kongous",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-eb537d671f45",
+    "game": "ger",
+    "name_en": "Molecular Eyes",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-6923eb187bc58e28",
+      "ev-7a0b23e1441abacb"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 8,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-505fb118f827"
+    ],
+    "objectives_en": "Sariel",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-ecfef29e50ee",
+    "game": "ger",
+    "name_en": "Treacherous Temple",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-6b72f859723f006a"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 4,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-07720796c24e",
+      "ger-a-9ec2edfaeb35"
+    ],
+    "objectives_en": "Yaksha Raja, Vajratail (Blaze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-ed6ae366d0b2",
+    "game": "ger",
+    "name_en": "Quick Draw 2",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-42420367afceefc8",
+      "ev-87d10b603dd75138"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-f1f9875f1759"
+    ],
+    "objectives_en": "Cocoon Maidens",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-ee0dd08ee682",
+    "game": "ger",
+    "name_en": "Spring Thunder",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-14b0fcb5c324618a"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 5,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-b9bc9ac1fbcc",
+      "ger-a-94305bba2f47",
+      "ger-a-1c2dd4819abe"
+    ],
+    "objectives_en": "Fallen Chi-You (Spark), Fallen Zygote (Spark), Ogretail",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-ee5605e08604",
+    "game": "ger",
+    "name_en": "Black Alligator",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-c971582411b690fd",
+      "ev-2fe53a17ec306768"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 5,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-e4442679b5cc",
+      "ger-a-edb038db4478",
+      "ger-a-9ec2edfaeb35"
+    ],
+    "objectives_en": "Vajra, Fallen Gboro-Gboro (Blaze), Vajratail (Blaze)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-ee74f7e82d71",
+    "game": "ger",
+    "name_en": "Mayflies",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-9544ef7995dd94a4"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 2,
+    "type": "urgent",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-f1f9875f1759",
+      "ger-a-a023271bcec0",
+      "ger-a-1c2dd4819abe"
+    ],
+    "objectives_en": "Cocoon Maiden, Zygote, Ogretail",
+    "story": false,
+    "reward_table_status": "partial",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-f0bcc01970da",
+    "game": "ger",
+    "name_en": "The End to Vice",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-6bafa9dac870fd32",
+      "ev-022b0f6eb0c9a661"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 8,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-505fb118f827",
+      "ger-a-fb4526992a64"
+    ],
+    "objectives_en": "Sariel, Dyaus Pita",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-f253691d583c",
+    "game": "ger",
+    "name_en": "Guardians",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-4248dba40156a250",
+      "ev-a176f88365ad9d7b"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 9,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-cd905643fe0e",
+      "ger-a-afa34afb3842",
+      "ger-a-491bdf55c868"
+    ],
+    "objectives_en": "Fierce Kongou, Fallen Kongou (Freeze), Fallen Zygote (Blaze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-f329c82938b9",
+    "game": "ger",
+    "name_en": "Beauty's End",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-5a56a40062c1c96e",
+      "ev-263b2a62b0b48d13",
+      "ev-4624788e42161c6e"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": "challenge",
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-68fae44d3d2c"
+    ],
+    "objectives_en": "Venus",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-f33a97bef54a",
+    "game": "ger",
+    "name_en": "Bandersnatch",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-0ca6ee5fdd501089"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 14,
+    "type": "extra",
+    "variant": "Extra Missions / Predator Pack 2 / Difficulty 14",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-db87affe8bd0"
+    ],
+    "objectives_en": "Balfa Mata",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-f3cca8f536a6",
+    "game": "ger",
+    "name_en": "Divine Shadows",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-32446234324c3479",
+      "ev-2f2e8bf2cf2fdab8"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 9,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-aaa98fec8ac7"
+    ],
+    "objectives_en": "Fallen Arda Nova",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-f4b6550f7f47",
+    "game": "ger",
+    "name_en": "Sewer Crocodile",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-32dca775e51f50d9"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 4,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-978b8ddc1252"
+    ],
+    "objectives_en": "Gboro-Gboro",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-f5d8053f6183",
+    "game": "ger",
+    "name_en": "Proud Bird",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-cb5e106278851075"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 4,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-a4b55a512663"
+    ],
+    "objectives_en": "Chi-You",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-f6719d678e37",
+    "game": "ger",
+    "name_en": "Concrete Jungle",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-f672246fda675b5c",
+      "ev-a6fd131c2d32d8a9",
+      "ev-bf6c2e1217d34479"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 2,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-383642d6c036",
+      "ger-a-f1f9875f1759"
+    ],
+    "objectives_en": "Kongou, Cocoon Maidens",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-f6a2c1f5145c",
+    "game": "ger",
+    "name_en": "Scaly Thrush",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-184f3fec7e4f5e29",
+      "ev-a94dc2c7f3f58a78"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 8,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-e4442679b5cc"
+    ],
+    "objectives_en": "Vajra",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-f74d9c049261",
+    "game": "ger",
+    "name_en": "Chimera",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-eb526c2848f2b372"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 9,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-d4444a6170d8"
+    ],
+    "objectives_en": "Fallen Ouroboros",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-f7b7c57c325f",
+    "game": "ger",
+    "name_en": "Iron Rain",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-b01014f7573de02c",
+      "ev-8f49e2bccd0adc03",
+      "ev-81548e45f2f8293d"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 1,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-f1f9875f1759",
+      "ger-a-1c2dd4819abe"
+    ],
+    "objectives_en": "Cocoon Maidens, Ogretail",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-f7ff7bcb4fb1",
+    "game": "ger",
+    "name_en": "Devourer of Future",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-fe5100ac7a85a58d",
+      "ev-8fcbb73143add875"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-769a948234b6"
+    ],
+    "objectives_en": "Susano'o",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-f831322485ff",
+    "game": "ger",
+    "name_en": "Hellfire Shield",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-480cb792683989d4"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-cd905643fe0e",
+      "ger-a-5bb7dc995996",
+      "ger-a-94305bba2f47"
+    ],
+    "objectives_en": "Fierce Kongou, Fallen Cocoon Maiden (Freeze), Fallen Zygote (Spark)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-f90bb9509999",
+    "game": "ger",
+    "name_en": "Sarracenia",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-34484cf8bd5235d5",
+      "ev-7a1a340d7c6a7aa4"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 5,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-8c5eafaa5690",
+      "ger-a-dc90a0e31b7e",
+      "ger-a-a023271bcec0",
+      "ger-a-94305bba2f47"
+    ],
+    "objectives_en": "Fallen Sariel, Fallen Cocoon Maiden (Spark), Zygote, Fallen Zygote (Spark)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-f9bdcbbf18b7",
+    "game": "ger",
+    "name_en": "Tropical Fish",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-5e6c879feaeda616",
+      "ev-01ba275c4c34f333"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 9,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-edb038db4478"
+    ],
+    "objectives_en": "Fallen Gboro-Gboro (Blaze)",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-fb10a829c490",
+    "game": "ger",
+    "name_en": "Hematite Rose",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-e5d8025dd7253bf7"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 4,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-ca56f474370d",
+      "ger-a-e4442679b5cc"
+    ],
+    "objectives_en": "Borg Camlann, Vajra",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-fb6261171fb7",
+    "game": "ger",
+    "name_en": "Deadly Sisters' Dance",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-b2311b1054c7ad9f"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 14,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-505fb118f827",
+      "ger-a-8c5eafaa5690"
+    ],
+    "objectives_en": "Sariel, Fallen Sariel",
+    "story": true,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-fcca627e545a",
+    "game": "ger",
+    "name_en": "Big Smile",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-c0553bd1bfd61b8e"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-cd905643fe0e"
+    ],
+    "objectives_en": "Fierce Kongou",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-fdb076824876",
+    "game": "ger",
+    "name_en": "Onyx Smoke",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-d2dc071fabddfca5",
+      "ev-a04d9cbb698ea3a3"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 8,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-d8f2b7ff68f0"
+    ],
+    "objectives_en": "Tezcatlipoca",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-fe28ac4ca2ff",
+    "game": "ger",
+    "name_en": "Ruler's City",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-df28981d4887e89b",
+      "ev-5ee438b9d4df1c78"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 9,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-fb4526992a64"
+    ],
+    "objectives_en": "Dyaus Pita",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  },
+  {
+    "id": "ger-q-ffa2d39213dd",
+    "game": "ger",
+    "name_en": "Bison Grass Vodka",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-6d4be5d2bf659ae6"
+    ],
+    "missing_fields": [
+      "rewards",
+      "original_page_review"
+    ],
+    "rank": 5,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-ee053d83139f"
+    ],
+    "objectives_en": "Fallen Quadriga (Freeze)",
+    "story": false,
+    "reward_table_status": "missing",
+    "time_limit_seconds": null
+  }
+]

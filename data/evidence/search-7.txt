@@ -1,0 +1,392 @@
+Blocked by robots.txt
+The following domains cannot be accessed (non-retryable error): godeater.fandom.com/wiki/missions/god_eater_resurrection--------------------------------------------------------------------------------
+Missions/God Eater Resurrection | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection)
+ [wordlim: 200] Crawled: 4 months ago; You have the God Eater Arc from Rank 1 to 6, God Eater Burst Arc from Rank 7 to 10 and God Eater Resurrection Arc from Rank 11 to 13. ...   * Rank 4 ... Kongou Giant  | Kongou, 3 Ogretails  | Tranquil Temple  | Story Mission. ... Devourer of the World  | Amaterasu  | Aegis  | Story Mission
+
+# Missions/God Eater Resurrection
+
+< Missions
+
+Sign In to Save Save Edit
+
+  * History
+  * Purge
+  * Talk (0)
+
+iframe
+
+This Page lists the missions of God Eater Resurrection once the main story has been cleared. You have the God Eater Arc from Rank 1 to 6, God Eater Burst Arc from Rank 7 to 10 and God Eater Resurrection Arc from Rank 11 to 13. Rank 14 has "Story" Challenge Missions. Missions are Split into 3 categories:
+
+  1. Standard Mission
+  2. Urgent
+  3. Extra Missions
+
+Difficulties are split into Ranks. God Eater Resurrection has rank 1 through 14 plus Challenge.
+
+## Standard Missions[]
+
+Standard missions consist of standard difficulty missions and the main story missions
+
+  * Rank 1
+
+  * Rank 2
+
+  * Rank 3
+
+  * Rank 4
+
+  * Rank 5
+
+  * Rank 6
+
+  * Rank 7
+
+  * Rank 8
+
+  * Rank 9
+
+  * Rank 10
+
+  * Rank 11
+
+  * Rank 12
+
+  * Rank 13
+
+  * Rank 14
+
+  * Challenge
+
+Rank 1
+---
+Mission  | Target/Objective  | Field  | Notes
+--- | --- | --- | ---
+1. Tutorial 1  | Dummy Target  | Training Grounds  | It's highly recommended play the tutorial missions. It can help you decide on a weapon type and mechanics of the game.
+2. Tutorial 2  | Dummy Target  | Training Grounds  | 
+3. Devil's Tail  | Ogretails  | City of Mercy  | Story Mission. Fixed NPCs: Lindow
+4. Fallen Angel Egg  | Zygote  | City of Mercy  | 
+5. Cowboy  | Ogretails  | Wailing Plains  | 
+6. Corrupt Cocoon  | 2 Cocoon Maidens  | Wailing Plains  | Story Mission. Fixed NPCs: Sakuya
+7. Iron Rain  | Cocoon Maidens, Ogretail  | Sunken Grid  | Story Mission. Fixed NPCs: Soma
+
+Rank 2
+---
+Mission  | Target/Objective  | Field  | Notes
+--- | --- | --- | ---
+1. Practice Tutorial  | Dummy Target  | Training Room  | Tutorial on breaking aragami body parts
+2. Kongou Giant  | Kongou, 3 Ogretails  | Tranquil Temple  | Story Mission. Fixed NPCs: Kota
+3. Mouse Trap  | Ogretail, Cocoon Maidens  | City of Mercy  | Story Misson
+4. Whirlwind  | Kongou, Zygotes  | Wailing Plains  | 
+5. Crocodile One  | Gboro-Gboro  | Wailing Plains  | 
+6. Crocodile Two  | Gboro-Gboro, Ogretail  | Sunken Grid  | Story Mission. Fixed NPCs: Lindow, Sakuya
+7. Glow of Prestige  | Zygotes, Cocoon Maidens  | Tranquil Temple  | Story Mission. Fixed NPCs:Lindow, Sakuya, Soma
+8. Concrete Jungle  | Kongou, Cocoon Maidens  | City of Mercy  | Story Mission. Fixed NPCs: Sakuya, Soma, Kota
+9. Snowball  | Ogretails, Cocoon Maidens  | Tranquil Temple  | Story Mission: Lindow, Sakuya, Kota
+10. Awakening God of War  | Chi-You, Cocoon Maidens  | Infernal Subway  | Story Mission. Fixed NPCs: Sakuya, Soma, Kota
+11. Ocean Wall  | Kongous  | Forgotten Carrier  | 
+12. First Frost  | Zygotes  | Tranquil Temple  | 
+13. Snail's Shell  | Ogretail, Zygote  | Infernal Subway  | 
+14. Watermill  | Gboro-Gboro, Ogretail  | Sunken Grid  | 
+15. Setting Sun  | Chi-You  | Forgotten Carrier  | 
+16. Green Purebreeds  | 2 Chi-Yous  | City of Mercy  | Story Mission. Fixed NPCs: Lindow, Alisa
+17. Aurora  | Cocoon Madiens, Ogretails  | Forgotten Carrier  | Story Mission
+18. Rat Trap  | Ogretails  | Sunken Grid  | Story Mission. Fixed NPCs: Sakuya, Soma, Kota
+
+Rank 3
+---
+Mission  | Target/Objective  | Field  | Notes
+--- | --- | --- | ---
+1. Moon in the Welkin  | Vajra, Cocoon Maidens  | City of Mercy  | Story Mission. Fixed NPCs: Sakuya, Soma, Kota
+2. Hailstorm  | Fallen Ogretails, Cocoon Maiden  | Tranquil Temple  | 
+3. Salty Dog  | 2 Gboro-Gboros, Fallen Ogretail, Zygote  | Sunken Grid  | 
+4. Cracked Sanidine  | 2 Zygote, Ogretail  | City of Mercy  | 
+5. Rebellion's Beacon  | Chi-You, Kongou  | City of Mercy  | 
+6. Molten Iron  | Fallen Cocoon Maiden (Blaze)  | Infernal Subway  | 
+7. Return  | Vajra, 2 Chi-Yous  | sunken Grid  | 
+8. City Riot  | Chi-You, Gboro-Gboro, Kongou  | City of Mercy  | 
+9. Rusted Edge  | Chi-you, Zygote  | City of Mercy  | Story Mission. Fixed NPCs: Sakuya, Soma, Kota
+10. Crocodile Swagger  | Gboro-Gboro, Chi-You, Zygote, Ogretail  | City of Mercy  | Story Mission. Fixed NPCs: Sakuya, Soma, Kota
+11. Daytime Owl  | Kongou, Zygote, Cocoon Maiden  | City of Mercy  | Story Mission. Fixed NPCs: Sakuya, Soma, Kota
+12. Supply Retrieval  | Kongou, Chi-You, Fallen Cocoon Maiden (Blaze)  | Infernal Subway  | Story Mission. Fixed NPCs: Kanon
+24. Idle Warrior  | Yaksha, Ogretail  | City of Mercy  | 
+
+Rank 4
+---
+Mission  | Target/Objective  | Field  | Notes
+--- | --- | --- | ---
+1. Storm Baptism  | Sariel, Zygote  | Sunken Grid  | Story Mission. Fixed NPCs: Kota, Alisa, Soma
+2. Sewer Crocodile  | Gboro-Gboro  | Sunken Grid  | 
+3. Basement Fire-Croc  | Fallen Gboro-Gboro (Blaze)  | Infernal Subway  | 
+4. Lone Monkey  | Kongou  | Infernal Subway  | 
+5. Twilight Monkey  | Fallen Kongou (Freeze)  | Forgotten Carrier  | 
+6. Rampage  | Quadriga  | Wailing Plains  | 
+7. Lone Evil Eye  | Sariel  | City of Mercy  | 
+8. Knight's Mind  | Borg Camlann  | Wailing Plains  | 
+9. Venus Trap  | Vajra, Zygotes  | Forgotten Carrier  | Story Mission.
+10. Sunlight On Snow  | Gboro-Gboro, Chi-You, Ogretail, Fallen Ogretail  | Tranquil Temple  | Story Mission. Fixed NPCs: Kota, Alisa, Soma
+11. Proud Bird  | Chi-You  | City of Mercy  | 
+12. Jungle Tiger  | Vajra  | Sunken Grid  | 
+13. Tequila Sunrise  | Borg Camlann, Cocoon Maiden, Fallen Zygotes (Blaze)  | Forgotten Carrier  | 
+14. Hell's Kitchen  | Fallen Gboro-Gboro (Blaze), Fallen Cocoon Maiden (Blaze)  | Infernal Subway  | 
+15. Sleet  | Fallen Kongou (Freeze), Fallen Ogretails, Cocoon Maidens  | Tranquil Temple  | Story Mission
+16. Symbol of Swords  | Borg Camlamm, Zygotes, Fallen Ogretails  | Tranquil Temple  | Story Mission. Fixed NPCs: Kota, Soma, Alisa
+17. God of Thunder  | Vajra, Kongou, Cocoon Maidens  | Wailing Plains  | 
+18. Troika  | Kongou, Fallen Kongou (Freeze), Fallen Ogretail, Zygote  | Wailing Plains  | 
+19. Slingshot  | Quadriga, Gboro-Gboro  | Sunken Grid  | 
+20. Hematite Rose  | Borg Camlann, Vajra  | City of Mercy  | Story Mission. Fixed NPCs: Soma
+21. Treacherous Temple  | Yaksha Raja, Vajratail (Blaze)  | Tranquil Temple  | 
+
+Rank 5
+---
+Mission  | Target/Objective  | Field  | Notes
+--- | --- | --- | ---
+1. Carnage Feast  | Vajra, Chi-You  | Tranquil Temple  | Story Mission. Fixed NPCs: Sakuya, Kota, Alisa
+2. Grouse of the Mist  | Fallen Chi-You (Spark)  | Sunken Grid  | 
+3. Dancing Ogre  | Ogretails, Vajratail (Blaze), Vajratail (Spark)  | Forgotten Carrier  | 
+4. Sea Breeze  | Fallen Kongou (Freeze), Quadriga, Fallen Cocoon Maiden (Spark)  | Forgotten Carrier  | 
+5. Summer Horsefly  | 3 Chi-Yous, Fallen Cocoon Maiden (Spark), Fallen Cocoon Maiden (Blaze)  | Wailing Plains  | 
+6. Swawpside Heron  | Borg Camlann, 2 Gboro-Gboro  | Sunken Grid  | 
+7. Bow and Spear  | Quadriga, Fallen Chi-You (Spark)  | City of Mercy  | 
+8. Black Alligator  | Vajra, Fallen Gboro-Gboro (Blaze), Vajratail (Blaze)  | Infernal Subway  | Story Mission. Fixed NPCs: Kota
+9. Pilgrim  | Kongou  | Tranquil Temple  | Story Mission. Fixed NPCs: Kota, Alisa
+10. Frozen Elephant  | Fallen Quadriga (Freeze)  | City of Mercy  | 
+11. Poison Butterfly  | Fallen Sariel  | Wailing Plains  | 
+22. Sarracenia  | Fallen Sariel, Fallen Cocoon Maiden (Spark), Zygote, Fallen Zygote (Spark)  | Sunken Grid  | 
+23. Nut Cracker  | Fallen Borg Camlann (Spark), Fallen Cocoon Maiden (Spark), Fallen Cocoon Maiden (Blaze)  | Wailing Plains  | 
+
+Rank 6
+---
+Mission  | Target/Objective  | Field  | Notes
+--- | --- | --- | ---
+1. Icy Damsel  | 2 Vajra, Prithvia Mata, Fallen Zygote (Freeze), Fallen Ogretail  | Tranquil Temple  | Story Mission. Fixed NPCs: Kota, Alisa, Sakuya
+2. Empress's Forest  | Prithvia Mata  | Sunken Grid  | 
+3. Dragon's Breath  | Ouroboros  | Wailing Plains  | 
+4. Cavern Bears  | Vajra, Chi-You, Fallen Chi-You (Spark)  | Infernal Subway  | Story Mission.
+5. Break Shot  | Fallen Quadriga (Freeze), Fallen Cocoon Maiden (Spark), Vajratail (Blaze)  | Forgotten Carrier  | Story Mission. Fixed NPCs: Kota
+5. Avalanche  | 2 Fallen Kongous (Freeze), Gboro-Gboro, Fallen Cocoon Maiden (Freeze), Fallen Zygote (Freeze)  | Tranqil Temple  | Story Mission. Fixed NPCs: Kota
+6. Bestial Twilight  | Dyaus Pita, Prithva Mata  | City of Mercy  | Story Mission. Rank 7
+---
+Mission  | Target/Objective  | Field  | Notes
+--- | --- | --- | ---
+1. Little Ruler  | Fallen Ogretail, Vajratail (Blaze), Vajratail (Freeze)  | City of Mercy  | Story Mission
+2. Angels in a Refuge  | Zygote, Fallen Zygote (Blaze), Fallen Zygote (Spark)  | Tranquil Temple  | Story Mission
+3. West-southwest  | Fallen Kongou (Freeze)  | Wailing Plains  | Story Mission
+4. Missile Fire  | Qradriga  | City of Mercy  | Story Mission
+5. Lion's Revenge  | Sekhmet, Vajratail (Blaze)  | Infernal Subway  | Story Mission
+6. Wicked Fruit  | Kongou  | City of Mercy  | 
+7. Croc Three  | Gboro-Gboro  | Sunken Grid  | 
+8. Submarine  | Fallen Gboro-Gboro (Blaze)  | Infernal Subway  | 
+9. Sunken Arrow  | Chi-You  | Infernal Subway  | 
+10. Phoenix Nest  | Sekhmet  | City of Mercy  | 
+11. Moth's Grave  | Fallen Sariel  | Tranquil Temple  | 
+12. Rice Chase  | Cocoon Maiden,Fallen Cocoon Maiden (Blaze), Fallen Cocoon Maiden (Spark), Fallen Cocoon Maiden (Freeze)  | Aegis  | 
+13. Gold Coast  | Golden Gboro-Gboro  | Forgotten Carrier  | 
+27. Undertaker  | Fallen Sariel, Fierce Kongou, Kongou  | Infernal Subway  | 
+28. Devourer of Future  | Susano'o  | City of Mercy  | Story Mission
+
+Rank 8
+---
+Mission  | Target/Objective  | Field  | Notes
+--- | --- | --- | ---
+1. Tandall  | Hannibal, Ogretail, Vajratail (Blaze)  | Infernal Subway  | Story Mission. Fixed NPCs: Kota
+2. Dark Shimmer  | Fallen Ouroboros  | Aegis  | Story Mission. Fixed NPCs: Karel
+3. Dark Wing  | Fallen Chi-You (Charged)  | Wailing Plains  | Story Mission. Fixed NPCs: Shun
+4. Knight and Rust  | Fallen Borg Camlann (Spark)  | Forgotten Carrier  | Story Mission. Fixed NPCs: Tatsumi
+5. Scaly Thrush  | Vajra  | City of Mercy  | 
+6. Storm Queen  | Prithvi Mata  | Tranquil Temple  | 
+7. Separated Kings  | Dyaus Pita  | Forgotten Carrier  | 
+8. Molecular Eyes  | Sariel  | Sunken Grid  | 
+9. Onyx Smoke  | Tezcatlipoca  | City of Mercy  | 
+10. Cerberus  | Dyaus Pita, Sektmet, Fallen Chi-You (Spark)  | Infernal Subway  | 
+11. Screw Driver  | Fallen Kongou (Freeze), Fallen Borg Camlann (Spark), Fallen Zygote (Blaze)  | Forgotten Carrier  | 
+12. Fake Sun  | Arda Nova  | Aegis  | Story Misson. Fixed NPCs: Alisa
+13. Coyote Warrior  | Tezcatlipoca, Fallen Chi-You (Spark), Fallen Zygote (Freeze)  | Wailing Plains  | 
+14. Dirty Bomb  | Fallen Borg Camlann (Blaze), Vajra  | Sunken Grid  | 
+15. The End to Vice  | Sariel, Dyaus Pita  | City of Mercy  | 
+16. Dog Mines  | Fallen Quadriga (Freeze), Sekhmet  | Tranquil Temple  | Story Mission
+17. Fire Engine  | Fallen Borg Camlann (Blaze), Fallen Gboro-Gboro (Freeze)  | Wailing Plains  | Story Mission
+18. Purple Sparks  | Quadriga, Fallen Chi-You (Spark), Fierce Kongou  | Tranquil Temple  | 
+19. Tsunami  | Aether, Fallen Gboro-Gboro (Freeze), Fallen Cocoon Maiden (Blaze), Fallen Cocoon Maiden (Spark)  | Forgotten Carrier  | 
+20. Devourer of the World  | Amaterasu  | Aegis  | Story Mission
+21. Double Date  | Fallen Sariel, Prithvi Mata, Fallen Zygote (Blaze), Fallen Zygote (Freeze)  | Tranquil Temple  | Story Mission. Fixed NPCs: Kota, Alisa
+22. Invasive Swarm  | Yaksha, Yaksha Raja  | Sunken Grid  | 
+
+Rank 9
+---
+Mission  | Target/Objective  | Field  | Notes
+--- | --- | --- | ---
+1. Dragon-Tiger Fang  | Hannibal, Vajra  | City of Mercy  | Story Mission
+2. Budda Smile  | Fallen Kongou (Freeze)  | City of Mercy  | 
+3. Monkey Wrath  | Fierce Kongou  | Infernal Subway  | 
+4. Unidentified  | Fallen Gboro-Gboro  | Forgotten Carrier  | 
+5. Goddess' Duty  | Sekhmet  | Infernal Subway  | 
+6. Newcomer Trials  | Vajra  | Wailing Plains  | 
+7. Ruler's City  | Dyaus Pita  | City of Mercy  | 
+8. Runway Tank  | Quadriga  | Sunken Grid  | 
+9. Sidecar  | 2 Vajras  | Forgotten Carrier  | 
+10. Nocturnal Axe  | Tezcatlipoca, Fallen Cocoon Maiden (Spark), Fallen Zygote (Spark)  | Aegis  | 
+11. Dutch Oven  | Sekhmet, Fallen Gboro-Gboro (Blaze)  | Infernal Subway  | 
+12. Looter's Night  | Quadriga, Fallen Quadriga (Freeze)  | Tranquil Temple  | 
+13. Guardians  | Fierce Kongou, Fallen Kongou (Freeze), Fallen Zygote (Blaze)  | Forgotten Carrier  | 
+14. Divine Shadows  | Fallen Arda Nova  | Wailing Plains  | Story mission
+15. Tropical Fish  | Fallen Gboro-Gboro (Blaze)  | Infernal Subway  | Story Mission. Fixed NPCs: Annette
+16. A Devil's Heart  | Tezcatlipoca  | Forgotten Carrier  | Story Mission. Fixed NPCs: Gina, Annette
+17. Thunderstorm  | Fallen Borg Camlann (Spark)  | Wailing Plains  | 
+18. Rumbling Treads  | Fallen Quadriga (Freeze)  | Tranquil Temple  | 
+19. Icebreaker Scouts  | Fallen Gboro-Gboro (Freeze), Fallen Kongou (Freeze), Fallen Quadriga (Freeze)  | Tranquil Temple  | 
+20. The Venus  | Tezcatlipoca, Fallen Borg Camlann (Spark)  | City of Mercy  | 
+21. Chimera  | Fallen Ouroboros  | Aegis  | 
+22. Fires of Caldera  | Dyaus Pita  | Aegis  | Story Mission. Fixed NPCs: Annette
+23. Poison Garnish  | Fallen Sariel, Yaksha Raja  | Infernal Subway  | 
+
+Rank 10
+---
+Mission  | Target/Objective  | Field  | Notes
+--- | --- | --- | ---
+1. Devourer of All  | Tsukuyomi  | Aegis  | Story Mission
+2. Ice-Cold Glare  | Prithvi Mata  | City of Mercy  | Story Mission. Fixed NPCs: Kanon
+3. Firefly  | Quadriga, Fallen Borg Camlann (Spark)  | Infernal Subway  | 
+4. Wing Scales  | Fallen Sariel  | Sunken Grid  | 
+5. Into Thin Air  | Aether  | City of Mercy  | 
+Rank 11
+---
+Mission  | Target/Objective  | Field  | Notes
+--- | --- | --- | ---
+1. Radiant Halo  | Arda Nova  | Wailing Plains  | Story Mission
+2. Angel's Ladder  | Aether, Fallen Cocoon Maiden (Freeze)  | Wailing Plains  | 
+3. Devil Bear  | Quadriga (Freeze), Fallen Zygote (Freeze), Fallen Ogretail  | Tranquil Temple  | Story Mission
+4. Braggart's Heart  | Fallen Ouroboros  | Wailing Plains  | 
+5. Mole's Tunnel  | Dyaus Pita, Fallen Chi-You (Spark)  | Infernal Subway  | 
+6. Fire Prevention  | Fallen Borg Camlann (Blaze), Vajratail (Blaze)  | City of Mercy  | Story Mission
+7. Insulation  | Fierce Kongou, Fallen Zygote (Spark)  | Wailing Plains  | 
+8. September Shadow  | Ravana, Yaksha, Fallen Cocoon Maidens (Spark)  | City of Mercy  | Story Mission. Fixed NPCs: Kota
+9. Red Tape  | Hannibal, Fallen Gboro-Gboro (Blazze), Fallen Zygote (Blaze)  | Forgotten Carrier  | Story Mission. Fixed NPCs: Kota
+10. Heliamphora  | Fierce Kongou, Fallen Sariel  | City of Mercy  | Story Mission. Fixed NPCs: Kota, Alisa
+11. Sanghyang Jaran  | Ravana, Vajratails (Blaze)  | Infernal Subway  | 
+12. Garimpeiro  | Fallen Kongou (Freeze), Prithvi Mata  | Sunken Grid  | Story Mission. Fixed NPCs: Shun, Gina, Karel  | 
+
+Rank 12
+---
+Mission  | Target/Objective  | Field  | Notes
+--- | --- | --- | ---
+1. Fool's Gold  | Arius Nova (Larval)  | City of Mercy  | Story Mission. Fixed NPCs: Kota, Alisa, Soma. Aragami materials are not obtained from this form.
+2. Corn Snow  | 2 Yaksha Raja. Yaksha Raja, Fallen Cocoon Maidens (Blaze)  | Tranquil Temple  | Story Mission. Fixed NPCs: Tatsumi, Brendan, Kanon
+3. Ink Clouds  | Arda Nova  | Aegis  | 
+4. Obsidian Heart  | Tezcatlipoca, Yaksha Raja  | Tranquil Temple  | 
+5. Corroded Gorget  | Fallen Borg Camlann (Spark), Fallen Chi-You (Spark), Fallen Cocoon Maiden (Spark), Vajratail  | Forgotten Carrier  | Story Mission. Fixed NPCs: Kota
+6. Grimsvotn  | Ravana, 2 Sekhmet, Fallen Zygote (Freeze)  | Tranquil Temple  | Story Mission. Fixed NPCs: Kota, Alisa, Soma
+7. Bog Offering  | Fallen Gboro-Gboro (Freeze), Fallen Ogretail  | Sunken Grid  | Story Mission. Fixed NPCs: Sakuya, Lindow
+8. Sailing Rock  | Ouroboros  | Wailing Plains  | Story Mission
+9. Wispy Clouds  | 2 Aethers, Fallen Zygotes (Spark)  | Tranquil Temple  | Story Mission
+10. Water Lily  | Venus  | Aegis  | Story Mission. Fixed NPCs: Soma
+11. Archvillain  | Corrosive Hannibal, Vajratails (Blaze)  | City of Mercy  | Story Mission
+
+Rank 13
+---
+Mission  | Target/Objective  | Field  | Notes
+--- | --- | --- | ---
+1. Triumvirate  | Fallen Chi-Yous (Spark)  | Sunken Grid  | 
+2. Wildfire  | Hannibal, Yaksha  | Wailing Plains  | 
+3. Sacred Rhythm  | Ouroboros  | Aegis  | 
+4. Speculum Dianae  | Caligula  | Sunken Grid  | Story Mission. Fixed NPCs: Kota, Alisa, Soma
+5. Enceladus Rapids  | Prithvi Mata, Fallen Cocoon Maiden (Freeze), Fallen Orgetail  | Infernal Subway  | 
+6. Dead Charger  | Tezcatlipoca, Fallen Cocoon Maiden (Spark)  | Wailing Plains  | 
+7. Great Black  | Dyaus Pita, Vajra  | Tranquil Temple  | Story Mission. Fixed NPCs: Alisa
+8. Test Tube  | Fallen Borg Camlann (Spark), Fierce Kongou  | Sunken Grid  | Story Mission. Fixed NPCs: Alisa
+9. Dionaea  | Fallen Sariel, Fallen Zygote (Blaze), Vajratail (Spark)  | City of Mercy  | 
+10. Cardinal  | Fallen Arda Nova  | Wailing Plains  | Story Mission. Fixed NPCs: Kota, Alisa, Soma
+11. Snow Firefly  | Sekhmet, Fallen Gboro-Gboro (Blaze), Vajratail (Blaze)  | Tranquil Temple  | Story Mission
+12. Grounded Lightning  | Blitz Hannibal  | City of Mercy  | Story Mission. Fixed NPCs: Kota, Alisa, Soma
+13. Drifting Snow  | Prithvi Mata, Fallen Kongou (Freeze), Fallen Gboro-Gboro (Freeze), Fallen Zygote (Freeze)  | Wailing Plains  | Story Mission. Fixed NPCs: Annette, Federico
+14. Dance of the Lunar Hare  | Arius Nova  | Moonlit Mountain  | Story Mission. Fixed NPCs: 1st unit Members of your choice
+
+Rank 14
+---
+Mission  | Target/Objective  | Field  | Notes
+--- | --- | --- | ---
+1. Artifacts  | Dyaus Pita, 2 Sekhmet  | Sunken Grid  | Solo
+2. Pilgrim 2  | Fierce Kongou  | Tranquil Temple  | 
+3. Grand Prize  | Ogretail  | City of Mercy  | 
+4. Kanon's Secret Training  | Fallen Quadriga (Freeze), Fallen Borg Camlann (Spark), Fallen Gboro-Gboro (Freeze)  | City of Mercy  | Fixed NPCs: Kanon
+5. A Pair of Predators  | 2 Susano'o  | Tranquil Temple  | Solo
+6. God Eater  | Fierce Kongou, Sekhmet, Tezcatlipoca, Dyaus Pita  | Aegis  | 
+7. The Little Ones' Revenge  | Fallen Cocoon Maiden (Blaze), Fallen Cocoon Maiden (Spark), Fallen Zygote (Blaze), Fallen Zygote (Spark), Fallen Zygote (Freeze)  | Forgotten Carrier  | 
+8. New Moon in the Welkin  | Dyaus Pita, Prithvi Mata  | City of Mercy  | Solo
+9. Deadly Sisters' Dance  | Sariel, Fallen Sariel  | Aegis  | Story Mission
+10. Giant Spin  | Cocoon Maidens  | Sunken Grid  | Story Mission. Solo. Aragami Immune to Guns. Time limit: 3 minutes
+11. Forty-Niner  | Fallen Borg Camlann (Spark), Fierce Kongou, Fallen Cocoon Maidens (Spark)  | Forgotten Carrier  | Story Mission. Challenge
+---
+Mission  | Target/Objective  | Field  | Notes
+--- | --- | --- | ---
+1. Beauty's End  | Venus  | Wailing Plains  | 
+2. Certainly Clear  | Sekhmet, Fallen Chi-You (Spark), Chi-You  | Infernal Subway  | Stun Grenades Prohibited
+3. Gboro-Gboro Panic  | Gboro-Gboro, Fallen Gboro-Gboro (Freeze), Golden Gboro-Gboro  | Church of Memories  | Stun Grenades Prohibited
+4. Blue Blade Dance  | Caligula, Fallen Zygotes (Freeze), Fallen Zygote (Blaze)  | City of Mercy  | 
+5. Quick Draw  | Cocoon Maidens  | Sunken Grid  | Time Limit: 30 seconds
+6. Here, Here, Here  | Hannibal, Corrosive Hannibal, Cocoon Maidens  | Infernal Subway  | Hannibals are Optional
+7. Snow Dragon's Garden  | Hannibal  | Tranquil Temple  | 
+8. Fallen Vortex  | Fallen Ouroboros  | Wailing Plains  | 
+9. Supernova  | Fallen Arda Nova  | Aegis  | 
+10. Dance Macabre  | Caligula, 2 Fallen Chi-You (Spark)  | City of Mercy  | Member limit: 2
+11. Oskopnir  | 4 Fierce Kongou, Tezcatlipoca, Aether  | Wailing Plains  | Main Target are the Kongou, Time limit 10 minutes. 4 Fallen Kongous (Freeze)  | Sunken Grid  | 
+
+## Extra Missions[]
+
+  * Predator Pack 1
+
+  * Predator Pack 2
+
+  * In Progress/Old rank 1
+
+Predator Pack 1
+---
+Mission  | Target/Objective  | Field  | Notes
+--- | --- | --- | ---
+1. Fukumuya Moat  | Hannibal, Fallen Zygote (Freeze), Fallen Orgetail  | Tranquil Temple  | Difficulty 9
+2. Junk-Eating Beast  | Vajra, Fallen Zygote (Blaze)  | Sunken Grid  | Difficulty 13
+3. Malevolence in the Darkness  | Dyaus Pita, Fallen Cocoon Maiden (Freeze), Fallen Ogretail  | Infernal Subway  | Difficulty 13
+4. Carnevale  | Hannibal, Yaksha, Gboro-Gboro  | Sunken Grid  | Difficulty 14. Downside-Gradual-DEF down over time
+5. Spiritus  | Ravana, 2 Yaksha Raja  | Forgotten Carrier  | Difficulty 14
+Caligula  | Infernal Subway  | 
+Prithvi Mata, Sekhmet  | City of Mercy  | 
+6. Front and Back  | Sariel, Quadriga, Borg Camlann, Vajra  | Sunken Grid  | Difficulty 14
+7. Intermedia  | Blitz Hannibal, Fallen Chi-You (Spark), Fallen Gboro-Gboro (Blaze), Fierce Kongou  | Infernal Subway  | Difficulty 14
+8. Perseverance  | Quadriga, Chi-You, Fallen Gboro-Gboro (Blaze)  | City Of Mercy  | Difficulty 14. Enhancement: Grants a constant +2 to Freeze
+9. Diligence  | Aether, Sariel, Fallen Sariel  | Aegis  | Difficulty 14
+
+--------------------------------------------------------------------------------
+Missions/God Eater Resurrection - Story Missions | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection_-_Story_Missions)
+ [wordlim: 200] Crawled: 4 months ago; Once this is done go and check back to the Mission counter to learn that you have a couple of new missions to undertake, one of them a Story, the last for Rank 4. ... One more Urgent mission becomes available for you, a 3 part on Rank 10 to be exact.
+--------------------------------------------------------------------------------
+Missions/God Eater 2 Rage Burst | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Missions/God_Eater_2_Rage_Burst)
+ [wordlim: 200] Crawled: 4 months ago; Rank 10 ... 3. ... 4. Stone Door  | Amaterasu  | God Arc Soldier Warehouse  |
+--------------------------------------------------------------------------------
+Tower Shield | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Tower_Shield)
+ [wordlim: 200] Crawled: 4 months ago; # God Eater Resurrection ... Rank 3  | 664 Fc ... Rank 10  | 13600 Fc
+--------------------------------------------------------------------------------
+Charge Spear | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Charge_Spear)
+ [wordlim: 200] Crawled: 5 months ago; ## God Eater Resurrection ... Rank 4  | 2800 Fc
+--------------------------------------------------------------------------------
+Long Blade | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Long_Blade)
+ [wordlim: 200] Crawled: 4 months ago; ## God Eater Resurrection ... Rank 4  | 2800 Fc ... Rank 10  | 13600 Fc
+--------------------------------------------------------------------------------
+Short Blade | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Short_Blade)
+ [wordlim: 200] Crawled: 4 months ago; ## God Eater Resurrection ... Rank 4  | 2800 Fc ... Rank 10  | 13600 Fc
+--------------------------------------------------------------------------------
+God Eater Burst Missions | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/God_Eater_Burst_Missions)
+ [wordlim: 200] Crawled: 4 months ago; # God Eater Burst Missions ...   * Rank 3
+
+  * Rank 4 ...   * Rank 10
+--------------------------------------------------------------------------------
+Buckler Shield | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Buckler_Shield)
+ [wordlim: 200] Crawled: 4 months ago; ## God Eater Resurrection ... Rank 4  | 2800 Fc
+--------------------------------------------------------------------------------
+Buster Blade | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Buster_Blade)
+ [wordlim: 200] Crawled: 4 months ago; ## God Eater Resurrection ... Rank 4  | 2800 Fc ... Rank 10  | 13600 Fc
+--------------------------------------------------------------------------------
+Variant Scythe | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Variant_Scythe)
+ [wordlim: 200] Crawled: 4 months ago; ## God Eater Resurrection[] ... Rank 4  | 2800 Fc
+--------------------------------------------------------------------------------
+Boost Hammer | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Boost_Hammer)
+ [wordlim: 200] Crawled: 4 months ago; ## God Eater Resurrection ... Rank 4  | 2800 Fc
+

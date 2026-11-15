@@ -1,0 +1,814 @@
+Blocked by robots.txt
+The following domains cannot be accessed (non-retryable error): community.fandom.com/wiki/help:licensing, godeater.fandom.com/wiki/long_blade, godeater.fandom.com/wiki/short_blade--------------------------------------------------------------------------------
+Short Blade | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Short_Blade)
+ [wordlim: 200] Crawled: 4 months ago; ### Knife P ... ## God Eater Resurrection ... Short Blade Master II (E)  | Slash 307
+ | ★  | -  | -  | Overall Exposure ↓
+Venom M
+Venom Immunity  | 209  | 352  | 0  | 0  | 0  | 0
+
+### Gem Swd
+
+Design  | Weapon  | Upgrade  | Materials  | Skills  | Damage Type  | Attribute
+--- | --- | --- | --- | --- | --- | ---
+Sunder  | Pierce  | Blaze  | Freeze  | Spark  | Divine
+--- | --- | --- | --- | --- | ---
+ | Gem Swd: Xi Shi  | Gem Swd: Xi Shi II  | Silver x1
+Salve x1
+Impure Liniment x1
+Vermilion Piece x1  | -  | 30  | 70  | 0  | 0  | 0  | 40
+Mithril Silver x2
+Vermilion Piece x1
+Silver x1
+Oil x2
+ | Gem Swd: Xi Shi II  | Gem Swd: Zhaojun  | Chaotic Moss x1
+Knt Redstone x2
+Mana Stone x2
+Ariadne's Silk x1  | Connoisseur  | 45  | 100  | 0  | 0  | 0  | 55
+ | Gem Swd: Zhaojun  | Gem Swd: Zhaojun II  | Hanuman Redstone x2
+Mistle x2
+Oil x2
+Mahogany Branch x1  | Connoisseur  | 50  | 115  | 0  | 0  | 0  | 65
+ | Gem Swd: Zhaojun II  | Gem Swd: Diao
+↕
+Gem Swd: Yang Guifei  | Garuda Crown x1
+Vermilion x2
+Pure Damascus x2
+Mithril Silver x2  | Connoisseur  | 60  | 130  | 0  | 0  | 0  | 70
+Lucifer Starstone x1
+Mana Crystal x2
+Aragami Tendril x1
+Helios Wire x6
+Helios Circlet x5
+ | Gem Swd: Diao  | Gem Swd: Diao II  | Chaotic Lichen x2
+Chaotic Vicuna x5
+Mana Crystal x2
+Aragami Tendril x2
+Pure Oil x2  | Lucky  | 75  | 165  | 0  | 0  | 0  | 80
+ | Gem Swd: Diao II  | Gem Swd: Diao Chan X  | Ketu Armor x9
+Yin-Yang Raiment x3
+Yin-Yang Carver x2
+Mana Crystal x3
+Pure Soft Iron x2  | Lucky  | 95  | 215  | 0  | 0  | 0  | 110
+ | Gem Swd: Diao Chan X  | ★  | N/A  | Lucky  | 110  | 250  | 0  | 0  | 0  | 130
+ | ★  | -  | -  | Lucky
+Rare Bonus Rate ↑  | 121  | 275  | 0  | 0  | 0  | 143
+ | Gem Swd: Yang Guifei  | Gem Swd: Yang Guifei*  | Lucifer Lichen x2
+Yin-Yang Raiment x8
+Orihalcon x1
+Serpent Ambrosia x2
+Pure Oil x2  | Connoisseur  | 80  | 190  | 0  | 0  | 0  | 130
+ | Gem Swd: Yang Guifei*  | ★  | N/A  | Connoisseur  | 100  | 240  | 0  | 0  | 0  | 180
+ | ★  | -  | -  | Connoisseur
+Vendor Rate ↑  | 110  | 264  | 0  | 0  | 0  | 198
+
+* This is the name of the weapon as it appears in the game due to a mistranslation.
+
+ | Trovatore  | Trovatore II  | Goddess Redstone x3
+Goddess Steel x7
+Goddess Quill x7
+Goddess Venom x2
+Goddess Crown x4  | Divine Exposure ↓
+Mid-Air Jump  | 100  | 84  | 0  | 0  | 0  | 214
+Diablo Feather x7
+Diablo Redstone x2
+Diablo Toxin x2
+Aragami Tendril x2
+Shrink Ray x4
+ | Trovatore II  | ★  | N/A  | Divine Exposure ↓
+Rescue Recovery ↑
+Mid-Air Jump  | 120  | 100  | 0  | 0  | 0  | 286
+ | ★  | -  | -  | Divine Exposure ↓
+Rescue Recovery ↑
+Mid-Air Jump  | 132  | 110  | 0  | 0  | 0  | 315
+
+### Knife P
+
+Design  | Weapon  | Upgrade  | Materials  | Skills  | Damage Type  | Attribute
+--- | --- | --- | --- | --- | --- | ---
+Sunder  | Pierce  | Blaze  | Freeze  | Spark  | Divine
+--- | --- | --- | --- | --- | ---
+ | Knife P  | Freezing Knife II
+↕
+Fiery Knife N
+↕
+Railknife X  | Emperor Wing x5
+Emperor Fang x4
+Royal Armor x8
+Hanuman Mesh x8
+Panacea x4  | -  | 80  | 150  | 0  | 0  | 0  | 0
+Basilisk Ice Fang x5
+Basilisk Ice Armor x5
+Wukong Redstone x2
+Nobium x2
+Tungsten Alloy x3
+Wyrm Blaze Fang x5
+Draconic Tallow x2
+Wyrm Amethyst x1
+King Tallow x1
+Tungsten Alloy x8
+Anathema Raiment x8
+Emperor Claw x8
+Emperor Fang x4
+High Conductor x1
+Niobium x2
+
+### Traviata
+
+Design  | Weapon  | Upgrade  | Materials  | Skills  | Damage Type  | Attribute
+--- | --- | --- | --- | --- | --- | ---
+Sunder  | Pierce  | Blaze  | Freeze  | Spark  | Divine
+--- | --- | --- | --- | --- | ---
+ | Traviata  | Traviata II  | Witch Redstone x2
+Witch Quill x10
+Goddess Steel x6
+Goddess Armor x6
+Goddess Venom x2  | Venom L
+Mid-Air Jump  | 180  | 160  | 0  | 0  | 0  | 0
+Witch Wing x7
+Goddess Venom x2
+Goddess Rind x3
+Witch Quill x7
+Goddess Armor x5
+ | Traviata II  | ★  | N/A  | Venom L
+Debuff Attack ↑
+Mid-Air Jump  | 270  | 240  | 0  | 0  | 0  | 0
+ | ★  | -  | -  | Venom L
+Debuff Attack ↑
+Mid-Air Jump  | 297  | 264  | 0  | 0  | 0  | 0
+
+Seraphic Crystal x1
+ | Serpent Dagger X  | ★  | N/A  | Blaze Exposure ↓
+Stamina ↑ L
+Steps Master  | 58  | 135  | 320  | 0  | 0  | 0
+ | ★  | -  | -  | Blaze Exposure ↓
+Stamina ↑ L
+Dexterous
+Steps Master  | 65  | 151  | 408  | 0  | 0  | 0
+ | Phantom Dagger  | ★  | N/A  | Blaze Exposure ↓
+Stamina ↑ L
+Steps Master  | 58  | 135  | 260  | 0  | 0  | 110
+ | ★  | -  | -  | Blaze Exposure ↓
+Stamina ↑ L
+Steps Master  | 64  | 149  | 286  | 0  | 0  | 121
+
+### Knife EX
+
+Design  | Weapon  | Upgrade  | Materials  | Skills  | Damage Type  | Attribute
+--- | --- | --- | --- | --- | --- | ---
+Sunder  | Pierce  | Blaze  | Freeze  | Spark  | Divine
+--- | --- | --- | --- | --- | ---
+ | Knife EX  | ★  | Aragami Crystal 20 x1
+Serpent Blaze Fang x6
+Phantom Fang x3
+Seraphic Crystal x1
+Phantom Stone x1  | Burst Duration ↑
+Combo Master
+Athlete
+Steps Master  | 111  | 333  | 0  | 0  | 0  | 0
+ | ★  | -  | -  | Burst Duration ↑
+Combo Master
+Athlete
+Steps Master  | 163  | 383  | 0  | 0  | 0  | 0
+
+### Rune Edge
+
+Design  | Weapon  | Upgrade  | Materials  | Skills  | Damage Type  | Attribute
+--- | --- | --- | --- | --- | --- | ---
+Sunder  | Pierce  | Blaze  | Freeze  | Spark  | Divine
+--- | --- | --- | --- | --- | ---
+ | Rune Edge: Hagalaz  | ★  | Aragami Crystal 19 x3
+Imperial Claw x6
+Imperial Crown x1
+Hanuman Pelt x10
+Hanuman Armor + x7  | Divine Exposure ↓
+Health ↑ L
+Guard Exposure ↓  | 180  | 220  | 0  | 0  | 154  | 0
+ | ★  | -  | -  | Divine Exposure ↓
+Health ↑ L
+Expand Guard Area
+Guard Exposure ↓  | 198  | 242  | 0  | 0  | 169  | 0
+ | Rune Edge: Kauno  | ★  | Aragami Crystal 5 x3
+Serpent Soft Steel x3
+Flaming Crystal x1
+Goddess Venom x1
+Phoenix Joint x6  | Freeze Exposure ↓
+Health ↑ L
+Guard Exposure ↓  | 180  | 220  | 154  | 0  | 0  | 0
+ | ★  | -  | -  | Freeze Exposure ↓
+Health ↑ L
+Expand Guard Area
+Guard Exposure ↓  | 198  | 242  | 169  | 0  | 0  | 0
+ | Rune Edge: Isa  | ★  | Aragami Crystal 13 x3
+Imperial Wing x8
+Imperial Crown x1
+Boreas Rumbler x7
+Ice King Armor x12  | Blaze Exposure ↓
+Health ↑ L
+Guard Exposure ↓  | 180  | 220  | 0  | 154  | 0  | 0
+ | ★  | -  | -  | Blaze Exposure ↓
+Health ↑ L
+Expand Guard Area
+Guard Exposure ↓  | 198  | 242  | 0  | 169  | 0  | 0
+ | Rune Edge: Dagaz  | ★  | Aragami Crystal 24 x3
+Phantom Armor x8
+Phantom Helm x7
+Phantom Fang x5
+Phantom Ambrosia x4  | Spark Exposure ↓
+Health ↑ L
+Guard Exposure ↓  | 180  | 220  | 0  | 0  | 0  | 154
+ | ★  | -  | -  | Spark Exposure ↓
+Health ↑ L
+Expand Guard Area
+Guard Exposure ↓  | 198  | 242  | 0  | 0  | 0  | 169
+
+## God Eater Resurrection
+
+### Knife P
+
+  * Knife P
+
+  * Fiery Knife
+
+  * Chill Knife
+
+  * Shock Knife
+
+Design  | Weapon  | Materials  | Skills  | Damage
+ | Knife P
+Rank 1  | 350 Fc
+1x Pixie Thorn
+1x Brittle Titanium  | Fencer I (E)  | Slash 55
+Pierce 24
+ | Knife
+Rank 1  | 280 Fc
+Knife P
+2x Pixie Thorn
+1x Brittle Titanium  | Fencer II (E)  | Slash 59
+Pierce 25
+ | Knife II
+Rank 4  | 2800 Fc
+Knife
+1x Pixie Spine
+1x Nickel
+1x Ceramic Plate
+1x Tungsten  | Fencer IV (E)  | Slash 135
+Pierce 57
+ | Knife N
+Rank 6  | 4160 Fc
+Knife II
+2x Emperor Wing
+2x Prince's Dust
+1x Royal Armor
+1x Hanuman Mesh
+1x Tungsten  | Fencer V (E)  | Slash 183
+Pierce 78
+ | Knife X
+Rank 10  | 13600 Fc
+Knife N
+1x Pure Silver
+2x Serpent Blaze Fang
+1x Phantom Incisor
+1x Seraphic Crystal
+1x Phantom Horn  | Fencer V (E)
+Short Blade Master II (E)  | Slash 307
+Pierce 131
+ | Knife V
+Rank 13  | 52000 Fc
+Knife X
+1x Pure Soft Iron
+1x Cemented Carbide
+1x Phantom Arm Gauntlet
+1x Phantom Lance
+1x Deific Crystal  | Fencer V (E)
+Short Blade Master III (E)  | Slash 350
+Pierce 149
+ | Knife EX
+Rank 14  | 96000 Fc
+Knife V
+1x Generic Compound Core  | Fencer V (E)
+Short Blade Master IV (E)  | Slash 362
+Pierce 154
+
+Design  | Weapon  | Materials  | Skills  | Damage
+ | Fiery Knife
+Rank 3  | 664 Fc
+Knife
+1x Flaring Pixie Shell
+1x Brittle Tungsten
+1x Draconic Fin  | Fencer III (E)  | Slash 101
+Pierce 43
+Blaze O
+ | Fiery Knife II
+Rank 5  | 3360 Fc
+Fiery Knife
+1x Blaze Ogre Tooth
+1x Blaze Ogre Mask
+1x Nickel
+1x Ceramic Plate  | Fencer IV (E)  | Slash 159
+Pierce 68
+Blaze O
+ | Fiery Knife N
+Rank 7  | 7760 Fc
+Fiery Knife II
+2x Wyrm Blaze Fang
+1x Draconic Tallow
+1x Wyrm Amethyst
+1x King Tallow
+1x Tungsten Alloy  | Fencer V (E)  | Slash 221
+Pierce 94
+Blaze O
+ | Fiery Knife X
+Rank 9  | 9600 Fc
+Fiery Knife N
+2x Ares Alloy
+2x Ares Armor
+1x Blaze Knight Amethyst
+1x Niobium
+1x Oracle Blaze Stone  | Fencer V (E)
+Short Blade Master I (E)  | Slash 275
+Pierce 117
+Blaze O
+ | Fiery Knife V
+Rank 10  | 13600 Fc
+Fiery Knife X
+1x Helios Carver
+1x Helios Halo
+1x Yin-Yang Carver
+1x Yin-Yang Halo
+1x Adamantite  | Fencer V (E)
+Short Blade Master II (E)  | Slash 307
+Pierce 131
+Blaze O
+ | Fiery Knife S
+Rank 13  | 52000 Fc
+Fiery Knife V
+2x Invictus Carver
+1x Helios Ambrosia
+2x Invictus Corona
+1x Invictus Crystal
+1x Oracle Lucent Stone  | Fencer V (E)
+Short Blade Master III (E)  | Slash 350
+Pierce 149
+Blaze O
+ | Fiery Knife EX
+Rank 14  | 96000 Fc
+Fiery Knife S
+1x Generic Compound Core  | Fencer V (E)
+Short Blade Master IV (E)  | Slash 362
+Pierce 154
+Blaze O
+
+Design  | Weapon  | Materials  | Skills  | Damage
+ | Chill Knife
+Rank 4  | 2800 Fc
+Knife
+1x Goddess Plumage
+1x Goddess Filigree
+1x Nickel  | Fencer III (E)  | Slash 135
+Pierce 57
+Freeze O
+ | Chill Knife II
+Rank 6  | 4160 Fc
+Chill Knife
+2x Royal Fang
+1x Royal Armor
+2x Pixie Ice Shell
+1x Manganese
+1x Fossil Tree  | Fencer V (E)  | Slash 183
+Pierce 78
+Freeze O
+ | Freezing Knife
+Rank 8  | 8800 Fc
+Chill Knife II
+2x Basilisk Ice Fang
+2x Basilisk Ice Armor
+1x Wukong Redstone
+1x Niobium
+1x Tungsten Alloy  | Fencer V (E)
+Short Blade Master I (E)  | Slash 241
+Pierce 103
+Freeze O
+ | Freezing Knife II
+Rank 9  | 9600 Fc
+Freezing Knife
+2x Ice Wyrm Fang
+1x Frigid Ambrosia
+2x Wukong Armor+
+1x Hanuman Ambrosia
+1x Oracle Freeze Stone  | Fencer V (E)
+Short Blade Master II (E)  | Slash 275
+Pierce 117
+Freeze O
+ | Freezing Knife N
+Rank 12  | 40800 Fc
+Freezing Knife II
+2x Royal Ice Armor
+1x Basilisk Hematite
+1x Wukong Amethyst
+1x Hanuman Ambrosia
+1x Oracle Lucent Stone  | Fencer V (E)
+Short Blade Master III (E)  | Slash 330
+Pierce 141
+Freeze O
+ | Freezing Knife EX
+Rank 14  | 96000 Fc
+Freezing Knife N
+1x Generic Compound Core  | Fencer V (E)
+Short Blade Master IV (E)  | Slash 362
+Pierce 154
+Freeze O
+
+Design  | Weapon  | Materials  | Skills  | Damage
+ | Shock Knife
+Rank 4  | 2800 Fc
+Knife
+2x Chimera Spark Fur
+1x Chimera Skull
+1x Tungsten
+1x Mistle  | Fencer III (E)  | Slash 135
+Pierce 57
+Spark O
+ | Shock Knife II
+Rank 6  | 4160 Fc
+Shock Knife
+1x Emperor Claw
+1x Spark Ogre Mask
+1x Voltaic Pixie Shell
+1x Ceramic Plate
+1x Spark Ogre Fang  | Fencer V (E)  | Slash 183
+Pierce 78
+Spark O
+ | Railknife
+Rank 8  | 8800 Fc
+Shock Knife II
+2x Anathema Raiment
+2x Emperor Claw
+1x Pixie Shock Shell
+1x High Conductor
+1x Niobium  | Fencer V (E)
+Short Blade Master I (E)  | Slash 241
+Pierce 103
+Spark O
+ | Railknife II
+Rank 11  | 16000 Fc
+Railknife
+2x Elder's Armor
+1x Elder's Horn
+1x Thunder Ogre Horn
+1x High Conductor
+1x Oracle Spark Stone  | Fencer V (E)
+Short Blade Master II (E)  | Slash 319
+Pierce 136
+Spark O
+ | Railknife N
+Rank 13  | 52000 Fc
+Railknife II
+1x Thunder Ogre Tusk
+1x Thunder Ogre Horn
+1x Thunder Ogre Domino
+1x Super Conductor
+1x Oracle Lucent Stone  | Fencer V (E)
+Short Blade Master III (E)  | Slash 350
+Pierce 149
+Spark O
+ | Railknife EX
+Rank 14  | 96000 Fc
+Railknife N
+1x Generic Compound Core  | Fencer V (E)
+Short Blade Master IV (E)  | Slash 362
+Pierce 154
+Spark O
+
+### Cursed Blade
+
+Design  | Weapon  | Materials  | Skills  | Damage
+ | Cursed Blade
+Rank 3  | 830 Fc
+1x Yaksha Plate
+1x Yaksha Fragment
+1x Yaksha Helm  | Full of Promise I (E)  | Slash 134
+Divine O
+ | Cursed Blade II
+Rank 4  | 2800 Fc
+Cursed Blade
+1x Yaksha Plate
+1x Yaksha Fragment
+1x Yaksha Helm
+1x Yaksha Thread  | Full of Promise II (E)  | Slash 188
+Divine O
+ | Cursed Blade N
+Rank 6  | 4160 Fc
+Cursed Blade II
+1x Yaksha Plate
+1x Yaksha Tile
+1x Yaksha Helm
+1x Yaksha Stock
+1x Damascus Steel  | Full of Promise III (E)  | Slash 256
+Divine O
+ | Cursed Blade X
+Rank 8  | 8800 Fc
+Cursed Blade N
+3x Yaksha Cop
+2x Yaksha Tile
+2x Yaksha Horn
+2x Yaksha Talon
+2x Yaksha Strand  | Full of Promise IV (E)  | Slash 337
+Divine O
+ | Demon Blade
+Rank 9  | 9600 Fc
+Cursed Blade X
+2x Yaksha Spaulder
+1x Yaksha Barrier
+1x Yaksha Barrel
+1x Yaksha Filament
+1x Holy Jewel Steel  | Full of Promise IV (E)
+Golden Flame I (E)  | Slash 384
+Divine O
+ | Demon Blade II
+Rank 12  | 40800 Fc
+Demon Blade
+2x Yaksha Shredder
+2x Yaksha Tusk
+2x Conqueror Steel
+1x Ultra-Pure Mistle
+1x Mana Orb  | Full of Promise IV (E)
+Golden Flame II (E)  | Slash 461
+Divine O
+ | Demon Blade N
+Rank 13  | 52000 Fc
+Demon Blade II
+2x Yaksha Shredder
+2x Yaksha Spaulder
+2x Conqueror Crown
+1x Prince's Steel
+1x Mana Orb  | Full of Promise IV (E)
+Golden Flame III (E)  | Slash 489
+Divine O
+ | Demon Blade EX
+Rank 14  | 96000 Fc
+Demon Blade N
+1x Generic Compound Core  | Full of Promise IV (E)
+Golden Flame IV (E)  | Slash 506
+Divine O
+
+### Gem Sword: Xi Shi
+
+Design  | Weapon  | Materials  | Skills  | Damage
+ | Gem Sword: Xi Shi
+Rank 3  | 830 Fc
+1x Silver
+1x Impure Liniment
+1x Vermillion Piece  | Harvester I (E)  | Slash 41
+Pierce 96
+Divine O
+ | Gem Sword: Xi Shi II
+Rank 5  | 3360 Fc
+Gem Sword: Xi Shi
+2x Raven Wing
+2x Draconic Redstone
+1x Mana Stone
+1x Angel Armor  | Harvester II (E)  | Slash 68
+Pierce 159
+Divine O
+ | Gem Sword: Zhaojun
+Rank 6  | 4160 Fc
+Gem Sword: Xi Shi II
+1x Hanuman Redstone
+1x Mistle
+1x Oil
+1x Mahogany Branch
+1x Fossil Tree  | Harvester III (E)  | Slash 78
+Pierce 183
+Divine O
+ | Gem Sword: Zhaojun II
+Rank 7  | 7760 Fc
+Gem Sword: Zhaojun
+1x Garuda Crown
+1x Vermillion
+1x Pure Damascus
+1x Mithril Silver
+1x Prince's Thorn  | Harvester IV (E)  | Slash 94
+Pierce 221
+Divine O
+ | Gem Sword: Diao
+Rank 9  | 9600 Fc
+Gem Sword: Zhaojun II
+1x Chaotic Lichen
+1x Yin-Yang Carver
+1x Mana Crystal
+1x Prince's Thorn
+1x Pure Oil  | Harvester IV (E)
+Gran Suerte I (E)  | Slash 117
+Pierce 275
+Divine O
+ | Gem Sword: Diao II
+Rank 11  | 16000 Fc
+Gem Sword: Diao
+2x Yin-Yang Ingot
+1x Yin-Yang Raiment
+1x Yin-Yang Carver
+1x Mana Crystal
+1x Pure Soft Iron  | Harvester IV (E)
+Gran Suerte II (E)  | Slash 136
+Pierce 319
+Divine O
+ | Gem Sword: Diao N
+Rank 13  | 52000 Fc
+Gem Sword: Diao II
+1x Garuda Edge
+1x Yin-Yang Crown
+1x Yin-Yang Sickle
+1x Yin-Yang Scarf
+1x Ultra-Pure Mistle  | Harvester IV (E)
+Gran Suerte III (E)  | Slash 149
+Pierce 350
+Divine O
+ | Gem Sword: Diao EX
+Rank 14  | 96000 Fc
+Gem Sword: Diao N
+1x Generic Compound Core  | Harvester IV (E)
+Gran Suerte IV (E)  | Slash 154
+Pierce 362
+Divine O
+
+### Rigoletto
+
+Design  | Weapon  | Materials  | Skills  | Damage
+ | Rigoletto
+Rank 4  | 3500 Fc
+1x Goddess Plumage
+1x Goddess Husk
+1x Goddess Filigree
+1x Goddess Redstone  | Jambes d'Or I (E)  | Slash 113
+Pierce 75
+Divine O
+ | Rigoletto II
+Rank 5  | 3360 Fc
+Rigoletto
+1x Goddess Plumage
+1x Goddess Husk
+1x Goddess Filigree
+1x Goddess Toxin
+1x Jewel Steel  | Jambes d'Or II (E)  | Slash 140
+Pierce 93
+Divine O
+ | Rigoletto N
+Rank 6  | 4160 Fc
+Rigoletto II
+1x Goddess Plumage
+1x Goddess Husk
+1x Goddess Filigree
+1x Goddess Toxin
+1x Goddess Redstone  | Jambes d'Or III (E)  | Slash 162
+Pierce 108
+Divine O
+ | Rigoletto X
+Rank 8  | 8800 Fc
+Rigoletto N
+1x Goddess Quill
+1x Goddess Rind
+1x Diablo Eye
+1x Diablo Plumage
+1x Diablo Feather  | Jambes d'Or IV (E)  | Slash 213
+Pierce 142
+Divine O
+ | Trovatore
+Rank 10  | 13600 Fc
+Rigoletto X
+2x Goddess Quill
+2x Goddess Rind
+1x Goddess Redstone
+2x Diablo Wing
+1x Diablo Cloak  | Jambes d'Or IV (E)
+Rosa College I (E)  | Slash 271
+Pierce 181
+Divine O
+ | Trovatore II
+Rank 13  | 52000 Fc
+Pierce 362
+Divine O
+ | Rune Edge: Dagaz II
+Rank 12  | 40800 Fc
+Rune Edge: Dagaz
+1x Phantom Incisor
+1x Yaksha Talon
+1x Phantom Helm
+1x Phantom Cataphract
+1x Phantom Ambrosia  | Extra Length II (E)  | Slash 68
+Pierce 398
+Divine O
+ | Rune Edge: Dagaz EX
+Rank 14  | 96000 Fc
+Rune Edge: Dagaz II
+1x Generic Compound Core  | Extra Length II (E)
+Antibody II (E)  | Slash 75
+Pierce 437
+Divine O
+
+### Phantom Piercer
+
+Design  | Weapon  | Materials  | Skills  | Damage
+ | Phantom Piercer
+Rank 11  | 20000 Fc
+1x Simian Pharynx
+1x Hanuman Amethyst
+1x Serpent Blaze Helm
+1x Holy Serpent Guard
+1x Serpent Ambrosia  | Ambush Mastery I (E)  | Slash 70
+Pierce 382
+Freeze O
+Divine O
+ | Phantom Piercer II
+Rank 12  | 40800 Fc
+Phantom Piercer
+2x Boreas Rumbler
+1x Wukong Amethyst
+1x Phantom Cataphract
+1x Phantom Incisor
+1x Phantom Ambrosia  | Ambush Mastery II (E)  | Slash 73
+Pierce 398
+Freeze O
+Divine O
+ | Phantom Piercer EX
+Rank 14  | 96000 Fc
+Phantom Piercer II
+1x Generic Compound Core  | Ambush Mastery III (E)  | Slash 80
+Pierce 437
+Freeze O
+Divine O
+
+### Claudia
+
+Design  | Weapon  | Materials  | Skills  | Damage
+ | Claudia
+Rank 13  | 65000 Fc
+2x Bahamut Helm
+1x Bahamut Blue Mail
+1x Bahamut Sky Fang
+1x Boreal Stone
+1x Oracle Freeze Crystal  | Liberator I (E)  | Slash 407
+Pierce 71
+Freeze OO
+ | Claudia EX
+Rank 14  | 96000 Fc
+Claudia
+1x Generic Compound Core  | Liberator II (E)  | Slash 426
+Pierce 75
+Freeze OO
+
+### Wyvern Dagger
+
+Design  | Weapon  | Materials  | Skills  | Damage
+ | Wyvern Dagger
+Rank 13  | 65000 Fc
+1x Wyvern Soft Steel
+1x Wyvern Gauntlet
+1x Wyvern Horn
+1x Wyvern Fang
+1x Wyvern Ambrosia  | Major Step III (E)  | Slash 142
+Pierce 341
+Divine O
+ | Wyvern Dagger EX
+Rank 14  | 96000 Fc
+Wyvern Dagger
+1x Generic Compound Core  | Major step III (E)
+Polished Evasion III (E)  | Slash 149
+Pierce 347
+Divine O
+
+--------------------------------------------------------------------------------
+Long Blade | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Long_Blade)
+ [wordlim: 200] Crawled: 4 months ago; Rank 7  | 7760 Fc ... ### Deus Blade Takiri ... 1x Shattered God Arc
+--------------------------------------------------------------------------------
+Help:Licensing | Community Central | Fandom (https://community.fandom.com/wiki/Help%3ALicensing)
+ [wordlim: 200] Crawled: 4 months ago; While you own the copyright to content that you create by publishing it to Fandom, by submitting the content to our network you agree to license it under a Creative Commons license. ... Unless specifically noted otherwise, all of the text on a wiki is licensed under the Creative Commons Attribution-Share Alike License 3.0 (Unported) (CC-BY-SA).
+--------------------------------------------------------------------------------
+Aki Tamashiro | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Aki_Tamashiro)
+ [wordlim: 200] Crawled: 4 months ago; Knife EX / Short Blade ... God Eater Resurrection
+--------------------------------------------------------------------------------
+Control Units/God Eater Resurrection | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Control_Units/God_Eater_Resurrection)
+ [wordlim: 200] Crawled: 4 months ago; # Control Units/God Eater Resurrection ... Each Control Unit has a rank, and Control Units of a given rank can only be equipped to Predator Styles of that rank or higher (i.e. you cannot equip a rank 2 Control Unit to a rank 1 Predator Style).
+--------------------------------------------------------------------------------
+Carrie Yu | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Carrie_Yu)
+ [wordlim: 200] Crawled: 5 months ago; Carrie's equipment set consist of a Knife Short Blade, a gray-variant of the Type 20 Gat Shotgun, and a gray-variant of the Common Shield. ...   * Carrie's hairstyle is available in God Eater Resurrection, where it is entirely possible to create her as a player character.
+--------------------------------------------------------------------------------
+Help:Database download | Community Central | Fandom (https://community.fandom.com/wiki/Help%3ADatabase_download)
+ [wordlim: 200] Crawled: 4 months ago; Typically, Fandom sites are available under a Creative Commons license (see Fandom Licensing), but this can vary for each community.
+--------------------------------------------------------------------------------
+Missions/God Eater Resurrection | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection)
+ [wordlim: 200] Crawled: 4 months ago; 1.
+--------------------------------------------------------------------------------
+Character Creation/Player Avatars | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Character_Creation/Player_Avatars)
+ [wordlim: 200] Crawled: 4 months ago; ### God Eater Resurrection[] ... Blade: Wild Sword: Laoyang EX/Color 1
+--------------------------------------------------------------------------------
+User blog:Seieireppa/GOD EATER RESURRECTION INFODUMP POST | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/User_blog%3ASeieireppa/GOD_EATER_RESURRECTION_INFODUMP_POST)
+ [wordlim: 200] Published: 11.1 years ago; Crawled: 5 months ago; New Knife design
+
+New Blade design
+--------------------------------------------------------------------------------
+Copyright | Community Central | Fandom (https://community.fandom.com/wiki/Copyright)
+ [wordlim: 200] Crawled: 4 months ago; You may email the designated agent via copyright@fandom.com. ... Your community may want to include copyrighted material from outside sources on the wiki. ... The material you want to use is licensed under a Creative Commons or other open license that permits free reuse.
+--------------------------------------------------------------------------------
+DMCA takedown notice | Community Central | Fandom (https://community.fandom.com/wiki/DMCA_takedown_notice)
+ [wordlim: 200] Crawled: 4 months ago; Sometimes, a community may include material not directly created by our users. ... That generally means the only non-original material permitted on Fandom is used with permission, under a Creative Commons (or similar) license, is in the public domain, or is being used in a way likely to qualify as fair use under U.S. law.
+

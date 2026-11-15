@@ -1,0 +1,368 @@
+Blocked by robots.txt
+The following domains cannot be accessed (non-retryable error): godeater.fandom.com, godeater.fandom.com/ru/wiki/материалы_god_eater_resurrection, godeater.fandom.com/wiki/missions/god_eater_resurrection, godeater.fandom.com/wiki/upgrades--------------------------------------------------------------------------------
+Missions/God Eater Resurrection | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection)
+ [wordlim: 200] Crawled: 4 months ago;  | This basic training teaches God Arc fundamentals and allows you to practice them on a sparring dummy. ... 350 fc (Automatic) 100%  | 350 fc ("Reward Credits Up" Lv1 or higher) 30%  | Restore Pill ("Get Consumable Items" Lv1 or higher) 100%  | Restore Pill II ("Get Consumable Items" Lv1 or higher) 50%  | O-Ampule ("Get Consumable Items" Lv1 or higher) 50% ... Mission Name:  | Devil's Tail
+Predator Pack 2
+---
+Mission  | Target/Objective  | Field  | Notes
+--- | --- | --- | ---
+1. Bandersnatch  | Balfa Mata  | Forgotten Carrier  | Difficulty 14. Enhance- Downside- Gradual- DEF down over time.
+2. Phantom Embrace  | Tezcalipoca, Cocoon Maidens  | Forgotten Carrier  | Difficulty 14 Time Limit: 3 minutes
+4 Fallen Gboro-Gboro (Freeze)  | Sunken Grid  | Time Limit: 5 minutes
+Fallen Arda Nova  | Aegis  | Enhancement: Extreme DEF and Large ATK boost first 3 min.
+3. The Lion and the Peonies  | Tsukuyomi, Aether, 2 Sekhmet  | Wailing Plains  | Difficulty 14. Enhancement- Burst at mission start. Medium ATK & DEF boost during Burst
+4. Snowdrop  | Vajra, Quadriga, Borg Camlann, Sariel  | Wailing Plains  | Difficulty 14
+5. Disjunction  | Fierce Kongou, Yaksha Raja  | Infernal Subway  | Difficulty 14
+6. Spider Lily  | Susano'o, Caligula, Blitz Hannibal  | Forgotten Carrier  | Difficulty 14
+
+Mission Name:  | Tutorial 1
+Time Limit:  | 30:00
+Conditions  | Follow Tsubaki's instructions and complete your training.
+Aragami fought  | Mission Description
+--- | ---
+
+  * Dummy Target
+ | This basic training teaches God Arc fundamentals and allows you to practice them on a sparring dummy. Reviewing this training is recommended before accepting a live mission.
+Walkthrough
+---
+Simply do as Tsubaki says and you'll finish the mission with little effort.
+Rewards
+---
+350 fc (Automatic) 100%  | 350 fc ("Reward Credits Up" Lv1 or higher) 30%  | Restore Pill ("Get Consumable Items" Lv1 or higher) 100%  | Restore Pill II ("Get Consumable Items" Lv1 or higher) 50%  | O-Ampule ("Get Consumable Items" Lv1 or higher) 50%
+OG: Restore Post ("Get Consumable Items" Lv1 or higher) 33%  |  |  |  | 
+Mission Name:  | Tutorial 2
+Time Limit:  | 30:00
+Conditions  | Follow Tsubaki's instructions and complete your training.
+Aragami fought  | Mission Description
+--- | ---
+
+  * Dummy Target
+ | Here, you will learn God Arc fundamentals and practice them on a sparring dummy. In addition, you will learn how to recover materials and items from the battlefield. Reviewing this training is recommended before accepting a live mission.
+Walkthrough
+---
+Simply do as Tsubaki says and you'll finish the mission with little effort.
+Rewards
+---
+350 fc (Automatic) 100%  | Simulated Metal (Automatic) 100%  | 350 fc ("Reward Credits Up" Lv1 or higher) 30%  | Restore Pill ("Get Consumable Items" Lv1 or higher) 100%  | Restore Pill II ("Get Consumable Items" Lv1 or higher) 50%
+O-Ampule ("Get Consumable Items" Lv1 or higher) 50%  | OG: Restore Post ("Get Consumable Items" Lv1 or higher) 33%  |  |  | 
+Mission Name:  | Devil's Tail
+Time Limit:  | 30:00
+Conditions  | Defeat the Ogretail.
+Aragami fought  | Mission Description
+--- | ---
+
+  * Ogretail
+ | 1 Ogretail confirmed in the Old City. Eliminate as soon as possible. Research identifies the outer skin of Ogretails to be vulnerable to pierce attacks. Mission time is 30 minutes. Good luck.
+Walkthrough
+---
+Defeat the Ogretail. Remember to guard and dodge accordingly.
+Rewards
+---
+350 fc (Automatic) 100%  | Brittle Titanium (Automatic) 100%  | Impure Grease (Automatic) 100%  | Magnesium (Automatic) 39%  | Carbon Fiber (Automatic) 36%
+Impure Jewel Steel (Automatic) 36%  | Mana Stone Chip (Automatic) 36%  | Meteorite Sliver (Automatic) 35%  | Impure Grease (Automatic) 33%  | Silver (Automatic) 32%
+Weak Magnet (Automatic) 32%  | Wool (Automatic) 32%  | Weak Aramid Fiber (Automatic) 32%  | Aragami Bone Chip (Automatic) 27%  | Aragami Claw (Automatic) 27%
+Moly (Automatic) 24%  | Ogre Fang (Automatic) 14%  | Ogre Tail (Automatic) 14%  | Ogre Helm (Automatic) 6%  | Mana Stone Chip (Clear under 10 min.) 100%
+Aragami Bone Chip (Clear with 30+ Endurance) 13%  | Aragami Claw (Clear with 30+ Endurance) 13%  | Ogre Fang (Clear with 30+ Endurance) 7%  | Ogre Tail (Clear with 30+ Endurance) 7%  | Ogre Helm (Clear with 30+ Endurance) 3%
+350 fc ("Reward Credits Up" Lv1 or higher) 30%  | Restore Pill ("Get Consumable Items" Lv1 or higher) 100%  | Restore Pill II ("Get Consumable Items" Lv1 or higher) 50%  | O-Ampule ("Get Consumable Items" Lv1 or higher) 50%  | OG: Restore Post ("Get Consumable Items" Lv1 or higher) 33%
+Mission Name:  | Fallen Angel Egg
+Time Limit:  | 30:00
+Conditions  | Defeat the Zygote.
+Aragami fought  | Mission Description
+--- | ---
+
+--------------------------------------------------------------------------------
+Upgrades | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Upgrades)
+ [wordlim: 200] Crawled: 4 months ago; ### God Eater Resurrection ... OP Upgrade EX  | 8  | 11000 Fc 1x Draconic Cannon+ 1x Idol Blast 1x Chaotic Gun 2x Flame Talon 1x High Conductor  | Oracle 8 ... Dogfight  | 10  | 17000 Fc 1x Aragami Crystal 2 1x Creator Rack ***** OR ***** 17000 Fc 2x Creator Rack  | Item Speed 6 Stamina 6 Close Quarters DEF 7 Enemy HP Vision 10
+  * 総合攻撃力↑
+Defense Kit  | 全耐性強化  | 10  | 30000  | 
+
+  * Helios Sash x6
+  * Helios Ambrosia x1
+  * Scorched Ambrosia x1
+  * Lucifer Ingot x10
+  * Lucifer Asteria x1
+ | 
+
+  * Venom Resistance
+  * Leak Resistance
+  * Jamming Resistance
+  * Stun Resistance
+
+  * 日天比礼x6
+  * 日天神酒x1
+  * 炎龍神酒x1
+  * 堕天神鋼x10 
+  * 堕天光晶x1
+ | 
+
+  * ヴェノム耐性
+  * リーク耐性
+  * ジャミング耐性
+  * スタン耐性
+Ranged Kit 3  | 遠距離強化3  | 10  | 30000  | 
+
+  * Diablo Wing x10
+  * Diablo Steel x8
+  * Garuda Crown x2
+  * Anathema Shooter x10
+  * Anathema Tallow x2
+ | 
+
+  * Oracle Intake ↑
+
+  * 魔神翼x10
+  * 魔神鋼x8
+  * 禁鳥冠x2
+  * 禁王神砲x10 
+  * 禁王上油x2
+ | 
+
+  * オラクル吸収量↑
+Melee Kit 3  | 近距離強化3  | 10  | 30000  | 
+
+  * Empress Wreath x4
+  * Empress Fang x6
+  * Swiftner x2
+  * Phoenix Wing x8
+  * Phoenix Bone x7
+ | 
+
+  * Sunder Attack ↑
+
+  * 女帝神冠x4
+  * 女帝牙x6
+  * 軽神丹x2
+  * 炎鳥翼x8
+### God Eater Resurrection
+
+Name  | Rank  | Materials  | Skills
+Stamina  | 1  | 350 Fc 1x Angel Shell 1x Sensor  | Stamina 10
+Health  | 1  | 350 Fc 1x Angel Shell 1x Aragami Bone Chip  | Health 10
+DEF  | 1  | 350 Fc 1x Ogretail 1x Aragami Claw  | DEF 10
+Item Effect  | 2  | 560 Fc 1x Draconic Scale 1x Draconic Fang  | Item Effect 10
+Item Effect  | 2  | 560 Fc 1x Simian Trunk 1x Avian Claw  | Item Effect Duration 10
+Item Speed  | 2  | 560 Fc 1x Draconic Gun 1x Avian Flesh  | Item Speed 10
+Muted  | 2  | 560 Fc 1x Avian Wing 1x Simian Armament  | Muted 10
+Oracle Absorption  | 3  | 830 Fc 1x King Armor 1x Simian Fragment  | Oracle Absorption 10
+Reduced Guard Damage  | 3  | 830 Fc 1x Chimera Wing 1x Cold Ogre Fang  | Reduced Grd. Dmg 10
+Hate Effect  | 3  | 830 Fc 1x Chimera Fang 1x Yaksha Fragment  | Hate Effect 10
+Tranquility  | 3  | 830 Fc 1x Knight Armor 1x Avian Mask  | Tranquility 10
+Link Aid Recover Amount  | 3  | 830 Fc 1x King Gun 1x Pixie Thorn  | Link Aid Recov. Amnt. 10
+Venom Resistance  | 3  | 830 Fc 1x King Skull 1x Yaksha Plate  | Venom Resistance 10
+Friendship  | 3  | 830 Fc 1x Knight Prickle 1x Cold Ogre Fang  | Friendship 10
+Dexterous  | 3  | 830 Fc 1x Chimera Skull 1x Draconic Horn  | Dexterous 10 [However the maximum skill level of 5 is gained]
+Devour Oracle Absorb  | 3  | 830 Fc 1x Lubricant 1x Simian Tail  | Devour Oracle Abs. 10
+Enemy HP Vision  | 3  | 830 Fc 1x King Steel 1x Ogre Tail  | Enemy HP Vision 10
+Charged Ability Speed  | 3  | 830 Fc 1x Chimera Fur 1x Ogre Fang  | Charged Ability Spd. 10
+Air  | 3  | 830 Fc 1x Knight Buckler 1x Yaksha Helm  | Air 10
+Belowed  | 3  | 830 Fc 1x Knight Prickle 1x Flaring Pixie Shell  | Belowed 10
+Auto Guard  | 4  | 3500 Fc 1x Avian Tendon 1x Chimera Spark Fur  | Auto Guard 10
+Guard Speed  | 4  | 3500 Fc 1x Knight Needle 1x Fine Lubricant  | Guard Speed 10
+Calm Breather  | 4  | 3500 Fc 1x Wukong Rumbler 1x Goddess Toxin  | Calm Breather 10
+Survival Instinct  | 4  | 3500 Fc 1x Goddess Plumage 1x King Armor+  | Survival Instinct 10
+Melee ATK  | 4  | 3500 Fc 1x Simian Great Tail 1x Draconic Cannon  | Melee ATK 10
+Melee Attack Specialist  | 4  | 3500 Fc 1x Avian Talon 1x Draconic Carapace  | Melee Atk Specialist 10
+Gun ATK  | 4  | 3500 Fc 1x Simian Armor+ 1x Rough Barrel  | Gun ATK 10
+Combo Master  | 5  | 4200 Fc 1x Wukong Armor 1x Goddess Filigree  | Combo Master 10
+Jamming Resistance  | 5  | 4200 Fc 1x Wild Barrel 1x Avian Limb  | Jamming Resistance 10
+Stamina Auto-Recovery  | 5  | 4200 Fc 1x Blaze Knight Armor 1x Blaze Knight Prickle  | Stamina Auto-Recov. 10
+Stun Resistance  | 5  | 4200 Fc 1x Witch Plumage 1x Spark Knight Shield  | Stun Resistance 10
+Steps Master  | 5  | 4200 Fc 1x Spark Knight Armor 1x Spark Knight Iron  | Steps Master 10
+Hidden Attack  | 5  | 4200 Fc 1x Wyrm Armor 1x Goddess Husk  | Hidden Attack 10
+Pyro Master  | 5  | 4200 Fc 1x Raven Gun 1x Aragami Bone  | Pyro Master 10
+Bomb Master  | 5  | 4200 Fc 1x Pluto Gun 1x Ignitor  | Bomb Master 10
+Laser Master  | 5  | 4200 Fc 1x Fallen King Armor 1x Refractor  | Laser Master 10
+Ammo Master  | 5  | 4200 Fc 1x Blaze Ogre Tooth 1x Wyrm Fin  | Ammo Master 10
+Exaggerated  | 6  | 5200 Fc 1x Anathema Gun 1x Basilisk Gun  | Exaggerated 10
+Athlete  | 6  | 5200 Fc 1x Hanuman Redstone 1x Basilisk Armor  | Athlete 10
+All Out Attack  | 6  | 5200 Fc 1x Chaotic Moss Anathema Filigree  | All Out Attack 10
+Devour HP Absorb  | 6  | 5200 Fc 1x Emperor Mane 1x Prince's Mail  | Devour HP Absorb 10
+Aid Burst  | 6  | 5200 Fc 1x Royal Wing 1x Spark Ogre Spire  | Aid Burst 10
+Debuff Stacking  | 6  | 5200 Fc 1x Pixie Ice Shell 1x Spark Ogre Fang  | Debuff Stacking 10
+Connoisseur  | 6  | 5200 Fc 1x Royal Fang 1x Chaotic Gun  | Connoisseur 10
+Mid-Air Jump  | 6  | 5200 Fc 1x Anathema Armor 1x Blaze Knight Prickle  | Mid-Air Jump 10
+Frugal  | 6  | 5200 Fc 1x Chaotic Claw 1x Royal Filigree  | Frugal 10
+Firm Stand  | 7  | 9700 Fc 1x Avian Sinew 1x Wukong Power Bone  | Firm Stand 10
+Charisma  | 7  | 9700 Fc 1x Anathema Armor 1x Hanuman Plumage  | Charisma 10
+Guard Radius  | 7  | 9700 Fc 1x Goddess Plumage 1x Chaotic Horn  | Guard Radius 10
+Gourmet  | 7  | 9700 Fc 1x Simian Armor+ 1x Witch Wing  | Gourmet 10
+Knockback Distance  | 7  | 9700 Fc 1x Spark Knight Shield 1x Simian Power Tail  | Knockback Distance 10
+Sensitive  | 8  | 11000 Fc 1x Pluto Ice Armor 1x Basilisk Ice Horn  | Sensitive 10
+Leak Resistance  | 8  | 11000 Fc 1x Wyrm Fire Armor 1x Yaksha Cop  | Leak Resistance 10
+Close Quarters ATK  | 8  | 11000 Fc 1x Blaze Knight Armor+ 1x Wyrm Amethyst  | Close Quarters ATK 10
+Medic  | 8  | 11000 Fc 1x Blaze Knight Soft Steel 1x Garuda Blade  | Medic 10
+Wrath of Revenge  | 8  | 11000 Fc 1x Spark Knight Soft Steel 1x Chaotic Lichen  | Wrath of Revenge 10
+Wild Instinct  | 8  | 11000 Fc 1x Wukong Armor+ 1x Hanuman Amethyst  | Wild Instinct 10
+Melee Stamina Expert  | 8  | 11000 Fc 1x Pixie Rime Shell 1x Diablo Feather  | Melee SPCL ATK Stam. 10
+Trigger Happy  | 9  | 12000 Fc 1x Conqueror Armor 1x Pixie Blaze Shell  | Trigger Happy 10
+Burst Duration  | 9  | 12000 Fc 1x Yin-Yang Sash 1x Yin-Yang Carver  | Burst Duration 10
+Close Quarters DEF  | 9  | 12000 Fc 1x Ice King Armor 1x Goddess Rind  | Close Quarters DEF 10
+Lucky  | 9  | 12000 Fc 1x Yaksha Cop 1x Diablo Feather  | Lucky 10
+Devour Bullet Power  | 9  | 12000 Fc 1x Savage Barrel 1x Raven Mask  | Devour Bullet Power 10
+Selflessness  | 9  | 12000 Fc 1x Pixie Spark Shell 1x Phoenix Wing  | Adrenaline Rush 10
+Prepared  | 9  | 12000 Fc 1x Witch Wing 1x Ice Wyrm Gun  | Prepared 10
+Gun Speed Specialist  | 9  | 12000 Fc 1x Lucifer Ingot 1x Chaotic Claw  | Gun Speed Specialist 10
+Gun Focus Specialist  | 9  | 12000 Fc 1x Lucifer Shooter 1x Basilisk Amethyst  | Gun Focus Specialist 10
+Exterminator  | 9  | 12000 Fc 1x Pixie Rime Shell 1x Chimera Femur  | Exterminator 10
+Acrobat Team  | 10  | 17000 Fc 1x Raven Spark Bone 1x Avian Flyer  | Acrobat Team 10
+Auto Aim  | 10  | 17000 Fc 1x Empress Fang 1x Spark Knight God Needle  | Auto Aim 10
+Step Distance  | 10  | 17000 Fc 1x Prince's Sanctum 1x Elder's Wing  | Step Distance 10
+God of Rare Drops  | 10  | 17000 Fc 1x Simian Fragment 1x Thunder Ogre Horn  | God of Rare Drops 10
+Rare Item Rewards  | 10  | 17000 Fc 1x Yin-Yang Ingot 1x Helios Ingot  | Rare Item Rewards 10
+Share the Wealth  | 10  | 17000 Fc 1x Lucifer Carapace 1x Elder's Oculus  | Share the Wealth 10
+Sword Master  | 10  | 17000 Fc 1x Yin-Yang Raiment 1x Angel Bastion  | Sword Master 10
+Mutual Burst  | 10  | 17000 Fc 1x Blaze Wyr Gun 1x Yaksha Barrier  | Mutual Burst 10
+Giving  | 10  | 17000 Fc 1x Luficer Lichen 1x Boreas Rumbler  | Giving 10
+Greedy  | 10  | 17000 Fc 1x Diablo Cloak 1x Elder's Horn  | Greedy 10
+Speed  | 10  | 17000 Fc 1x Knight Shield 1x Philosopher's Stone  | Speed 10 [However only up to level 5 is granted]
+Gun Lock-On  | 10  | 17000 Fc 1x Knight Armor 1x Yaksha Barrel  | Gun Form Lock-On 10
+Covert Team  | 10  | 17000 Fc 1x Imperial Wing 1x Spark Knight Greatshield  | Covert Team
+JG HP Restore  | 10  | 17000 Fc 1x Phoenix Claw 1x Holy Serpent Guard  | JG HP Restore 10
+JG OP Restore  | 10  | 17000 Fc 1x Blaze Knight Needle 1x Lucifer Prong  | JG OP Restore 10
+JT Stamina Restore  | 10  | 17000 Fc 1x Phantom Armor 1x Phoenix Blade  | JG Stamina Restore 10
+Action Assist  | 1 (DLC)  | 120000 Fc 1x Aragami Crystal 1  | Stamina Auto-Recov. 10 Calm Breather 10
+Combat Assist  | 1 (DLC)  | 120000 Fc 1x Aragami Crystal 2  | [B]Mel. ATK HP Abs. 10 Burst Duration 10
+Oracle Assist  | 1 (DLC)  | 120000 Fc 1x Aragami Crystal 3  | Oracle Absoption 10 Frugal 10
+
+Trigger Happy  | 8  | 11000 Fc 1x Flame Heart 2x Anathema Pendant 2x Elder's Stole 2x Wolf Pelt 1x Golem God Arc  | Trigger Happy 10
+Leak Immunity  | 8  | 11000 Fc 2x Dryad Bark 2x Draconic Incisor 1x Golem Plate 1x Simian Pharynx  | Leak Resistance 10
+Venom Immunity  | 8  | 11000 Fc 2x Lucifer Carapace 2x Angel Armor 1x Witch Train 1x Goddess Wing  | Venom Resistance 10
+Mission Facilitator  | 8  | 11000 Fc 1x Angel Armor 1x Pure Damascus 1x Pixie Carapace  | Resilence 1
+Scout's Kit II  | 8  | 11000 Fc 2x Dryad Optics 1x Elder's Halo 1x Idol Skin 1x Chaotic Lichen 1x Witch Gaze  | Sensitive 10 Enemy HP Vision 10
+Raging Blade B  | 8  | 11000 Fc 1x Hanuman Amethyst 2x Wolf Lens 2x Royal Ice Armor 1x Idol Blade  | Raging Blade B 10 [Raging Blade 7 Melee ATK -6 Gun ATK -6]
+Raging Gun B  | 8  | 11000 Fc 1x Yaksha Ambrosia 2x Anathema Feeler 2x Garuda Claw 1x Golem Cannon  | Raging Gun B 10 [Raging Gun 7 Melee ATK -6 Gun ATK -6]
+OP Upgrade EX  | 8  | 11000 Fc 1x Draconic Cannon+ 1x Idol Blast 1x Chaotic Gun 2x Flame Talon 1x High Conductor  | Oracle 8
+Scanner  | 9  | 12000 Fc 2x Chaotic Armor 2x Regina's Robes 1x Regina's Iron 2x Witch Plumage 1x Diablo Oculus  | Enemy HP Vision 10
+Status Brace  | 9  | 12000 Fc 1x Yaksha Barrier 2x Creator Pillar 1x Goddess Pinion 1x Witch Nacre 1x Diablo Amethyst  | Venom Resistance 7 Leak Resistance 7 Jamming Resistance 7 Stun Resistance 7
+Longevity Talisman  | 9  | 12000 Fc 1x Large Aragami Bone 1x Vulpine Amethyst  | HP 7 Item Speed 7 Enemy Calm 7
+Assassination Kit  | 9  | 12000 Fc 2x Yaksha Horn 2x Chimera Thunder Fur 2x Creator Sanctum 1x Golem Crown 1x Venom Metal  | Hidden Attack 10 Debuff Stacking 7
+Survival Upgrade  | 9  | 2x Hanuman Spark Armor 1x Draconic Incosor 1x Avian Limb 2x Knight Bulwark 2x Prince's Mail  | Survival Instinct 10
+Aerial Enhancer II  | 9  | 12000 Fc 2x Lucifer Pinion 2x Chimera Spark Wing 1x Witch Plumage 1x Goddess Wing 1x Durafier  | Mid-Air Jump 10 Stamina 7
+Attack Boost  | 9  | 12000 Fc 1x Phantom Stone 2x Anathema Pendant 1x Emperor Limb 1x Regina's Circlet 1x Elder's Hair  | Melee ATK 7 Gun ATK 7
+Retaliation Squad  | 9  | 12000 Fc 1x Spark Knight Needle 2x Blaze Knight Needle 2x Prince's Blade 2x Regina's Iron 1x Chimera Redstone  | Exterminator 7 Charisma 7
+Vantage Point  | 9  | 12000 Fc 1x Garuda Crown 2x Diablo Wing 2x Goddess Crow 2x Pure Gold 1x Pure Silver  | Vantage Point 10 [DEF 7 Chatisma 7 HP -6 Oracle -6]
+Acrobat Team  | 10  | 17000 Fc 1x Aragami Crystal 9 1x Simian War Drum ****** OR ***** 17000 Fc 2x Simian War Drum  | Acrobat Team 10
+Guard Bonus C  | 10  | 17000 Fc 1x Aragami Crystal 24 1x Siren Visage ***** OR ***** 17000 Fc 2x Siren Visage  | JG HP Restore 7
+Dogfight  | 10  | 17000 Fc 1x Aragami Crystal 2 1x Creator Rack ***** OR ***** 17000 Fc 2x Creator Rack  | Item Speed 6 Stamina 6 Close Quarters DEF 7 Enemy HP Vision 10
+--------------------------------------------------------------------------------
+Материалы God Eater Resurrection | God Eater Вики | Fandom (https://godeater.fandom.com/ru/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B_God_Eater_Resurrection)
+ [wordlim: 200] Crawled: 4 months ago;  | Посредственная резина  | Inferior Rubber  | 低品質ゴム  | 60  |  | Нет ...  | Суперсплав вольфрама  | Tungsten Superalloy  | タングステン超合金  | 3200  |  | Нет ...  | Суперядовитый металл  | Super Poison Metal  | 超毒性メタル  | 3200  |  | Нет
+ | Покрытие  | Coating Agent  | コーティング剤  | 220  |  | Нет
+ | Полиэстер  | Polyester  | ポリエステル  | 200  |  | Нет
+ | Посредственная резина  | Inferior Rubber  | 低品質ゴム  | 60  |  | Нет
+ | Пропитка  | Liniment  | 塗布剤  | 220  |  | Нет
+ | Растение  | Herb  | ハーブ  | 60  |  | 120
+ | Святая алмазная сталь  | Holy Jawel Steel  | 神玉鋼  | 1200  |  | Нет
+ | Серебро  | Silver  | 銀  | 60  |  | Нет
+ | Сильный магнит  | Strong Magnet  | 強化電磁鋼  | 1200  |  | Нет
+ | Сияющий камень  | Lucent Stone  | 輝石  | 60  |  | Нет
+ | Сияющий кристалл  | Lucent Crystal  | 輝晶  | 220  |  | Нет
+ | Сияющий кристалл оракула  | Oracle Lucent Crystal  | オラクル輝晶  | 3200  |  | Нет
+ | Слаб. арамид. волокно  | Weak Aramid Fiber  | 低強度アラミド繊維  | 60  |  | 250
+ | Слабая инструментальная сталь  | Weak Tool Steel  | 低強度工具鋼  | 50  |  | Нет
+ | Слабый магнит  | Weak Magnet  | 低強度電磁鋼  | 50  |  | Нет
+ | Стекловолокно  | Glass Fiber  | ガラス繊維  | 60  |  | 250
+ | Суперсплав вольфрама  | Tungsten Superalloy  | タングステン超合金  | 3200  |  | Нет
+ | Суперсплав титана  | Titanium Superalloy  | 高強度チタン合金  | 3000  |  | Нет
+ | Суперядовитый металл  | Super Poison Metal  | 超毒性メタル  | 3200  |  | Нет
+--------------------------------------------------------------------------------
+Missions/God Eater Resurrection - Story Missions | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection_-_Story_Missions)
+ [wordlim: 200] Crawled: 4 months ago;     Story Mission Unlocked : Devil's Tail ... 1700 fc  | "Reward Credits Up" Lv3 or higher  | 30%
+    
+    Free Mission Unlocked : Tutorial 1
+    
+    Free Mission Unlocked : Tutorial 2
+    
+    Story Mission Unlocked : Devil's Tail
+    
+
+Clear the Tutorial Missions to get yourself familiarized with the game.
+
+Tutorial 1
+---
+Information
+ | Map of training room.
+---
+Target Aragami  | Details
+
+  * 3x Move Target (Ogretail)
+ | 
+
+  * The first one will spawn around when 2:30 minutes have passed.
+  * The second and third ones appear in quick succession a half minute later.
+Notes
+---
+Objective: Follow the Instructions of Tsubaki and clear the tutorial On this tutorial mission you cannot bring any team members. Targets do not reward materials when devoured after being killed, however they grant Aragami Bullets. Recomended loadout: Anything will do.
+Tutorial 2
+---
+Information
+ | Map of training room.
+---
+Target Aragami  | Details
+
+  * 3x Move Target (Ogretail)
+ | 
+
+  * The first one will spawn right at the mission start ahead of your starting position to the left.
+  * The second one will appear the same distance to the right when 1 minute has passed.
+  * The final target appears a half minute later.
+Notes
+---
+Objective: Follow the Instructions of Tsubaki and clear the tutorial On this tutorial mission you cannot bring any team members. Targets grant 3x Simulated Metal upon being devoured. Recomended loadout: Anything will do.
+
+Once you are ready, talk to Hibari and take on your first Story Mission: Devil's Tail. Go to the gate of the Den and watch the cutscene.
+    
+    Cutscene Unlocked : Mission with Lindow
+    
+
+Devil's Tail
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Ogretail
+ | 
+
+  * The Ogretail will spawn slightly above Point E.
+  * After 30 seconds pass, it will start patrolling the area.
+Notes
+---
+Objective: Find and eradicate your first Aragami. On this mission only Lindow accompanies you. Recomended loadout: Anything will do.
+
+Completing Devil's Tail will unlock yet another cutscene as well as advance your story counter by one.
+    
+    Cutscene Unlocked : Lecture : Aragami
+    
+
+|-|
+
+2=
+
+## Story 2[]
+--------------------------------------------------------------------------------
+Materials | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Materials)
+ [wordlim: 200] Crawled: 4 months ago; You can help God Eater Wiki expanding it.
+--------------------------------------------------------------------------------
+Улучшения | God Eater Вики | Fandom (https://godeater.fandom.com/ru/wiki/%D0%A3%D0%BB%D1%83%D1%87%D1%88%D0%B5%D0%BD%D0%B8%D1%8F)
+ [wordlim: 200] Crawled: 5 months ago; Улучшения присутствуют в God Eater Resurrection и God Eater 2 Rage Burst, однако некоторые улучшения для God Eater могут быть получены только через DLC и большинство DLC являются доступными только для японской версии игры. ... Японские DLC с улучшениями для God Eater - переведены неофициально.
+--------------------------------------------------------------------------------
+God Eater Resurrection | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/God_Eater_Resurrection)
+ [wordlim: 200] Crawled: 4 months ago; The title is an updated version of God Eater Burst with not only enhanced graphics and event scenes reconfigured to match the latest hardware, but also with additional story content and combat features including the Predator Style.
+--------------------------------------------------------------------------------
+God Eater Вики | Fandom (https://godeater.fandom.com/ru/wiki/God_Eater_%D0%92%D0%B8%D0%BA%D0%B8)
+ [wordlim: 200] Crawled: 5 months ago; Читайте на свой страх и риск! ... Image: God Eater Resurrection
+--------------------------------------------------------------------------------
+Category:God Eater Resurrection | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Category%3AGod_Eater_Resurrection)
+ [wordlim: 200] Crawled: 4 months ago; # God Eater Resurrection ...   * Amaterasu
+--------------------------------------------------------------------------------
+God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/God_Eater_Wiki)
+ [wordlim: 200] Crawled: 4 months ago; God Eater Wiki ... Image: God Eater 3 Image: God Eater: Resurrection Image: GE2:RB Translations Image: God Eater Localization
+--------------------------------------------------------------------------------
+Bullets/God Eater Resurrection | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Bullets/God_Eater_Resurrection)
+ [wordlim: 200] Crawled: 4 months ago; Paper Fan (Original) Strikes a target's legs with three successive radials from the side. ... Light of Ruin (Original) An updated version of my Light of Ruin bullet from GE2RB.
+--------------------------------------------------------------------------------
+Control Units/God Eater Resurrection | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Control_Units/God_Eater_Resurrection)
+ [wordlim: 200] Crawled: 4 months ago;   * God Eater Resurrection
+

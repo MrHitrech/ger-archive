@@ -1,0 +1,629 @@
+[
+  {
+    "id": "ger-d-11c53317b55d",
+    "game": "ger",
+    "name_en": "Aragami Claw / Devil's Tail / Automatic",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-43bf0f48aab7f5e5"
+    ],
+    "missing_fields": [
+      "quantity",
+      "reward_slot_model",
+      "original_page_review"
+    ],
+    "material_id": "ger-m-9e1e1fc9bdb1",
+    "mission_id": "ger-q-3fe64f73c6e3",
+    "aragami_id": null,
+    "location_id": "ger-l-4bdf49c479e4",
+    "method": "mission_reward",
+    "condition_ru": "Автоматическая награда",
+    "condition_en": "Automatic",
+    "drop_rate": 27,
+    "quantity": null,
+    "slot": null,
+    "source_url": "https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection"
+  },
+  {
+    "id": "ger-d-16bbb39f380b",
+    "game": "ger",
+    "name_en": "Aragami Bone Chip / Devil's Tail / Automatic",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-69af3b199af586a7"
+    ],
+    "missing_fields": [
+      "quantity",
+      "reward_slot_model",
+      "original_page_review"
+    ],
+    "material_id": "ger-m-77e4b7629509",
+    "mission_id": "ger-q-3fe64f73c6e3",
+    "aragami_id": null,
+    "location_id": "ger-l-4bdf49c479e4",
+    "method": "mission_reward",
+    "condition_ru": "Автоматическая награда",
+    "condition_en": "Automatic",
+    "drop_rate": 27,
+    "quantity": null,
+    "slot": null,
+    "source_url": "https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection"
+  },
+  {
+    "id": "ger-d-1eb5b18ed3ca",
+    "game": "ger",
+    "name_en": "Mana Stone Chip / Devil's Tail / Clear under 10 min.",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-91fbc6a8c14568c2"
+    ],
+    "missing_fields": [
+      "quantity",
+      "reward_slot_model",
+      "original_page_review"
+    ],
+    "material_id": "ger-m-601ff757135c",
+    "mission_id": "ger-q-3fe64f73c6e3",
+    "aragami_id": null,
+    "location_id": "ger-l-4bdf49c479e4",
+    "method": "bonus_reward",
+    "condition_ru": "Завершить менее чем за 10 минут",
+    "condition_en": "Clear under 10 min.",
+    "drop_rate": 100,
+    "quantity": null,
+    "slot": null,
+    "source_url": "https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection"
+  },
+  {
+    "id": "ger-d-324cbe497cdf",
+    "game": "ger",
+    "name_en": "Aragami Claw / Devil's Tail / Clear with 30+ Endurance",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-f74b10ab585496b8"
+    ],
+    "missing_fields": [
+      "quantity",
+      "reward_slot_model",
+      "original_page_review"
+    ],
+    "material_id": "ger-m-9e1e1fc9bdb1",
+    "mission_id": "ger-q-3fe64f73c6e3",
+    "aragami_id": null,
+    "location_id": "ger-l-4bdf49c479e4",
+    "method": "bonus_reward",
+    "condition_ru": "Завершить с выносливостью 30+ (Endurance)",
+    "condition_en": "Clear with 30+ Endurance",
+    "drop_rate": 13,
+    "quantity": null,
+    "slot": null,
+    "source_url": "https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection"
+  },
+  {
+    "id": "ger-d-38744fb57fc4",
+    "game": "ger",
+    "name_en": "Wool / Devil's Tail / Automatic",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-c7ce610ccf7cca80"
+    ],
+    "missing_fields": [
+      "quantity",
+      "reward_slot_model",
+      "original_page_review"
+    ],
+    "material_id": "ger-m-195d6e0999bc",
+    "mission_id": "ger-q-3fe64f73c6e3",
+    "aragami_id": null,
+    "location_id": "ger-l-4bdf49c479e4",
+    "method": "mission_reward",
+    "condition_ru": "Автоматическая награда",
+    "condition_en": "Automatic",
+    "drop_rate": 32,
+    "quantity": null,
+    "slot": null,
+    "source_url": "https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection"
+  },
+  {
+    "id": "ger-d-406ae947f0e0",
+    "game": "ger",
+    "name_en": "Impure Grease / Devil's Tail / Automatic",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-42cd66cf29f11403",
+      "ev-532949ac08af4269"
+    ],
+    "missing_fields": [
+      "quantity",
+      "reward_slot_model",
+      "original_page_review",
+      "drop_rate"
+    ],
+    "material_id": "ger-m-4a8a33b331ea",
+    "mission_id": "ger-q-3fe64f73c6e3",
+    "aragami_id": null,
+    "location_id": "ger-l-4bdf49c479e4",
+    "method": "mission_reward",
+    "condition_ru": "Автоматическая награда. Повторяющиеся строки с разными шансами; модель награды требует проверки.",
+    "condition_en": "Automatic",
+    "drop_rate": null,
+    "quantity": null,
+    "slot": null,
+    "source_url": "https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection"
+  },
+  {
+    "id": "ger-d-44e546828644",
+    "game": "ger",
+    "name_en": "Magnesium / Devil's Tail / Automatic",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-a95256746915c2c0"
+    ],
+    "missing_fields": [
+      "quantity",
+      "reward_slot_model",
+      "original_page_review"
+    ],
+    "material_id": "ger-m-002e52fb4c11",
+    "mission_id": "ger-q-3fe64f73c6e3",
+    "aragami_id": null,
+    "location_id": "ger-l-4bdf49c479e4",
+    "method": "mission_reward",
+    "condition_ru": "Автоматическая награда",
+    "condition_en": "Automatic",
+    "drop_rate": 39,
+    "quantity": null,
+    "slot": null,
+    "source_url": "https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection"
+  },
+  {
+    "id": "ger-d-4ea15bde71e4",
+    "game": "ger",
+    "name_en": "Weak Magnet / Devil's Tail / Automatic",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-85836702f5a721ba"
+    ],
+    "missing_fields": [
+      "quantity",
+      "reward_slot_model",
+      "original_page_review"
+    ],
+    "material_id": "ger-m-5d2d92727d50",
+    "mission_id": "ger-q-3fe64f73c6e3",
+    "aragami_id": null,
+    "location_id": "ger-l-4bdf49c479e4",
+    "method": "mission_reward",
+    "condition_ru": "Автоматическая награда",
+    "condition_en": "Automatic",
+    "drop_rate": 32,
+    "quantity": null,
+    "slot": null,
+    "source_url": "https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection"
+  },
+  {
+    "id": "ger-d-500a91043d23",
+    "game": "ger",
+    "name_en": "Ogre Tail / Devil's Tail / Automatic",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-22743946502612a1"
+    ],
+    "missing_fields": [
+      "quantity",
+      "reward_slot_model",
+      "original_page_review"
+    ],
+    "material_id": "ger-m-4c3d469a136d",
+    "mission_id": "ger-q-3fe64f73c6e3",
+    "aragami_id": null,
+    "location_id": "ger-l-4bdf49c479e4",
+    "method": "mission_reward",
+    "condition_ru": "Автоматическая награда",
+    "condition_en": "Automatic",
+    "drop_rate": 14,
+    "quantity": null,
+    "slot": null,
+    "source_url": "https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection"
+  },
+  {
+    "id": "ger-d-5d22ce5a2a04",
+    "game": "ger",
+    "name_en": "Ogre Helm / Devil's Tail / Automatic",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-311f25b315ab9c00"
+    ],
+    "missing_fields": [
+      "quantity",
+      "reward_slot_model",
+      "original_page_review"
+    ],
+    "material_id": "ger-m-1dca5a200775",
+    "mission_id": "ger-q-3fe64f73c6e3",
+    "aragami_id": null,
+    "location_id": "ger-l-4bdf49c479e4",
+    "method": "mission_reward",
+    "condition_ru": "Автоматическая награда",
+    "condition_en": "Automatic",
+    "drop_rate": 6,
+    "quantity": null,
+    "slot": null,
+    "source_url": "https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection"
+  },
+  {
+    "id": "ger-d-73912822bc09",
+    "game": "ger",
+    "name_en": "Ogre Helm / Devil's Tail / Clear with 30+ Endurance",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-913fe688ef712c62"
+    ],
+    "missing_fields": [
+      "quantity",
+      "reward_slot_model",
+      "original_page_review"
+    ],
+    "material_id": "ger-m-1dca5a200775",
+    "mission_id": "ger-q-3fe64f73c6e3",
+    "aragami_id": null,
+    "location_id": "ger-l-4bdf49c479e4",
+    "method": "bonus_reward",
+    "condition_ru": "Завершить с выносливостью 30+ (Endurance)",
+    "condition_en": "Clear with 30+ Endurance",
+    "drop_rate": 3,
+    "quantity": null,
+    "slot": null,
+    "source_url": "https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection"
+  },
+  {
+    "id": "ger-d-741edb8ef6eb",
+    "game": "ger",
+    "name_en": "Mana Stone Chip / Devil's Tail / Automatic",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-88a725ccfccb3b87"
+    ],
+    "missing_fields": [
+      "quantity",
+      "reward_slot_model",
+      "original_page_review"
+    ],
+    "material_id": "ger-m-601ff757135c",
+    "mission_id": "ger-q-3fe64f73c6e3",
+    "aragami_id": null,
+    "location_id": "ger-l-4bdf49c479e4",
+    "method": "mission_reward",
+    "condition_ru": "Автоматическая награда",
+    "condition_en": "Automatic",
+    "drop_rate": 36,
+    "quantity": null,
+    "slot": null,
+    "source_url": "https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection"
+  },
+  {
+    "id": "ger-d-76921188a638",
+    "game": "ger",
+    "name_en": "Weak Aramid Fiber / Devil's Tail / Automatic",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-a70ed9a2b011f23a"
+    ],
+    "missing_fields": [
+      "quantity",
+      "reward_slot_model",
+      "original_page_review"
+    ],
+    "material_id": "ger-m-f6d71f8eb2ce",
+    "mission_id": "ger-q-3fe64f73c6e3",
+    "aragami_id": null,
+    "location_id": "ger-l-4bdf49c479e4",
+    "method": "mission_reward",
+    "condition_ru": "Автоматическая награда",
+    "condition_en": "Automatic",
+    "drop_rate": 32,
+    "quantity": null,
+    "slot": null,
+    "source_url": "https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection"
+  },
+  {
+    "id": "ger-d-91e6e6fabfe6",
+    "game": "ger",
+    "name_en": "Silver / Devil's Tail / Automatic",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-9151dadf09632770"
+    ],
+    "missing_fields": [
+      "quantity",
+      "reward_slot_model",
+      "original_page_review"
+    ],
+    "material_id": "ger-m-ef46a9c628a1",
+    "mission_id": "ger-q-3fe64f73c6e3",
+    "aragami_id": null,
+    "location_id": "ger-l-4bdf49c479e4",
+    "method": "mission_reward",
+    "condition_ru": "Автоматическая награда",
+    "condition_en": "Automatic",
+    "drop_rate": 32,
+    "quantity": null,
+    "slot": null,
+    "source_url": "https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection"
+  },
+  {
+    "id": "ger-d-9f60302115f5",
+    "game": "ger",
+    "name_en": "Brittle Titanium / Devil's Tail / Automatic",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-ec0a19aa240477b3"
+    ],
+    "missing_fields": [
+      "quantity",
+      "reward_slot_model",
+      "original_page_review"
+    ],
+    "material_id": "ger-m-b57375ee677c",
+    "mission_id": "ger-q-3fe64f73c6e3",
+    "aragami_id": null,
+    "location_id": "ger-l-4bdf49c479e4",
+    "method": "mission_reward",
+    "condition_ru": "Автоматическая награда",
+    "condition_en": "Automatic",
+    "drop_rate": 100,
+    "quantity": null,
+    "slot": null,
+    "source_url": "https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection"
+  },
+  {
+    "id": "ger-d-bd1f729d9a71",
+    "game": "ger",
+    "name_en": "Ogre Fang / Devil's Tail / Automatic",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-0b2ba755dfed5547"
+    ],
+    "missing_fields": [
+      "quantity",
+      "reward_slot_model",
+      "original_page_review"
+    ],
+    "material_id": "ger-m-b3244148bc93",
+    "mission_id": "ger-q-3fe64f73c6e3",
+    "aragami_id": null,
+    "location_id": "ger-l-4bdf49c479e4",
+    "method": "mission_reward",
+    "condition_ru": "Автоматическая награда",
+    "condition_en": "Automatic",
+    "drop_rate": 14,
+    "quantity": null,
+    "slot": null,
+    "source_url": "https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection"
+  },
+  {
+    "id": "ger-d-c72274d75658",
+    "game": "ger",
+    "name_en": "Carbon Fiber / Devil's Tail / Automatic",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-6a9d3d0fabc9ce37"
+    ],
+    "missing_fields": [
+      "quantity",
+      "reward_slot_model",
+      "original_page_review"
+    ],
+    "material_id": "ger-m-c38832d16ae5",
+    "mission_id": "ger-q-3fe64f73c6e3",
+    "aragami_id": null,
+    "location_id": "ger-l-4bdf49c479e4",
+    "method": "mission_reward",
+    "condition_ru": "Автоматическая награда",
+    "condition_en": "Automatic",
+    "drop_rate": 36,
+    "quantity": null,
+    "slot": null,
+    "source_url": "https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection"
+  },
+  {
+    "id": "ger-d-cdc861625dad",
+    "game": "ger",
+    "name_en": "Meteorite Sliver / Devil's Tail / Automatic",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-d3264f3f3a55db67"
+    ],
+    "missing_fields": [
+      "quantity",
+      "reward_slot_model",
+      "original_page_review"
+    ],
+    "material_id": "ger-m-a1a58fb7e70b",
+    "mission_id": "ger-q-3fe64f73c6e3",
+    "aragami_id": null,
+    "location_id": "ger-l-4bdf49c479e4",
+    "method": "mission_reward",
+    "condition_ru": "Автоматическая награда",
+    "condition_en": "Automatic",
+    "drop_rate": 35,
+    "quantity": null,
+    "slot": null,
+    "source_url": "https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection"
+  },
+  {
+    "id": "ger-d-dabe0072ffee",
+    "game": "ger",
+    "name_en": "Aragami Bone Chip / Devil's Tail / Clear with 30+ Endurance",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-90a0494141cd5d8d"
+    ],
+    "missing_fields": [
+      "quantity",
+      "reward_slot_model",
+      "original_page_review"
+    ],
+    "material_id": "ger-m-77e4b7629509",
+    "mission_id": "ger-q-3fe64f73c6e3",
+    "aragami_id": null,
+    "location_id": "ger-l-4bdf49c479e4",
+    "method": "bonus_reward",
+    "condition_ru": "Завершить с выносливостью 30+ (Endurance)",
+    "condition_en": "Clear with 30+ Endurance",
+    "drop_rate": 13,
+    "quantity": null,
+    "slot": null,
+    "source_url": "https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection"
+  },
+  {
+    "id": "ger-d-de052d0fafff",
+    "game": "ger",
+    "name_en": "Impure Jewel Steel / Devil's Tail / Automatic",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-98da69a05217fdd5"
+    ],
+    "missing_fields": [
+      "quantity",
+      "reward_slot_model",
+      "original_page_review"
+    ],
+    "material_id": "ger-m-145315d257a5",
+    "mission_id": "ger-q-3fe64f73c6e3",
+    "aragami_id": null,
+    "location_id": "ger-l-4bdf49c479e4",
+    "method": "mission_reward",
+    "condition_ru": "Автоматическая награда",
+    "condition_en": "Automatic",
+    "drop_rate": 36,
+    "quantity": null,
+    "slot": null,
+    "source_url": "https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection"
+  },
+  {
+    "id": "ger-d-e1df916efd0a",
+    "game": "ger",
+    "name_en": "Ogre Tail / Devil's Tail / Clear with 30+ Endurance",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-73871cc186f83772"
+    ],
+    "missing_fields": [
+      "quantity",
+      "reward_slot_model",
+      "original_page_review"
+    ],
+    "material_id": "ger-m-4c3d469a136d",
+    "mission_id": "ger-q-3fe64f73c6e3",
+    "aragami_id": null,
+    "location_id": "ger-l-4bdf49c479e4",
+    "method": "bonus_reward",
+    "condition_ru": "Завершить с выносливостью 30+ (Endurance)",
+    "condition_en": "Clear with 30+ Endurance",
+    "drop_rate": 7,
+    "quantity": null,
+    "slot": null,
+    "source_url": "https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection"
+  },
+  {
+    "id": "ger-d-f10a1bfe75bb",
+    "game": "ger",
+    "name_en": "Ogre Fang / Devil's Tail / Clear with 30+ Endurance",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-a8e4f4f567f80efc"
+    ],
+    "missing_fields": [
+      "quantity",
+      "reward_slot_model",
+      "original_page_review"
+    ],
+    "material_id": "ger-m-b3244148bc93",
+    "mission_id": "ger-q-3fe64f73c6e3",
+    "aragami_id": null,
+    "location_id": "ger-l-4bdf49c479e4",
+    "method": "bonus_reward",
+    "condition_ru": "Завершить с выносливостью 30+ (Endurance)",
+    "condition_en": "Clear with 30+ Endurance",
+    "drop_rate": 7,
+    "quantity": null,
+    "slot": null,
+    "source_url": "https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection"
+  },
+  {
+    "id": "ger-d-f499512277ea",
+    "game": "ger",
+    "name_en": "Moly / Devil's Tail / Automatic",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-68889e2bcd0ebf4c"
+    ],
+    "missing_fields": [
+      "quantity",
+      "reward_slot_model",
+      "original_page_review"
+    ],
+    "material_id": "ger-m-1b89fa83a6f9",
+    "mission_id": "ger-q-3fe64f73c6e3",
+    "aragami_id": null,
+    "location_id": "ger-l-4bdf49c479e4",
+    "method": "mission_reward",
+    "condition_ru": "Автоматическая награда",
+    "condition_en": "Automatic",
+    "drop_rate": 24,
+    "quantity": null,
+    "slot": null,
+    "source_url": "https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection"
+  },
+  {
+    "id": "ger-d-fadb5eb61de5",
+    "game": "ger",
+    "name_en": "Pixie Thorn / Mayflies",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-32f847a99170505d"
+    ],
+    "missing_fields": [
+      "drop_rate",
+      "quantity",
+      "reward_slot_model",
+      "original_page_review"
+    ],
+    "material_id": "ger-m-2d4127a5c1cd",
+    "mission_id": "ger-q-ee74f7e82d71",
+    "aragami_id": null,
+    "location_id": "ger-l-4bdf49c479e4",
+    "method": "mission_reward",
+    "condition_ru": "Автоматическая награда. В копии таблицы повторяются строки 25%; независимость бросков не установлена.",
+    "condition_en": "Automatic; repeated 25% rows; slot independence unconfirmed",
+    "drop_rate": null,
+    "quantity": null,
+    "slot": null,
+    "source_url": "https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection_-_Story_Missions"
+  }
+]

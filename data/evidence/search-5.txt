@@ -1,0 +1,1064 @@
+Blocked by robots.txt
+The following domains cannot be accessed (non-retryable error): godeater.fandom.com/ru/wiki/материалы_god_eater_resurrection, godeater.fandom.com/wiki/missions/god_eater_resurrection, godeater.fandom.com/wiki/missions/god_eater_resurrection_-_story_missions, godeater.fandom.com/wiki/variant_scythe--------------------------------------------------------------------------------
+Missions/God Eater Resurrection - Story Missions | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection_-_Story_Missions)
+ [wordlim: 200] Crawled: 4 months ago; # Missions/God Eater Resurrection - Story Missions ...     Story Mission Unlocked : Corrupt Cocoon ... Completing Corrupt Cocoon will advance your Story counter by one. ... Pixie Thorn  | Automatic  | 25%
+
+# Missions/God Eater Resurrection - Story Missions
+
+< Missions
+
+Sign In to Save Save Edit
+
+<tabber> 1=
+
+## Story 1[]
+
+Walkthrough
+    
+    Cutscene Unlocked : The Far East Branch
+    
+
+Once the scene finishes, you'll be standing in the Entrance of Den in front of the Mission Counter. If you talk to the operator, Hibari she will tell you to see your instructor, Tsubaki who is nearby you. She will tell you to go to the Laboratory, Where Dr. Sakaki will have you undergo a quick check. You can now take the Elevator and explore the Den, when you're finished go to the Laboratory and enter the door to the farthest.
+    
+    Cutscene Unlocked : Medical Check
+    
+
+You'll wake up in your room, where you can check the terminal. It contains the Archives, which upon reaching Story 3 will contain Cutscenes unlocked during your progress of the game. Exit your room and take the elevator to the Entrance. Talk to Hibari to learn that you have 3 missions unlocked.
+    
+    Free Mission Unlocked : Fallen Angel Egg
+    
+    Free Mission Unlocked : Cowboy
+    
+
+Fallen Angel Egg
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Zygote
+ | 
+
+  * The Zygote will spawn slightly above Point E.
+  * After 20 seconds pass, it will start patrolling the area.
+Notes
+---
+Objective: Find and eliminate your first flying Aragami. Recomended loadout: Get familiarized with your gun, or use jumping attacks to down it.
+Cowboy
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 4x Ogretail
+ | 
+
+  * The first one will spawn slightly below Point C
+  * The second and third ones appears after taking down the 1st one, at Point C and Point G respectively.
+  * 30 seconds later at Point G the final Ogretail spawns.
+  * Watch out for the Vajra entering at Point E and then patrolling the area. At this point simply ignore the Aragami and focus on the smaller ones.
+Notes
+---
+Objective: Meet the first increase in difficulty amongst the missions. Focus on avoiding combat with the Vajra and taking down the Ogretails. Recomended loadout: Anything will do, as the Vajra is not a primary target.
+
+Once you are ready to advance the Story, do as Hibari suggested and talk to Lindow nearby the Mission Counter. He will praise you, put a word in for the next mission you are about to receive. Now you can take the next Story Mission.
+    
+    Story Mission Unlocked : Corrupt Cocoon
+    
+
+Start the mission to get a cutscene with the medic introducing the melee-ranged team-ups benefits to you.
+    
+    Cutscene Unlocked : Mission with Sakuya
+    
+
+Corrupt Cocoon
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 2x Cocoon Maiden
+ | 
+
+  * One will spawn at Point C, the other at Point E
+Notes
+---
+Objective: Assist Sakuya in taking out the two Cocoon Maidens. On this mission only Sakuya accompanies you. Recomended loadout: Anything will do.
+
+Completing Corrupt Cocoon will advance your Story counter by one. |-| 3=
+
+## Story 3[]
+
+Walkthrough
+
+As a reward for your earlier mission, you have gained your first medic to support you on missions.
+    
+    Team Member Unlocked : Sakuya
+    
+
+Naturally along with that, the ability to personalize her abilities is also given.
+    
+    Personal Ability Unlocked : Sakuya
+    
+
+Go to the Mission Counter and talk to Hibari. She'll inform you that a new mission has been unlocked for you.
+    
+    Story Mission Unlocked : Iron Rain
+    
+
+As you start the mission you'll unlock a cutscene, that should serve as a reminder not to let your guard down.
+    
+    Cutscene Unlocked : Mission with Soma
+    
+
+Iron Rain
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 2x Ogretail
+  * 2x Cocoon Maiden
+ | 
+
+  * The Cocoon Maidens will spawn on separate elevated platforms.
+  * The Ogretails will spawn a little bit farther.
+Notes
+---
+Objective: Assist Soma in clearing the Aragami. On this mission only Soma accompanies you. Recomended loadout: Anything will do, for handling the Aragami easier lure the Ogretails away, then pick off the Cocoon Maidens with ease.
+    
+    Urgent Mission Unlocked : Mayflies
+    
+
+Mayflies
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 3x Zygote
+  * 2x Ogretail
+  * 2x Cocoon Maiden
+ | 
+
+  * Your team will start separated on the map.
+  * Cocoon Maidens spawn at Point E and between Point C and D.
+  * Ogretails spawn around Point G.
+  * Zygotes spawn at Point L, near one of the Cocoon Maidens at Point C and Point E.
+Notes
+---
+Objective: Follow a divide and conquer strategy and vanquish the small fries. Recomended loadout: Anything will do.
+Reward  | Conditions  | Probability
+500  | Automatic  | 100%
+Pixie Thorn  | Automatic  | 25%
+Pixie Thorn  | Automatic  | 25%
+Imploder  | Automatic  | 16%
+Imploder  | Automatic  | 16%
+Imploder  | Automatic  | 16%
+Ogre Fang  | Automatic  | 14%
+Ogre Fang  | Automatic  | 14%
+Ogre Tail  | Automatic  | 14%
+Ogre Tail  | Automatic  | 14%
+Pixie Elastomer  | Automatic  | 12%
+Pixie Elastomer  | Automatic  | 12%
+Sensor  | Automatic  | 7%
+Sensor  | Automatic  | 7%
+Sensor  | Automatic  | 7%
+Ogre Helm  | Automatic  | 3%
+Ogre Helm  | Automatic  | 3%
+Ogre Helm  | Clear under 3. min  | 10%
+Sensor  | Clear with 30+ Endurance  | 3%
+Sensor  | Clear with 30+ Endurance  | 3%
+Sensor  | Clear with 30+ Endurance  | 3%
+Ogre Helm  | Clear with 30+ Endurance  | 3%
+Ogre Helm  | Clear with 30+ Endurance  | 3%
+500 fc  | "Reward Credits Up" Lv1 or higher  | 30%
+Restore Pill  | "Get Consumable Items" Lv1 or higher  | 100%
+Restore Pill II  | "Get Consumable Items" Lv1 or higher  | 50%
+O-Ampule  | "Get Consumable Items" Lv1 or higher  | 50%
+OG: Restore Post  | "Get Consumable Items" Lv1 or higher  | 33%
+
+If you check in with Hibari at the Counter, you'll learn that the following missions have become available for you:
+    
+    Free Mission Unlocked : Whirlwind
+    
+    Free Mission Unlocked : Crocodile One
+    
+    Story Mission Unlocked : Mousetrap
+    
+
+Whirlwind
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Kongou
+ | 
+
+  * The Kongou will spawn at Point E
+  * At Point G two Zygotes will spawn additionally
+The bonds that can be shattered are as follows:
+
+  * Back Fin: On the top of the body, use Piercing bullets.
+  * Fangs: Piercing weapons or Piercing Bullets can unbind it with ease, careful if you hit it in a wrong angle it might count as hitting the Torso and not the fangs.
+  * Torso: Piercing weapons or Piercing Bullets.
+Mouse Trap
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Ogretail
+  * 2x Cocoon Maiden
+ | 
+
+  * The Cocoon Maidens spawn at Point L and G
+  * At Point L an Ogretail is also present.
+Notes
+---
+Objective: A simple punitive mission, nothing fancy. Recomended loadout: Anything will do.
+
+Once you've gotten around to clear Mouse Trap, the next Story mission will pop up at the Mission Counter.
+    
+    Story Mission Unlocked : Crocodile Two
+    
+
+As you start the mission, you'll unlock a cutscene
+    
+    Cutscene Unlocked : With Lindow and Sakuya
+    
+
+Crocodile Two
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Gboro-Gboro
+ | 
+
+  * Your target will invade at Point H
+  * At Point H and N Ogretails will spawn.
+Notes
+---
+Objective: Take a bit out of the amphibian beast, before it can do it to you.
+On this mission only Sakuya and Lindow accompanies you. The strategy is the same as before, watch the movement and counter attack accordingly. Recomended loadout: Spark elemental Piercing weapons and Piercing Bullets work great.
+
+Completing Crocodile Two will increase your Story counter by one.
+
+|-|
+
+6=
+
+## Story 6[]
+
+Walkthrough
+
+You can start off by going to the Mission Counter and finding a Story mission at your disposal
+    
+    Story Mission Unlocked : Glow of Prestige
+    
+
+Glow of Prestige
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 3x Zygote
+ | 
+
+  * Your targets spawn at Point D, G and J
+  * At Point E and G you will find Cocoon Maidens additionally
+Notes
+---
+Objective: Sweep the area and return with the spoils. Recomended loadout: Anything will do.
+
+When you return to the Counter, you'll see that the next op has been posted already
+    
+    Story Mission Unlocked : Concrete Jungle
+    
+
+When you feel ready and properly equipped start the mission and be rewarded with a cutscene
+    
+    Cutscene Unlocked : A Group Mission
+    
+
+Concrete Jungle
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Kongou
+  * 3x Zygote
+ | 
+
+  * The Kongou will invade at Point D at the start of the mission, ready to face you alone.
+  * At point B, E and H each a Zygote is present where each of your teammates is stationed.
+    Personal Ability Unlocked : Karel
+    
+    Personal Ability Unlocked : Shun
+    
+    Personal Ability Unlocked : Brendan
+    
+    Personal Ability Unlocked : Kanon
+    
+    Personal Ability Unlocked : Gina
+    
+
+Go to the counter to learn from Hibari that a new mission is ready to be taken on.
+    
+    Story Mission Unlocked : Snowball
+    
+
+Snowball
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 3x Ogretail
+ | 
+
+  * Around you at Point J 3 Cocoon Maidens will spawn
+  * The Ogretails spawn at Point P
+Notes
+---
+Objective: Clear the area, a simple mission On this mission Lindow, Sakuya and Kota accompany you Watch out for the 3 Aragami surrounding you at the start of the mission, better take them out before turning your attention to the Ogretail, which will arrive in a short time due to being lured by the battle noise. Recomended loadout: Anything will do.
+
+Clearing this easy mission nets your first Aerial Predator Style
+    
+    Predator Style Unlocked : Raven
+    
+
+Along with a Cutscene and an increase in Story counter.
+On this mission Lindow and Alisa are required, however there is 1 free slot for a team member. You can only choose one from Brendan, Kanon, Gina, Tatsumi, Shun or Karel.
+Recomended loadout: Blaze resistant Shield, Blaze or Freeze elemental Long Blade and Bullets.
+
+Upon clearing the previous mission you'll earn a cutscene and another increment to your Story counter
+    
+    Cutscene Unlocked : Lecture : Evolution
+    
+
+|-| 10=
+
+## Story 10[]
+
+Walkthrough
+
+Right off the bat you start with another ally becoming available.
+    
+    Team Member Unlocked : Alisa
+    
+
+And she comes with her own set of Abilities to boot too
+    
+    Personal Ability Unlocked : Alisa
+    
+
+Check in with Hibari and learn your new mission.
+    
+    Story Mission Unlocked : Aurora
+    
+
+Aurora
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 4x Cocoon Maiden
+ | 
+
+  * Your targets will spawn in pairs at Point C and E
+  * At Point E a lone Ogretail is also present
+Notes
+---
+Objective: Clear the board of the carrier On this mission you do not have preset allies, but only Unit 1 members can tag along. Recomended loadout: Anything will do.
+
+Clearing Aurora will increase your Story counter by one |-|
+
+11=
+
+Objective: Eradicate all fliers. On this mission only Sakuya, Soma and Kota will accompany you. Recomended loadout: Blaze or Freeze Elemental Long Blade does the trick.
+
+Finish the mission to unlock a Cutscene
+    
+    Cutscene Unlocked : Fading Hope
+    
+
+Return to check in at the Counter to learn your next destination already being determined
+    
+    Story Mission Unlocked : Crocodile Swagger
+    
+
+Crocodile Swagger
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Gboro-Gboro
+  * 1x Chi-You
+ | 
+
+  * At mission Start the Gboro-Gboro invades at Point D
+  * At Point L a Zygote and an Ogretail spawns
+  * Once the first target is slain the second will invade at Point D
+  * Another Zygote spawns at the same time with the Chi-You at Point C
+Notes
+---
+Objective: Get rid of the Amphibian and the follow-up Avian. On this mission Soma, Sakuya and Kota accompany you. Recomended loadout: Blaze element Long Blades for the Chi-You and Spark elemental Piercing Bullets versus the Gbor-Gboro
+
+In reward for your mission accomplished, a Cutscene is in
+    
+    Cutscene Unlocked : Confusion
+    
+
+Visit Hibari to learn that Alisa can now have visitors, but no new missions were posted as of yet. So let's go to to the Laboratory and enter the rightmost door to trigger a Cutscene.
+    
+    Cutscene Unlocked : Resonance
+    
+
+Go see the Operator back at the Mission Counter to learn your next target has been designated
+    
+    Story Mission Unlocked : Daytime Owl
+    
+
+Before embarking on it, another Cutscene will pop up
+    
+    Cutscene Unlocked : Ending the Search
+    
+
+Daytime Owl
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Kongou
+ | 
+
+  * Your Target will invade at point E
+  * One Zygote Spawns near Point J
+  * Three Cocoon Maidens spawn each near Point B, F and J
+Notes
+---
+Objective: Disable the lone Kongou On this mission Soma, Sakuya and Kota will accompany you Recomended loadout: Spark Elemental Long Blade and Piercing Bullets.
+
+Clearing Daytime Owl will increment your Story counter by one.
+
+|-| 14=
+
+    
+    Free Mission Unlocked : Snow Mouse
+    
+    Free Mission Unlocked : Scarlet Charger
+    
+    Free Mission Unlocked : Picnic Fields
+    
+    Free Mission Unlocked : Rabbit Hunt
+    
+
+Snow Mouse
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 3x Ogretail
+  * 2x Fallen Ogretail
+ | 
+
+  * All targets will spawn between Point A and B
+Notes
+---
+Objective: Clean up the Ogres and their Fallen variants. Recomended loadout: Anything will do, but the Fallen are vulnerable to Blaze.
+Scarlet Charger
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Quadriga
+ | 
+
+  * It will Invade at Point E
+Notes
+---
+Objective: Smash the Quadriga before it can trample you. Recomended loadout: Freeze or Divine elemental Boost Hammer, Piercing Bullets
+Picnic Fields
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Fallen Zygote
+  * 2x Fallen Cocoon Maiden
+ | 
+
+  * Around Point G the Fallen Zygote (Blaze) will spawn
+  * Near it and at Point E a Fallen Cocoon Maiden (Blaze) will spawn
+Notes
+---
+Objective: Meet your first Fallen Zygote (Blaze) and make just as a quick work of it like the regulars. Recomended loadout: Freeze elemental weapons and Bullets. Blaze Resistant equipment.
+
+Rabbit Hunt
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 2x Fallen Ogretail
+ | 
+
+  * Both Fallen Ogretails spawn at Point E
+  * Also at Point E a Zygote is present
+Notes
+---
+Objective: Burn them, Burn them all! Recomended loadout: Blaze element should do.
+
+Once you're done with the Free Missions go and seek Alisa. She will ask you to help her get back to feet by going on missions along side of you.
+    
+    Story Mission Unlocked : Tyrant Breath
+    
+
+Tyrant Breath
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Chi-You
+ | 
+
+  * Your target will Invade near Point H
+  * At Point C and E Fallen Zygotes (Blaze) will spawn
+Notes
+---
+Objective: Show Alisa how to beat the crap out of a Chi-You. On this mission only Alisa will accompany you. However due to 'Grief', the mission plays out as if you were doing it on your own. Recomended loadout: Blaze resistant Gear, Freeze Elemental Long Blade and Piercing Bullets. If you have troubles to keep up with a Chi-You on your own, bring lots of healing items, equip Upgrades that give you the skills of Item Speed and Item Effect.
+
+Complete Tyrant Breath to earn an increase to your Story counter.
+
+|-| 17=
+
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Vajra
+ | 
+
+  * Your primary target invades at Point G
+  * At Point D, H and E a Fallen Cocoon Maiden (Blaze ) is present
+  * At Point E a Fallen Zygote (Blaze) spawns
+Notes
+---
+Objective: Eliminate the Vajra, lure it out of the confined church. On this mission Sakuya, Kota and Alisa will accompany you. Recomended loadout: Freeze Elemental Long Blade, Spark resistant gear.
+
+Complete the mission and be rewarded with a Cutscene and a Story counter increment.
+    
+    Cutscene Unlocked : Alisa's Determination 2
+    
+
+|-| 20=
+
+## Story 20[]
+
+Walkthrough
+
+Talk to Hibari, who will ask you to go and help Kanon who had registered for a mission alone.
+    
+    Story Mission Unlocked : Iron Blizzard
+    
+
+Iron Blizzard
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Quadriga
+ | 
+
+  * Your target will spawn near Point J
+Notes
+---
+Objective: Remember the mission with Alisa and the Borg Camlann? You'll probably wish back that once you are done with this one. Notes
+---
+Objective: Slay the oversized feline and return with the core. Recomended loadout: Blaze or Freeze elemental Long Blade does the trick nicely.
+Tequila Sunrise
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Borg Camlann
+ | 
+
+  * Your target invades at Point E
+  * There are a total of  3 Fallen Zygote ( Blaze ), 2 at Point E, 1 at Point C
+  * At Point C a Cocoon Maiden is also present
+Notes
+---
+Objective: Ignore or squash the small fry, then mow down the Borg Camlann. Recomended loadout: Freeze or Spark element Long Blade does the job.
+Hell's Kitchen
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Fallen Gboro-Gboro (Blaze)
+ | 
+
+  * Your target spawns at Point F
+  * There are 4 Cocoon Maidens present also, a pair around Point D and another at Point K
+Notes
+---
+Objective: The big mouth amphibian returns, with a fiery vengeance. Recomended loadout: Freeze Elemental Long Blade and Freeze Elemental piercing Bullets.
+
+When you decide that you had enough go to your room and use your terminal, it will unlock a cutscene.
+    
+    Cutscene Unlocked : A Horrible Past
+    
+
+Talk to Hibari and get notified of your next mission.
+    
+    Story Mission Unlocked : Sleet
+    
+
+Sleet
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Fallen Kongou
+ | 
+
+  * Your target invades near Point M
+  * At Point E a Cocoon Maiden spawns
+  * At Point J and P each a Fallen Ogretail spawns
+Notes
+---
+Objective: Stop the Fallen Kongou from monkeying around and clear up the rest. On this mission only the members of Unit 1 can accompany you, it is your decision up to 3 who will you take. Recomended loadout: Blaze Elemental Long Blade is preferred
+
+As you clear the mission you are rewarded by a Cutscene and an increase in your Story counter.
+    
+    Cutscene Unlocked : Secrets
+    
+
+|-| 23=
+
+## Story 23[]
+
+Walkthrough
+
+Check the counter and see the new mission for yourself.
+    
+    Story Mission Unlocked : Symbol of Swords
+    
+
+As you start it off, you are greeted with a cutscene
+    
+    Cutscene Unlocked : Nightmares of Death
+    
+
+Symbol of Swords
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Borg Camlann
+ | 
+
+  * Your target invades at Point E, right before your starting point.
+  * At Point J a Fallen Ogretail prowls
+  * At Point D and G each a Zygoze spawns
+Notes
+---
+Objective: Cut the oversized scorpion to ribbons, while taking care of the smaller threats. On this mission only Kota, Alisa and Soma accompanies you. Recomended loadout: Freeze or Spark elemental Long Blade is recommended
+
+Once you finish up here, an increment in the Story Counter ensues.
+
+|-| 24=
+
+## Story 24[]
+
+Walkthrough
+
+If you talk to Hibari, you will be informed that Dr. Sakaki was looking for you, so head over to the Laboratory and speak with him in order to trigger a Cutscene.
+    
+    Cutscene Unlocked : Top Secret Mission
+    
+
+Once this is done go and check back to the Mission counter to learn that you have a couple of new missions to undertake, one of them a Story, the last for Rank 4.
+    
+    Story Mission Unlocked : Hematite Rose
+    
+    Free Mission Unlocked : God of Thunder
+    
+    Free Mission Unlocked : Troika
+    
+    Free Mission Unlocked : Sling Shot
+    
+    Free Mission Unlocked : Treacherous Temple
+    
+
+## Story 25[]
+
+Walkthrough
+
+By clearing Carnage Feast, you'll earn the right to take Rank 5 Urgent Missions, plus this is the first Survival Mission you will get access to. Survival Missions are multi-part missions, where you can change your weapon setup if you have different loadouts saved, however consumables can't be restocked until you return to the lobby.
+    
+    Urgent Mission Unlocked : Infantry Swarm
+    
+
+Infantry Swarm
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 4x Fallen Cocoon Maiden (Blaze)
+  * 4x Fallen Zygote (Blaze)
+ | 
+
+  * Your targets will spawn in a pain of Fallen Zygote and Fallen Maiden at Point D, C, G and near H.
+Notes
+---
+Objective: Mop the ground with the Aragami, their numbers aren't any advantage over you. Recomended loadout: Freeze Elemental weapons are a good choice, if you don't want to have a different weapon set for the second part of the Survival Mission, take a Freeze Elemental Boost Hammer with you.
+Reward  | Conditions  | Probability
+1700  | Automatic  | 100%
+    Cutscene Unlocked : Runaway Shio
+    
+
+Which temporarily leaves you unable to use your newest party member from use.
+    
+    Team Member Locked : Shio
+    
+
+Once you are ready, go talk to Hibari and get the newest mission assigned to you
+    
+    Story Mission Unlocked : Sweet Home
+    
+
+Sweet Home
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Sariel
+ | 
+
+  * Your target will invade at Point E, right in front of you
+  * Spread around the map are Spark and Blaze elemental Cocoon Maidens at Point G, D, L and J
+Notes
+---
+Objective: Take down the Sariel. On this mission only Soma and Kota accompanies you. Recomended loadout: Take a non-Divine Elemental Boost Hammer with you and this will be a breeze.
+
+Complete the mission Successfully and be rewarded by a Cutscene and increased Story counter.
+    
+    Cutscene Unlocked : Everyone's the Same
+    
+
+|-| 30=
+
+## Story 30[]
+
+Walkthrough
+
+First of all, the runaway partymember returned.
+    
+    Team Member Unlocked : Shio
+    
+
+You won't find a new mission at this time, so you can do the available Free missons until you feel ready. 
+  * 1x Aether
+  * 1x Fallen Gboro-Gboro (Freeze)
+ | 
+
+  * Both targets invade at Point E at the mission start
+  * At Point D there is a Fallen Cocoon Maiden (Spark)
+  * A Fallen Cocoon Maiden (Blaze) is at Popint D
+Notes
+---
+Objective: Get ready to enjoy the blood bath If you're fast enough, you can separate them by running towards the Maidens and hopefully the Gboro doesn't follow. Recomended loadout: Divine elemental Boost Hammer, Blaze elemental Crushing and Piercing bullets
+Invasive Swarm
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Yaksha
+  * 1x Yaksha Raja
+ | 
+
+  * The Yaksha Raja starts out at Point I
+  * Near point H the Yaksha invades
+  * At 2 minutes you get warned of incoming Yakshas and at the 3rd and 6th minute marks 1 Yaksha will arrive additionally.
+Notes
+---
+Objective: Smash them all! Recomended loadout: Any elemental Long Blade, Piercing Bullets
+
+Then when you are prepared take the Story Mission
+
+Devourer of World
+---
+Information
+ | 
+---
+
+  * 1x Sekhmet
+ | 
+
+  * It spawns near Poin F
+Notes
+---
+Objective: Take the blazing bird brain down. Recomended loadout: Freeze elemental Long Blade does the job
+Newcomer Trials
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Vajra
+ | 
+
+  * Your target invades at Point G
+Notes
+---
+Objective: A sole thunder kitty Recomended loadout: Non-Spark elemental Long Blade and Crushing Bullets
+Ruler's City
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Dyaus Pita (Resurrection)
+ | 
+
+  * Your target invades at Point G
+Notes
+---
+Objective: One super charged kity coming up! Recomended loadout: Divine Elemental Long Blade, Piercing Bulles.
+Runaway Tank
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Quadriga
+ | 
+
+  * It will invade at Point O
+Notes
+---
+Objective: One behemoth coming up! Recomended loadout: Freeze or Divine elemental Boost Hammer and Piercing Bullets
+Sidecar
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 2x Vajra
+ | 
+
+  * A Vajra will invade at Point E and another spawns at Point B
+Notes
+---
+Objective: Separate the kittens and take them down easily. Recomended loadout: Non-Spark Long Blade, Piercing and Crushing Bullets
+Nocturnal Axe
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Tezcatlipoca
+ | 
+
+  * You target invades on the other side of Aegis
+  * At the left side of Aegis a Fallen Cocoon Maiden (Spark) is present
+  * A Fallen Zygote Spark is present on the right and left sides of Aegis.
+Notes
+---
+Objective: Crush the small fry, then the behemoth. Recomended loadout: Divine Elemental Boost Hammer, Piercing and Crushing bullets.
+Dutch Oven
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Sekhmet
+  * 2x Fallen Gboro-Gboro (Blaze)
+ | 
+
+Notes
+---
+Objective: Simple punitive mission. Recomended loadout: Divine Elemental Boost Hammer
+
+When you're ready to tackle the story again, head over to Hibari and get the next mission assigned
+
+Radiant Halo
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Arda Nova
+ | 
+
+  * It will spawn at Point E
+Notes
+---
+Objective: Yep, the Arda is back again! You can bring anyone available for this mission. Recomended loadout: Elemental Long Blade, Piercing and Crushing Bullets.
+
+Clearing the mission rewards you with an increase to your story counter.
+
+|-|
+
+76=
+
+## Story 76[]
+
+Walkthrough
+
+Clearing Radiant Halo allows you to unlock the Rank 11 Urgent mission, which is a 2 parter.
+
+Spilt Milk
+---
+Information
+ | 
+---
+Target Aragami  | Details
+
+  * 1x Dyaus Pita (Resurrection)
+  * 1x Prithvi Mata
+ | 
+
+  * The Pita spawns at Point J
+  * At Point B, and between B and A an Ogretail is present. At 30 and 60 seconds each another Ogretail will spawn, totaling their numbers at 4
+  * After killing the Pita, the Mata invades at Point H.
+--------------------------------------------------------------------------------
+Variant Scythe | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Variant_Scythe)
+ [wordlim: 200] Crawled: 4 months ago; Boost Hammer  | Charge Spear  | Variant Scythe ... ## God Eater Resurrection[] ... [File Placeholder]  | Kurogane Scythe [Rank 1]  | Kurogane Scythe [Rank 1] ↕ [PH]  | MatPlaceholder1  | Combo Master  | 106  | 0  | 0  | -  | -  | -  | -
+
+# Variant Scythe
+
+Sign In to Save Save Edit
+
+  * History
+  * Purge
+  * Talk (0)
+
+iframe
+
+    
+
+This article lacks some information. You can help God Eater Wiki expanding it.
+
+ |  | 
+Short Blade  | Long Blade  | Buster Blade
+ |  | 
+Boost Hammer  | Charge Spear  | Variant Scythe
+ |  | 
+
+## God Eater Resurrection[]
+
+### Dama de Ferro[]
+
+  * Dama de Ferro
+
+  * Dama de Fogo
+
+  * Dama de Geada
+
+Design  | Weapon  | Materials  | Skills  | Damage
+ | Dama de Ferro
+Rank 1  | 350 Fc
+1x Pixie Thorn
+1x Pixie Shell  | Daunting Might I (E)  | Slash 92
+ | Dama de Ferro II
+Rank 2  | 448 Fc
+Dama de Ferro
+1x Pixie Thorn
+1x Pixie Shell
+1x Elastomer  | Daunting Might II (E)  | Slash 117
+ | Dama de Ferro N
+Rank 4  | 2800 Fc
+Dama de Ferro II
+1x Pixie Spine
+1x Pixie Shell
+1x Rough Barrel
+1x Pixie Elastomer  | Daunting Might III (E)  | Slash 210
+--------------------------------------------------------------------------------
+Materials | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Materials)
+ [wordlim: 200] Crawled: 4 months ago; You can help God Eater Wiki expanding it. ...   * Aragami corpse (given materials depend on whether parts have been broken) through devouring.
+--------------------------------------------------------------------------------
+Charge Spear | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Charge_Spear)
+ [wordlim: 200] Crawled: 5 months ago; Boost Hammer  | Charge Spear  | Variant Scythe ... ## God Eater Resurrection ... Rank 1  | 350 Fc
+--------------------------------------------------------------------------------
+Control Units/God Eater Resurrection | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Control_Units/God_Eater_Resurrection)
+ [wordlim: 200] Crawled: 4 months ago; # Control Units/God Eater Resurrection ... Each Control Unit has a rank, and Control Units of a given rank can only be equipped to Predator Styles of that rank or higher (i.e. you cannot equip a rank 2 Control Unit to a rank 1 Predator Style).
+--------------------------------------------------------------------------------
+Missions/God Eater Resurrection | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection)
+ [wordlim: 200] Crawled: 4 months ago; Dragon God  | Caligula  | Forgotten Carrier  |
+--------------------------------------------------------------------------------
+Exchange | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Exchange)
+ [wordlim: 200] Crawled: 4 months ago;  | x3 Brittle Titanium (x1)  | x1 Titanium  | x3 Bronze F-Ticket ...  | x3 Mana Stone Chip (x1)  | x1 Mana Stone  | x6 Bronze F-Ticket
+--------------------------------------------------------------------------------
+Character Creation | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Character_Creation)
+ [wordlim: 200] Crawled: 4 months ago;   * Craftable equipment and clothes will be reverted to rank 1.
+--------------------------------------------------------------------------------
+God Eater Burst Missions | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/God_Eater_Burst_Missions)
+ [wordlim: 200] Crawled: 4 months ago; Chimera Wing  | Story mission. ... Cocoon Maiden x3. ... Blaze Pixie Shell  | -
+--------------------------------------------------------------------------------
+Shield | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Shield)
+ [wordlim: 200] Crawled: 4 months ago; 1x Aragami Bone Chip ... 1x Titanium Superalloy  | Knight's Pride III (E)
+--------------------------------------------------------------------------------
+Tower Shield | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Tower_Shield)
+ [wordlim: 200] Crawled: 4 months ago; # God Eater Resurrection ... Rank 1  | 350 Fc
+--------------------------------------------------------------------------------
+Data Importation | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Data_Importation)
+ [wordlim: 200] Crawled: 4 months ago; The Japanese version of God Eater Burst allows you to import the God Eater savedata. ... Start from the beginning (Rank 1, with items and 100000 fc).
+

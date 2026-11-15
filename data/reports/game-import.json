@@ -1,0 +1,134 @@
+{
+  "game": "ger",
+  "app_id": "460870",
+  "build_id": "1412844",
+  "checked_at": "2026-11-15",
+  "sample": false,
+  "counts": {
+    "materials": {
+      "before": 151,
+      "after": 616,
+      "added": 465,
+      "updated": 151
+    },
+    "items": {
+      "before": 51,
+      "after": 2787,
+      "added": 2736,
+      "updated": 51
+    },
+    "recipes": {
+      "before": 51,
+      "after": 2806,
+      "added": 2755,
+      "updated": 51
+    }
+  },
+  "selected_rows": 2807,
+  "accepted_rows": 2806,
+  "quarantined_rows": 1,
+  "preserved_existing_ids": 252,
+  "factual_changes": [
+    {
+      "collection": "materials",
+      "id": "ger-m-9f9ad96cba35",
+      "name_en": "Wukong Armor +",
+      "fields": {
+        "name_en": {
+          "before": "Wukong Armor+",
+          "after": "Wukong Armor +"
+        }
+      }
+    },
+    {
+      "collection": "materials",
+      "id": "ger-m-8d6d6e0a9ba4",
+      "name_en": "King Armor +",
+      "fields": {
+        "name_en": {
+          "before": "King Armor+",
+          "after": "King Armor +"
+        }
+      }
+    },
+    {
+      "collection": "recipes",
+      "id": "ger-r-d28eacbed53f",
+      "name_en": "Dama de Ferro II — upgrade",
+      "fields": {
+        "materials": {
+          "before": [
+            {
+              "material_id": "ger-m-2d4127a5c1cd",
+              "quantity": 1
+            },
+            {
+              "material_id": "ger-m-8d3430f59e2c",
+              "quantity": 1
+            },
+            {
+              "material_id": "ger-m-972be8f49296",
+              "quantity": 1
+            }
+          ],
+          "after": [
+            {
+              "material_id": "ger-m-2d4127a5c1cd",
+              "quantity": 1
+            },
+            {
+              "material_id": "ger-m-8d3430f59e2c",
+              "quantity": 1
+            },
+            {
+              "material_id": "ger-m-7aaddb0e1172",
+              "quantity": 1
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "blocking": [],
+  "undecoded_russian_names": 3402,
+  "issues": [
+    {
+      "code": "GAME_ROW_QUARANTINED",
+      "name": "upgrades/1793: Koenig Schild",
+      "detail": "Не найден предмет: 12777.",
+      "source_id": "game-steam-460870-1412844",
+      "native_id": 1793,
+      "resource": "upgrades"
+    },
+    {
+      "code": "GAME_LEGACY_MATERIAL_UNMATCHED",
+      "name": "Elastomer",
+      "detail": "Существующая запись ger-m-972be8f49296 сохранена для совместимости, но её соответствие игровому ID не установлено. Она не используется для подстановки ингредиентов в извлечённые рецепты.",
+      "source_id": "game-steam-460870-1412844"
+    },
+    {
+      "code": "GAME_AVAILABILITY_REVIEW",
+      "name": "Доступность извлечённого контента",
+      "detail": "Импорт ограничен рабочими таблицами рецептов и связанными предметами. Наличие записи в таблице не подтверждает её доступность игроку.",
+      "source_id": "game-steam-460870-1412844"
+    },
+    {
+      "code": "GAME_PACKED_LAYOUT_REVIEW",
+      "name": "Поля улучшений и условия открытия",
+      "detail": "Структура KST проверена автоматически; ручная сверка с экраном игры ещё требуется. Сюжетные условия сохранены как исходные числа, а не преобразованы в ранги.",
+      "source_id": "game-steam-460870-1412844"
+    },
+    {
+      "code": "GAME_TEXT_ENCODING",
+      "name": "Русские названия предметов",
+      "detail": "3402 названий содержат специальные байты. Существующие переводы сохранены; повреждённые строки не используются как перевод.",
+      "source_id": "game-steam-460870-1412844"
+    }
+  ],
+  "scope": "Materials used by equipment recipes, equipment including clothing, craft and upgrade recipes. Missions, drops and synthesis are not changed.",
+  "plan_sha256": "2f23a68c2907cb1a8382b275f7eacaeab024bfbbc4ad38d27bc374b062b5806e",
+  "base_sha256": "4e4323b2e379c8debec0c66c4cc4ec37e1ac04f55fdb5432c3741b0c49a64df6",
+  "validation_errors": [],
+  "valid": true,
+  "applied": true
+}

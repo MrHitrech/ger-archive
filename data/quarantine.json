@@ -1,0 +1,271 @@
+[
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Aurora",
+    "source_id": "wiki-missions",
+    "excerpt": "17. Aurora  | Cocoon Madiens, Ogretails  | Forgotten Carrier  | Story Mission",
+    "detail": "Не сопоставлены: Cocoon Madiens"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Little Ruler",
+    "source_id": "wiki-missions",
+    "excerpt": "1. Little Ruler  | Fallen Ogretail, Vajratail (Blaze), Vajratail (Freeze)  | City of Mercy  | Story Mission",
+    "detail": "Не сопоставлены: Vajratail (Freeze)"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Missile Fire",
+    "source_id": "wiki-missions",
+    "excerpt": "4. Missile Fire  | Qradriga  | City of Mercy  | Story Mission",
+    "detail": "Не сопоставлены: Qradriga"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Dark Wing",
+    "source_id": "wiki-missions",
+    "excerpt": "3. Dark Wing  | Fallen Chi-You (Charged)  | Wailing Plains  | Story Mission. Fixed NPCs: Shun",
+    "detail": "Не сопоставлены: Fallen Chi-You (Charged)"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Cerberus",
+    "source_id": "wiki-missions",
+    "excerpt": "10. Cerberus  | Dyaus Pita, Sektmet, Fallen Chi-You (Spark)  | Infernal Subway  | ",
+    "detail": "Не сопоставлены: Sektmet"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Unidentified",
+    "source_id": "wiki-missions",
+    "excerpt": "4. Unidentified  | Fallen Gboro-Gboro  | Forgotten Carrier  | ",
+    "detail": "Не сопоставлены: Fallen Gboro-Gboro"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Devil Bear",
+    "source_id": "wiki-missions",
+    "excerpt": "3. Devil Bear  | Quadriga (Freeze), Fallen Zygote (Freeze), Fallen Ogretail  | Tranquil Temple  | Story Mission",
+    "detail": "Не сопоставлены: Quadriga (Freeze)"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Red Tape",
+    "source_id": "wiki-missions",
+    "excerpt": "9. Red Tape  | Hannibal, Fallen Gboro-Gboro (Blazze), Fallen Zygote (Blaze)  | Forgotten Carrier  | Story Mission. Fixed NPCs: Kota",
+    "detail": "Не сопоставлены: Fallen Gboro-Gboro (Blazze)"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Corn Snow",
+    "source_id": "wiki-missions",
+    "excerpt": "2. Corn Snow  | 2 Yaksha Raja. Yaksha Raja, Fallen Cocoon Maidens (Blaze)  | Tranquil Temple  | Story Mission. Fixed NPCs: Tatsumi, Brendan, Kanon",
+    "detail": "Не сопоставлены: Yaksha Raja. Yaksha Raja"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Corroded Gorget",
+    "source_id": "wiki-missions",
+    "excerpt": "5. Corroded Gorget  | Fallen Borg Camlann (Spark), Fallen Chi-You (Spark), Fallen Cocoon Maiden (Spark), Vajratail  | Forgotten Carrier  | Story Mission. Fixed NPCs: Kota",
+    "detail": "Не сопоставлены: Vajratail"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Wispy Clouds",
+    "source_id": "wiki-missions",
+    "excerpt": "9. Wispy Clouds  | 2 Aethers, Fallen Zygotes (Spark)  | Tranquil Temple  | Story Mission",
+    "detail": "Не сопоставлены: Aethers"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Triumvirate",
+    "source_id": "wiki-missions",
+    "excerpt": "1. Triumvirate  | Fallen Chi-Yous (Spark)  | Sunken Grid  | ",
+    "detail": "Не сопоставлены: Fallen Chi-Yous (Spark)"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Origin",
+    "source_id": "wiki-missions",
+    "excerpt": "16. Origin  | 2 Borg Camlann, 2 Sariels, 2 Vajra  | Aegis  | ",
+    "detail": "Не сопоставлены: Sariels"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "King of the Hill",
+    "source_id": "wiki-missions",
+    "excerpt": "20. King of the Hill  | Corrosive Hannibal, Cocoon Maiden, Vajratails  | Sunken Grid  | Solo, No respawns",
+    "detail": "Не сопоставлены: Vajratails"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Focus Forever",
+    "source_id": "wiki-missions",
+    "excerpt": "21. Focus Forever  | Kongou, Gboro-Gboro, Chi- You  | Church of Memories  | ",
+    "detail": "Не сопоставлены: Chi- You"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Drosera",
+    "source_id": "wiki-missions",
+    "excerpt": "19. Drosera  | Fallen Chi-You (Spark), Fallen Goboro-Gboro (Blaze), Zygote, Fallen Zygote (Blaze)  | Infernal Subway  | ",
+    "detail": "Не сопоставлены: Fallen Goboro-Gboro (Blaze)"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Icy Damsel",
+    "source_id": "wiki-missions",
+    "excerpt": "1. Icy Damsel  | 2 Vajra, Prithvia Mata, Fallen Zygote (Freeze), Fallen Ogretail  | Tranquil Temple  | Story Mission. Fixed NPCs: Kota, Alisa, Sakuya",
+    "detail": "Не сопоставлены: Prithvia Mata"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Empress's Forest",
+    "source_id": "wiki-missions",
+    "excerpt": "2. Empress's Forest  | Prithvia Mata  | Sunken Grid  | ",
+    "detail": "Не сопоставлены: Prithvia Mata"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Avalanche",
+    "source_id": "wiki-missions",
+    "excerpt": "5. Avalanche  | 2 Fallen Kongous (Freeze), Gboro-Gboro, Fallen Cocoon Maiden (Freeze), Fallen Zygote (Freeze)  | Tranqil Temple  | Story Mission. Fixed NPCs: Kota",
+    "detail": "Не сопоставлены: Fallen Kongous (Freeze)"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Bestial Twilight",
+    "source_id": "wiki-missions",
+    "excerpt": "6. Bestial Twilight  | Dyaus Pita, Prithva Mata  | City of Mercy  | Story Mission. Fixed NPCs: Alisa, Soma, Sakuya.",
+    "detail": "Не сопоставлены: Prithva Mata"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Nepenthes",
+    "source_id": "wiki-missions",
+    "excerpt": "8. Nepenthes  | Prithva Mata, Fallen Cocoon Maiden (Freeze), Fallen Zygote (Freeze), Fallen Ogretail.  | City of Mercy  | ",
+    "detail": "Не сопоставлены: Prithva Mata, Fallen Ogretail."
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Ice-Croc's Slumber",
+    "source_id": "wiki-missions",
+    "excerpt": "15. Ice-Croc's Slumber  | Fallen Gboto-Gboro (Freeze)  | Forgotten Carrier  | ",
+    "detail": "Не сопоставлены: Fallen Gboto-Gboro (Freeze)"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Shark Fin",
+    "source_id": "wiki-missions",
+    "excerpt": "21. Shark Fin  | Vajra, Fallen Gboro-Gboro  | Infernal Subway  | Story Mission. Fixed NPCs: Soma",
+    "detail": "Не сопоставлены: Fallen Gboro-Gboro"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "God Eater Burst",
+    "source_id": "wiki-missions",
+    "excerpt": "27. God Eater Burst  | 4 Fierce Kongous, 4 Sekhmets, 2 Dyaus Pitas, 2 Corrosive Hannibals  | Aegis  | ",
+    "detail": "Не сопоставлены: Fierce Kongous, Sekhmets, Dyaus Pitas, Corrosive Hannibals"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Salty Dog",
+    "source_id": "wiki-missions",
+    "excerpt": "3. Salty Dog  | 2 Gboro-Gboros, Fallen Ogretail, Zygote  | Sunken Grid  | ",
+    "detail": "Не сопоставлены: Gboro-Gboros"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Rusted Edge",
+    "source_id": "wiki-missions",
+    "excerpt": "9. Rusted Edge  | Chi-you, Zygote  | City of Mercy  | Story Mission. Fixed NPCs: Sakuya, Soma, Kota",
+    "detail": "Не сопоставлены: Chi-you"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Symbol of Swords",
+    "source_id": "wiki-missions",
+    "excerpt": "16. Symbol of Swords  | Borg Camlamm, Zygotes, Fallen Ogretails  | Tranquil Temple  | Story Mission. Fixed NPCs: Kota, Soma, Alisa",
+    "detail": "Не сопоставлены: Borg Camlamm"
+  },
+  {
+    "code": "AMBIGUOUS_ENEMY",
+    "name": "Bestial Twilight",
+    "source_id": "wiki-missions",
+    "excerpt": "6. Bestial Twilight  | Dyaus Pita, Prithva Mata  | City of Mercy  | Story Mission",
+    "detail": "Не сопоставлены: Prithva Mata"
+  },
+  {
+    "code": "AMBIGUOUS_REWARD_SLOTS",
+    "name": "Impure Grease / Devil's Tail",
+    "source_id": "wiki-missions",
+    "detail": "Повторяющиеся автоматические награды с разными шансами. Вероятность оставлена null."
+  },
+  {
+    "code": "CROSS_GAME_REJECTED",
+    "name": "Ogretail devour rates",
+    "source_id": "wiki-ogretail-advanced",
+    "detail": "Таблица на Ogretail/Advanced_Information помечена God Eater Burst. Проценты не перенесены в Resurrection."
+  },
+  {
+    "code": "AMBIGUOUS_INGREDIENT",
+    "name": "DEF",
+    "source_id": "wiki-upgrades",
+    "detail": "В GER-таблице указан ингредиент 1x Ogretail. Рецепт исключён: это имя противника, корректный материал не установлен."
+  },
+  {
+    "code": "DUPLICATE_LABEL",
+    "name": "Item Effect",
+    "source_id": "wiki-upgrades",
+    "detail": "Две строки с одинаковым именем, разными материалами и навыками. Рецепты исключены до проверки."
+  },
+  {
+    "code": "AMBIGUOUS_REWARD_SLOTS",
+    "name": "Mayflies",
+    "source_id": "wiki-story",
+    "detail": "Повторяющиеся награды 25% не суммируются; вероятность и количество оставлены null."
+  },
+  {
+    "code": "PLACEHOLDER_REJECTED",
+    "name": "Kurogane Scythe",
+    "source_id": "wiki-scythe",
+    "detail": "MatPlaceholder1 и [PH] не являются подтверждёнными игровыми данными."
+  },
+  {
+    "code": "SOURCE_ACCESS",
+    "name": "Fandom",
+    "detail": "HTTP 403, robots restrictions. Только сохранённые поисковые копии, без обхода ограничений. Ни одна игровая запись не объявлена verified."
+  },
+  {
+    "code": "GAME_ROW_QUARANTINED",
+    "name": "upgrades/1793: Koenig Schild",
+    "detail": "Не найден предмет: 12777.",
+    "source_id": "game-steam-460870-1412844",
+    "native_id": 1793,
+    "resource": "upgrades"
+  },
+  {
+    "code": "GAME_LEGACY_MATERIAL_UNMATCHED",
+    "name": "Elastomer",
+    "detail": "Существующая запись ger-m-972be8f49296 сохранена для совместимости, но её соответствие игровому ID не установлено. Она не используется для подстановки ингредиентов в извлечённые рецепты.",
+    "source_id": "game-steam-460870-1412844"
+  },
+  {
+    "code": "GAME_AVAILABILITY_REVIEW",
+    "name": "Доступность извлечённого контента",
+    "detail": "Импорт ограничен рабочими таблицами рецептов и связанными предметами. Наличие записи в таблице не подтверждает её доступность игроку.",
+    "source_id": "game-steam-460870-1412844"
+  },
+  {
+    "code": "GAME_PACKED_LAYOUT_REVIEW",
+    "name": "Поля улучшений и условия открытия",
+    "detail": "Структура KST проверена автоматически; ручная сверка с экраном игры ещё требуется. Сюжетные условия сохранены как исходные числа, а не преобразованы в ранги.",
+    "source_id": "game-steam-460870-1412844"
+  },
+  {
+    "code": "GAME_TEXT_ENCODING",
+    "name": "Русские названия предметов",
+    "detail": "3402 названий содержат специальные байты. Существующие переводы сохранены; повреждённые строки не используются как перевод.",
+    "source_id": "game-steam-460870-1412844"
+  }
+]

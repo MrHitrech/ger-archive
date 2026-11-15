@@ -1,0 +1,18 @@
+[
+  {
+    "native_id": 10267,
+    "collection": "materials",
+    "existing_id": "ger-m-9f9ad96cba35",
+    "previous_name": "Wukong Armor+",
+    "canonical_name": "Wukong Armor +",
+    "reason_ru": "Различается пробел перед сохранённым суффиксом +. Строка улучшения 80 использует ID 10267. Базовый материал без + не объединяется с этой записью."
+  },
+  {
+    "native_id": 10510,
+    "collection": "materials",
+    "existing_id": "ger-m-8d6d6e0a9ba4",
+    "previous_name": "King Armor+",
+    "canonical_name": "King Armor +",
+    "reason_ru": "Различается пробел перед сохранённым суффиксом +. Строка улучшения 1717 использует ID 10510. Базовый материал без + не объединяется с этой записью."
+  }
+]

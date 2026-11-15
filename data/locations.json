@@ -1,0 +1,119 @@
+[
+  {
+    "id": "ger-l-021a8a807e24",
+    "game": "ger",
+    "name_en": "Wailing Plains",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-e5d54283a5e61ff2"
+    ],
+    "missing_fields": [
+      "original_page_review"
+    ]
+  },
+  {
+    "id": "ger-l-0c0813c0117b",
+    "game": "ger",
+    "name_en": "Forgotten Carrier",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-e011f1fdf97beadf"
+    ],
+    "missing_fields": [
+      "original_page_review"
+    ]
+  },
+  {
+    "id": "ger-l-0dc4f625c359",
+    "game": "ger",
+    "name_en": "Sunken Grid",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-b01014f7573de02c"
+    ],
+    "missing_fields": [
+      "original_page_review"
+    ]
+  },
+  {
+    "id": "ger-l-2e418eb7ca2c",
+    "game": "ger",
+    "name_en": "Infernal Subway",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-c783f8c99c46c1c4"
+    ],
+    "missing_fields": [
+      "original_page_review"
+    ]
+  },
+  {
+    "id": "ger-l-3fbe64cc2465",
+    "game": "ger",
+    "name_en": "Aegis",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-87ca8e0ffde34b24"
+    ],
+    "missing_fields": [
+      "original_page_review"
+    ]
+  },
+  {
+    "id": "ger-l-4bdf49c479e4",
+    "game": "ger",
+    "name_en": "City of Mercy",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-f58bfdeea0844550"
+    ],
+    "missing_fields": [
+      "original_page_review"
+    ]
+  },
+  {
+    "id": "ger-l-cfb2f98647e1",
+    "game": "ger",
+    "name_en": "Tranquil Temple",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-53fdbfba585c7363"
+    ],
+    "missing_fields": [
+      "original_page_review"
+    ]
+  },
+  {
+    "id": "ger-l-e343fe69f84a",
+    "game": "ger",
+    "name_en": "Moonlit Mountain",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-9ace58e6b47b3484"
+    ],
+    "missing_fields": [
+      "original_page_review"
+    ]
+  },
+  {
+    "id": "ger-l-fae90d5943d1",
+    "game": "ger",
+    "name_en": "Church of Memories",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-c834c460da86ecd3"
+    ],
+    "missing_fields": [
+      "original_page_review"
+    ]
+  }
+]

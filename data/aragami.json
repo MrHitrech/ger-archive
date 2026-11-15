@@ -1,0 +1,938 @@
+[
+  {
+    "id": "ger-a-07720796c24e",
+    "game": "ger",
+    "name_en": "Yaksha Raja",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-de7e0ae8f84114b8"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Yaksha Raja",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-15d8e0363efd",
+    "game": "ger",
+    "name_en": "Ravana",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-5b5584f5415ca3a6"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Ravana",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-1a944b933680",
+    "game": "ger",
+    "name_en": "Fallen Borg Camlann (Blaze)",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-d1d4bfa888f72135"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Fallen Borg Camlann (Blaze)",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-1c2dd4819abe",
+    "game": "ger",
+    "name_en": "Ogretail",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-f58bfdeea0844550"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Ogretail",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-204490f88904",
+    "game": "ger",
+    "name_en": "Arda Nova",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-27f749f34f040419"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Arda Nova",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-2c17a0d1e245",
+    "game": "ger",
+    "name_en": "Fallen Zygote (Freeze)",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-396fa128b8b7009b"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Fallen Zygote (Freeze)",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-30a03ad89563",
+    "game": "ger",
+    "name_en": "Fallen Gboro-Gboro (Freeze)",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-acb287dc0206cc04"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Fallen Gboro-Gboro (Freeze)",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-3559595523da",
+    "game": "ger",
+    "name_en": "Arius Nova",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-9ace58e6b47b3484"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Arius Nova",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-383642d6c036",
+    "game": "ger",
+    "name_en": "Kongou",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-53fdbfba585c7363"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Kongou",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-3ecc2414e6cd",
+    "game": "ger",
+    "name_en": "Golden Gboro-Gboro",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-bbbc9ec1fac0334c"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Golden Gboro-Gboro",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-42ffd31f5e4a",
+    "game": "ger",
+    "name_en": "Sekhmet",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-4e1c8accd62b5e42"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Sekhmet",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-491bdf55c868",
+    "game": "ger",
+    "name_en": "Fallen Zygote (Blaze)",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-ad403f63eb2098ff"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Fallen Zygote (Blaze)",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-4992e686cc07",
+    "game": "ger",
+    "name_en": "Ouroboros",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-113d26e95323ef36"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Ouroboros",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-4b6c72428dd1",
+    "game": "ger",
+    "name_en": "Fallen Cocoon Maiden (Blaze)",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-87ca8e0ffde34b24"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Fallen Cocoon Maiden (Blaze)",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-4bad81a705d9",
+    "game": "ger",
+    "name_en": "Caligula",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-748d87fbc33969a8"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Caligula",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-505fb118f827",
+    "game": "ger",
+    "name_en": "Sariel",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-6923eb187bc58e28"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Sariel",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-5430ef45c41e",
+    "game": "ger",
+    "name_en": "Amaterasu",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-a004cb6ae532829a"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Amaterasu",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-5bb7dc995996",
+    "game": "ger",
+    "name_en": "Fallen Cocoon Maiden (Freeze)",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-87ca8e0ffde34b24"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Fallen Cocoon Maiden (Freeze)",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-5e0e74a1da64",
+    "game": "ger",
+    "name_en": "Corrosive Hannibal",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-f636353e452aeb47"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Corrosive Hannibal",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-5f3f5061ae7b",
+    "game": "ger",
+    "name_en": "Fallen Ogretail",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-9fc15d5f2af78836"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Fallen Ogretail",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-68fae44d3d2c",
+    "game": "ger",
+    "name_en": "Venus",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-a6c51049f7ae1cbf"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Venus",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-70acb4113eb5",
+    "game": "ger",
+    "name_en": "Aether",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-5436b2b220fe390d"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Aether",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-742f68ffae47",
+    "game": "ger",
+    "name_en": "Fallen Borg Camlann (Spark)",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-4c6b7db64761997d"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Fallen Borg Camlann (Spark)",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-769a948234b6",
+    "game": "ger",
+    "name_en": "Susano'o",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-fe5100ac7a85a58d"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Susano'o",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-7d38d15e2624",
+    "game": "ger",
+    "name_en": "Hannibal",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-5c4655d5236d4f1e"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Hannibal",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-7f59fa145dbf",
+    "game": "ger",
+    "name_en": "Quadriga",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-8a65e18b9144450e"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Quadriga",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-8c5eafaa5690",
+    "game": "ger",
+    "name_en": "Fallen Sariel",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-86a5a561718b72f0"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Fallen Sariel",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-94305bba2f47",
+    "game": "ger",
+    "name_en": "Fallen Zygote (Spark)",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-ad403f63eb2098ff"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Fallen Zygote (Spark)",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-978b8ddc1252",
+    "game": "ger",
+    "name_en": "Gboro-Gboro",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-52dc70e465bc498b"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Gboro-Gboro",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-9ec2edfaeb35",
+    "game": "ger",
+    "name_en": "Vajratail (Blaze)",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-4e1c8accd62b5e42"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Vajratail (Blaze)",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-a016ef6928e6",
+    "game": "ger",
+    "name_en": "Prithvi Mata",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-ebd842706c07cc3f"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Prithvi Mata",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-a023271bcec0",
+    "game": "ger",
+    "name_en": "Zygote",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-d1634e1f3f102f6f"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Zygote",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-a4b55a512663",
+    "game": "ger",
+    "name_en": "Chi-You",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-c783f8c99c46c1c4"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Chi-You",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-aaa98fec8ac7",
+    "game": "ger",
+    "name_en": "Fallen Arda Nova",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-32446234324c3479"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Fallen Arda Nova",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-afa34afb3842",
+    "game": "ger",
+    "name_en": "Fallen Kongou (Freeze)",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-46b0108f0193461b"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Fallen Kongou (Freeze)",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-b9bc9ac1fbcc",
+    "game": "ger",
+    "name_en": "Fallen Chi-You (Spark)",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-396fa128b8b7009b"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Fallen Chi-You (Spark)",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-bebb2f4712a1",
+    "game": "ger",
+    "name_en": "Yaksha",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-de7e0ae8f84114b8"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Yaksha",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-ca56f474370d",
+    "game": "ger",
+    "name_en": "Borg Camlann",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-ba35f9d5bf7a50f7"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Borg Camlann",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-cd905643fe0e",
+    "game": "ger",
+    "name_en": "Fierce Kongou",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-67a3758f456b357f"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Fierce Kongou",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-cda626d39a0a",
+    "game": "ger",
+    "name_en": "Blitz Hannibal",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-7c1360c328a346b4"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Blitz Hannibal",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-d4444a6170d8",
+    "game": "ger",
+    "name_en": "Fallen Ouroboros",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-3dc9a181ffdec7d6"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Fallen Ouroboros",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-d50dded847d0",
+    "game": "ger",
+    "name_en": "Vajratail (Spark)",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-025bf27ca25e08eb"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Vajratail (Spark)",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-d8f2b7ff68f0",
+    "game": "ger",
+    "name_en": "Tezcatlipoca",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-d2dc071fabddfca5"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Tezcatlipoca",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-db87affe8bd0",
+    "game": "ger",
+    "name_en": "Balfa Mata",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-0ca6ee5fdd501089"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Balfa Mata",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-dc90a0e31b7e",
+    "game": "ger",
+    "name_en": "Fallen Cocoon Maiden (Spark)",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-87ca8e0ffde34b24"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Fallen Cocoon Maiden (Spark)",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-e4442679b5cc",
+    "game": "ger",
+    "name_en": "Vajra",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-184f3fec7e4f5e29"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Vajra",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-edb038db4478",
+    "game": "ger",
+    "name_en": "Fallen Gboro-Gboro (Blaze)",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-c73eda7a4143bc3d"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Fallen Gboro-Gboro (Blaze)",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-ee053d83139f",
+    "game": "ger",
+    "name_en": "Fallen Quadriga (Freeze)",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-7796b127c9e44816"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Fallen Quadriga (Freeze)",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-f1f9875f1759",
+    "game": "ger",
+    "name_en": "Cocoon Maiden",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-d4b2e4d568325493"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Cocoon Maiden",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-faef635fc47e",
+    "game": "ger",
+    "name_en": "Tsukuyomi",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-749d3be4694d4a70"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Tsukuyomi",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-fb4526992a64",
+    "game": "ger",
+    "name_en": "Dyaus Pita (God Eater Resurrection)",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-2aaeb5293564d5b3"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Dyaus Pita (God Eater Resurrection)",
+    "size": null,
+    "breakable_parts": null
+  },
+  {
+    "id": "ger-a-fd29a98b4f6e",
+    "game": "ger",
+    "name_en": "Arius Nova (Larval)",
+    "verification_status": "partial",
+    "checked_at": "2026-11-14",
+    "references": [
+      "ev-46f5a1b75b12c3ac"
+    ],
+    "missing_fields": [
+      "breakable_parts",
+      "drop_tables",
+      "original_page_review"
+    ],
+    "variant": "Arius Nova (Larval)",
+    "size": null,
+    "breakable_parts": null
+  }
+]

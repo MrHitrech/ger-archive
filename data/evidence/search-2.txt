@@ -1,0 +1,821 @@
+Blocked by robots.txt
+The following domains cannot be accessed (non-retryable error): community.fandom.com, godeater.fandom.com--------------------------------------------------------------------------------
+Shield | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Shield)
+ [wordlim: 200] Crawled: 4 months ago; # Shield ... Design  | Weapon  | Upgrade  | Materials  | Skills  | Damage Type  | Attribute ... ## God Eater Resurrection
+
+# Shield
+
+Sign In to Save Save View source
+
+  * History
+  * Purge
+  * Talk (0)
+
+iframe
+
+ |  | 
+Buckler Shield  | Shield  | Tower Shield
+
+## God Eater Burst
+
+### Inugami Shield
+
+Design  | Weapon  | Upgrade  | Materials  | Skills  | Damage Type  | Attribute
+--- | --- | --- | --- | --- | --- | ---
+Sunder  | Crush  | Pierce  | Blaze  | Freeze  | Spark  | Divine
+--- | --- | --- | --- | --- | --- | ---
+ | Inugami Shield  | Inugami Shield II  | Ogre Fang x3
+Ogre Helm x1
+Ogre Tail x2
+Aragami Claw x4
+Aragami Bone Chip x4  | Health ↑ S
+Item Effects ↑  | 140  | 130  | 140  | 130  | 130  | 130  | 100
+Ogre Tail x4
+Ogre Fang x8
+Cinnabar x2
+Ice Ogre Fang x8
+ | Inugami Shield II  | Inugami Shield N  | Ice Ogre Fang x4
+Ogre Sharp Tail x1
+Vermilion x1
+Lucent Crystal x1
+Ariadne's Silk x1  | Health ↑ M
+Item Effects ↑  | 260  | 280  | 260  | 240  | 240  | 240  | 240
+ | Inugami Shield N  | Inugami Shield X  | Blaze Ogre Mask x4
+Item Effects ↑  | 630  | 720  | 630  | 600  | 600  | 600  | 570
+ | Brute Shield EX  | ★  | N/A  | Health ↑ L
+Item Effects ↑  | 670  | 780  | 670  | 640  | 640  | 640  | 610
+ | ★  | -  | -  | Health ↑ L
+Item Effects ↑  | 730  | 850  | 730  | 700  | 700  | 700  | 670
+
+### Common Shield
+
+Design  | Weapon  | Upgrade  | Materials  | Skills  | Damage Type  | Attribute
+--- | --- | --- | --- | --- | --- | ---
+Sunder  | Crush  | Pierce  | Blaze  | Freeze  | Spark  | Divine
+--- | --- | --- | --- | --- | --- | ---
+ | Common Shield  | Common Shield II  | Brittle Tungsten x1
+Impure Grease x1
+Oak Bark x1  | Dexterous
+Devour Intake ↑  | 190  | 160  | 150  | 90  | 90  | 90  | 90
+Avian Joint x3
+Weak Aramid Fiber x2
+ | Common Shield II  | Common Shield +  | Chimera Fur x4
+Avian Flesh x5
+Impure Grease x1
+Oak Bark x2  | Dexterous
+Devour Intake ↑  | 270  | 250  | 240  | 180  | 180  | 180  | 180
+ | Common Shield +  | Generic Shield  | Chimera Great Wing x2
+Fine Lubricant x1
+Avian Limb x4
+Avian Ligament x3
+Fossil Tree x3  | Dexterous
+### Support Shield
+
+Design  | Weapon  | Upgrade  | Materials  | Skills  | Damage Type  | Attribute
+--- | --- | --- | --- | --- | --- | ---
+Sunder  | Crush  | Pierce  | Blaze  | Freeze  | Spark  | Divine
+--- | --- | --- | --- | --- | --- | ---
+ | Support Shield  | Support Shield II  | Ogre Tail x2
+Duralumin x2  | Tracking Time ↑  | 150  | 130  | 140  | 110  | 110  | 110  | 110
+Aragami Bone Chip x2
+Mana Stone Chip x1
+ | Support Shield II  | Support Shield +  | Chimera Fur x3
+Pixie Elastomer x4
+Sensor x4
+Chimera Skull x2  | Tracking Time ↑
+Medic
+Rescue Recovery ↑  | 160  | 140  | 150  | 120  | 120  | 120  | 120
+ | Support Shield +  | Backup Shield  | Goddess Feather x4
+Sensor x4
+Lucifer Shell x4
+Pixie Elastomer x3
+Ogre Helm x1  | Tracking Time ↑
+Medic
+Rescue Recovery ↑  | 280  | 250  | 270  | 240  | 240  | 240  | 240
+ | Backup Shield  | Backup Shield II  | Goddess Feather x4
+King Feeler x2
+Ash x2
+Mana Stone x2
+Goddess Redstone x1  | Tracking Time ↑
+Medic
+Rescue Recovery ↑  | 370  | 330  | 360  | 340  | 340  | 340  | 340
+ | ★  | -  | -  | Health ↑ M
+Sensitive
+Surgeon
+Rescue Recovery ↑  | 800  | 690  | 790  | 770  | 770  | 770  | 770
+
+### Decoy Shield
+
+Design  | Weapon  | Upgrade  | Materials  | Skills  | Damage Type  | Attribute
+--- | --- | --- | --- | --- | --- | ---
+Sunder  | Crush  | Pierce  | Blaze  | Freeze  | Spark  | Divine
+--- | --- | --- | --- | --- | --- | ---
+ | Decoy Shield  | Decoy Shield II  | Simian Bone x2
+Simian Trunk x2
+Duralumin x1  | Guard Exposure ↓
+Presence
+Noisy  | 190  | 220  | 150  | 110  | 110  | 110  | 110
+Draconic Scale x3
+Pixie Elastomer x1
+Duralumin x2
+ | Decoy Shield II  | Decoy Shield +  | King Armor x4
+Aragami Bone x5
+Duralumin x4
+Knt Buckler x2  | Guard Exposure ↓
+Presence
+Noisy  | 220  | 250  | 180  | 140  | 140  | 140  | 140
+ | Decoy Shield +  | Lure Shield  | King Armor + x3
+Knt Shield x2
+Knt Armor x3
+Duralumin x2  | Guard Exposure ↓
+Presence
+Noisy  | 240  | 280  | 200  | 170  | 170  | 170  | 170
+ | Lure Shield  | Lure Shield II  | King Armor + x5
+Knt Shield x3
+Duralumin x3
+Goddess Plumage x4
+# God Eater 2
+
+### Inugami Shield
+
+Design  | Weapon  | Upgrade  | Materials  | Skills  | Damage Type  | Attribute
+--- | --- | --- | --- | --- | --- | ---
+Sunder  | Crush  | Pierce  | Blaze  | Freeze  | Spark  | Divine
+--- | --- | --- | --- | --- | --- | ---
+ | 尾盾イヌガミ
+(Inugami Shield)  | 尾盾イヌガミ　改
+(Inugami Shield II)  | 鬼兜 x1
+荒神骨片 x4
+荒爪 x4  | Health ↑ S
+Item Effects ↑  | 200  | 200  | 200  | 180  | 180  | 180  | 170
+低密度複合コア x1
+ | 尾盾イヌガミ　改
+(Inugami Shield II)  | -  | -  | Health ↑ S
+Item Effects ↑  | 220  | 220  | 220  | 200  | 200  | 200  | 190
+
+### Black Steel Shield-Type
+
+Design  | Weapon  | Upgrade  | Materials  | Skills  | Damage Type  | Attribute
+--- | --- | --- | --- | --- | --- | ---
+Sunder  | Crush  | Pierce  | Blaze  | Freeze  | Spark  | Divine
+--- | --- | --- | --- | --- | --- | ---
+ | クロガネ大盾型
+(Black Steel Shield-Type)  | クロガネ大盾型 改
+(Black Steel Shield-Type II)  | 黒鉄 x1
+ポリカーボネート x1  | Health ↑ S  | 190  | 190  | 190  | 190  | 190  | 190  | 190
+複合コア序 x1
+ | クロガネ大盾型 改
+(Black Steel Shield-Type II)  | クロガネ大盾型　修
+(Black Steel Shield-Type +)  | 低密度複合コア x1  | Health ↑ S  | 210  | 210  | 210  | 210  | 210  | 210  | 210
+ | クロガネ大盾型　修
+(Black Steel Shield-Type +)  | クロガネ大盾型　新
+(Black Steel Shield-Type N)  | 低密度複合コア x2  | Health ↑ S  | 230  | 230  | 230  | 230  | 230  | 230  | 230
+ | クロガネ大盾型　新
+(Black Steel Shield-Type N)  | -  | -  | Health ↑ S  | 310  | 310  | 310  | 300  | 300  | 300  | 300
+
+### Common Shield
+
+Design  | Weapon  | Upgrade  | Materials  | Skills  | Damage Type  | Attribute
+--- | --- | --- | --- | --- | --- | ---
+Sunder  | Crush  | Pierce  | Blaze  | Freeze  | Spark  | Divine
+--- | --- | --- | --- | --- | --- | ---
+ | 汎用シールド
+(Common Shield)  | 汎用シールド　改
+Common Shield II  | 低強度チタン x2
+低純度軟鉄 x1
+鬼面尾 x3
+天使牙 x3  | Dexterous
+Devour Intake ↑  | 220  | 220  | 220  | 190  | 190  | 190  | 190
+低密度複合コア x1
+ | 汎用シールド　改
+Common Shield II  | -  | -  | Dexterous
+Devour Intake ↑  | 260  | 260  | 260  | 230  | 230  | 230  | 230
+
+### Saint Germain
+
+Design  | Weapon  | Upgrade  | Materials  | Skills  | Damage Type  | Attribute
+--- | --- | --- | --- | --- | --- | ---
+Sunder  | Crush  | Pierce  | Blaze  | Freeze  | Spark  | Divine
+--- | --- | --- | --- | --- | --- | ---
+ | サンジェルマン
+(Saint Germain)  | -  | コバルト x1
+マナ石片 x1
+輝石 x1
+オーク x1  | Stamina ↑ S
+Vendor Rate ↑  | 270  | 270  | 270  | 240  | 240  | 240  | 240
+
+## God Eater Resurrection
+
+### Saint Germain
+
+Design  | Weapon  | Materials  | Skills  | Damage
+ | Saint Germain
+Rank 2  | 560 Fc
+1x Vermilion Piece
+1x Draconic Gun
+1x Impure Liniment  | La Vie en Rose I (E)  | DEF 123
+Freeze O
+Spark O
+ | Saint Germain II
+Rank 3  | 664 Fc
+Saint Germain
+1x Lubricant
+1x Vermilion Piece
+1x Impure Liniment
+1x Silver  | La Vie en Rose II (E)  | DEF 271
+Freeze O
+Spark O
+ | Paracelsus
+Rank 5  | 3360 Fc
+Saint Germain II
+1x Chimera Spark Skull
+1x Mithril Silver
+1x Vermilion Piece
+1x Goddess Toxin  | La Vie en Rose III (E)  | DEF 465
+Freeze O
+Spark O
+ | Paracelsus II
+Rank 6  | 4160 Fc
+Paracelsus
+1x Chaotic Moss
+2x Witch Plumage
+1x Vermilion
+1x Liniment
+1x Ash  | La Vie en Rose IV (E)  | DEF 548
+Freeze O
+Spark O
+ | Faust
+Rank 8  | 8800 Fc
+Paracelsus II
+1x Oracle Blaze Stone
+1x Oracle Spark Stone
+1x Oracle Freeze Stone
+1x Wyrm amethyst
+1x Garuda Crown  | La Vie en Rose IV (E)
+Gift I (E)  | DEF 733
+Freeze O
+Spark O
+ | Faust II
+Rank 11  | 16000 Fc
+Faust
+1x Lucifer Lichen
+1x Yin-Yang Sash
+1x Angel Incisor
+1x Lucifer Prong
+1x Philosopher's Stone  | La Vie en Rose IV (E)
+Gift II (E)  | DEF 984
+Freeze O
+Spark O
+ | Trismegistos
+Rank 13  | 52000 Fc
+Faust II
+1x Invictus Guard
+1x Invuctus Crystal
+1x Yin-Yang Crown
+1x Oracle Lucent Crystal
+1x Oracle Freeze Crystal  | La Vie en Rose IV (E)
+Gift III (E)  | DEF 1111
+Freeze O
+Spark O
+ | Trismegistos EX
+Rank 14  | 96000 Fc
+Trismegistos
+1x Generic Compound Core  | La Vie en Rose IV (E)
+Gift IV (E)  | DEF 1163
+Freeze O
+Spark O
+
+### Decoy Shield
+
+Design  | Weapon  | Materials  | Skills  | Damage
+ | Decoy Shield
+Rank 2  | 560 Fc
+1x Simian Trunk
+1x Duralumin
+1x Oak Bark  | Knight's Pride I (E)  | DEF 125
+ | Decoy Shield II
+Rank 3  | 664 Fc
+Decoy Shield
+1x King Armor
+1x Aragami Bone Chip
+1x Duralumin
+1x Knight Buckler  | Knight's Pride II (E)  | DEF 278
+ | Lure Shield
+Rank 4  | 2800 Fc
+Decoy Shield II
+1x King Armor+
+1x Knight Shield
+1x Knight Armor
+1x Duralumin  | Knight's Pride III (E)  | DEF 400
+ | Lure Shield II
+Rank 6  | 4160 Fc
+Lure Shield
+2x Witch Plumage
+2x Goddess Plumage
+1x Witch Filigree
+1x Spark Knight Shield
+1x Duralumin Steel  | Knight's Pride III (E)
+Enmity I (E)  | DEF 563
+ | Bait Shield
+Rank 7  | 7760 Fc
+Lure Shield II
+1x Diablo Crown
+1x Diablo Feather
+1x Pure Jewel Steel
+1x Garuda Crown
+1x Garuda Wing  | Knight's Pride III (E)
+Enmity II (E)  | DEF 655
+ | Bait Shield II
+Rank 10  | 13600 Fc
+Bait Shield
+1x Yin-Yang Ambrosia
+1x Yin-Yang Ingot
+1x Diablo Amethyst
+1x Diablo Wing
+1x Adamantite  | Knight's Pride III (E)
+Enmity III (E)  | DEF 932
+ | Snare Shield
+Rank 13  | 52000 Fc
+Bait Shield II
+1x Helios Ambrosia
+1x Helios Ingot
+1x Diablo Hematite
+2x Diablo Wing
+1x Titanium Superalloy  | Knight's Pride III (E)
+Enmity III (E)  | DEF 1147
+ | Snare Shield EX
+Rank 14  | 96000 Fc
+Snare Shield
+1x Generic Compound Core  | Knight's Pride III (E)
+Enmity III (E)  | DEF 1202
+
+### Oni Shield
+
+Design  | Weapon  | Materials  | Skills  | Damage
+ | Oni Shield
+Rank 3  | 830 Fc
+1x Yaksha Helm
+1x Yaksha Fragment
+1x Yaksha Plate  | Defense Mastery I (E)  | DEF 248
+Divine O
+ | Oni Shield II
+Rank 4  | 2800 Fc
+Oni Shield
+1x Yaksha Helm
+1x Yaksha Fragment
+1x Yaksha Plate
+1x Yaksha Thread  | Defense Mastery II (E)  | DEF 400
+Divine O
+ | Oni Barrier
+Rank 6  | 4160 Fc
+Oni Shield II
+1x Yaksha Helm
+1x Yaksha Tile
+1x Yaksha Plate
+1x Yaksha Stock
+1x Yaksha Thread  | Defense Mastery III (E)  | DEF 563
+Divine O
+ | Oni Barrier II
+Rank 8  | 8800 Fc
+Oni Barrier
+2x Yaksha Horn
+2x Yaksha Incisor
+2x Yaksha Cop
+2x Yaksha Talon
+2x Yaksha Strand  | Defense Mastery IV (E)  | DEF 754
+Divine O
+ | Oni Wall
+Rank 9  | 9600 Fc
+Oni Barrier II
+2x Yaksha Horn
+2x Yaksha Barrier
+2x Yaksha Spaulder
+1x Yaksha Barrel
+1x Yaksha Filament  | Defense Mastery IV (E)
+Cut-up I (E)  | DEF 845
+Divine O
+ | Oni Wall II
+Rank 11  | 16000 Fc
+Oni Wall
+2x Yaksha Horn
+2x Yaksha Barrier
+2x Yaksha Incisor
+1x Yaksha Barrel
+1x Yaksha Filament  | Defense Mastery IV (E)
+Cut-up II (E)  | DEF 1015
+Divine O
+ | Oni Rampart
+Rank 13  | 52000 Fc
+Oni Wall II
+2x Yaksha Tower Helm
+2x Yaksha Tusk
+2x Mana Orb
+1x Titanium Superalloy
+2x Yaksha Filament  | Defense Mastery IV (E)
+Cut-up III (E)  | DEF 1147
+Divine O
+ | Oni Rampart EX
+Rank 14  | 96000 Fc
+Oni Rampart
+1x Generic Compound Core  | Defense Mastery IV (E)
+Cut-up IV (E)  | DEF 1202
+Divine O
+
+### Othello
+
+Design  | Weapon  | Materials  | Skills  | Damage
+ | Othello
+Rank 4  | 3500 Fc
+2x Goddess Husk
+2x Goddess Filigree
+1x Goddess Plumage
+1x Goddess Toxin  | Exorcism I (E)  | DEF 374
+Divine O
+ | Othello II
+Rank 5  | 3360 Fc
+Othello
+1x Goddess Toxin
+1x Goddess Husk
+2x Witch Plumage
+1x Witch Filigree  | Exorcism II (E)  | DEF 478
+Divine O
+ | Macbeth
+Rank 6  | 4160 Fc
+Othello II
+2x Witch Filigree
+2x Goddess Plumage
+1x Goddess Redstone
+1x Goddess Toxin
+1x Witch Redstone  | Exorcism III (E)  | DEF 563
+Divine O
+ | Macbeth II
+Rank 8  | 8800 Fc
+Macbeth
+2x Witch Wing
+2x Goddess Quill
+1x Witch Crown
+2x Goddess Rind
+1x Goddess Venom  | Exorcism IV (E)  | DEF 754
+### Calakmul
+
+Design  | Weapon  | Materials  | Skills  | Damage
+ | Calakmul
+Rank 6  | 5200 Fc
+1x Anathema Filigree
+1x Anathema Armor
+1x King Nephrite
+1x Ignitor
+1x Anathema Gun  | Life of Worth I (E)  | DEF 531
+Divine OO
+ | Calakmul II
+Rank 8  | 8800 Fc
+Calakmul
+1x Anathema Crown
+1x Anathema Raiment
+1x King Nephrite
+1x Detonator
+1x Anathema Frame  | Life of Worth II (E)  | DEF 733
+Divine OO
+ | Cacaxtla
+Rank 9  | 9600 Fc
+Calakmul II
+1x Anathema Crown
+2x Conqueror Armor
+1x Conqueror Jade
+1x Detonator
+2x Anathema Frame  | Life of Worth II (E)
+Watcher from Above I (E)  | DEF 820
+Divine OO
+ | Cacaxtla II
+Rank 10  | 13600 Fc
+Cacaxtla
+1x Conqueror Gun
+2x Conqueror Armor
+1x Conqueror Jade
+1x Conqueror Grease
+2x Anathema Frame  | Life of Worth II (E)
+Watcher from Above II (E)  | DEF 904
+Divine OO
+ | Cacaxtla +
+Rank 12  | 40800 Fc
+Cacaxtla II
+2x Conqueror Crown
+2x Conqueror Armor
+1x Conqueror Jade
+1x Conqueror Grease
+2x Conqueror Steel  | Life of Worth II (E)
+Watcher from Above III (E)  | DEF 1050
+Divine OO
+ | Cacaxtla EX
+Rank 14  | 96000 Fc
+Cacaxtla +
+1x Generic Compound Core  | Life of Worth II (E)
+Watcher from Above IV (E)  | DEF 1163
+Divine OO
+
+### Alcaeus
+
+Design  | Weapon  | Materials  | Skills  | Damage
+ | Alcaeus
+Rank 7  | 9700 Fc
+2x Diablo Feather
+2x Diablo Plumage
+1x Diablo Amethyst
+2x Goddess Filigree
+1x Diablo Plague  | Exorcism I (E)  | DEF 637
+Divine O
+ | Alcaeus II
+Rank 8  | 8800 Fc
+Alcaeus
+1x Diablo Crown
+1x Diablo Plumage
+1x Goddess Quill
+1x Witch Wing
+1x Goddess Venom  | Exorcism III (E)  | DEF 754
+Divine O
+ | Alcaeus +
+Rank 10  | 13600 Fc
+Alcaeus II
+2x Diablo Wing
+1x Diablo Crown
+1x Goddess Rind
+2x Refractor
+1x Goddess Redstone  | Exorcism IV (E)  | DEF 932
+Divine O
+ | Heracles
+Rank 12  | 40800 Fc
+Alcaeus +
+2x Diablo High Crown
+2x Diablo Hematite
+1x Diablo Blight
+1x Diablo Cloak
+1x Diablo Wing  | Exorcism IV (E)
+Talisman II (E)  | DEF 1085
+Divine O
+ | Heracles EX
+Rank 14  | 96000 Fc
+Heracles
+1x Generic Compound Core  | Exorcism IV (E)
+Talisman IV (E)  | DEF 1202
+Divine O
+
+### Ensemble
+
+Design  | Weapon  | Materials  | Skills  | Damage
+### Evader
+
+Design  | Weapon  | Materials  | Skills  | Damage
+ | Evader
+Rank 7  | 9700 Fc
+2x Serpent Armor
+1x Serpent Cataphract
+1x Serpent Helm
+1x Cinder Crystal
+1x Thunder Ogre Cowl  | Perseverance I (E)  | DEF 655
+Spark O
+ | Evader II
+Rank 8  | 8800 Fc
+Evader
+2x Serpent Armor
+1x Serpent Cataphract
+1x Serpent Helm
+1x Cinder Crystal  | Perseverance II (E)  | DEF 736
+Spark O
+ | Evader +
+Rank 11  | 16000 Fc
+Evader II
+2x Phantom Armor
+1x Phantom Cataphract
+1x Phantom Helm
+1x Seraphic Crystal
+1x Phantom Ambrosia  | Perseverance III (E)  | DEF 1048
+Spark O
+ | Evader EX
+Rank 14  | 96000 Fc
+Evader +
+1x Generic Compound Core  | Perseverance III (E)  | DEF 1241
+Spark O
+
+### Greedy Kiss
+
+Design  | Weapon  | Materials  | Skills  | Damage
+ | Greedy Kiss
+Rank 7  | 9700 Fc
+1x Freezing Barrel
+1x Emperor Wing
+2x Basilisk Armor
+1x Serpent Cataphract
+1x Serpent Armor  | Full Snatch I (E)  | DEF 655
+Freeze O
+ | Greedy Kiss II
+Rank 9  | 9600 Fc
+Greedy Kiss
+1x Angel Armor
+1x Emperor Redstone
+2x Pluto Ice Armor
+1x Witch Quill
+1x Goddess Venom  | Full Snatch II (E)  | DEF 870
+Freeze O
+ | Greedy Kiss +
+Rank 11  | 16000 Fc
+Greedy Kiss II
+1x Holy Jewel Steel
+1x Emperor Redstone
+1x Phantom Helm
+1x Imperial Wing
+1x Phantom Ambrosia  | Full Snatch III (E)  | DEF 1048
+Freeze O
+ | Greedy Kiss X
+Rank 13  | 52000 Fc
+Greedy Kiss +
+1x Imperial Crown
+1x Emperor Redstone
+1x Phantom Helm
+1x Imperial Wing
+1x Phantom Ambrosia  | Full Snatch IV (E)  | DEF 1183
+Freeze O
+ | Greedy Kiss EX
+Rank 14  | 96000 Fc
+Greedy Kiss X
+1x Generic Compound Core  | Full Snatch IV (E)  | DEF 1241
+Freeze O
+
+### F-type Armor A1
+
+Design  | Weapon  | Materials  | Skills  | Damage
+ | F-type Armor A1
+Rank 10  | 17000 Fc
+1x Lucifer Carapace
+1x Goddess Quill
+1x Goddess Venom
+1x Phantom Armor
+1x Phantom Helm  | Reliable (E)  | DEF 886
+Blaze OO
+ | F-type Armor A1 II
+Rank 12  | 40800 Fc
+F-type Armor A1
+1x Goddess Crown
+2x Goddess Quill
+1x Goddess Venom
+2x Wyrm Fire Armor
+1x Phantom Helm  | Reliable (E)
+Counter Move I (E)  | DEF 1050
+Blaze OO
+ | F-type Armor A1 EX
+Rank 14  | 96000 Fc
+F-type Armor A1 II
+1x Generic Compound Core  | Reliable (E)
+Counter Move II (E)  | DEF 1163
+Blaze OO
+
+### F-type Armor B1
+
+Design  | Weapon  | Materials  | Skills  | Damage
+ | F-type Armor B1
+Rank 10  | 17000 Fc
+1x Ice Wyrm Fang
+1x Witch Quill
+1x Goddess Venom
+1x Phantom Armor
+1x Phantom Helm  | Reliable (E)  | DEF 886
+Freeze OO
+ | F-type Armor B1 II
+Rank 12  | 40800 Fc
+F-type Armor B1
+1x Witch Crown
+2x Witch Quill
+1x Goddess Venom
+2x Basilisk Ice Horn
+1x Phantom Helm  | Reliable (E)
+Counter Move I (E)  | DEF 1050
+Freeze OO
+ | F-type Armor B1 EX
+Rank 14  | 96000 Fc
+F-type Armor B1 II
+1x Generic Compound Core  | Reliable (E)
+Counter Move II (E)  | DEF 1163
+Freeze OO
+
+### F-type Armor A2
+
+Design  | Weapon  | Materials  | Skills  | Damage
+ | F-type Armor A2
+Rank 10  | 17000 Fc
+1x Lucifer Carapace
+1x Imperial Wing
+1x Emperor Redstone
+1x Conqueror Armor
+1x Thunder Ogre Horn  | Reliable (E)  | DEF 886
+Spark OO
+ | F-type Armor A2 II
+Rank 12  | 40800 Fc
+F-type Armor A2
+1x Chimera Spark Fur
+1x Chimera Spark Wing
+1x Chimera Redstone
+1x Conqueror Armor
+1x Conqueror Steel  | Reliable (E)
+Counter Move I (E)  | DEF 1050
+Spark OO
+ | F-type Armor A2 EX
+Rank 14  | 96000 Fc
+F-type Armor A2 II
+1x Generic Compound Core  | Reliable (E)
+Counter Move II (E)  | DEF 1163
+Spark OO
+
+--------------------------------------------------------------------------------
+Buckler Shield | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Buckler_Shield)
+ [wordlim: 200] Crawled: 4 months ago; ### Tigris Shield
+
+Design  | Name  | Upgrade  | Materials  | Skills  | Damage Type  | Attribute ... ## God Eater Resurrection
+## God Eater Resurrection
+
+### Polished Buckler
+
+Design  | Weapon  | Materials  | Skills  | Damage
+ | Polished Buckler
+Rank 1  | 350 Fc
+1x Pixie Shell
+1x Impure Oil  | Baton of Bravery I (E)  | DEF 62
+Blaze O
+Freeze O
+Spark O
+Divine O
+ | Polished Buckler II
+Rank 2  | 448 Fc
+Polished Buckler
+1x Draconic Scale
+1x Ceramic Plate  | Baton of Bravery II (E)  | DEF 134
+Blaze O
+Freeze O
+Spark O
+Divine O
+ | Repellant Buckler
+Rank 4  | 2800 Fc
+Polished Buckler II
+2x Draconic Carapace
+1x Ash
+2x Magnetic Steel
+1x Chimera Wing  | Baton of Bravery III (E)  | DEF 357
+Blaze O
+Freeze O
+Spark O
+Divine O
+ | Repellant Buckler II
+Rank 6  | 4160 Fc
+Repellant Buckler
+1x Royal Wing
+1x Royal Armor
+1x Ash
+2x Spark Knight Armor
+1x Ceramic Plate  | Baton of Bravery IV (E)  | DEF 497
+Blaze O
+Freeze O
+Spark O
+Divine O
+ | Immunity Buckler
+Rank 9  | 9600 Fc
+Repellant Buckler II
+1x Ice King Armor
+1x Ice King Grease
+1x Toughened Ceramic
+1x Fortifier
+1x Knight Shield  | Baton of Bravery IV (E)
+Sinceramente I (E)  | DEF 740
+Blaze O
+Freeze O
+Spark O
+--------------------------------------------------------------------------------
+Upgrades | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Upgrades)
+ [wordlim: 200] Crawled: 4 months ago; ### God Eater Resurrection
+
+Name  | Rank  | Materials  | Skills
+--------------------------------------------------------------------------------
+Missions/God Eater Resurrection | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection)
+ [wordlim: 200] Crawled: 4 months ago;  | This basic training teaches God Arc fundamentals and allows you to practice them on a sparring dummy. ... In addition, you will learn how to recover materials and items from the battlefield.
+--------------------------------------------------------------------------------
+Tower Shield | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Tower_Shield)
+ [wordlim: 200] Crawled: 4 months ago; Design  | Weapon  | Upgrade  | Materials  | Skills  | Damage Type  | Attribute ... Knt Spark Shield x5
+--------------------------------------------------------------------------------
+Missions/God Eater Resurrection - Story Missions | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Missions/God_Eater_Resurrection_-_Story_Missions)
+ [wordlim: 200] Crawled: 4 months ago;   * 1x Dyaus Pita (God Eater Resurrection) ... Once you had the materials, check out the mission assigned to you
+--------------------------------------------------------------------------------
+Charge Spear | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Charge_Spear)
+ [wordlim: 200] Crawled: 5 months ago; ## God Eater Resurrection ... Design  | Weapon  | Materials  | Skills  | Damage
+--------------------------------------------------------------------------------
+Borg Camlann/Advanced Information | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Borg_Camlann/Advanced_Information)
+ [wordlim: 200] Crawled: 4 months ago; Shield (Unbound)  | (10)  | 90  | (40)  | (20)  | (40)  | 90  | (60)  | (60)  | 90 ... Attributes for God Eater 2: Rage Burst, God Eater Resurrection and God Eater 3
+--------------------------------------------------------------------------------
+Long Blade | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Long_Blade)
+ [wordlim: 200] Crawled: 4 months ago; ## God Eater Resurrection ... Design  | Weapon  | Materials  | Skills  | Damage ... 1x Knight Shield
+--------------------------------------------------------------------------------
+Buster Blade | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Buster_Blade)
+ [wordlim: 200] Crawled: 4 months ago; ## God Eater Resurrection ... Design  | Weapon  | Materials  | Skills  | Damage
+--------------------------------------------------------------------------------
+Short Blade | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Short_Blade)
+ [wordlim: 200] Crawled: 4 months ago; ## God Eater Resurrection ... Design  | Weapon  | Materials  | Skills  | Damage
+--------------------------------------------------------------------------------
+Boost Hammer | God Eater Wiki | Fandom (https://godeater.fandom.com/wiki/Boost_Hammer)
+ [wordlim: 200] Crawled: 4 months ago; Design  | Weapon  | Materials  | Skills  | Damage ... Shield Rise I (E)  | Crush 405
+

@@ -1,0 +1,193 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://ger-archive.local/dataset.schema.json",
+  "type": "object",
+  "required": ["materials", "items", "recipes", "missions", "aragami", "locations", "drops", "sources", "evidence", "translations"],
+  "additionalProperties": false,
+  "properties": {
+    "materials": { "type": "array", "items": { "$ref": "#/definitions/material" } },
+    "items": { "type": "array", "items": { "$ref": "#/definitions/item" } },
+    "recipes": { "type": "array", "items": { "$ref": "#/definitions/recipe" } },
+    "missions": { "type": "array", "items": { "$ref": "#/definitions/mission" } },
+    "aragami": { "type": "array", "items": { "$ref": "#/definitions/aragami" } },
+    "locations": { "type": "array", "items": { "$ref": "#/definitions/base" } },
+    "drops": { "type": "array", "items": { "$ref": "#/definitions/drop" } },
+    "sources": { "type": "array", "items": { "$ref": "#/definitions/source" } },
+    "evidence": { "type": "array", "items": { "$ref": "#/definitions/evidence" } },
+    "translations": { "type": "array", "items": { "$ref": "#/definitions/translation" } }
+  },
+  "definitions": {
+    "id": { "type": "string", "pattern": "^ger-[a-z]-[a-f0-9]{12}$" },
+    "ids": { "type": "array", "items": { "$ref": "#/definitions/id" }, "uniqueItems": true },
+    "rank": { "type": "integer", "minimum": 1, "maximum": 14 },
+    "gameOrigin": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_id", "resource", "row_id", "resource_sha256"],
+      "properties": {
+        "source_id": { "type": "string", "minLength": 1 },
+        "resource": { "type": "string", "minLength": 1 },
+        "row_id": { "type": "integer", "minimum": 0 },
+        "resource_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "byte_offset": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "base": {
+      "type": "object",
+      "required": ["id", "game", "name_en", "verification_status", "checked_at", "references", "missing_fields"],
+      "properties": {
+        "id": { "$ref": "#/definitions/id" },
+        "game": { "const": "ger" },
+        "name_en": { "type": "string", "minLength": 1 },
+        "verification_status": { "enum": ["verified", "partial", "unverified"] },
+        "checked_at": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "references": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "pattern": "^ev-[a-f0-9]{16}$" } },
+        "missing_fields": { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+        "game_origin": { "$ref": "#/definitions/gameOrigin" },
+        "reviewed_by": { "type": "string", "minLength": 1 },
+        "reviewed_at": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+      }
+    },
+    "material": {
+      "allOf": [{ "$ref": "#/definitions/base" }, {
+        "required": ["category", "ranks"],
+        "properties": {
+          "category": { "enum": ["mineral", "synthetic", "organic", "aragami", "unknown"] },
+          "ranks": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/definitions/rank" } },
+          "description_ru": { "type": ["string", "null"] }
+        }
+      }]
+    },
+    "item": {
+      "allOf": [{ "$ref": "#/definitions/base" }, {
+        "required": ["category", "rank", "family", "elements", "stats"],
+        "properties": {
+          "category": { "enum": ["short_blade", "long_blade", "buster_blade", "boost_hammer", "charge_spear", "variant_scythe", "sniper", "assault", "blast", "shotgun", "buckler", "shield", "tower_shield", "upgrade", "consumable", "clothing_top", "clothing_bottom", "unknown"] },
+          "rank": { "anyOf": [{ "$ref": "#/definitions/rank" }, { "type": "null" }] },
+          "family": { "type": "string", "minLength": 1 },
+          "elements": { "type": "array", "uniqueItems": true, "items": { "enum": ["blaze", "freeze", "spark", "divine"] } },
+          "stats": { "type": "object", "additionalProperties": { "type": "number", "minimum": 0 } },
+          "skills_en": { "type": "array", "items": { "type": "string" } }
+        }
+      }]
+    },
+    "recipe": {
+      "allOf": [{ "$ref": "#/definitions/base" }, {
+        "required": ["item_id", "operation", "from_item_id", "materials", "cost_fc", "required_rank"],
+        "properties": {
+          "item_id": { "$ref": "#/definitions/id" },
+          "operation": { "enum": ["craft", "upgrade"] },
+          "from_item_id": { "anyOf": [{ "$ref": "#/definitions/id" }, { "type": "null" }] },
+          "materials": {
+            "type": "array", "minItems": 1,
+            "items": { "type": "object", "required": ["material_id", "quantity"], "additionalProperties": false, "properties": { "material_id": { "$ref": "#/definitions/id" }, "quantity": { "type": "integer", "minimum": 1 } } }
+          },
+          "cost_fc": { "type": ["integer", "null"], "minimum": 0 },
+          "required_rank": { "anyOf": [{ "$ref": "#/definitions/rank" }, { "type": "null" }] },
+          "unlock_conditions_raw": { "type": "object", "additionalProperties": { "type": ["integer", "null"] } }
+        }
+      }]
+    },
+    "mission": {
+      "allOf": [{ "$ref": "#/definitions/base" }, {
+        "required": ["rank", "type", "variant", "location_id", "aragami_ids", "objectives_en", "reward_table_status", "time_limit_seconds"],
+        "properties": {
+          "rank": { "anyOf": [{ "$ref": "#/definitions/rank" }, { "const": "challenge" }] },
+          "type": { "enum": ["standard", "urgent", "extra", "challenge", "tutorial"] },
+          "variant": { "type": "string", "minLength": 1 },
+          "location_id": { "$ref": "#/definitions/id" },
+          "aragami_ids": { "$ref": "#/definitions/ids" },
+          "objectives_en": { "type": "string", "minLength": 1 },
+          "reward_table_status": { "enum": ["partial", "missing", "complete"] },
+          "time_limit_seconds": { "type": ["integer", "null"], "minimum": 1 },
+          "story": { "type": "boolean" }
+        }
+      }]
+    },
+    "aragami": {
+      "allOf": [{ "$ref": "#/definitions/base" }, {
+        "required": ["variant", "breakable_parts", "size"],
+        "properties": {
+          "variant": { "type": "string", "minLength": 1 },
+          "size": { "type": ["string", "null"], "enum": ["small", "medium", "large", null] },
+          "breakable_parts": { "type": ["array", "null"], "items": { "type": "string" }, "uniqueItems": true }
+        }
+      }]
+    },
+    "drop": {
+      "allOf": [{ "$ref": "#/definitions/base" }, {
+        "required": ["material_id", "mission_id", "aragami_id", "location_id", "method", "condition_ru", "condition_en", "drop_rate", "quantity", "slot", "source_url"],
+        "properties": {
+          "material_id": { "$ref": "#/definitions/id" },
+          "mission_id": { "anyOf": [{ "$ref": "#/definitions/id" }, { "type": "null" }] },
+          "aragami_id": { "anyOf": [{ "$ref": "#/definitions/id" }, { "type": "null" }] },
+          "location_id": { "anyOf": [{ "$ref": "#/definitions/id" }, { "type": "null" }] },
+          "method": { "enum": ["mission_reward", "bonus_reward", "devour", "break", "gather", "shop", "exchange"] },
+          "condition_ru": { "type": "string" },
+          "condition_en": { "type": "string" },
+          "drop_rate": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
+          "quantity": { "type": ["integer", "null"], "minimum": 1 },
+          "slot": { "type": ["string", "null"] },
+          "source_url": { "type": "string", "pattern": "^https://" }
+        }
+      }]
+    },
+    "source": {
+      "type": "object", "required": ["id", "title", "url", "game_scope", "acquisition", "checked_at", "revision", "license", "authors_url"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "url": { "type": ["string", "null"], "pattern": "^https://" },
+        "game_scope": { "enum": ["ger", "mixed"] },
+        "acquisition": { "enum": ["search_index", "manual_original", "manual_game", "permitted_export", "game_files"] },
+        "checked_at": { "type": "string" },
+        "revision": { "type": ["string", "null"] },
+        "license": { "type": "string", "minLength": 1 },
+        "authors_url": { "type": ["string", "null"], "pattern": "^https://" },
+        "app_id": { "const": "460870" },
+        "build_id": { "type": "string", "pattern": "^[0-9]+$" },
+        "resources": {
+          "type": "object", "additionalProperties": {
+            "type": "object", "required": ["resource_path", "sha256", "archive", "entry_hash"],
+            "properties": {
+              "resource_path": { "type": "string", "minLength": 1 },
+              "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+              "archive": { "enum": ["bin.qpck", "data.qpck", "bin_patch.qpck"] },
+              "entry_hash": { "type": "string", "pattern": "^[a-f0-9]{16}$" }
+            }
+          }
+        }
+      },
+      "allOf": [{ "if": { "properties": { "acquisition": { "const": "game_files" } } },
+        "then": { "required": ["app_id", "build_id", "resources"] },
+        "else": { "properties": { "url": { "type": "string" }, "authors_url": { "type": "string" } } }
+      }]
+    },
+    "evidence": {
+      "type": "object", "required": ["id", "source_id", "game", "section", "excerpt", "snapshot", "snapshot_sha256"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^ev-[a-f0-9]{16}$" },
+        "source_id": { "type": "string", "minLength": 1 },
+        "game": { "const": "ger" },
+        "section": { "type": "string", "minLength": 1 },
+        "excerpt": { "type": "string", "minLength": 1 },
+        "snapshot": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*\\.(txt|md|json|html)$" },
+        "snapshot_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+        ,"game_origin": { "$ref": "#/definitions/gameOrigin" }
+      }
+    },
+    "translation": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "name_en", "name_ru", "aliases", "source", "status"],
+      "properties": {
+        "id": { "$ref": "#/definitions/id" },
+        "name_en": { "type": "string", "minLength": 1 },
+        "name_ru": { "type": ["string", "null"], "minLength": 1 },
+        "aliases": { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+        "source": { "type": "string", "minLength": 1 },
+        "status": { "enum": ["official", "verified", "unverified"] },
+        "reviewed_by": { "type": "string", "minLength": 1 },
+        "references": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}
