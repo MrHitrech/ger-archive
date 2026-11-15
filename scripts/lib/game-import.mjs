@@ -1,4 +1,5 @@
 import { idFor, hash } from './files.mjs';
+import { decodeRussianArticleName, RUSSIAN_ARTICLE_NAME_CODEC } from './game-text.mjs';
 
 export const equipmentCategories = {
   14: 'short_blade',
@@ -54,6 +55,8 @@ export function createGameImport(
     sourceId = `game-steam-460870-${manifest.build_id}`;
   const articles = new Map(decoded.article_en.map((r) => [r.id, r])),
     russian = new Map(decoded.article_ru.map((r) => [r.id, r.name]));
+  const translationChanges = [];
+  const translationSummary = { filled: 0, preserved_existing: 0, rejected: 0 };
   if (articles.size !== decoded.article_en.length || russian.size !== decoded.article_ru.length)
     throw new Error('Duplicate native article ID');
   if (articles.size !== russian.size || [...articles.keys()].some((id) => !russian.has(id)))
@@ -107,7 +110,8 @@ export function createGameImport(
   function proof(resource, row, facts) {
     const excerpt = JSON.stringify({ resource, row_id: row.id, ...facts });
     const id = `ev-${hash(`${sourceId}|${manifest.resources[resource].sha256}|${excerpt}`).slice(0, 16)}`;
-    const snapshot = `game-${manifest.build_id}-${resource.replaceAll('_', '-')}-${manifest.resources[resource].sha256.slice(0, 12)}.json`;
+    const codecSuffix = resource === 'article_ru' ? `-${RUSSIAN_ARTICLE_NAME_CODEC}` : '';
+    const snapshot = `game-${manifest.build_id}-${resource.replaceAll('_', '-')}-${manifest.resources[resource].sha256.slice(0, 12)}${codecSuffix}.json`;
     if (!snapshotRows.has(snapshot))
       snapshotRows.set(snapshot, {
         resource,
@@ -350,23 +354,41 @@ export function createGameImport(
         translation.name_en = record.name_en;
       }
     }
-    const text = russian.get(id);
-    if (
-      !data.translations.some((t) => t.id === siteId) &&
-      usableRussianName(text) &&
-      text !== row.name
-    ) {
+    const rawText = russian.get(id);
+    const text = decodeRussianArticleName(rawText);
+    const existingTranslation = data.translations.find((t) => t.id === siteId);
+    if (existingTranslation?.name_ru != null) {
+      translationSummary.preserved_existing++;
+    } else if (usableRussianName(text) && text !== row.name) {
       const ruRow = decoded.article_ru.find((r) => r.id === id),
-        ref = proof('article_ru', ruRow, { name_ru: text });
-      data.translations.push({
+        ref = proof('article_ru', ruRow, {
+          name_ru: text,
+          raw_name_ru: rawText,
+          decoder: RUSSIAN_ARTICLE_NAME_CODEC,
+        });
+      const translation = {
+        ...(existingTranslation ?? {}),
         id: siteId,
         name_en: row.name,
         name_ru: text,
-        aliases: [],
+        aliases: existingTranslation?.aliases ?? [],
         source: sourceId,
         status: 'unverified',
-        references: [ref],
+        references: unique([...(existingTranslation?.references ?? []), ref]),
+      };
+      if (existingTranslation) Object.assign(existingTranslation, translation);
+      else data.translations.push(translation);
+      translationSummary.filled++;
+      translationChanges.push({
+        id: siteId,
+        game_id: id,
+        name_en: row.name,
+        before: null,
+        after: text,
+        reference: ref,
       });
+    } else {
+      translationSummary.rejected++;
     }
     return record;
   }
@@ -530,13 +552,13 @@ export function createGameImport(
     'Структура KST проверена автоматически; ручная сверка с экраном игры ещё требуется. Сюжетные условия сохранены как исходные числа, а не преобразованы в ранги.',
   );
   const undecodedRussian = [...new Set([...itemIds, ...materialIds])].filter(
-    (id) => !usableRussianName(russian.get(id)),
+    (id) => !usableRussianName(decodeRussianArticleName(russian.get(id))),
   ).length;
   if (undecodedRussian)
     issue(
       'GAME_TEXT_ENCODING',
       'Русские названия предметов',
-      `${undecodedRussian} названий содержат специальные байты. Существующие переводы сохранены; повреждённые строки не используются как перевод.`,
+      `${undecodedRussian} названий не прошли проверку после декодирования. Существующие переводы сохранены; повреждённые строки не используются как перевод.`,
     );
   const counts = Object.fromEntries(
     ['materials', 'items', 'recipes'].map((key) => [
@@ -569,6 +591,8 @@ export function createGameImport(
       quarantined_rows: rawRecipes.length - valid.length,
       preserved_existing_ids: idMap.filter((r) => r.preserved_existing_id).length,
       factual_changes: changes,
+      translation_import: translationSummary,
+      translation_changes: translationChanges,
       blocking,
       undecoded_russian_names: undecodedRussian,
       issues,

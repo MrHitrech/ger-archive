@@ -279,7 +279,7 @@ export function MaterialDetail() {
           </div>
         )}
       </section>
-      <SourceReferences references={refs} />
+      <SourceReferences references={refs} translationId={material.id} />
     </>
   );
 }
@@ -561,7 +561,7 @@ export function ItemDetail() {
         )}
       </section>
       <UpgradeTree key={item.family} item={item} items={data.items} recipes={data.recipes} />
-      <SourceReferences references={refs} />
+      <SourceReferences references={refs} translationId={item.id} />
     </>
   );
 }
@@ -641,7 +641,7 @@ export function MissionDetail() {
           </div>
         )}
       </section>
-      <SourceReferences references={refs} />
+      <SourceReferences references={refs} translationId={mission.id} />
     </>
   );
 }
@@ -727,7 +727,7 @@ export function AragamiDetail() {
           <Empty text="Связанные миссии пока не добавлены." />
         )}
       </section>
-      <SourceReferences references={enemy.references} />
+      <SourceReferences references={enemy.references} translationId={enemy.id} />
     </>
   );
 }

@@ -3,6 +3,7 @@ import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { dataDir, hash } from './files.mjs';
 import { equipmentCategory } from './game-import.mjs';
+import { decodeRussianArticleName, RUSSIAN_ARTICLE_NAME_CODEC } from './game-text.mjs';
 
 const schema = JSON.parse(
   await readFile(new URL('../../data/schema.json', import.meta.url), 'utf8'),
@@ -293,6 +294,35 @@ export function validateDataset(data) {
     if (t.status !== 'unverified' && (!t.name_ru || !t.reviewed_by || !t.references?.length))
       fail(`${t.id}: confirmed translation requires name, reviewer and references`);
     for (const ref of t.references || []) link('evidence', ref, t.id);
+    if (t.name_ru && /[\x00-\x1f\x7f\ufffd]/.test(t.name_ru))
+      fail(`${t.id}: translation contains undecoded control characters`);
+    const source = index.sources.get(t.source);
+    if (source?.acquisition === 'game_files') {
+      const nativeId = all.get(t.id)?.game_origin?.row_id;
+      const nativeEvidence = (t.references ?? [])
+        .map((ref) => index.evidence.get(ref))
+        .find(
+          (ev) =>
+            ev?.source_id === t.source &&
+            ev.game_origin?.resource === 'article_ru' &&
+            ev.game_origin.row_id === nativeId,
+        );
+      if (!nativeEvidence)
+        fail(`${t.id}: game translation lacks matching Russian native ID evidence`);
+      else {
+        try {
+          const facts = JSON.parse(nativeEvidence.excerpt);
+          if (
+            facts.decoder !== RUSSIAN_ARTICLE_NAME_CODEC ||
+            facts.name_ru !== t.name_ru ||
+            decodeRussianArticleName(facts.raw_name_ru) !== t.name_ru
+          )
+            fail(`${t.id}: translation differs from decoded native evidence`);
+        } catch {
+          fail(`${t.id}: unreadable Russian native evidence`);
+        }
+      }
+    }
   }
   for (const key of collections) {
     const pending = data[key].filter((r) => r.verification_status !== 'verified').length;
@@ -370,6 +400,11 @@ export function qualityReport(data, issues = []) {
       drafts: named.filter((r) => tr.get(r.id)?.name_ru && tr.get(r.id)?.status === 'unverified')
         .length,
       missing: named.filter((r) => !tr.get(r.id)?.name_ru).length,
+      from_game_files: named.filter(
+        (r) =>
+          tr.get(r.id)?.name_ru &&
+          data.sources.some((s) => s.id === tr.get(r.id)?.source && s.acquisition === 'game_files'),
+      ).length,
     },
     missing: collections.flatMap((k) =>
       data[k]

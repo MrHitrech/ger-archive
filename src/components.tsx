@@ -458,12 +458,13 @@ export function DetailHeader({
   kind: EntityKind;
   category?: string;
 }) {
-  const { translations, visit, english, name, progress } = useApp();
+  const { translations, visit, english, name, progress, sources } = useApp();
   useEffect(() => {
     visit(record.id);
     document.title = `${name(record.id)} — GER Archive`;
   }, [record.id]); // record visit should not rerun when local progress changes
   const t = translations.get(record.id);
+  const gameTranslation = sources.some((s) => s.id === t?.source && s.acquisition === 'game_files');
   return (
     <>
       <Link className="back-link" to={routeFor({ id: '', kind }).replace(/\/$/, '')}>
@@ -493,7 +494,9 @@ export function DetailHeader({
           <p className="translation-note">
             {t?.name_ru
               ? t.status === 'unverified'
-                ? 'Черновой перевод проекта · требует проверки'
+                ? gameTranslation
+                  ? 'Название из установленной игры · требует проверки'
+                  : 'Черновой перевод проекта · требует проверки'
                 : t.status === 'official'
                   ? 'Подтверждённое официальное название'
                   : 'Проверенный неофициальный перевод'
@@ -516,11 +519,22 @@ export function DetailHeader({
     </>
   );
 }
-export function SourceReferences({ references }: { references: string[] }) {
+export function SourceReferences({
+  references,
+  translationId,
+}: {
+  references: string[];
+  translationId?: string;
+}) {
   const { data, error, retry } = useCollections('evidence');
-  const { sources } = useApp();
+  const { sources, translations } = useApp();
   if (!data) return <Loading error={error} retry={retry} />;
-  const entries = references
+  const entries = [
+    ...new Set([
+      ...references,
+      ...(translationId ? (translations.get(translationId)?.references ?? []) : []),
+    ]),
+  ]
     .map((ref) => data.evidence.find((e) => e.id === ref))
     .filter((e) => e !== undefined);
   return (

@@ -110,7 +110,7 @@ export default function Sources() {
           </div>
           <div>
             <b>{report.translations.drafts}</b>
-            <span>Черновых переводов</span>
+            <span>Непроверенных названий</span>
           </div>
           <div>
             <b>{report.translations.missing}</b>
@@ -118,8 +118,9 @@ export default function Sources() {
           </div>
         </div>
         <p className="footnote">
-          Черновики — редакционные варианты проекта. Они не считаются официальной локализацией.
-          Английские названия и игровые суффиксы сохранены.
+          Из файлов установленной игры получено {number(report.translations.from_game_files)}{' '}
+          названий. Редакционные переводы сохранены. Автоматический импорт не присваивает названиям
+          статус официальных или проверенных; английские имена и игровые суффиксы сохранены.
         </p>
       </section>
       <section>

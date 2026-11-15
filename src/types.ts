@@ -80,6 +80,7 @@ export interface Translation {
   aliases: string[];
   source: string;
   status: 'official' | 'verified' | 'unverified';
+  references?: string[];
 }
 export interface Source {
   id: string;
@@ -137,6 +138,7 @@ export interface QualityReport {
     verified: number;
     drafts: number;
     missing: number;
+    from_game_files: number;
   };
   issues: ImportIssue[];
   missing: { collection: string; id: string; name_en: string; fields: string[] }[];

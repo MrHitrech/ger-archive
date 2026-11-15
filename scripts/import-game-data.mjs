@@ -146,6 +146,7 @@ if (process.argv[1] && pathToFileURL(path.resolve(process.argv[1])).href === imp
           counts: result.counts,
           quarantined: result.quarantined_rows,
           factual_changes: result.factual_changes.length,
+          translation_import: result.translation_import,
           preserved_existing_ids: result.preserved_existing_ids,
           backup: result.backup,
         },

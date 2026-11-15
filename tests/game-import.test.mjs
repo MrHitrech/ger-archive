@@ -18,6 +18,7 @@ import { createGameImport, usableRussianName } from '../scripts/lib/game-import.
 import { validateDataset, validateSnapshots } from '../scripts/lib/validate.mjs';
 import { readGameExport } from '../scripts/import-game-data.mjs';
 import { resourcePaths } from '../scripts/extract-game-data.mjs';
+import { RUSSIAN_ARTICLE_NAME_CODEC } from '../scripts/lib/game-text.mjs';
 
 const date = '2026-11-15';
 const empty = () =>
@@ -59,7 +60,7 @@ function fixture() {
       ],
       article_ru: [
         { id: 10164, name: 'Шип' },
-        { id: 13508, name: 'М\u0014талл' },
+        { id: 13508, name: 'М\u0011\u001e\u000b\u0017\u0017' },
         { id: 10719, name: 'Меч P' },
         { id: 10720, name: 'Меч' },
       ],
@@ -301,12 +302,89 @@ test('cycles block the candidate import before it reaches the planner', () => {
     ),
   );
 });
-test('special text bytes are retained for research and rejected as Russian translations', () => {
+test('packed Russian names are decoded while the original spelling remains in evidence', () => {
   assert.equal(usableRussianName('М\u0014талл'), false);
   assert.equal(usableRussianName('Металл'), true);
-  const result = createGameImport(empty(), fixture(), { checkedAt: date });
+  const input = fixture(),
+    before = structuredClone(input);
+  const result = createGameImport(empty(), input, { checkedAt: date });
   const metal = result.dataset.materials.find((r) => r.name_en === 'Fixture Metal');
-  assert.ok(!result.dataset.translations.some((r) => r.id === metal.id));
+  const translation = result.dataset.translations.find((r) => r.id === metal.id);
+  assert.equal(translation.name_ru, 'Металл');
+  assert.equal(translation.status, 'unverified');
+  const facts = JSON.parse(
+    result.dataset.evidence.find((r) => r.id === translation.references[0]).excerpt,
+  );
+  assert.equal(facts.raw_name_ru, input.decoded.article_ru.find((r) => r.id === 13508).name);
+  assert.equal(facts.decoder, RUSSIAN_ARTICLE_NAME_CODEC);
+  assert.deepEqual(input, before);
+});
+
+test('empty translation entries are filled by native ID while aliases are retained', () => {
+  const input = fixture();
+  const initial = createGameImport(empty(), input, { checkedAt: date }).dataset;
+  const material = initial.materials.find((r) => r.game_origin.row_id === 13508);
+  const translation = initial.translations.find((r) => r.id === material.id);
+  Object.assign(translation, {
+    name_ru: null,
+    source: 'pending: review',
+    aliases: ['Старый псевдоним'],
+  });
+  input.decoded.article_ru.reverse();
+  const result = createGameImport(initial, input, { checkedAt: date });
+  const filled = result.dataset.translations.find((r) => r.id === material.id);
+  assert.equal(filled.name_ru, 'Металл');
+  assert.deepEqual(filled.aliases, ['Старый псевдоним']);
+  assert.equal(result.report.translation_import.filled, 1);
+  assert.deepEqual(validateDataset(result.dataset).errors, []);
+});
+
+test('existing editorial translations including reviewed metadata are preserved in full', () => {
+  const input = fixture();
+  const initial = createGameImport(empty(), input, { checkedAt: date }).dataset;
+  const material = initial.materials.find((r) => r.game_origin.row_id === 13508);
+  const translation = initial.translations.find((r) => r.id === material.id);
+  Object.assign(translation, {
+    name_ru: 'Редакторский металл',
+    source: 'editorial-review',
+    status: 'verified',
+    reviewed_by: 'Editor',
+    aliases: ['Редакторский псевдоним'],
+  });
+  const protectedValue = structuredClone(translation);
+  const result = createGameImport(initial, input, { checkedAt: date });
+  assert.deepEqual(
+    result.dataset.translations.find((r) => r.id === material.id),
+    protectedValue,
+  );
+  assert.equal(result.report.translation_import.filled, 0);
+  assert.deepEqual(validateDataset(result.dataset).errors, []);
+});
+
+test('unrecognized control characters remain quarantined instead of becoming published names', () => {
+  const input = fixture();
+  input.decoded.article_ru.find((r) => r.id === 13508).name = 'М\u0001еталл';
+  const result = createGameImport(empty(), input, { checkedAt: date });
+  const material = result.dataset.materials.find((r) => r.game_origin.row_id === 13508);
+  assert.ok(!result.dataset.translations.some((r) => r.id === material.id));
+  assert.equal(result.report.undecoded_russian_names, 1);
+  assert.ok(result.issues.some((r) => r.code === 'GAME_TEXT_ENCODING'));
+});
+
+test('translated names must match the decoded Russian evidence for the same game ID', () => {
+  const result = createGameImport(empty(), fixture(), { checkedAt: date }).dataset;
+  const changed = structuredClone(result);
+  changed.translations[0].name_ru = 'Выдуманное название';
+  assert.ok(
+    validateDataset(changed).errors.some((e) =>
+      e.includes('translation differs from decoded native evidence'),
+    ),
+  );
+  const wrongId = structuredClone(result);
+  wrongId.translations[0].references = wrongId.translations[1].references;
+  assert.ok(
+    validateDataset(wrongId).errors.some((e) => e.includes('matching Russian native ID evidence')),
+  );
 });
 test('a wrong native resource hash or recipe ingredient is rejected by validation', () => {
   const result = createGameImport(empty(), fixture(), { checkedAt: date });

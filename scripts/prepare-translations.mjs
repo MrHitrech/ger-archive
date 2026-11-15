@@ -9,6 +9,9 @@ export async function prepareTranslations(data, { write = false } = {}) {
     (key) => data[key],
   );
   const current = new Map((data.translations || []).map((t) => [t.id, t]));
+  const gameSources = new Set(
+    data.sources.filter((s) => s.acquisition === 'game_files').map((s) => s.id),
+  );
   const draftFile = path.join(dataDir, 'translations/drafts.json');
   const drafts = existsSync(draftFile) ? await readJson(draftFile) : {};
   const result = originals
@@ -49,7 +52,11 @@ export async function prepareTranslations(data, { write = false } = {}) {
           name_en: t.name_en,
           suggested_ru: t.name_ru,
           source: t.source,
-          reason: t.name_ru ? 'review_draft' : 'translation_missing',
+          reason: t.name_ru
+            ? gameSources.has(t.source)
+              ? 'review_game_text'
+              : 'review_draft'
+            : 'translation_missing',
         })),
     );
   }
