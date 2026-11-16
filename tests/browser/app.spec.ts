@@ -184,6 +184,8 @@ test('mission names are Russian and drop categories retain part-specific weights
   await page.getByRole('combobox', { name: 'Способ', exact: true }).selectOption('break');
   await expect(groups).toHaveCount(1);
   await expect(groups).toContainText('Раскол защиты');
+  await expect(page.locator('.drop-table .inline-enemies a').first()).toContainText('Конго');
+  await expect(page.locator('.drop-table .inline-enemies').first()).not.toContainText('Огрехвост');
   await expect(page.locator('.pool-share').first()).toContainText('Доля веса:');
   await expect(page.locator('.drop-rate')).toHaveCount(0);
   await expect(page.getByText(/Точный шанс с учётом механики/)).toBeVisible();

@@ -149,8 +149,8 @@ export function DropTable({
                                   {mission.type === 'urgent' ? ' · срочная' : ''}
                                 </small>
                                 <div className="inline-enemies">
-                                  В миссии:{' '}
-                                  {mission.aragami_ids.map((id, i) => (
+                                  {enemy ? 'Арагами: ' : 'В миссии: '}
+                                  {(enemy ? [enemy.id] : mission.aragami_ids).map((id, i) => (
                                     <span key={id}>
                                       {i > 0 && ', '}
                                       <EntityLink id={id} kind="aragami" compact />
