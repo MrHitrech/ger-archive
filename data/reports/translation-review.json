@@ -254,9 +254,9 @@
   {
     "id": "ger-a-b9bc9ac1fbcc",
     "name_en": "Fallen Chi-You (Spark)",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Падший Чи-Ю (Искорка)",
+    "source": "project-draft: редакционный вариант, требует проверки",
+    "reason": "review_draft"
   },
   {
     "id": "ger-a-bebb2f4712a1",
@@ -352,9 +352,9 @@
   {
     "id": "ger-a-faef635fc47e",
     "name_en": "Tsukuyomi",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Цукуёми",
+    "source": "project-draft: редакционный вариант, требует проверки",
+    "reason": "review_draft"
   },
   {
     "id": "ger-a-fb4526992a64",
