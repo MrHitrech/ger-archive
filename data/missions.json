@@ -54,7 +54,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-4bdf49c479e4",
@@ -831,7 +831,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-021a8a807e24",
@@ -867,7 +867,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-4bdf49c479e4",
@@ -1047,7 +1047,7 @@
       "reward_roll_semantics"
     ],
     "rank": 14,
-    "type": "standard",
+    "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-0c0813c0117b",
     "aragami_ids": [
@@ -1084,7 +1084,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-cfb2f98647e1",
@@ -1161,7 +1161,7 @@
       "reward_roll_semantics"
     ],
     "rank": 14,
-    "type": "standard",
+    "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-cfb2f98647e1",
     "aragami_ids": [
@@ -1602,7 +1602,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-4bdf49c479e4",
@@ -1823,7 +1823,7 @@
       "reward_roll_semantics"
     ],
     "rank": 14,
-    "type": "standard",
+    "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-0dc4f625c359",
     "aragami_ids": [
@@ -1895,7 +1895,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-cfb2f98647e1",
@@ -2007,7 +2007,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-021a8a807e24",
@@ -2337,7 +2337,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-fae90d5943d1",
@@ -2375,7 +2375,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-021a8a807e24",
@@ -2590,7 +2590,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-0c0813c0117b",
@@ -2774,7 +2774,7 @@
       "reward_roll_semantics"
     ],
     "rank": 14,
-    "type": "standard",
+    "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-0c0813c0117b",
     "aragami_ids": [
@@ -2848,7 +2848,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-4bdf49c479e4",
@@ -2992,7 +2992,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-fae90d5943d1",
@@ -3066,7 +3066,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-021a8a807e24",
@@ -3104,7 +3104,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-4bdf49c479e4",
@@ -3214,7 +3214,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-4bdf49c479e4",
@@ -3328,7 +3328,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-2e418eb7ca2c",
@@ -3473,7 +3473,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-fae90d5943d1",
@@ -3510,7 +3510,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-2e418eb7ca2c",
@@ -3584,7 +3584,7 @@
       "reward_roll_semantics"
     ],
     "rank": 14,
-    "type": "standard",
+    "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-3fbe64cc2465",
     "aragami_ids": [
@@ -3623,7 +3623,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-4bdf49c479e4",
@@ -3875,7 +3875,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-4bdf49c479e4",
@@ -4022,7 +4022,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-cfb2f98647e1",
@@ -4058,7 +4058,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-4bdf49c479e4",
@@ -4238,7 +4238,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-0dc4f625c359",
@@ -4276,7 +4276,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-2e418eb7ca2c",
@@ -4533,7 +4533,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-0c0813c0117b",
@@ -4792,7 +4792,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-0c0813c0117b",
@@ -4828,7 +4828,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-021a8a807e24",
@@ -5087,7 +5087,7 @@
       "reward_roll_semantics"
     ],
     "rank": 14,
-    "type": "standard",
+    "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-cfb2f98647e1",
     "aragami_ids": [
@@ -5123,7 +5123,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-0dc4f625c359",
@@ -5416,7 +5416,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-3fbe64cc2465",
@@ -5604,7 +5604,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-021a8a807e24",
@@ -5784,7 +5784,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-cfb2f98647e1",
@@ -5822,7 +5822,7 @@
       "reward_roll_semantics"
     ],
     "rank": 14,
-    "type": "standard",
+    "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-0dc4f625c359",
     "aragami_ids": [
@@ -6041,7 +6041,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-3fbe64cc2465",
@@ -6077,7 +6077,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-fae90d5943d1",
@@ -6148,7 +6148,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-0c0813c0117b",
@@ -6295,7 +6295,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-3fbe64cc2465",
@@ -6332,7 +6332,7 @@
       "reward_roll_semantics"
     ],
     "rank": 14,
-    "type": "standard",
+    "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-4bdf49c479e4",
     "aragami_ids": [
@@ -6440,7 +6440,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-3fbe64cc2465",
@@ -6477,7 +6477,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-0dc4f625c359",
@@ -6626,7 +6626,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-3fbe64cc2465",
@@ -6664,7 +6664,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-cfb2f98647e1",
@@ -6848,7 +6848,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-2e418eb7ca2c",
@@ -7472,7 +7472,7 @@
       "reward_roll_semantics"
     ],
     "rank": 14,
-    "type": "standard",
+    "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-4bdf49c479e4",
     "aragami_ids": [
@@ -7727,7 +7727,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-0c0813c0117b",
@@ -7838,7 +7838,7 @@
       "reward_roll_semantics"
     ],
     "rank": 14,
-    "type": "standard",
+    "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-4bdf49c479e4",
     "aragami_ids": [
@@ -8094,7 +8094,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-2e418eb7ca2c",
@@ -8318,7 +8318,7 @@
       "reward_quantities",
       "reward_roll_semantics"
     ],
-    "rank": "challenge",
+    "rank": 14,
     "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-021a8a807e24",
@@ -8826,7 +8826,7 @@
       "reward_roll_semantics"
     ],
     "rank": 14,
-    "type": "standard",
+    "type": "challenge",
     "variant": "standard",
     "location_id": "ger-l-3fbe64cc2465",
     "aragami_ids": [
@@ -9597,6 +9597,5570 @@
       "row_id": 20071,
       "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
       "byte_offset": 59384
+    }
+  },
+  {
+    "id": "ger-q-49887ae9f0e4",
+    "game": "ger",
+    "name_en": "Aurora",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-6625aea27d262442",
+      "ev-13b6091afb746fe6",
+      "ev-1a0645650b829e3e",
+      "ev-41bbf72d16c50ead",
+      "ev-6d59b4bc9db60961",
+      "ev-8e3762a270cb52f4",
+      "ev-956b48da7d05ae77",
+      "ev-9ab779b47f8cc02a",
+      "ev-9c39ac6682814071",
+      "ev-ad5e267432cb05b3"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 2,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-f1f9875f1759",
+      "ger-a-1c2dd4819abe"
+    ],
+    "objectives_en": "Cocoon Maidens are breeding on the abandoned\ncarrier. They may pose a threat if neglected. \nRetaliation Squad requested to eliminate the 4 \nAragami. Be cautious of uneven ground.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20043,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 50648
+    }
+  },
+  {
+    "id": "ger-q-e0cfd04c0812",
+    "game": "ger",
+    "name_en": "Icy Damsel",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-de46cb67f8af755e",
+      "ev-2a27dbe5fda2566c",
+      "ev-41b361f39ce08a4d",
+      "ev-4bcd89c840170d85",
+      "ev-4fd9039f8449967d",
+      "ev-5491bd8c2e95b374",
+      "ev-61817e1f6a18b919",
+      "ev-794a724042081515",
+      "ev-82b14964be4953fb",
+      "ev-9c9b511b944d5691",
+      "ev-e82d7f59b133b77a",
+      "ev-f366f1fcb398c382",
+      "ev-fbb986df18624795"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-e4442679b5cc",
+      "ger-a-2c17a0d1e245",
+      "ger-a-5f3f5061ae7b",
+      "ger-a-a016ef6928e6"
+    ],
+    "objectives_en": "Eliminate the 2 Vajras in the temple ruins. 1 is \na Prithvi Mata, which some say is a female Vajra\nand others say it is a fallen species. Either \nway, Blaze and Divine are effective on both.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20090,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 65312
+    }
+  },
+  {
+    "id": "ger-q-4d51e4044713",
+    "game": "ger",
+    "name_en": "Avalanche",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-ad19ba40bc130889",
+      "ev-18999ccfa0e6391a",
+      "ev-258de32718154f5e",
+      "ev-3a248ed7b02d0e16",
+      "ev-3c22e3e83ea22df3",
+      "ev-46b5fe94ff70a9dc",
+      "ev-55bf5af17137c2a1",
+      "ev-5b685a3f8fd5c39a",
+      "ev-760137c353de98eb",
+      "ev-8672f3143d363a49",
+      "ev-b1690b613488f7b7",
+      "ev-b3cbaa19609a20b3",
+      "ev-b4ec9397ee58f4d4",
+      "ev-e06a69a0bd899c7e"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-978b8ddc1252",
+      "ger-a-afa34afb3842",
+      "ger-a-2c17a0d1e245",
+      "ger-a-5bb7dc995996"
+    ],
+    "objectives_en": "Eliminate 2 polar Kongous and 1 Gboro-Gboro at \nthe temple ruins. If this mission is successful, \nwe can secure a high level of safety. We can then\nrepair the barrier to the residential area.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20093,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 66248
+    }
+  },
+  {
+    "id": "ger-q-6fc6c6e2a39e",
+    "game": "ger",
+    "name_en": "Bestial Twilight",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-09f8c3f65ab4300e",
+      "ev-12c3ddd50aac91d7",
+      "ev-4d8581ff62a41bb4",
+      "ev-4df796ae5a36c3a9",
+      "ev-5fb6d69c5a5178c7",
+      "ev-910eacda3ca721bb",
+      "ev-b53acaa86ab47984"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-fb4526992a64",
+      "ger-a-a016ef6928e6"
+    ],
+    "objectives_en": "Research Unit has trapped a Dyaus Pita in the Old\nCity after long pursuit. Destroy the evolved\nVajra, the king of beasts, along with a Prithva\nMata in the area. Spark and Freeze are useless.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20095,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 66872
+    }
+  },
+  {
+    "id": "ger-q-326775fa8b6c",
+    "game": "ger",
+    "name_en": "Shark Fin",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-83f7e147955852a0",
+      "ev-0ae377b28fa83511",
+      "ev-0ba2f1ae434aaafa",
+      "ev-2d3bd439885e6082",
+      "ev-2d7b11ae2bc81700",
+      "ev-4c9273fe94ea5be3",
+      "ev-9701261764c88cd8"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-edb038db4478",
+      "ger-a-e4442679b5cc"
+    ],
+    "objectives_en": "Eliminate 1 Vajra and 1 magmatic Gboro-Gboro in\nthe subway remains. Both the Vajra's head and\nGboro-Gboro's forehead are weak to crush attacks.\nFocus fire on one at a time to make things easier.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20105,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 69992
+    }
+  },
+  {
+    "id": "ger-q-2cd7b2df1556",
+    "game": "ger",
+    "name_en": "Fifth Element",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-e136a88c033601a4",
+      "ev-3b1c42c3c6b07d16",
+      "ev-4b01ed3022d99d9b",
+      "ev-73428cc0f01c57fd",
+      "ev-8222178972f09b97",
+      "ev-901721def1de7006",
+      "ev-ae4a10e83af4189b",
+      "ev-ba559cfca8b6fc88"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-70acb4113eb5",
+      "ger-a-2c17a0d1e245"
+    ],
+    "objectives_en": "A new species of Aragami has descended on Aegis.\nThe strategic unit has named it Aether, but it\nlooks like a Sariel and its defenses are believed\nto be similar. A polar Zygote is also in the \narea.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20113,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 72176
+    }
+  },
+  {
+    "id": "ger-q-0ca16cd193e0",
+    "game": "ger",
+    "name_en": "King's Tryst",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-afddeb1460a63b24",
+      "ev-0a6739e266bbb1b4",
+      "ev-4716578e12d5bb2a",
+      "ev-4e6f6752537e585b",
+      "ev-e58248d17156ceac",
+      "ev-ed52773eed19ef52",
+      "ev-f01982b59e31b4d5"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 10,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-fb4526992a64",
+      "ger-a-70acb4113eb5"
+    ],
+    "objectives_en": "The Research Unit monitoring an Aether in the Old \nCity was ambushed by a Dyaus Pita. There were \nsome casualties, but they just about managed to \nbeat a retreat. The two Aragami must be defeated. \nDivine weapons are recommended.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20137,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 79664
+    }
+  },
+  {
+    "id": "ger-q-25b53f115c17",
+    "game": "ger",
+    "name_en": "Missile Fire",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-f322a469cb5e893b",
+      "ev-167213e17fa77735",
+      "ev-498fd83e9a385671",
+      "ev-df7f9109aa2c7cf0"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-7f59fa145dbf"
+    ],
+    "objectives_en": "The Research Unit reported a large fire in the \nOld City last night. This was determined to be \ncaused by a Quadriga's sudden rampage behavior. \nDestroy this with Freeze type bullets.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20193,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 93392
+    }
+  },
+  {
+    "id": "ger-q-5dcecde1f685",
+    "game": "ger",
+    "name_en": "Dark Wing",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-8c9a69d21f793a7b",
+      "ev-1d4bce6433f4a7c7",
+      "ev-6f70d052ddde411c",
+      "ev-c33716d1234c8ec3"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 8,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-b9bc9ac1fbcc"
+    ],
+    "objectives_en": "We have learned that a charged Chi-You escaped a \nrecent large-scale sweep. Scouts have located it \nin the vicinity of the grasslands. It must be \ndefeated. Carrying a shield to protect you from \nSpark attacks would be prudent.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20196,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 94328
+    }
+  },
+  {
+    "id": "ger-q-a7510952c6c6",
+    "game": "ger",
+    "name_en": "Little Ruler",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-25075df8430ba204",
+      "ev-00655fdac6a173ba",
+      "ev-08e748e6ba753de6",
+      "ev-1aa5adf3e9988fa6",
+      "ev-352413ec4cd5c1e3",
+      "ev-65828ae6a8cca502",
+      "ev-6681e217f1ef280f",
+      "ev-8de94ec11f1ed967",
+      "ev-d07e1aeea0d0c3e1",
+      "ev-f023eb7b2c1309c0",
+      "ev-f5d70a5ccbc276b3"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-5f3f5061ae7b",
+      "ger-a-9ec2edfaeb35",
+      "ger-a-d50dded847d0"
+    ],
+    "objectives_en": "Your attacks are weakening the Aragami threat.\nMost of these reports are for small ones now. \nLike this: a group of Ogretails in the Old City.\nThis might sound easy, but never underestimate\nthe Aragami.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20237,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 106808
+    }
+  },
+  {
+    "id": "ger-q-6fd100cf5907",
+    "game": "ger",
+    "name_en": "Firelords in a Storm",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-a239d0d80b1b1ffb",
+      "ev-189d536e854a4f50",
+      "ev-b12af465fcc30267",
+      "ev-ff0fa52268d64d75"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-7d38d15e2624"
+    ],
+    "objectives_en": "A large Aragami has been detected in the\nMarshlands. Info suggests this to be a Hannibal.\nHowever, we have no record of its successful\ndefeat. Its Blaze attacks will require serious\ncaution.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20239,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 107432
+    }
+  },
+  {
+    "id": "ger-q-83e27ae9257f",
+    "game": "ger",
+    "name_en": "The Fall of Mankind",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-1ef4b9ca0add8ba6",
+      "ev-5c3ae1e971e8150c",
+      "ev-83f96e5cacfd4cd1",
+      "ev-bb9c738447119cb6"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 10,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-5e0e74a1da64"
+    ],
+    "objectives_en": "A Black Hannibal has been sighted at the Aegis. \nThere is not much information on how to defeat it, \nbut we know that it uses strong Divine attacks. \nAdjust your gear accordingly.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20245,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 109304
+    }
+  },
+  {
+    "id": "ger-q-6eb5bcdcad7b",
+    "game": "ger",
+    "name_en": "Devourer of the Mind",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-c489c9027a17362e",
+      "ev-08daba3d6243a9ae",
+      "ev-845caa7722c647be",
+      "ev-8a371403cf79b25e"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 10,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-769a948234b6"
+    ],
+    "objectives_en": "This is an emergency mission. Susano'o, a Type 1\nDeusphage, has been found in the subway remains. \nIt has devoured many God Eaters already. Destroy \nit with Divine weapons before you become its \nprey.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20246,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 109616
+    }
+  },
+  {
+    "id": "ger-q-a24bb6296186",
+    "game": "ger",
+    "name_en": "Spiral of Reminiscence",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-9ec4b7df9bfdfb13",
+      "ev-9c80011819f74093",
+      "ev-bd07d092053fc479",
+      "ev-ccc228a6e2b5d61d"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 10,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-4992e686cc07"
+    ],
+    "objectives_en": "The fearful giant, Ouroboros has been sighted in\nthe Marshlands. It's said that earthquakes are\ncaused by this dangerous beast. Shatter its front\nlegs and stop the giant from moving around.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20247,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 109928
+    }
+  },
+  {
+    "id": "ger-q-3a1f06eb5f2e",
+    "game": "ger",
+    "name_en": "True Moon Welkin",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-b87bacd522d32c40",
+      "ev-0bde70a372fd9fc9",
+      "ev-0f057f4ea82abecc",
+      "ev-870b3397a9d08b1f"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 10,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-fae90d5943d1",
+    "aragami_ids": [
+      "ger-a-5e0e74a1da64"
+    ],
+    "objectives_en": "Black Hannibal is officially classified as a \nCorrosive Hannibal species. We have yet to find \nany of its weaknesses. The only suggestion we can \nmake is to take armor that shields against Divine \nattacks. Good luck.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20248,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 110240
+    }
+  },
+  {
+    "id": "ger-q-05f119afd31e",
+    "game": "ger",
+    "name_en": "Mama's Boy",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-8c7fc0bb5388333e",
+      "ev-194207dbdf6c1f97",
+      "ev-33a4e95482466df3",
+      "ev-3e654d0a85ed5a46",
+      "ev-3ed00b043081ea77",
+      "ev-5afcd7ce8da39812",
+      "ev-67d63e631e3467b1",
+      "ev-70ce00a94c5755d6",
+      "ev-86002681d6dde381",
+      "ev-e2fc3cf2de590ef2"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-d50dded847d0",
+      "ger-a-94305bba2f47",
+      "ger-a-5430ef45c41e"
+    ],
+    "objectives_en": "Challenge Mission:\nA Fallen Zygote and a charged Vajratail. Damn,\nit's just trash... Hey, you. Come along. It's got\nnothing to do with the Amaterasu nearby! I'm just\noffering to split the prize with you.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20253,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 111488
+    }
+  },
+  {
+    "id": "ger-q-e4dc953ade96",
+    "game": "ger",
+    "name_en": "Icarus's Wing",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-3acfc3a0d0929b05",
+      "ev-0f9adf88dad3fc8b",
+      "ev-3cfc9b2a41bc409b",
+      "ev-52868628874857a2",
+      "ev-5cf36bbfc4e608f5",
+      "ev-723d0e38428170ae",
+      "ev-7da58a862163c680",
+      "ev-815062df33e42473",
+      "ev-a475b3db53f9c63d",
+      "ev-aa95271dbc2d73b0",
+      "ev-b165308e6c504699",
+      "ev-b508c4a02c4cc0f6",
+      "ev-c361d0d67e9a3b57",
+      "ev-cd7ab0967e7fc316",
+      "ev-d2c76cbdc3b08ffd"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-a4b55a512663",
+      "ger-a-b9bc9ac1fbcc",
+      "ger-a-8c5eafaa5690",
+      "ger-a-2c17a0d1e245"
+    ],
+    "objectives_en": "Challenge Mission:\nShooting down a flying Aragami is pretty hard, \nbut it feels so good. There's a Chi-You and its \nfallen species, plus a Fallen Sariel in the \nabandoned factory. So? Wanna come with me?",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20254,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 111800
+    }
+  },
+  {
+    "id": "ger-q-e80dfcac6516",
+    "game": "ger",
+    "name_en": "Hard Case",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-9ddf1f52797b9cbe",
+      "ev-1123d3764268f79a",
+      "ev-178ddb9d97c81367",
+      "ev-1eea8f74b0156fb6",
+      "ev-2bc2c040313d5e83",
+      "ev-698c62e865bfaf0a",
+      "ev-8d0a0109884d85ce",
+      "ev-9082d6ea4e51750c",
+      "ev-98a0dd220c5f735c",
+      "ev-e0928f2643e7218f"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-b9bc9ac1fbcc",
+      "ger-a-afa34afb3842",
+      "ger-a-769a948234b6"
+    ],
+    "objectives_en": "Challenge Mission:\nA Susano'o has been sighted again. I'm not really \nup for it, but it's my job. It's in the Old City.\nThere's a polar Kongou with it, so it's kinda \nhard for me to handle alone. Please help!",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20255,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 112112
+    }
+  },
+  {
+    "id": "ger-q-efe5a0602cae",
+    "game": "ger",
+    "name_en": "Backstabber",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-7d7e721f7b154960",
+      "ev-112a1918b45037a7",
+      "ev-1f0edf5fdd7a2c00",
+      "ev-1faf6f778d942966",
+      "ev-282989837aba5536",
+      "ev-5665257453501e98",
+      "ev-d3062955088b4e28"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-7f59fa145dbf",
+      "ger-a-d8f2b7ff68f0"
+    ],
+    "objectives_en": "Challenge Mission:\nSorry to bug you. Um... Can you come with me for\nmy gun training session? The target is a Quadriga\nand a Tezcatlipoca. I thought I'd practice on big\nenemies first. And thank you, in advance!",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20256,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 112424
+    }
+  },
+  {
+    "id": "ger-q-d6839858321a",
+    "game": "ger",
+    "name_en": "Anantaboga",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-6d6c89f25676d35f",
+      "ev-28ef1d689ae8cf40",
+      "ev-5f1a7f6268518436",
+      "ev-956185e1ebc9bc1e",
+      "ev-acfa344a8819728f",
+      "ev-c375e79305c49c18",
+      "ev-c616162e4285a081"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-7d38d15e2624",
+      "ger-a-5e0e74a1da64"
+    ],
+    "objectives_en": "Challenge Mission:\nThe Aragami in the Old City have suddenly \nvanished. We sent in scouts to investigate \nfurther, and they discovered the likely cause—\na Hannibal and Corrosive Hannibal. Eliminate \nthese threats immediately.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20257,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 112736
+    }
+  },
+  {
+    "id": "ger-q-a080371d7ffc",
+    "game": "ger",
+    "name_en": "Sting Ray",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-faeb3caf89321d09",
+      "ev-0e0f5e788db0803d",
+      "ev-5e1cbe18dfb4bced",
+      "ev-8dd583a8fbba04bf",
+      "ev-9fbeca52a789ec89",
+      "ev-aa646df419fb1bde",
+      "ev-f493f41dbc740215",
+      "ev-fc6206f984334204"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-b9bc9ac1fbcc",
+      "ger-a-7d38d15e2624"
+    ],
+    "objectives_en": "Challenge Mission:\nI heard Hannibal's popped up again. He's gotten \nus good a few times now, so I need to get \nrevenge! There's a Fallen Chi-You in the area, \nbut if we team up, they're no match for us!",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20258,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 113048
+    }
+  },
+  {
+    "id": "ger-q-fb70ba33ec8b",
+    "game": "ger",
+    "name_en": "Avalanche",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-4a77249739292eb5",
+      "ev-155f6293e7e62221",
+      "ev-2617e7966d3fb197",
+      "ev-28c7e2e0c6bd9f5a",
+      "ev-5f709d7bffc9448f",
+      "ev-5ff644c6103bec29",
+      "ev-84167d851db56b40",
+      "ev-a28ecaaef48d767e",
+      "ev-a9922d240ba411df",
+      "ev-ca1b0958f1408abf",
+      "ev-e38528a69f825f6a",
+      "ev-e781655a61f5ca62",
+      "ev-eb7aff5ff2646f1f"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-42ffd31f5e4a",
+      "ger-a-afa34afb3842",
+      "ger-a-30a03ad89563",
+      "ger-a-cd905643fe0e"
+    ],
+    "objectives_en": "Challenge Mission:\nA Fallen Kongou, Fallen Gboro-Gboro, Sekhmet, \nand Fierce Kongou are headed here. Avert them at \nthe carrier. Team up with the Second Squad and \ndefend.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20259,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 113360
+    }
+  },
+  {
+    "id": "ger-q-6931d1662178",
+    "game": "ger",
+    "name_en": "Haze",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-b909518d93dad106",
+      "ev-3adad06d814d54af",
+      "ev-459cfabb18305448",
+      "ev-5e939ab02cf760f0",
+      "ev-7b47ad8867634b86",
+      "ev-a6c22a1cd12b2a40",
+      "ev-ba6b913f4cf60e61"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-a016ef6928e6",
+      "ger-a-7d38d15e2624"
+    ],
+    "objectives_en": "Challenge Mission:\nThe abandoned factory is covered in a thick fog \ncaused by the melting of Prithvi Mata's ice by \nHannibal's heat. Visibility in the region is dire. \nGear up and go in.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20260,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 113672
+    }
+  },
+  {
+    "id": "ger-q-8bfc097bc680",
+    "game": "ger",
+    "name_en": "White-Out",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-3df44130ff1c525d",
+      "ev-3d86c6ce3ce90e58",
+      "ev-77c9d88d10887c18",
+      "ev-7d67b0e6a29e4106",
+      "ev-85ef732e69a70cbb",
+      "ev-97c04ef7709f0721",
+      "ev-b04e43d8de418667",
+      "ev-b2b18eaec1eec674",
+      "ev-df3a8f3c9ed6ef8c",
+      "ev-f30e3c0310b34883"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-afa34afb3842",
+      "ger-a-a016ef6928e6",
+      "ger-a-30a03ad89563"
+    ],
+    "objectives_en": "Challenge Mission:\nA Prithvi Mata with a polar Kongou and Gboro-\nGboro servants have descended on the temple \nruins. Use Blaze weapons to hammer away at her \nfrozen defenses.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20261,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 113984
+    }
+  },
+  {
+    "id": "ger-q-4afbe67a717d",
+    "game": "ger",
+    "name_en": "Red River",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-6c5fc8616e6536cb",
+      "ev-10548d9e817068d0",
+      "ev-239e596930c2e471",
+      "ev-52e9caa28524fbce",
+      "ev-55f62a2efa2d9c32",
+      "ev-b4caa59ff3fede35",
+      "ev-bfe86fcc23ea049e",
+      "ev-d28c645071bb4890",
+      "ev-dffdadaadf015d58",
+      "ev-e9f414b96a4e2176"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-edb038db4478",
+      "ger-a-42ffd31f5e4a",
+      "ger-a-7d38d15e2624"
+    ],
+    "objectives_en": "Challenge Mission:\nThe Fallen Gboro-Gboro, Sekhmet, and Hannibal \nare some Aragami that adapted to the magma when \nthe earth erupted. Now, they have gathered in the\nsubways. Go now and extinguish this threat.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20262,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 114296
+    }
+  },
+  {
+    "id": "ger-q-b6724bbbe400",
+    "game": "ger",
+    "name_en": "Chatterbox",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-6c535cfd9e26ef15",
+      "ev-387c435c47ef293f",
+      "ev-5a0fb72ab940a95e",
+      "ev-8e0d5a5897d75379",
+      "ev-b8a58c2bf3939c29",
+      "ev-c7d75813b78c5e31",
+      "ev-d5620e86403e818a"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-8c5eafaa5690",
+      "ger-a-faef635fc47e"
+    ],
+    "objectives_en": "Challenge Mission:\nThe last contact we heard from our squad \ninvestigating Aegis was that they had sighted \nAragami believed to be a Tsukuyomi and a Fallen \nSariel. Secure Aegis so that we can deploy a \nsearch team.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20263,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 114608
+    }
+  },
+  {
+    "id": "ger-q-84fa4fdec007",
+    "game": "ger",
+    "name_en": "Thunder",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-950ac9e3d4746986",
+      "ev-1207859f30dc7c3d",
+      "ev-168f76b9cf5f5631",
+      "ev-3b4fc736d30aaee2",
+      "ev-4b201718c5e9c5c4",
+      "ev-51bdf87df46b5d9e",
+      "ev-51f4ca07cfb59a2d",
+      "ev-9936caf6597bb682",
+      "ev-bfcd36cd3f9a8280",
+      "ev-de7ee3d0564361b1"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-b9bc9ac1fbcc",
+      "ger-a-cd905643fe0e",
+      "ger-a-e4442679b5cc"
+    ],
+    "objectives_en": "Challenge Mission:\nOur communication equipment seems to malfunction\nin the grasslands. A charged Chi-You, Fierce\nKongou and Vajra have been sighted there. They \nmay not be the actual cause, but get rid of them.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20264,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 114920
+    }
+  },
+  {
+    "id": "ger-q-3e94d5d6d3e0",
+    "game": "ger",
+    "name_en": "Pilgrim 0",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-25e6be95fa056f96",
+      "ev-21992f2559b61bd8",
+      "ev-4e2326d8ed708d1f",
+      "ev-529c80c3ddccc5ad",
+      "ev-65561c0186e8909f",
+      "ev-ba983e99ea12c993",
+      "ev-c00dcfce07ed1c48",
+      "ev-f21abd45600fd83c",
+      "ev-f5397957cb24325d",
+      "ev-f638924313a2deb9",
+      "ev-f8a2d6fe8b5eab9d"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-cd905643fe0e",
+      "ger-a-afa34afb3842",
+      "ger-a-383642d6c036"
+    ],
+    "objectives_en": "Challenge Mission:\nA Kongou herd's been detected at the temple ruins \nagain. A Kongou, Fallen Kongou, and two Fierce \nKongous are out there wreaking havoc as if they're \nchanneling the anger of the abandoned statues. Get \nover there and put an end to their tantrums.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20265,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 115232
+    }
+  },
+  {
+    "id": "ger-q-4bb4f1107340",
+    "game": "ger",
+    "name_en": "Live Prey",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-d2f5e25c7913c20e",
+      "ev-1a92d0933252f652",
+      "ev-2004ed7909555ce9",
+      "ev-64e7b4a18bc6ce6e"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-fb4526992a64"
+    ],
+    "objectives_en": "Challenge Mission:\nSuddenly, a Dyaus Pita appeared on Aegis and \ndestroyed our defense force. Head to Aegis and\neliminate it now. It's an emergency and we\ncannot secure more staff. Give your full \nattention to this mission.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20266,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 115544
+    }
+  },
+  {
+    "id": "ger-q-120b5c09860a",
+    "game": "ger",
+    "name_en": "Monochrome",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-1066a688bd23bde9",
+      "ev-38257159d7532d04",
+      "ev-58ce19c21ede0f09",
+      "ev-7525c97fa35f8f33",
+      "ev-7fe38fc1aa5b5a7d",
+      "ev-a1bb6f8af3b3ffc6",
+      "ev-cea37bcf0043d1e1"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-7d38d15e2624",
+      "ger-a-5e0e74a1da64"
+    ],
+    "objectives_en": "Challenge Mission:\nA Hannibal and corrosive Hannibal seem to have\nwiped out the Aragami on Aegis. The two have\ndevoured everything. They are strong, and much \ntoo dangerous to be left alive. We need them \ndefeated, now.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20267,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 115856
+    }
+  },
+  {
+    "id": "ger-q-5d4abb06eb2c",
+    "game": "ger",
+    "name_en": "Summer Gnats",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-3140354127fddec4",
+      "ev-1a7acf869258d3ad",
+      "ev-4a085e91e1403b52",
+      "ev-5c2b688d15e063a9",
+      "ev-78f25381e5e9f822",
+      "ev-891f770c97f76036",
+      "ev-8c15f590f82ffe3c",
+      "ev-ad84e6ae72d95608",
+      "ev-c120737bcd2f068f"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-b9bc9ac1fbcc",
+      "ger-a-42ffd31f5e4a"
+    ],
+    "objectives_en": "Challenge Mission:\nDefeat the Chi-You in the grasslands. This area \nhas become dangerous due to the two Fallen\nChi-Yous and two Sekhmet that are flying rampant.\nBeware of air strikes that can come from\nanywhere.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20268,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 116168
+    }
+  },
+  {
+    "id": "ger-q-9f0316c7670e",
+    "game": "ger",
+    "name_en": "Watch Out Overhead",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-6121b518a531564d",
+      "ev-0ff758c50e3717ec",
+      "ev-2786ed031ea79856",
+      "ev-374d7273d23eb476",
+      "ev-3b5de18c5b42beea",
+      "ev-55e985fd0b2f61ac",
+      "ev-6a8d3fa8ced0f160",
+      "ev-7783ffc77f29c234",
+      "ev-9e6c1852127a8f57",
+      "ev-a2d559809f9b32e1",
+      "ev-acbda639ff17bc59",
+      "ev-e67b0856a0ecf3c0",
+      "ev-e71b4de7c95dae89"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-d50dded847d0",
+      "ger-a-9ec2edfaeb35",
+      "ger-a-4b6c72428dd1",
+      "ger-a-dc90a0e31b7e"
+    ],
+    "objectives_en": "Challenge Mission: [No Respawn]\nFour Aragami have been detected in the chemical \nfactory ruins. We believe them to be Cocoon \nMaidens and Fallen Ogretails. Keep an eye out \nabove and behind you, and don't even think about \nunderestimating them.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20269,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 116480
+    }
+  },
+  {
+    "id": "ger-q-fd7210841ef8",
+    "game": "ger",
+    "name_en": "Closed City",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-5ff1a75ced073a2b",
+      "ev-2a33ea907f360bbb",
+      "ev-31eb7f27eda4ee61",
+      "ev-36bcc5628f5b4e90",
+      "ev-56f2fccae1b19437",
+      "ev-663b553a1104d370",
+      "ev-832c8f19155003ed",
+      "ev-84a1c19162d88ece",
+      "ev-991bcb1b1f1f7671",
+      "ev-a2f5b8de6c5e7eff",
+      "ev-a60be288564e567a",
+      "ev-a7b7dd432523bdd1",
+      "ev-ad110ef4d21e67b3"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-afa34afb3842",
+      "ger-a-30a03ad89563",
+      "ger-a-cd905643fe0e",
+      "ger-a-42ffd31f5e4a"
+    ],
+    "objectives_en": "Challenge Mission:\nThere was a plan to shut down Aegis before it\nbecame an Aragami nest, but a Fallen Kongou,\nFallen Gboro-Gboro, Fierce Kongou and a Sekhmet\nhave been detected. Eliminate them now.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20270,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 116792
+    }
+  },
+  {
+    "id": "ger-q-4c082ebb88f8",
+    "game": "ger",
+    "name_en": "Dust Trail",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-a7a72d12c36a6c62",
+      "ev-0aac0ff73a4c6492",
+      "ev-0d4bba4b7821bb1b",
+      "ev-16c18b01a66a5624",
+      "ev-200279ac43491892",
+      "ev-2b071c10ff7ed50a",
+      "ev-39beb726ebe9e201",
+      "ev-3cf5fe2b54527711",
+      "ev-457510bb4403365e",
+      "ev-5132e92eced53f1b",
+      "ev-6f7cd65cfd1a4eee",
+      "ev-700d15e970778079",
+      "ev-7e3d951e5d532652",
+      "ev-84e8a7a18a8ad1b3",
+      "ev-8f0b1b2852087492",
+      "ev-9dc2257cfcb46a17",
+      "ev-a0e60b0d2d5fe1a7",
+      "ev-ba33410c7c98d713",
+      "ev-bc3f4917f4a0b048",
+      "ev-c26edc9aa5e885f4",
+      "ev-c752f7044ff44497",
+      "ev-e3db83193fbe3e04",
+      "ev-e4a5948bc1eaea94",
+      "ev-ec7c2bf761c01e85",
+      "ev-ed313c5516ddb06b"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-ca56f474370d",
+      "ger-a-70acb4113eb5",
+      "ger-a-f1f9875f1759"
+    ],
+    "objectives_en": "Challenge Mission:\nAn Aether and Borg Camlann have appeared at the\ntemple ruins, causing a Cocoon Maiden infestation. \nFighting within range of their ballistics is \nfraught with danger. Pay attention to your \nsurroundings.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20271,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 117104
+    }
+  },
+  {
+    "id": "ger-q-2dee03594246",
+    "game": "ger",
+    "name_en": "Black Ore",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-6c6042232d13c62a",
+      "ev-03eb08b59358cc9f",
+      "ev-0692872d103e3efe",
+      "ev-11aa3092c4a8c47f",
+      "ev-3bf6e96aee66eaee",
+      "ev-7538778761855b2c",
+      "ev-8336b0d8d3fda8df"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-fb4526992a64",
+      "ger-a-5e0e74a1da64"
+    ],
+    "objectives_en": "Challenge Mission:\nA Dyaus Pita and Corrosive Hannibal have been \nspotted fighting each other on Aegis. We cannot \nignore the havoc being wreaked. Get out there and \nput an end to their fight before Aegis is \ndestroyed.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20272,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 117416
+    }
+  },
+  {
+    "id": "ger-q-e5cd6f958f4f",
+    "game": "ger",
+    "name_en": "Holy Moon in the Welkin",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-25a484fb44f61973",
+      "ev-36cee87238d3d37b",
+      "ev-91103a57b23a0e5a",
+      "ev-a7f7293d22eb785d",
+      "ev-acd382551782cd76",
+      "ev-da2e007812f43747",
+      "ev-ef3d075d2d38ef39"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-fae90d5943d1",
+    "aragami_ids": [
+      "ger-a-a016ef6928e6",
+      "ger-a-fb4526992a64"
+    ],
+    "objectives_en": "Challenge Mission:\nA Dyaus Pita and Prithvi Mata are being tracked \nat the closed off church. A battle in a small \narea with nowhere to run can become harsh. Watch \nfor their attacks and aim to destroy their heads.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20273,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 117728
+    }
+  },
+  {
+    "id": "ger-q-db500d5efcc1",
+    "game": "ger",
+    "name_en": "Devil Bear",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-e57d037ae636ff7a",
+      "ev-018ef122dd69772c",
+      "ev-2beb7be667439e44",
+      "ev-3e7c18fc9ffd57d8",
+      "ev-48a895560470ea0b",
+      "ev-7b7288c49ee35064",
+      "ev-8488536b646a53fd",
+      "ev-99f7f417bff8b12c",
+      "ev-a02a42957c4eb676",
+      "ev-a83cfca20d4a1a0a",
+      "ev-b96794f0599ef7c8",
+      "ev-fe0df26b8d9a09b7"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 11,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-ee053d83139f",
+      "ger-a-2c17a0d1e245",
+      "ger-a-5f3f5061ae7b"
+    ],
+    "objectives_en": "The polar Quadriga ambushed by the Defense Unit\nhas been spotted in the snow-covered temple ruins\nand must be eliminated. In addition to the target, \nthe area contains a large number of small Aragami. \nAvoid unnecessary battles and focus on the \nobjective.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20335,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 133952
+    }
+  },
+  {
+    "id": "ger-q-0b520db331f1",
+    "game": "ger",
+    "name_en": "Red Tape",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-c77a5031213fade9",
+      "ev-074e15ed1d69a8bb",
+      "ev-2484ed8cb3ba746f",
+      "ev-3fb9ed2990da328d",
+      "ev-6527cfe1dc627d4a",
+      "ev-6ce4b19be1ec9fb9",
+      "ev-a83f80eeee1d1256",
+      "ev-b484f2f39d4e8b10",
+      "ev-bc224cb8bc09d4a1",
+      "ev-e097ce8a95a704e8",
+      "ev-e1cf6ee2133c0874",
+      "ev-e89a3a6520b4f2bb",
+      "ev-e8f34cd58e18f734",
+      "ev-ea2f89d3a714ef34",
+      "ev-f7ede31eef8b4c06"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 11,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-7d38d15e2624",
+      "ger-a-edb038db4478",
+      "ger-a-491bdf55c868"
+    ],
+    "objectives_en": "Eliminate a Hannibal and magmatic Gboro-Gboro\nin the bay district. Target activity levels are \nlow. Though they pose little threat for the time \nbeing, there's no point in waiting until they do. \nBe aware that magmatic Zygotes are also in the \narea.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20341,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 135824
+    }
+  },
+  {
+    "id": "ger-q-433b3b212713",
+    "game": "ger",
+    "name_en": "Corn Snow",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-7cadb676b3b0d27e",
+      "ev-045e2d861039367f",
+      "ev-168384b6aee62f24",
+      "ev-24c053d5e7ca2a09",
+      "ev-28db62ef44b90a68",
+      "ev-47c52dd4c4220ee1",
+      "ev-4a481f8b81a07520",
+      "ev-5283a9b9cf0b59f4",
+      "ev-592f770b6ae425e2",
+      "ev-59baef45bbccc320",
+      "ev-84367f6779483b83",
+      "ev-8acc92321af2e422",
+      "ev-99e503b9e0d52144",
+      "ev-cc8e47868a192a39"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 12,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-bebb2f4712a1",
+      "ger-a-07720796c24e",
+      "ger-a-4b6c72428dd1"
+    ],
+    "objectives_en": "Aragami are gathering into a swarm at the temple \nruins, and must be eliminated before they become \na problem. The primary targets are two Yaksha and \na Yaksha Raja. Magmatic Cocoon Maidens are also \nin the area. Move carefully to keep them from \njoining forces.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20346,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 137384
+    }
+  },
+  {
+    "id": "ger-q-b15e8da70c3f",
+    "game": "ger",
+    "name_en": "Corroded Gorget",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-26648add2d0d45f6",
+      "ev-05a22f9aa4b50aad",
+      "ev-1ddf7d6404cb8e7f",
+      "ev-3295f23e953e2d0c",
+      "ev-3ec9266bca0282ec",
+      "ev-5de414445a73f7b0",
+      "ev-74dd5cfae442ad5d",
+      "ev-9301feb8e24b192d",
+      "ev-96362d7c551325b2",
+      "ev-a4201ac373d63fa1",
+      "ev-ac90deab4cb5b7a4",
+      "ev-afeb05eb5096e13a",
+      "ev-c40381ecf442198b",
+      "ev-d690a7b249f8749d",
+      "ev-fe035a2d5cffc27a"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 12,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-742f68ffae47",
+      "ger-a-dc90a0e31b7e",
+      "ger-a-d50dded847d0",
+      "ger-a-b9bc9ac1fbcc"
+    ],
+    "objectives_en": "Eliminate the charged Borg Camlann and charged\nChi-You holding the stranded carrier. The targets\nare apparently hiding from God Eaters. Charged \nCocoon Maiden and Vajratail are also in the area, \nso engaging each enemy individually is advised.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20349,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 138320
+    }
+  },
+  {
+    "id": "ger-q-27d970a2f977",
+    "game": "ger",
+    "name_en": "Wispy Clouds",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-ac3db0d5c00b90f7",
+      "ev-1bbff7773109daf1",
+      "ev-23dd7bbe3079855c",
+      "ev-38d5888ba2d59ff0",
+      "ev-64448b20f58918d4",
+      "ev-8105379b0a140c71",
+      "ev-85e5fda1a59c23d0",
+      "ev-90e77a0ee8eea1b6",
+      "ev-b45d8b915a164f4d",
+      "ev-ba77163c17a98b97",
+      "ev-d090f8ad2948c36a",
+      "ev-d77797a52d834d07",
+      "ev-dfd7d65455b3edd9",
+      "ev-e38f142cba9b51c6",
+      "ev-f90425811b46a11a",
+      "ev-fe78f81ece6858c1",
+      "ev-fea8e2d88a69a590"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 12,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-70acb4113eb5",
+      "ger-a-94305bba2f47"
+    ],
+    "objectives_en": "Two Aethers have invaded the temple ruins and are\nforming a swarm with smaller Aragami. The pair \nmust be eliminated at all costs. Anti-air weaponry \nand a method of dealing with debuffs will stand \nyou in good stead.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20353,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 139568
+    }
+  },
+  {
+    "id": "ger-q-6499955c081f",
+    "game": "ger",
+    "name_en": "Tutorial 1",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-62f93d2b24a6a27e",
+      "ev-01484952e00d6b91",
+      "ev-02ed74e91058bcd8",
+      "ev-8ee34232ac3aadc0",
+      "ev-a5b2395133d47360",
+      "ev-c58c26f739ac297e"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 1,
+    "type": "tutorial",
+    "variant": "standard",
+    "location_id": "ger-l-a8d8f712e7be",
+    "aragami_ids": [],
+    "objectives_en": "This basic training teaches God Arc fundamentals\nand allows you to practice them on a sparring \ndummy. Reviewing this training is recommended \nbefore accepting a live mission.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20016,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 44096
+    }
+  },
+  {
+    "id": "ger-q-d00f0c981304",
+    "game": "ger",
+    "name_en": "Tutorial 2",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-5818fb9fcbcec249",
+      "ev-53e348af16701b7f",
+      "ev-659440f5876c6482",
+      "ev-a966d4d027572a0a",
+      "ev-e3f9f3b1eb3071e0",
+      "ev-f964d80babb19d05"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 1,
+    "type": "tutorial",
+    "variant": "standard",
+    "location_id": "ger-l-a8d8f712e7be",
+    "aragami_ids": [],
+    "objectives_en": "Here, you will learn God Arc fundamentals and \npractice them on a sparring dummy. In addition, \nyou will learn how to recover materials and items \nfrom the battlefield. Reviewing this training is \nrecommended before accepting a live mission.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20017,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 44408
+    }
+  },
+  {
+    "id": "ger-q-005e38650b85",
+    "game": "ger",
+    "name_en": "Drosera",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-8bdc023541111670",
+      "ev-09d456cb4b21707e",
+      "ev-3bbe101289e0f776",
+      "ev-3d0cb6fee7b6d71d",
+      "ev-859346d0373b50fb",
+      "ev-8f56961a498f5480",
+      "ev-91bb5aefdd844e0d",
+      "ev-9499ceb2b346c1b5",
+      "ev-a7a93914c0a94142",
+      "ev-a9151326bcae1973",
+      "ev-cc384b7436d39e47",
+      "ev-ceddfb72dcde6c57",
+      "ev-d36baf91b503d7e9",
+      "ev-ee6d3ea08e8800fa"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 5,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-b9bc9ac1fbcc",
+      "ger-a-491bdf55c868",
+      "ger-a-edb038db4478",
+      "ger-a-a023271bcec0"
+    ],
+    "objectives_en": "A swarm of Aragami confirmed in the Old \nUnderground City. The main threat seems to be a \nFallen Chi-You and Fallen Gboro-Gboros. The \nZygotes have made the situation complicated. \nTake caution.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20082,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 62816
+    }
+  },
+  {
+    "id": "ger-q-18e783fc7b6e",
+    "game": "ger",
+    "name_en": "Nepenthes",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-0e9c3a27691e70df",
+      "ev-137bc65bc0869cdb",
+      "ev-3f982e097644b56c",
+      "ev-5325e0d88f640f36",
+      "ev-839dcb565b6ee40a",
+      "ev-921c3be8189e961e",
+      "ev-9e9693738f799dc0",
+      "ev-b79a1bc9d1774fa5",
+      "ev-c14fe875a60af29d",
+      "ev-cda62e2e5c8628bb",
+      "ev-eac5a235a3dea265",
+      "ev-f3789b343464ac1e",
+      "ev-f6d82db91c0d6a72",
+      "ev-ff5b0f38627ea1e8"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-a016ef6928e6",
+      "ger-a-d50dded847d0",
+      "ger-a-2c17a0d1e245",
+      "ger-a-5bb7dc995996"
+    ],
+    "objectives_en": "Defeat the Prithvi Mata in the Old City. The \nGuard Squad is at a stalemate with the swarm of \nsmall Aragami. This icy queen is dangerous, but a\ncrushing blow to the head should determine its\nfate.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20096,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 67184
+    }
+  },
+  {
+    "id": "ger-q-0ed9017168ac",
+    "game": "ger",
+    "name_en": "Sweeper",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-1447aee0ff0d667f",
+      "ev-0296e6ff9b97ab92",
+      "ev-118034c111f83c45",
+      "ev-17b334b144932f26",
+      "ev-190779ec83fbf1ec",
+      "ev-29f5c92f845011ac",
+      "ev-3e79a429910d5fd4",
+      "ev-48f0bd3e101bca31",
+      "ev-4edc345888509713",
+      "ev-56ecf04422d52eb4",
+      "ev-74f50140af4e9581",
+      "ev-7ed87642c293cb24",
+      "ev-8f9208e161b114a9",
+      "ev-a99594a4353c34a5",
+      "ev-b0de3f99bcf03f22",
+      "ev-b4d83f4444b0bae9"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-afa34afb3842",
+      "ger-a-2c17a0d1e245",
+      "ger-a-978b8ddc1252",
+      "ger-a-a4b55a512663",
+      "ger-a-d50dded847d0"
+    ],
+    "objectives_en": "The abandoned factory became an Aragami nest while\nFenrir's chain of command was in chaos. Rush to\nthe scene and eliminate 1 polar Kongou, 1\nGboro-Gboro, and 1 Chi-You. Blaze weaponry\nis advised.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20110,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 71240
+    }
+  },
+  {
+    "id": "ger-q-e4638ea24f07",
+    "game": "ger",
+    "name_en": "Vortex of Chaos",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-d4461d3a7e8f37d1",
+      "ev-03e92bfc58fa9483",
+      "ev-ab313f3c79031eb8",
+      "ev-d5cf6642d51383e8"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-d4444a6170d8"
+    ],
+    "objectives_en": "A Fallen Ouroboros has become active in the \ngrasslands. This rare species has become \nincreasingly common of late. Though we know they \nare weak to Divine attacks, a giant, free-roaming \nAragami should still be a cause for concern.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20111,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 71552
+    }
+  },
+  {
+    "id": "ger-q-e122c9b898b7",
+    "game": "ger",
+    "name_en": "Waterline Repair",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-1b167d1dbb2ef502",
+      "ev-3767e16d6c8f3fe5",
+      "ev-900bef513c61d92e",
+      "ev-a53f93cce60debbf",
+      "ev-aec50f65146e111c",
+      "ev-ddcf98166170ddb5",
+      "ev-f30ccf9cc91de31c"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-edb038db4478",
+      "ger-a-7f59fa145dbf"
+    ],
+    "objectives_en": "The Aragami threat in the subway remains seems\nto be one of the causes of the delays to our\nwater and air duct construction. We need a\nFallen Gboro-Gboro and a Quadriga eliminated.\nFreeze is effective.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20112,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 71864
+    }
+  },
+  {
+    "id": "ger-q-2e48e0f9fb2b",
+    "game": "ger",
+    "name_en": "Fire and Ice",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-4d3ce2cdcbee160a",
+      "ev-2517410a887b34a7",
+      "ev-a083a3274004c3c9",
+      "ev-a484a1cebb83967f",
+      "ev-ae87549a4296981b",
+      "ev-b00895e193e2cee5",
+      "ev-b2fe9da10ee56fa7"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-ee053d83139f",
+      "ger-a-1a944b933680"
+    ],
+    "objectives_en": "Wipe out the Aragami in the Old City. The target\nis 1 magmatic Borg Camlann and 1 polar Quadriga.\nBeware of its opposite Blaze-and-Freeze\ncombination.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20114,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 72488
+    }
+  },
+  {
+    "id": "ger-q-296ca8b875de",
+    "game": "ger",
+    "name_en": "Alligator Hunter",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-63eb791e8ee4a2c2",
+      "ev-256d5b788aec14b1",
+      "ev-25f312e2e996a76a",
+      "ev-340b1c9e20135c79",
+      "ev-431073c5c615e464",
+      "ev-77d2ed67e06d5653",
+      "ev-7c3dcf398af99891",
+      "ev-86ec7e03b8822a4f",
+      "ev-873f16d5c9995f32",
+      "ev-9d538ed7972d5b2b",
+      "ev-aff96e2121f94a06",
+      "ev-b847b010dede6463",
+      "ev-d11643c66bbac63d",
+      "ev-f965a78d924914ff"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-30a03ad89563",
+      "ger-a-5bb7dc995996",
+      "ger-a-dc90a0e31b7e",
+      "ger-a-4b6c72428dd1"
+    ],
+    "objectives_en": "Eliminate 2 polar Gboro-Gboros at the chemical\nfactory ruins. Fenrir PR seeks to make use of\nAragami waste to secure resources. Note that this\nincludes reusing Gboro-Gboro skin as alligator\nhide.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20115,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 72800
+    }
+  },
+  {
+    "id": "ger-q-1e596b66015d",
+    "game": "ger",
+    "name_en": "Cerberus",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-301972eac1dab0f7",
+      "ev-3e731a8721a9cc82",
+      "ev-4c29ec3701b0b61c",
+      "ev-4da11aafc6d7d99d",
+      "ev-9cab97c0669b2421",
+      "ev-9d8132ddca2b2a21",
+      "ev-a030f16f0b8b786f",
+      "ev-c189dab472049cc5",
+      "ev-c88fc52091873b4e",
+      "ev-d5f9e3e3dc7c5483"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 8,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-fb4526992a64",
+      "ger-a-42ffd31f5e4a",
+      "ger-a-b9bc9ac1fbcc"
+    ],
+    "objectives_en": "Destroy a charged Chi-You, a Sekhmet, and a Dyaus \nPita in the subways. Head shots are effective. In \nparticular, piercing attacks work on the charged \nChi-You and Sekhmet, while the Dyaus Pita is \nsusceptible to crushing.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20118,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 73736
+    }
+  },
+  {
+    "id": "ger-q-ee7ad8978dd6",
+    "game": "ger",
+    "name_en": "Pest Purge",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-8cf09e31b4f5d6ba",
+      "ev-0c2f0f5e7653bfd0",
+      "ev-18204db61d52b099",
+      "ev-25334fc10c9df470",
+      "ev-89632e08177b6d9d",
+      "ev-b46df01f0c60cd52",
+      "ev-e1d8039edfbc3a71"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 10,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-ee053d83139f",
+      "ger-a-8c5eafaa5690"
+    ],
+    "objectives_en": "Rush to the factory ruins and defeat 1 polar\nQuadriga and 1 Fallen Sariel. Blaze weapons are\nadvised. The toxic lake is home to the Sariel.\nTeach it a lesson: there is no resting place for\nAragami.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20138,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 79976
+    }
+  },
+  {
+    "id": "ger-q-7b69c3371d36",
+    "game": "ger",
+    "name_en": "Tower of Ivory",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-0de697477c49bfe2",
+      "ev-0ade9a28bf37929c",
+      "ev-32fdd0a743adc831",
+      "ev-48204f86f67fde8b",
+      "ev-612454ed98da2d52",
+      "ev-6d8911204425807a",
+      "ev-780b3067d4f547c2",
+      "ev-c8e36c35735f5dff",
+      "ev-d3e57bf2fbd6a3dc",
+      "ev-e4db7088b6ef51ef",
+      "ev-e596d3f4c6537a35",
+      "ev-e8be75eb5f3899e6",
+      "ev-f3a115cbef13b4d9"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 10,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-30a03ad89563",
+      "ger-a-afa34afb3842",
+      "ger-a-cd905643fe0e",
+      "ger-a-42ffd31f5e4a"
+    ],
+    "objectives_en": "Targets sighted in the Old City: 1 Sekhmet, 1\nFierce Kongou, 1 polar Kongou and 1 polar\nGboro-Gboro. Fighting multiple species at once \ncan be very dangerous. Try to separate them.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20140,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 80600
+    }
+  },
+  {
+    "id": "ger-q-4cfe66d85cfa",
+    "game": "ger",
+    "name_en": "Death Mask",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-a53b2132c65fd7a2",
+      "ev-6d6bbabc74a208c4",
+      "ev-7c005548874fa880",
+      "ev-b1fa7c2f78c6b5d9",
+      "ev-c0e52a4a32f0e33e",
+      "ev-d7fee21b0bce53c2",
+      "ev-ec9473f94f8edf6e"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 10,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-d8f2b7ff68f0",
+      "ger-a-a016ef6928e6"
+    ],
+    "objectives_en": "Destroy 1 Tezcatlipoca and 1 Prithvi Mata in the\nabandoned factory. Divine weapons should prove \nuseful. To note, a search was executed on the \ncult, and all suspicious persons have been found.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20141,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 80912
+    }
+  },
+  {
+    "id": "ger-q-06bcaab63b65",
+    "game": "ger",
+    "name_en": "Noble Dining",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-c45d3d066a11b2b3",
+      "ev-18f38d5ca3a96fbc",
+      "ev-34d0deb8343dd753",
+      "ev-5c866ee6f703f848",
+      "ev-7f003da3eb88f4ca",
+      "ev-bd23c47d349c6d02",
+      "ev-bfacf60f9a5b1e86",
+      "ev-d9edb414c6bd7b7b"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 10,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-42ffd31f5e4a",
+      "ger-a-a016ef6928e6"
+    ],
+    "objectives_en": "Eliminate 1 Prithvi Mata and 2 Sekhmets nesting \nin the temple ruins. Blaze and Freeze weapons are\nsuggested. The bracelet and left arm of a runaway\nrookie was found. Assume the rest of his body was\neaten.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20142,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 81224
+    }
+  },
+  {
+    "id": "ger-q-ac8effa06fe9",
+    "game": "ger",
+    "name_en": "Sea Fire",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-b5aa4e0d1a3d4e89",
+      "ev-5e6d1f3bb8bcb0d5",
+      "ev-625a528773fc2399",
+      "ev-6e4eb1fb2c7099be"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 10,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-204490f88904"
+    ],
+    "objectives_en": "A convoy delivering materials from Aegis was\nattacked by an Arda Nova, which have no \nweakness to note. Retaliation Squad requested on \nsite. The Guard Squad will secure your escape \nroute.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20143,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 81536
+    }
+  },
+  {
+    "id": "ger-q-207c56434e16",
+    "game": "ger",
+    "name_en": "St. Elmo's Fire",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-9e461fa4935b348c",
+      "ev-13bb59ebb59b91e1",
+      "ev-17c2028767e30a06",
+      "ev-65c874d02738bcbb",
+      "ev-ad7150182a543879",
+      "ev-b6b146cee86177c6",
+      "ev-bc6d1a6004f31496"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 10,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-fb4526992a64",
+      "ger-a-742f68ffae47"
+    ],
+    "objectives_en": "Rush to the old bay district to defeat a Dyaus Pita\nand a charged Borg Camlann. The charged Borg's\nhead is weak to Blaze, while sunder is effective\non the front legs of the Dyaus Pita.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20144,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 81848
+    }
+  },
+  {
+    "id": "ger-q-4aa03cca5eb4",
+    "game": "ger",
+    "name_en": "Evil Princess",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-9cafc639bcf0fea4",
+      "ev-2924a9fcff59681c",
+      "ev-91b3afa4d4c86824",
+      "ev-9d83e48ec2f79a1f",
+      "ev-b79a39bb43c5bbab",
+      "ev-b8d426ebfee1450c",
+      "ev-ea2aec10b014e301"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 10,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-742f68ffae47",
+      "ger-a-70acb4113eb5"
+    ],
+    "objectives_en": "Defeat a charged Borg Camlann and an Aether in \nthe temple ruins. Blaze or Divine equipment is \nrequired. Side note: Ironically, the Aether has \nattracted the most attention in Fenrir PR's \nrecently published \"God Eaters vs. Aragami\" photo \nbook.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20145,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 82160
+    }
+  },
+  {
+    "id": "ger-q-6030b08582e6",
+    "game": "ger",
+    "name_en": "Lady Butterfly",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-7b82bc32bb9eea6c",
+      "ev-033cc818f2cb6127",
+      "ev-10e0a0399ddacacd",
+      "ev-6d3777087c6da460",
+      "ev-7cd346b37986d0cb",
+      "ev-a24dcde1ca4a3fe4",
+      "ev-a6f3b8865a8e01ec"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 10,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-fb4526992a64",
+      "ger-a-a016ef6928e6"
+    ],
+    "objectives_en": "Eliminate a Dyaus Pita and a Prithvi Mata on Aegis. \nTake a trusty Divine weapon with you. Both tyrants' \nheads are weak against impact, so use crushing \nattacks to split them wide open.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20146,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 82472
+    }
+  },
+  {
+    "id": "ger-q-f09dd03e57da",
+    "game": "ger",
+    "name_en": "Restoration of Myth",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-e566e9db010a129c",
+      "ev-04841d102b040447",
+      "ev-8817528903ca83e1",
+      "ev-917370db89bccb88"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 10,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-d4444a6170d8"
+    ],
+    "objectives_en": "Retaliation Squad requested to defeat 1 Fallen\nOuroboros in the grasslands. Divine is effective,\nbut the reason is unknown. We don't know where\nthey come from, but we must defeat them all.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20147,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 82784
+    }
+  },
+  {
+    "id": "ger-q-3683307f680a",
+    "game": "ger",
+    "name_en": "Road to Idavollr",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-35c78daadfc89afe",
+      "ev-3d635129302d16f0",
+      "ev-43d3e5505081229e",
+      "ev-b4d69706e197a3cb"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 10,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-aaa98fec8ac7"
+    ],
+    "objectives_en": "The Fallen Arda Nova has returned to Aegis. There\nis a public live broadcast, which means this \nbattle will represent us. No weakness of this \nAragami has been found. Good luck in battle.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20148,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 83096
+    }
+  },
+  {
+    "id": "ger-q-7f0a369914dc",
+    "game": "ger",
+    "name_en": "Practice Tutorial",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-3f1b31d19b7e081a",
+      "ev-8a0a3bc584d78d7a",
+      "ev-ce1d4b1760cb145a",
+      "ev-d612b320e933a638"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 2,
+    "type": "tutorial",
+    "variant": "standard",
+    "location_id": "ger-l-a8d8f712e7be",
+    "aragami_ids": [],
+    "objectives_en": "Learn how to attack specific body parts. Your\nobjective is to attack each body part and observe\nthe enemy's reaction. Find the most effective\nattack, and try to destroy what holds them\ntogether.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20156,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 83408
+    }
+  },
+  {
+    "id": "ger-q-3f73f97c08de",
+    "game": "ger",
+    "name_en": "Thor's Banquet",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-4b531cb5519bbf61",
+      "ev-0856fab5f4fe6217",
+      "ev-0ed2938ace59d83d",
+      "ev-2fb9f8d35fbfd333",
+      "ev-9cceeb57ca6d5707",
+      "ev-f36559bbac99912f",
+      "ev-f7e44da92b56e476"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-e4442679b5cc"
+    ],
+    "objectives_en": "Defense Unit has found a herd of Vajra in\nthe plains. There were no deaths, but \nserious injuries have been suffered. Requesting\nRetaliation Squad to handle this chaotic battle \non difficult terrain. Aim for a 2 vs 1 battle.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20160,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 84032
+    }
+  },
+  {
+    "id": "ger-q-4f9f68227f6f",
+    "game": "ger",
+    "name_en": "Ice-Croc's Slumber",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-a88344c225790060",
+      "ev-2ec462fddbf02f32",
+      "ev-a7f7e1050cbb7e7e",
+      "ev-fdbbee3aa4fe6366"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-30a03ad89563"
+    ],
+    "objectives_en": "A Fallen Gboro-Gboro adapted to polar climates \nhas landed on the carrier. We request a veteran \nto eliminate it quickly. Heavy firepower will \nprove effective against its Freeze attacks.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20177,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 88712
+    }
+  },
+  {
+    "id": "ger-q-e97f1c58da6e",
+    "game": "ger",
+    "name_en": "Empress's Forest",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-5b4bff0f1b471dca",
+      "ev-ad0466bb693da819",
+      "ev-d3e36b3826bf8d27",
+      "ev-d77d1fc5ae326267"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 6,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-a016ef6928e6"
+    ],
+    "objectives_en": "A Prithvi Mata has been detected in the Factory \nRuins. It's up to 1st Unit to remove this threat \nto Aegis Island. Though it's by itself, it's still \na formidable adversary. Go equipped with Blaze and \nDivine gear, and watch your back out there.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20179,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 89336
+    }
+  },
+  {
+    "id": "ger-q-391f2710d31f",
+    "game": "ger",
+    "name_en": "Naked Monkey",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-be72fcfd9d268c63",
+      "ev-219d5523cc8b33bb",
+      "ev-55e41e0d5cf72f3d",
+      "ev-729d60accdd91062"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-cd905643fe0e"
+    ],
+    "objectives_en": "Local cold spots have made Kongous develop \nbipolar habitats, and there seems to be a lone \nFierce Kongou in the Old City. Prepare yourself \nin Divine gear and make use of this chance.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20185,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 90896
+    }
+  },
+  {
+    "id": "ger-q-b899b94bfdef",
+    "game": "ger",
+    "name_en": "Frozen City",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-263ad826095ac08d",
+      "ev-56ba034175616710",
+      "ev-613f0a7d61912369",
+      "ev-87173b7c0e3b9886"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-30a03ad89563"
+    ],
+    "objectives_en": "We've received reports of a large, cold-region \nAragami in the Old City. We believe this to be a \nFallen Gboro-Gboro. We request your services as a \nveteran God Eater to defeat it for us. Be sure to \ntake your Blaze gear with you.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20188,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 91832
+    }
+  },
+  {
+    "id": "ger-q-750f687c9356",
+    "game": "ger",
+    "name_en": "Needles and Sewage",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-8fd5a986c0302059",
+      "ev-43ee21c5db8d8df0",
+      "ev-8666e9d5b7bea6ca",
+      "ev-c6a3e97b5eb6635f"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-1a944b933680"
+    ],
+    "objectives_en": "A Fallen Borg Camlann with resistance to heat is\ninterfering with a retrieval mission at the\nchemical plant. Chemicals can become a threat, so\nwe need it gone, quick. The key is to take Freeze\ngear.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20192,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 93080
+    }
+  },
+  {
+    "id": "ger-q-36815e9f50ff",
+    "game": "ger",
+    "name_en": "Burning Tracks",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-6353830e42a13c6c",
+      "ev-48c9d5311bd6e006",
+      "ev-4e8b4a4b0d3ff909",
+      "ev-7490d4a3d73070f7"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-ee053d83139f"
+    ],
+    "objectives_en": "It has been confirmed that the Freeze burn\ninjuries suffered by the Research Unit at the\nfactory ruins were caused by a Fallen Quadriga.\nThis threat must be removed immediately.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20194,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 93704
+    }
+  },
+  {
+    "id": "ger-q-379cffdaa203",
+    "game": "ger",
+    "name_en": "Nightfall Scam",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-9d8d223ab36e36fb",
+      "ev-8e5fa82ae0d728a1",
+      "ev-94f2211317edd6d7",
+      "ev-d2e19f650af23798"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 7,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-70acb4113eb5"
+    ],
+    "objectives_en": "The Aethers near the stranded carrier has become \na serious problem for plant transportation \nmissions from Aegis. We ask for a fully Divine-\nequipped God Eater to carry out this mission.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20195,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 94016
+    }
+  },
+  {
+    "id": "ger-q-b607b3bfab80",
+    "game": "ger",
+    "name_en": "Unidentified",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-5838a064be60c342",
+      "ev-453e09d2b22279b7",
+      "ev-c5e83235afee4c53",
+      "ev-d17c442e5e629c74"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 9,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-30a03ad89563"
+    ],
+    "objectives_en": "Something has been sighted rampaging near the bay \ndistrict. We can't be certain, but we believe it's \na Fallen Gboro-Gboro. Take a Blaze weapon just in \ncase, and proceed with caution.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20209,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 98384
+    }
+  },
+  {
+    "id": "ger-q-a6cd90d239f3",
+    "game": "ger",
+    "name_en": "Ones Who Devour the End",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-3e03897e5d623a68",
+      "ev-51919cda52c9815a",
+      "ev-5f55cc5f898df764",
+      "ev-8e4c31f2103afbcb",
+      "ev-a2dbfa7facc9cacd"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 10,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-faef635fc47e"
+    ],
+    "objectives_en": "Two Tsukuyomi, Type 1 Deusphages, have been \ndetected within Aegis. We're on high alert for \nthis unprecedented scenario. Settle things before \nthe situation gets out of hand. Focused melee \nattacks on their halos will prove to be a vital \ntactic.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20221,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 102128
+    }
+  },
+  {
+    "id": "ger-q-caf84e690f62",
+    "game": "ger",
+    "name_en": "Origin",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-d47a661501d2cebb",
+      "ev-0587297a6f1fc250",
+      "ev-15fa970eb911ba4e",
+      "ev-16d30f9ba63aee2a",
+      "ev-2b01fba1fc74c984",
+      "ev-5284e1e6f6430197",
+      "ev-5781f03b54d03ee7",
+      "ev-6e025ef993dcef95",
+      "ev-9a71e907c03a78bd",
+      "ev-ae4477f611ba9e0b",
+      "ev-c2d07a4b52f6cc1c",
+      "ev-d980940d0209e7dc",
+      "ev-e1a7604d19b5172e"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-ca56f474370d",
+      "ger-a-505fb118f827",
+      "ger-a-e4442679b5cc"
+    ],
+    "objectives_en": "Extra Challenge Mission\nTwo Borg Camlanns, two Sariels and two Vajras have \nbeen confirmed at Aegis. They appear to have been \ndevouring in the depths for some time. They all \nshow signs of abnormal evolution, so exercise extra \ncaution.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20296,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 123656
+    }
+  },
+  {
+    "id": "ger-q-f8ac41fd6d7d",
+    "game": "ger",
+    "name_en": "King of the Hill",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-26a1ed7de1d06fad",
+      "ev-166b8ce882083209",
+      "ev-18d42636d0e92d69",
+      "ev-26a7f31f728231a2",
+      "ev-28a0fdccec793b56",
+      "ev-74d6fcdc70317194",
+      "ev-7781d5033475ee83",
+      "ev-79b3ae55ffc60af6",
+      "ev-831e4fbe3d7de434",
+      "ev-84bfa0e69519e591",
+      "ev-94bc138ecbd8d635",
+      "ev-ac162803f305b8c3",
+      "ev-b035e3bfbfa5a34f",
+      "ev-e7d575c514341411",
+      "ev-ec1bbb118bfa18d0",
+      "ev-f24cb0fb03403d22"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-5e0e74a1da64",
+      "ger-a-f1f9875f1759",
+      "ger-a-d50dded847d0"
+    ],
+    "objectives_en": "Extra Challenge Mission [No Respawn]\nA Corrosive Hannibal has been confirmed in the \nFactory Ruins. Vajratails have also set up camp in \nthe area. While their senses are sharp, they will \nnot notice you if you stay above them. Do not \nallow yourself to be knocked down to ground level.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20300,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 124904
+    }
+  },
+  {
+    "id": "ger-q-3d47baa2bf37",
+    "game": "ger",
+    "name_en": "Focus Forever",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-6c47f712733d3481",
+      "ev-0c18ac120848ed15",
+      "ev-2f457b20fb718075",
+      "ev-7caa329310f319b7",
+      "ev-814b7cf7b6d67906",
+      "ev-aca59eb48697150e",
+      "ev-b4bbc2803b288c3d",
+      "ev-d309528c69220659",
+      "ev-e5763eebf557c715",
+      "ev-fe5b6ab901a2711b"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-fae90d5943d1",
+    "aragami_ids": [
+      "ger-a-383642d6c036",
+      "ger-a-978b8ddc1252",
+      "ger-a-a4b55a512663"
+    ],
+    "objectives_en": "Extra Challenge Mission\nA Kongou, Gboro-Gboro, and Chi-You have broken \ninto the ruins of the church. They all seem much \nstronger than ordinary specimens of their kind, so \nbe careful. They are thought to be extremely \ndangerous. Evasive hit-and-run tactics are advised.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20301,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 125216
+    }
+  },
+  {
+    "id": "ger-q-9d69143d7947",
+    "game": "ger",
+    "name_en": "God Eater Burst",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-399dd5f7e1b68a8d",
+      "ev-0f9b67a5366767a9",
+      "ev-1681b6e43b933f0e",
+      "ev-22da0237c3cdd484",
+      "ev-230741dd684b16c6",
+      "ev-49fdd00c865be259",
+      "ev-52ae005348885dd6",
+      "ev-6cbcd78c246ead19",
+      "ev-702c93f037000743",
+      "ev-7b0e47fe2c033858",
+      "ev-7dc178b575149ebc",
+      "ev-80103fc07c0cf2c7",
+      "ev-97949a380fcd4ec8",
+      "ev-99f24e526bb30894",
+      "ev-a35ce982e24c96b0",
+      "ev-be08bc2b61344deb",
+      "ev-cd42fd77b6f6f073",
+      "ev-d4addb129de5f693",
+      "ev-dc14f02fa1a756f7",
+      "ev-efa741de75df9497",
+      "ev-fb51e32144b486b4"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-cd905643fe0e",
+      "ger-a-fb4526992a64",
+      "ger-a-42ffd31f5e4a",
+      "ger-a-5e0e74a1da64"
+    ],
+    "objectives_en": "Extra Challenge Mission\nFour Fierce Kongous, four Sekhmets, two Dyaus \nPitas, and two Corrosive Hannibals have all been \nconfirmed on Aegis Island. This dire threat must \nbe extinguished as soon as possible. We're all \ncounting on you. Give this everything you've got.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20307,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 127088
+    }
+  },
+  {
+    "id": "ger-q-ca9a3c740cfb",
+    "game": "ger",
+    "name_en": "Triumvirate",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-9744bf8ae1b76702",
+      "ev-25782bff1619eda0",
+      "ev-2d40c805d732508a",
+      "ev-886f5d61a2eb3b93",
+      "ev-88e82d97836f925d",
+      "ev-fb111f6892760183"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 13,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-b9bc9ac1fbcc"
+    ],
+    "objectives_en": "Charged Chi-Yous are drifting into the chemical \nplant. Three are nesting there currently, and now \nthat there is little left to devour, they are \nlikely to move on. Destroy the group to prevent \nthem from threatening other areas. Blaze weaponry \nis recommended.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20356,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 140504
+    }
+  },
+  {
+    "id": "ger-q-b9663fff985a",
+    "game": "ger",
+    "name_en": "Midpoint",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-067d794053c188bd",
+      "ev-22e158bc5bd094a7",
+      "ev-407234197ded4210",
+      "ev-49f3680b372a04e2",
+      "ev-51608da90ea6bc19",
+      "ev-767d086df1d8f0b0",
+      "ev-b24fad4a67f24d89",
+      "ev-cb372f5d16e6078c",
+      "ev-e5cc0df396ccda7f",
+      "ev-ed2d0db114626faa",
+      "ev-fb85f17da57b05be"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 3,
+    "type": "urgent",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-383642d6c036",
+      "ger-a-a4b55a512663",
+      "ger-a-978b8ddc1252"
+    ],
+    "objectives_en": "A number of medium Aragami are rampaging at the\ntemple ruins. A Kongou, a Chi-You, and two Gboro-\nGboros have been confirmed so far. The battlefield will\nlikely be somewhat chaotic, so equip yourself\nappropriately.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20377,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 147056
+    }
+  },
+  {
+    "id": "ger-q-398f9dd1b328",
+    "game": "ger",
+    "name_en": "Triple Cross",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-dd1d2a1d6e3786c7",
+      "ev-2cce673de0f872df",
+      "ev-3bd33c6c35f83911",
+      "ev-84a4dea2d479b637",
+      "ev-ac42ebfb0f6d15bb",
+      "ev-ad679190c6aac6a6",
+      "ev-b648f9d6c407450a",
+      "ev-be79bccfb1476ab9",
+      "ev-c53013ca8f788cb0",
+      "ev-d60d49af7ed73f08",
+      "ev-e883b12390a0a95d",
+      "ev-ed32d0882cf56def",
+      "ev-f7d2b28de32f2db2"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 4,
+    "type": "urgent",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-7f59fa145dbf",
+      "ger-a-ca56f474370d",
+      "ger-a-a4b55a512663"
+    ],
+    "objectives_en": "A Quadriga and a Borg Camlann have appeared in \nthe  Old City. A Chi-You is also approaching the \narea,  but you may ignore this at your discretion. \nSeparating the targets will be vital to the \nsuccess of this mission. Prepare wisely.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20378,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 147368
+    }
+  },
+  {
+    "id": "ger-q-30e9e056b160",
+    "game": "ger",
+    "name_en": "Infantry Swarm",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-8269f4f5d42bf7d9",
+      "ev-107ad36d416fdea5",
+      "ev-1b2e4061827dcdb7",
+      "ev-27f36c92ad53777a",
+      "ev-3812d0d266af1c50",
+      "ev-3b072fc635ba7e2d",
+      "ev-4d077b1272ec6982",
+      "ev-722f778a492959ff",
+      "ev-82fe1f8e0059dcc1",
+      "ev-89dcb8ba9b0b5828",
+      "ev-a153f0f807a436cb",
+      "ev-ee75cb37d61cb98a",
+      "ev-f97137b8eda8d2ea"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 5,
+    "type": "urgent",
+    "phase_index": 1,
+    "phase_count": 2,
+    "parent_mission_id": null,
+    "variant": "survival_phase_1_of_2",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-491bdf55c868",
+      "ger-a-4b6c72428dd1"
+    ],
+    "objectives_en": "Simultaneous Aragami outbreaks have occurred in the\ngrasslands and carrier areas. We will engage in a two-part\noperation to eliminate them. First, head to the grasslands\nand defeat the eight small magmatic Aragami. They may\nbe weak, but don't forget a fight with a Sariel awaits you\nafterward.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20379,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 147680
+    }
+  },
+  {
+    "id": "ger-q-d81759111530",
+    "game": "ger",
+    "name_en": "Infantry Swarm 2",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-9f81637d38f58ae7",
+      "ev-9765640195d2af8a",
+      "ev-aeaaddb947d89718",
+      "ev-b600aa35310bba93"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 5,
+    "type": "urgent",
+    "phase_index": 2,
+    "phase_count": 2,
+    "parent_mission_id": "ger-q-30e9e056b160",
+    "variant": "survival_phase_2_of_2",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-505fb118f827"
+    ],
+    "objectives_en": "Phase 2\nEliminate a Sariel.\nBlaze, Freeze, and Spark equipment is recommended.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20380,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 147992
+    }
+  },
+  {
+    "id": "ger-q-4dd935728629",
+    "game": "ger",
+    "name_en": "Thunderstorm",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-73887ae2bd28de47",
+      "ev-3dff560ffca5dbbf",
+      "ev-4c34ae7413d68de2",
+      "ev-5078073c640e126e",
+      "ev-8c50318a11d26dd7",
+      "ev-b8c5ebfc7a159c55",
+      "ev-c24b6e1388093b69"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 6,
+    "type": "urgent",
+    "phase_index": 1,
+    "phase_count": 2,
+    "parent_mission_id": null,
+    "variant": "survival_phase_1_of_2",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-b9bc9ac1fbcc",
+      "ger-a-afa34afb3842"
+    ],
+    "objectives_en": "A charged Borg Camlann and two mid-size polar \nAragami have appeared in the subway remains. The \nBorg Camlann has since moved to the chemical \nplant, however, necessitating a two-phase \noperation. Begin by eliminating the charged \nChi-You and the polar Kongou in the subway.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20381,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 148304
+    }
+  },
+  {
+    "id": "ger-q-aa0c1c8f0815",
+    "game": "ger",
+    "name_en": "Thunderstorm 2",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-33d9457d8058f1b0",
+      "ev-a25c24b1168e286a",
+      "ev-c6675cfe75058e29",
+      "ev-ef3eb839e019ce60"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 6,
+    "type": "urgent",
+    "phase_index": 2,
+    "phase_count": 2,
+    "parent_mission_id": "ger-q-4dd935728629",
+    "variant": "survival_phase_2_of_2",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-742f68ffae47"
+    ],
+    "objectives_en": "Phase 2\nEliminate one charged Borg Camlann.\nBlaze weaponry is recommended.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20382,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 148616
+    }
+  },
+  {
+    "id": "ger-q-b773a480e43a",
+    "game": "ger",
+    "name_en": "Queen of Obstruction",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-fe65899164b59e5f",
+      "ev-06cc3b5ad32c7320",
+      "ev-27fbcb42279d622b",
+      "ev-2d82c19275c2d428",
+      "ev-301f8eba1d64d8af",
+      "ev-330fa23c03ca190f",
+      "ev-37514bd8f71ae3af",
+      "ev-4328ff54951df447",
+      "ev-7177f33cf673a455",
+      "ev-751e9035c0929964",
+      "ev-99311c49c43f6632",
+      "ev-c5c51f8e91d1ecf4"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 7,
+    "type": "urgent",
+    "phase_index": 1,
+    "phase_count": 2,
+    "parent_mission_id": null,
+    "variant": "survival_phase_1_of_2",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-a016ef6928e6",
+      "ger-a-5f3f5061ae7b"
+    ],
+    "objectives_en": "A Prithvi Mata has appeared in the Old City with a \nretinue of polar Ogretails. In addition, a Kongou \ntroop has been reported in the grasslands. This \nwill be a two-part mission. In the first phase, \nyour targets are the Prithvi Mata and three polar \nOgretails.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20383,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 148928
+    }
+  },
+  {
+    "id": "ger-q-69fa722013a8",
+    "game": "ger",
+    "name_en": "Queen of Obstruction 2",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-742a10be29f6fa9d",
+      "ev-0623f4b436cee056",
+      "ev-0884c9667a6c4441",
+      "ev-1a0d44b3d1dc2769",
+      "ev-6318215f6fadbd54",
+      "ev-7862cd87acd99c23",
+      "ev-97a8eaff151d5698",
+      "ev-a64f8cc38d09b9e3",
+      "ev-a9402d0abf8dc0ce",
+      "ev-ba74cae5627f1aa9",
+      "ev-d793f19e3bad0636",
+      "ev-e9313b6697523428",
+      "ev-fd982683c565185e"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 7,
+    "type": "urgent",
+    "phase_index": 2,
+    "phase_count": 2,
+    "parent_mission_id": "ger-q-b773a480e43a",
+    "variant": "survival_phase_2_of_2",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-383642d6c036",
+      "ger-a-afa34afb3842",
+      "ger-a-cd905643fe0e"
+    ],
+    "objectives_en": "Phase 2\nEliminate a Kongou, a polar Kongou and a Fierce \nKongou. Blaze and Divine equipment is \nrecommended.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20384,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 149240
+    }
+  },
+  {
+    "id": "ger-q-2a0d3fe51566",
+    "game": "ger",
+    "name_en": "Incense Bonfire",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-76698aae642efc7e",
+      "ev-183738b762429876",
+      "ev-245e0d273a0e1903",
+      "ev-2cbc5abdf7a1526f",
+      "ev-470a61f549acff7a",
+      "ev-48e3ff834f38202c",
+      "ev-49151826dfccd174",
+      "ev-567e95360f889760",
+      "ev-70794ac5f97c21ee",
+      "ev-750dd3941f23193f",
+      "ev-86e18c24fe0b3471",
+      "ev-9c060071a51638fe"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 8,
+    "type": "urgent",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-7d38d15e2624",
+      "ger-a-edb038db4478"
+    ],
+    "objectives_en": "A large number of Aragami have appeared in the subway\nremains. A Hannibal and magmatic Gboro-Gboros have\nbeen reported. The Hannibal is calling Gboro-Gboros, so\nthe battle will be drawn out if it is not defeated first. Take\nthe appropriate precautions.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20385,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 149552
+    }
+  },
+  {
+    "id": "ger-q-073d865cac0c",
+    "game": "ger",
+    "name_en": "Flame Madness",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-a511e8d414760c15",
+      "ev-4bee871580462dbf",
+      "ev-6443f5efdd529c6f",
+      "ev-a6262d129d34ca28",
+      "ev-ca80dfc308616b49",
+      "ev-dc2a36b9d745cbb9",
+      "ev-e80120ec61aa0eb2"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 9,
+    "type": "urgent",
+    "phase_index": 1,
+    "phase_count": 2,
+    "parent_mission_id": null,
+    "variant": "survival_phase_1_of_2",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-15d8e0363efd",
+      "ger-a-edb038db4478"
+    ],
+    "objectives_en": "There have been simultaneous outbreaks of Aragami on\nAegis and at the temple ruins. We will launch a two-part\nmission to defeat them. The first phase is the elimination\nof the Ravana and magmatic Gboro-Gboro on Aegis. The\nGboro-Gboro is approaching, but has not arrived yet.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20386,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 149864
+    }
+  },
+  {
+    "id": "ger-q-aaf04367d5f5",
+    "game": "ger",
+    "name_en": "Flame Madness 2",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-012c4237085d27c5",
+      "ev-1f2f6fad3e1893d5",
+      "ev-2b6024dfc2e0b7f0",
+      "ev-5a0e65b077d6bd2f",
+      "ev-648fb0ad072257dc",
+      "ev-d506750ebf53676b",
+      "ev-d589889c8c9d7df2",
+      "ev-dca02391d980a497",
+      "ev-e15de6266ffd95b6",
+      "ev-e15fb6e820e3dbce"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 9,
+    "type": "urgent",
+    "phase_index": 2,
+    "phase_count": 2,
+    "parent_mission_id": "ger-q-073d865cac0c",
+    "variant": "survival_phase_2_of_2",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-42ffd31f5e4a",
+      "ger-a-cd905643fe0e",
+      "ger-a-07720796c24e"
+    ],
+    "objectives_en": "Phase 2\nEliminate a Sekhmet, a Fierce Kongou, and a \nYaksha Raja. Freeze and Divine weaponry is \nrecommended.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20387,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 150176
+    }
+  },
+  {
+    "id": "ger-q-64ef4c114741",
+    "game": "ger",
+    "name_en": "Ranger Yell",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-590cb7cc4d2a24e8",
+      "ev-17f37cc3f61959df",
+      "ev-68720abd77369c32",
+      "ev-a4fdb62593a2b63b"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 10,
+    "type": "urgent",
+    "phase_index": 1,
+    "phase_count": 3,
+    "parent_mission_id": null,
+    "variant": "survival_phase_1_of_3",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-7d38d15e2624"
+    ],
+    "objectives_en": "Aragami outbreaks are occurring in the Old City, \nthe grasslands and the carrier. We will undertake \na three-part mission to eliminate them. The \nprimary target for the first phase is a Hannibal \nin the Old City. Freeze and Spark weaponry is \nrecommended.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20388,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 150488
+    }
+  },
+  {
+    "id": "ger-q-b57bacc22f6f",
+    "game": "ger",
+    "name_en": "Ranger Yell 2",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-700b207a0b6a3e3a",
+      "ev-09cf3db7d78a13e9",
+      "ev-2208427955a59290",
+      "ev-5c3cd817898e1408",
+      "ev-5ccc18de9f928b31",
+      "ev-85feabae16bfe132",
+      "ev-90facde179d4d610",
+      "ev-9a875def1b43c691",
+      "ev-a8ce0c178d9e6338",
+      "ev-b3e1532dcb616d9e",
+      "ev-cadda55d18fccfe5",
+      "ev-d63da18c41de6155"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 10,
+    "type": "urgent",
+    "phase_index": 2,
+    "phase_count": 3,
+    "parent_mission_id": "ger-q-64ef4c114741",
+    "variant": "survival_phase_2_of_3",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-b9bc9ac1fbcc",
+      "ger-a-94305bba2f47",
+      "ger-a-d50dded847d0"
+    ],
+    "objectives_en": "Phase 2\nEliminate a charged Chi-You, a charged Zygote, \nand a charged Vajratail. Blaze or Divine weapons \nare recommended.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20389,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 150800
+    }
+  },
+  {
+    "id": "ger-q-f24ecb14a203",
+    "game": "ger",
+    "name_en": "Ranger Yell 3",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-ac76f3f6deec8913",
+      "ev-2b9803e9ee35cfdc",
+      "ev-31df13d307501d38",
+      "ev-582ad36ae4fae732",
+      "ev-870152fae9a99576",
+      "ev-9327b445df663457",
+      "ev-df7df3a137ccc67a"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 10,
+    "type": "urgent",
+    "phase_index": 3,
+    "phase_count": 3,
+    "parent_mission_id": "ger-q-64ef4c114741",
+    "variant": "survival_phase_3_of_3",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-769a948234b6",
+      "ger-a-70acb4113eb5"
+    ],
+    "objectives_en": "Phase 3\nEliminate a Susano'o and an Aether.\nDivine equipment is recommended.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20390,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 151112
+    }
+  },
+  {
+    "id": "ger-q-68931a43c573",
+    "game": "ger",
+    "name_en": "Spilt Milk",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-b1d2d8bdbf03e1fa",
+      "ev-1e219b41dbfeb14a",
+      "ev-21e5d971eb0f9746",
+      "ev-2ebd120e309d2fb3",
+      "ev-5715ea37b361733e",
+      "ev-627ffde61c490073",
+      "ev-8843d546db29d3f8",
+      "ev-92ebde8df3abba7d",
+      "ev-95ee8a23b3cc79bb",
+      "ev-a6d452da2a7cd80c",
+      "ev-bc6734e4e3318286",
+      "ev-e51b455e409aed0d",
+      "ev-ea77a7c0d65b7327"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 11,
+    "type": "urgent",
+    "phase_index": 1,
+    "phase_count": 2,
+    "parent_mission_id": null,
+    "variant": "survival_phase_1_of_2",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-fb4526992a64",
+      "ger-a-a016ef6928e6",
+      "ger-a-1c2dd4819abe"
+    ],
+    "objectives_en": "Large Aragami have been reported on Aegis. One \ngroup has split off and gone in the direction of \nthe chemical plant. We will undertake a two-part \noperation to eliminate them. In the first phase, \nyou will go to the chemical plant to defeat a \nDyaus Pita, a Prithvi Mata, and four Ogretails.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20391,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 151424
+    }
+  },
+  {
+    "id": "ger-q-9da1ab0db49f",
+    "game": "ger",
+    "name_en": "Spilt Milk 2",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-2f056c36d02e3ea6",
+      "ev-197884d297958a2b",
+      "ev-299cd8b3495d437c",
+      "ev-5de536d0bd31ba16",
+      "ev-66c41e87faa3c7a9",
+      "ev-80444c73f2cd99ff",
+      "ev-8bcb65d91cf2da27",
+      "ev-a325ce9c794a7558",
+      "ev-d4f25993a7cc1744",
+      "ev-d625a0c77debb7bc"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 11,
+    "type": "urgent",
+    "phase_index": 2,
+    "phase_count": 2,
+    "parent_mission_id": "ger-q-68931a43c573",
+    "variant": "survival_phase_2_of_2",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-7f59fa145dbf",
+      "ger-a-1a944b933680",
+      "ger-a-e4442679b5cc"
+    ],
+    "objectives_en": "Phase 2\nEliminate a Quadriga, a magmatic Borg Camlann, and\na Vajra. Freeze and Divine equipment is recommended.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20392,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 151736
+    }
+  },
+  {
+    "id": "ger-q-1d3c9a7125f3",
+    "game": "ger",
+    "name_en": "Material Age",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-da5d299749117b78",
+      "ev-38da0bf18e1b728f",
+      "ev-3bcc1f46d885a01e",
+      "ev-56abb852c94cad83",
+      "ev-81b1471b5aabdaf5",
+      "ev-82a64fce3cdd8152",
+      "ev-8d16862c31b57280",
+      "ev-a371ba88bc81e065",
+      "ev-b092b98cbb3b931b",
+      "ev-f46a19be5caab53b"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 12,
+    "type": "urgent",
+    "phase_index": 1,
+    "phase_count": 3,
+    "parent_mission_id": null,
+    "variant": "survival_phase_1_of_3",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-42ffd31f5e4a",
+      "ger-a-a023271bcec0"
+    ],
+    "objectives_en": "This three-part mission is to eliminate a Sekhmet \nat the chemical plant, a Susano'o at the carrier, \nand an Aether with Fierce Kongous at the temple \nruins. Phase 1 will consist of defeating the \nSekhmet. It is accompanied by a number of \nZygotes—consider these discretionary targets.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20393,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 152048
+    }
+  },
+  {
+    "id": "ger-q-65dcf1a123c5",
+    "game": "ger",
+    "name_en": "Material Age 2",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-742b9d1776fcc5f3",
+      "ev-37292341f55f811e",
+      "ev-3a4982879dd679bb",
+      "ev-482f44bed014c7e2"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 12,
+    "type": "urgent",
+    "phase_index": 2,
+    "phase_count": 3,
+    "parent_mission_id": "ger-q-1d3c9a7125f3",
+    "variant": "survival_phase_2_of_3",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-769a948234b6"
+    ],
+    "objectives_en": "Phase 2\nEliminate one Susano'o.\nDivine equipment is recommended.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20394,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 152360
+    }
+  },
+  {
+    "id": "ger-q-8bd17c798fe0",
+    "game": "ger",
+    "name_en": "Material Age 3",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-0bfcc3457b946b01",
+      "ev-0f90e66f32a19137",
+      "ev-3e3b1a227ee6a8cb",
+      "ev-6611a942174db749",
+      "ev-9df1bd40668f796e",
+      "ev-a36f795c301541df",
+      "ev-a381ab98480e3eb6",
+      "ev-dea5e3e6cb59c0f6"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 12,
+    "type": "urgent",
+    "phase_index": 3,
+    "phase_count": 3,
+    "parent_mission_id": "ger-q-1d3c9a7125f3",
+    "variant": "survival_phase_3_of_3",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-70acb4113eb5",
+      "ger-a-cd905643fe0e"
+    ],
+    "objectives_en": "Phase 3\nEliminate an Aether and two Fierce Kongous.\nDivine equipment is recommended.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20395,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 152672
+    }
+  },
+  {
+    "id": "ger-q-d3e2b4711d83",
+    "game": "ger",
+    "name_en": "Big Trouble",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-2a554a2fc613b63c",
+      "ev-0192852826594c73",
+      "ev-6649c14f3afb5b99",
+      "ev-7077329790837397"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 13,
+    "type": "urgent",
+    "phase_index": 1,
+    "phase_count": 3,
+    "parent_mission_id": null,
+    "variant": "survival_phase_1_of_3",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-8c5eafaa5690"
+    ],
+    "objectives_en": "Large Aragami have scattered from the chemical\nplant and are reported heading towards Aegis and \nthe carrier. Defeat them before they cause more \ndamage. This is a three-part mission, starting with \neliminating a highly toxic Sariel at the chemical \nplant. Using Divine weaponry is not advised.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20396,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 152984
+    }
+  },
+  {
+    "id": "ger-q-dae3b3e5a475",
+    "game": "ger",
+    "name_en": "Big Trouble 2",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-61acd2da844cb840",
+      "ev-24ba57f9d90428a4",
+      "ev-289196ddf97b7490",
+      "ev-debece9afd8ae8c0"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 13,
+    "type": "urgent",
+    "phase_index": 2,
+    "phase_count": 3,
+    "parent_mission_id": "ger-q-d3e2b4711d83",
+    "variant": "survival_phase_2_of_3",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-68fae44d3d2c"
+    ],
+    "objectives_en": "Phase 2\nEliminate a Venus.\nBlaze equipment is recommended.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20397,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 153296
+    }
+  },
+  {
+    "id": "ger-q-e5ad9c7dd7bd",
+    "game": "ger",
+    "name_en": "Big Trouble 3",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-aee29b6928ef9ad5",
+      "ev-5406151e1843353e",
+      "ev-5f8e7024b6f65ce1",
+      "ev-a1917d6424f7792f",
+      "ev-ab122c589c1113bc",
+      "ev-c1e766b4f9d21c8d",
+      "ev-e1c61592a95619ff"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 13,
+    "type": "urgent",
+    "phase_index": 3,
+    "phase_count": 3,
+    "parent_mission_id": "ger-q-d3e2b4711d83",
+    "variant": "survival_phase_3_of_3",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-15d8e0363efd",
+      "ger-a-7f59fa145dbf"
+    ],
+    "objectives_en": "Phase 3\nEliminate a Ravana and a Quadriga.\nFreeze equipment is recommended.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20398,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 153608
+    }
+  },
+  {
+    "id": "ger-q-e2b82c9a7c52",
+    "game": "ger",
+    "name_en": "Cabin Fever",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-716e0c164ec0d253",
+      "ev-521971c3c2c935d5",
+      "ev-760b0db69c950520",
+      "ev-bf528905c85d5f63"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "urgent",
+    "phase_index": 1,
+    "phase_count": 3,
+    "parent_mission_id": null,
+    "variant": "survival_phase_1_of_3",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-204490f88904"
+    ],
+    "objectives_en": "We've detected a powerful Oracle response believed \nto be Aragami arriving on Aegis. Though only an \nArda Nova is currently confirmed, we predict other \npowerful Aragami are incoming, so this mission \nwill be broken into three phases. Please do \neverything you can to resolve this situation.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20399,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 153920
+    }
+  },
+  {
+    "id": "ger-q-ad3fef032293",
+    "game": "ger",
+    "name_en": "Cabin Fever 2",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-a8078097b0f2796f",
+      "ev-41d62ac22660de0f",
+      "ev-64c08db65bdf2ac9",
+      "ev-d6784d3639c4b7a2"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "urgent",
+    "phase_index": 2,
+    "phase_count": 3,
+    "parent_mission_id": "ger-q-e2b82c9a7c52",
+    "variant": "survival_phase_2_of_3",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-5e0e74a1da64"
+    ],
+    "objectives_en": "Phase 2\nEliminate one Corrosive Hannibal.\nFreeze, Spark, and Divine equipment is \nrecommended.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20400,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 154232
+    }
+  },
+  {
+    "id": "ger-q-d4d0a10cc8f8",
+    "game": "ger",
+    "name_en": "Cabin Fever 3",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-c5fc9b020e43f570",
+      "ev-8499c069d80216db",
+      "ev-a31120351be5f7a3",
+      "ev-bd36a0dd6c30ce8e"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "urgent",
+    "phase_index": 3,
+    "phase_count": 3,
+    "parent_mission_id": "ger-q-e2b82c9a7c52",
+    "variant": "survival_phase_3_of_3",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-3559595523da"
+    ],
+    "objectives_en": "Phase 3\nEliminate one Arius Nova.\nFreeze or Spark equipment is recommended.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20401,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 154544
+    }
+  },
+  {
+    "id": "ger-q-fed5c708fa48",
+    "game": "ger",
+    "name_en": "Tempest",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-fbdbd6ccfd3f6fa1",
+      "ev-24f166d29a15d7bd",
+      "ev-2bfb3e1eda5fc644",
+      "ev-2efe2d793041a77b"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "urgent",
+    "phase_index": 1,
+    "phase_count": 3,
+    "parent_mission_id": null,
+    "variant": "survival_phase_1_of_3",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-cda626d39a0a"
+    ],
+    "objectives_en": "A Blitz Hannibal has appeared at the chemical \nplant. It seems to be calling other powerful \nAragami to various locations. To reduce the \npotential damage, this mission will be broken into \nthree phases. Each will be highly dangerous, so \nmake sure you're well equipped.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20402,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 154856
+    }
+  },
+  {
+    "id": "ger-q-28a7146176f7",
+    "game": "ger",
+    "name_en": "Tempest 2",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-dc24fabec645d425",
+      "ev-00cda7d74e79807a",
+      "ev-0ac4c983b597f61a",
+      "ev-282f1484321ff72f",
+      "ev-fb487af3b4bf31a8"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "urgent",
+    "phase_index": 2,
+    "phase_count": 3,
+    "parent_mission_id": "ger-q-fed5c708fa48",
+    "variant": "survival_phase_2_of_3",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-07720796c24e"
+    ],
+    "objectives_en": "Phase 2\nEliminate two Yaksha Raja.\nYou are advised against using Divine weaponry.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20403,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 155168
+    }
+  },
+  {
+    "id": "ger-q-8461c345ca83",
+    "game": "ger",
+    "name_en": "Tempest 3",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-68087a4417c799f0",
+      "ev-06535daf979ba8ee",
+      "ev-0d2eed5556d364b0",
+      "ev-0da57e343ddb3b59",
+      "ev-20d81018ac461407",
+      "ev-47382123f7f4d80e",
+      "ev-5cd5d515948fb353",
+      "ev-68530166a8d94dcb",
+      "ev-868f2334ed5abf7b",
+      "ev-9abacf3aae5394de",
+      "ev-c2f53f8520263baa",
+      "ev-ea1e5709882b9d4b"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "urgent",
+    "phase_index": 3,
+    "phase_count": 3,
+    "parent_mission_id": "ger-q-fed5c708fa48",
+    "variant": "survival_phase_3_of_3",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-d8f2b7ff68f0",
+      "ger-a-a4b55a512663",
+      "ger-a-f1f9875f1759"
+    ],
+    "objectives_en": "Phase 3\nEliminate a Tezcatlipoca and a Chi-You.\nDivine, Blaze and Freeze equipment is recommended.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20404,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 155480
+    }
+  },
+  {
+    "id": "ger-q-e80ec067001a",
+    "game": "ger",
+    "name_en": "Frozen Murder",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-36ed6da8a95f238d",
+      "ev-0263fba3e4c9af58",
+      "ev-05cb600ad6f076c0",
+      "ev-1b438fd52c55337c",
+      "ev-2b3ca50e12c06513",
+      "ev-4a7c73addfce3b78",
+      "ev-5a2e9b4939c0aae5",
+      "ev-7164824ff1ced573",
+      "ev-992eec053183ba8b",
+      "ev-9cbc9a8791b3e776",
+      "ev-b80cdaad12b90160"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "urgent",
+    "phase_index": 1,
+    "phase_count": 3,
+    "parent_mission_id": null,
+    "variant": "survival_phase_1_of_3",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-30a03ad89563",
+      "ger-a-2c17a0d1e245"
+    ],
+    "objectives_en": "An outbreak of polar and other cold-adapted \nAragami is spreading from the temple ruins. Their \nroutes point them toward the carrier and chemical \nplant. This will be a three-part mission, starting \nwith the elimination of all cold-adapted Aragami \nin the temple ruins. Don't forget Blaze weaponry.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20405,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 155792
+    }
+  },
+  {
+    "id": "ger-q-90ca366909bd",
+    "game": "ger",
+    "name_en": "Frozen Murder 2",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-b97390476a8bae57",
+      "ev-251045194879ea85",
+      "ev-9bd62613f341b199",
+      "ev-af9e1a56f9640ed9",
+      "ev-c51787ca66545945",
+      "ev-df842c53a3f2d508",
+      "ev-f841924947181101"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "urgent",
+    "phase_index": 2,
+    "phase_count": 3,
+    "parent_mission_id": "ger-q-e80ec067001a",
+    "variant": "survival_phase_2_of_3",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-a016ef6928e6",
+      "ger-a-ee053d83139f"
+    ],
+    "objectives_en": "Phase 2\nEliminate a Prithvi Mata and a polar Quadriga.\nBlaze equipment is recommended.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20406,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 156104
+    }
+  },
+  {
+    "id": "ger-q-bc52b4374e19",
+    "game": "ger",
+    "name_en": "Frozen Murder 3",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-99458746a6db50cb",
+      "ev-0703feb3306cd207",
+      "ev-33474369ade293b2",
+      "ev-8470a88dacd354c2",
+      "ev-88f7cb6a0a27f26f",
+      "ev-9a86845f768a3324",
+      "ev-bd74bceb49441559"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "urgent",
+    "phase_index": 3,
+    "phase_count": 3,
+    "parent_mission_id": "ger-q-e80ec067001a",
+    "variant": "survival_phase_3_of_3",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-afa34afb3842"
+    ],
+    "objectives_en": "Phase 3\nEliminate four polar Kongous.\nBlaze equipment is recommended.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20407,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 156416
+    }
+  },
+  {
+    "id": "ger-q-2373fffb742f",
+    "game": "ger",
+    "name_en": "Today's Fortune",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-6109c3177ba74229",
+      "ev-08406c4ca6f8c057"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [],
+    "objectives_en": "Extra Challenge Mission\nSortilege, a type of fortune-telling lottery, has \nbeen a tradition in the Far East for ages. A \ndevice for this was recently found at the temple \nruins. If you have time, why not get your fortune \ntold? (Mission will complete automatically.)",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20409,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 156728
+    }
+  },
+  {
+    "id": "ger-q-1dd1c16bf334",
+    "game": "ger",
+    "name_en": "One On One",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-69a86ff0323663b9",
+      "ev-280f776722c02de2",
+      "ev-9d9b3ad5d8aee341",
+      "ev-f29f1d8df813590b"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "challenge",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-2d47298b1d5f"
+    ],
+    "objectives_en": "Challenge Mission\nA Dyaus Pita relative has appeared on Aegis. Its \nbody hardens greatly when activated, and we \nbelieve breaking bonds is the key to neutralizing \nthis effect. We're low on personnel for this \nmission, so remember the above when fighting it.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20410,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 157040
+    }
+  },
+  {
+    "id": "ger-q-0b1f83890557",
+    "game": "ger",
+    "name_en": "Fukumuya Moat",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-bc816e900ce7219c",
+      "ev-00a78ccd9d5d1357",
+      "ev-0ae2abd9ecc473ea",
+      "ev-16eeb11f62b94260",
+      "ev-376acaae4a2ddfee",
+      "ev-46b412689337db25",
+      "ev-6bb546697a6ef648",
+      "ev-728c90aa017154be",
+      "ev-b20b993381e18088",
+      "ev-cff238c97960a1b3",
+      "ev-f3bf46ad54254c70"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 9,
+    "type": "extra",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-7d38d15e2624",
+      "ger-a-2c17a0d1e245",
+      "ger-a-5f3f5061ae7b"
+    ],
+    "objectives_en": "Predator 1 Challenge Mission: Difficulty 9\nIgnoring all warnings, the rally went ahead at the \ntemple ruins. A section of the opposing forces were \nwiped out by a Hannibal. However, an S.O.S. has \nbeen received. Rescue any survivors and eliminate \nthe Aragami. Equip freeze or spark weaponry.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20426,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 157664
+    }
+  },
+  {
+    "id": "ger-q-174d0ac77b3f",
+    "game": "ger",
+    "name_en": "Junk-Eating Beast",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-504748042f99b682",
+      "ev-117291ae46fa0005",
+      "ev-2afea0aea8ef7474",
+      "ev-398fb185ed7c864b",
+      "ev-46f726c498dee21a",
+      "ev-7bf07bb5acac996b",
+      "ev-970306174937de1b",
+      "ev-990953896ed3f45d",
+      "ev-e0d1abf9c8318a2c",
+      "ev-e3477df882a3bbb5"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 13,
+    "type": "extra",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-e4442679b5cc",
+      "ger-a-491bdf55c868"
+    ],
+    "objectives_en": "Predator 1 Challenge Mission: Difficulty 13\nReports state a Vajra is damaging equipment and \nconsuming volatile substances at the chemical plant. \nLeaving it to run loose only heightens the risk of a \nmutation. Proceed to the plant and eliminate the \ntarget. Equip anything other than spark weaponry.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20427,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 157976
+    }
+  },
+  {
+    "id": "ger-q-1affe3b13a04",
+    "game": "ger",
+    "name_en": "Malevolence in the Darkness",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-499bbf10382d2e2d",
+      "ev-1732af2b29c8522e",
+      "ev-1cefe8f8673683a4",
+      "ev-4f7da2014acb3cf0",
+      "ev-7addccfb576b0f38",
+      "ev-7d726f23b6225e1a",
+      "ev-916f7a3ea1841c95",
+      "ev-c77fe3e15c59e5a8",
+      "ev-cc596d4dd6321204",
+      "ev-e28ec33918eea205",
+      "ev-ec60230b066b21b3",
+      "ev-fc800fe5bae91c79"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 13,
+    "type": "extra",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-fb4526992a64",
+      "ger-a-5f3f5061ae7b",
+      "ger-a-5bb7dc995996"
+    ],
+    "objectives_en": "Predator 1 Challenge Mission: Difficulty 13\nA Dyaus Pita has taken down a chopper carrying a \nGod Eater. Survivors are in the subway remains, \nbut the Aragami has followed them in. The tunnels \nare narrow, making combat extremely dangerous. \nTake the utmost care and eliminate the Aragami.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20428,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 158288
+    }
+  },
+  {
+    "id": "ger-q-95949f5453f5",
+    "game": "ger",
+    "name_en": "Carnevale",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-0474a05d272599c5",
+      "ev-1bcc9278f0588707",
+      "ev-25b74094472cc7b6",
+      "ev-26ce834138b31f5b",
+      "ev-31f20a260afba235",
+      "ev-3e35cb3e1848a5c9",
+      "ev-42838e9c2851fa3c",
+      "ev-44a1230121dbc488",
+      "ev-5dfc9f946f307609",
+      "ev-7aab37156516ff63",
+      "ev-d9c5a3c1e32100f5",
+      "ev-debf0fb82470a51f"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "extra",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-bebb2f4712a1",
+      "ger-a-978b8ddc1252",
+      "ger-a-7d38d15e2624"
+    ],
+    "objectives_en": "Predator 1 Enhance Mission: Difficulty 14\nWe need special Yaksha, Gboro-Gboro, and Hannibal \ncores to upgrade the God Arc's abilities. Find these \nAragami in the factory ruins. They have consumed \nsurrounding Aragami and mutated. We need a lot of \ncores, so a cautious, systematic approach is advised.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20429,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 158600
+    }
+  },
+  {
+    "id": "ger-q-2f35c383be6d",
+    "game": "ger",
+    "name_en": "Spiritus 3",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-3e4e02faa06ef332",
+      "ev-7458594d75e12fe5",
+      "ev-7f15a96fd875ad1f",
+      "ev-8491abd432d5e9b6",
+      "ev-acf61f17e8cf7988",
+      "ev-b0e7afc09d3cd824",
+      "ev-b5d490f1c10c849c",
+      "ev-f11dcd297b6ea80f"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "extra",
+    "phase_index": 3,
+    "phase_count": 3,
+    "parent_mission_id": "ger-q-ead42598f704",
+    "variant": "survival_phase_3_of_3",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-a016ef6928e6",
+      "ger-a-42ffd31f5e4a"
+    ],
+    "objectives_en": "Phase 3:\nEliminate a Prithvi Mata and two Sekhmet. Use \nblaze weaponry for the Prithvi Mata and freeze for \nthe Sekhmet.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20430,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 158912
+    }
+  },
+  {
+    "id": "ger-q-d63a6e0fb4b6",
+    "game": "ger",
+    "name_en": "Spiritus 2",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-51ee42af7a32caa1",
+      "ev-01be0da5ccce8271",
+      "ev-b28f4ad2500379d9",
+      "ev-d0d401609605efc2"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "extra",
+    "phase_index": 2,
+    "phase_count": 3,
+    "parent_mission_id": "ger-q-ead42598f704",
+    "variant": "survival_phase_2_of_3",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-4bad81a705d9"
+    ],
+    "objectives_en": "Phase 2\nEliminate a Caligula. Either blaze or spark \nequipment is recommended.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20431,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 159224
+    }
+  },
+  {
+    "id": "ger-q-ead42598f704",
+    "game": "ger",
+    "name_en": "Spiritus",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-b5b3e565ce8711db",
+      "ev-101bf216bd918144",
+      "ev-1d09bcca437e465e",
+      "ev-937789720668588f",
+      "ev-96bacba49c8e7f21",
+      "ev-b18f21c79395b1af",
+      "ev-c6bcfd48ed061b9f",
+      "ev-d58e76704fd27d52"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "extra",
+    "phase_index": 1,
+    "phase_count": 3,
+    "parent_mission_id": null,
+    "variant": "survival_phase_1_of_3",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-15d8e0363efd",
+      "ger-a-07720796c24e"
+    ],
+    "objectives_en": "Predator 1 Survival Mission: Difficulty 14\nWe have sightings of Aragami rampaging near the \ncarrier. They have been devouring nearby Aragami \nbefore vaporizing. Proceed to Phase 3, total \nextermination, quickly. A Ravana and two Yaksha \nRaja are at the carrier - eliminate them.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20432,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 159536
+    }
+  },
+  {
+    "id": "ger-q-7f0891d73240",
+    "game": "ger",
+    "name_en": "Front and Back",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-fb86c31c9a8bb2dc",
+      "ev-0242dec1e9a9d7c0",
+      "ev-1e66bb9534246016",
+      "ev-21d5d2344cbe6260",
+      "ev-31856861149854ec",
+      "ev-3446007a682654a8",
+      "ev-556d0d6312ed1c17",
+      "ev-7e1bd479c8e72b6c",
+      "ev-8bf056ad22cf6341",
+      "ev-b5b066a4370ad7de",
+      "ev-c9cf9ce414b4c44c",
+      "ev-fd2d55c7e4b47772",
+      "ev-ff4b03fa0bba6498"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "extra",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-e4442679b5cc",
+      "ger-a-7f59fa145dbf",
+      "ger-a-ca56f474370d",
+      "ger-a-505fb118f827"
+    ],
+    "objectives_en": "Predator 1 Challenge Mission: Difficulty 14\nA Vajra, Quadriga, Borg Camlann, and Sariel have \nevaded our forces and fled to the factory ruins. \nThey are reportedly in a weakened state, so make \nsure you eliminate them before they recover. Each \none will require a different strategy to defeat.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 300,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20433,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 159848
+    }
+  },
+  {
+    "id": "ger-q-c117356fffdb",
+    "game": "ger",
+    "name_en": "Intermedia",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-dd9ca6560c1d8520",
+      "ev-085f8448b3d4a90e",
+      "ev-0ed7613aef3e86d2",
+      "ev-1bf84f7fcc3d192f",
+      "ev-1e8606558a26a405",
+      "ev-219aa7e8df2fcb5d",
+      "ev-413767d874afce4a",
+      "ev-433e123a614e5f37",
+      "ev-47383da079b0385f",
+      "ev-5a5bcb2f7413d140",
+      "ev-6bc2e84365b586fb",
+      "ev-6f3fd052268a1486",
+      "ev-738960bde0627d37",
+      "ev-8e63e7e129167d89",
+      "ev-913aedd20cc87984",
+      "ev-936c403faa7e1e3f",
+      "ev-9cc7ace073d4ee25",
+      "ev-9d4750ce077af008",
+      "ev-a6811c9e2707602f",
+      "ev-c2310a3203b82675",
+      "ev-dc4ec832d877fe8b",
+      "ev-f36924cc117106cc"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "extra",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-cd905643fe0e",
+      "ger-a-cda626d39a0a",
+      "ger-a-edb038db4478",
+      "ger-a-b9bc9ac1fbcc"
+    ],
+    "objectives_en": "Predator 1 Challenge Mission: Difficulty 14\nAragami are apparently gathering in the subway \nremains. Eliminate the pack leaders - a Fierce \nKongou, Fallen Chi-You, and magmatic Gboro-Gboro. \nA Blitz Hannibal has joined the fray to try and \ndevour them, but it can be ignored for now.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20434,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 160160
+    }
+  },
+  {
+    "id": "ger-q-b3da5b17e7a7",
+    "game": "ger",
+    "name_en": "Perseverance",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-70ebd468a87b1e67",
+      "ev-01fa6562e293d896",
+      "ev-095d37fd8124ec19",
+      "ev-25873da8cef73c0b",
+      "ev-52c76e0d3e8fc7de",
+      "ev-73ed7d38b345c7ee",
+      "ev-7c87cce56e3aa54c",
+      "ev-9322bf48d9c25732",
+      "ev-95a50f0cd3c4d6a8",
+      "ev-e01d7a953c759452"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "extra",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-edb038db4478",
+      "ger-a-a4b55a512663",
+      "ger-a-7f59fa145dbf"
+    ],
+    "objectives_en": "Predator 1 Enhance Mission: Difficulty 14\nA Quadriga, magmatic Gboro-Gboro, and Chi-You\nambushed a squadron carrying materials relating to \nGod Arc research through the Old City. They seem\nstronger than usual, and we fear a drawn out battle. \nEquip freeze weaponry and take care with item usage.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20435,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 160472
+    }
+  },
+  {
+    "id": "ger-q-cc9271f9f46d",
+    "game": "ger",
+    "name_en": "Diligence",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-98ec191ec0271361",
+      "ev-0646051e6aa5e13e",
+      "ev-0d3e491285e41c6b",
+      "ev-0eac159592baa0d3",
+      "ev-24ca5ef7f3d14c3a",
+      "ev-3443e91dff683baf",
+      "ev-6fa104f10a59cbf3",
+      "ev-ada2d7fedfcfeddb",
+      "ev-be51deb0bdb2c290",
+      "ev-f882a727f418aac4"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "extra",
+    "variant": "standard",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-505fb118f827",
+      "ger-a-8c5eafaa5690",
+      "ger-a-70acb4113eb5"
+    ],
+    "objectives_en": "Predator 1 Challenge Mission: Difficulty 14\nSariel are inhabiting a semi-constructed residential \ninstallation in the lower levels of Aegis. Swift \nelimination of Sariel, Fallen Sariel, and Aether is \nof utmost importance. Seems they've been feeding off \nthe installation's Oracle supply and have mutated.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20436,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 160784
+    }
+  },
+  {
+    "id": "ger-q-bac5ee519566",
+    "game": "ger",
+    "name_en": "Phantom Embrace",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-cd9dfc9899e5e7e8",
+      "ev-1e62cf7fb73105d4",
+      "ev-30fa8a1f6b9742e9",
+      "ev-655f8af824aa5832",
+      "ev-6ff0a31c0b01cc04",
+      "ev-80eadeb5fec46c65",
+      "ev-98928343bd6aa4dd",
+      "ev-ac91722e052d3319",
+      "ev-b66d97a550185493",
+      "ev-b8ab6b4c55f7562f",
+      "ev-d40fa4c03464582e"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "extra",
+    "phase_index": 1,
+    "phase_count": 3,
+    "parent_mission_id": null,
+    "variant": "survival_phase_1_of_3",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-d8f2b7ff68f0",
+      "ger-a-f1f9875f1759"
+    ],
+    "objectives_en": "Predator 2 Survival Mission: Difficulty 14\nFallen Arda Nova have returned to Aegis Island and \nlocal Aragami are mutating in response. Eliminate \nthem quickly, starting with Tezcatlipoca in the \nvicinity of Aegis. As the situation is critical, \nyou only have three minutes to succeed.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 180,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20438,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 161408
+    }
+  },
+  {
+    "id": "ger-q-d409e76718b0",
+    "game": "ger",
+    "name_en": "Phantom Embrace 2",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-b3e7d95dd390eb78",
+      "ev-02413a0ccb5f3885",
+      "ev-0ac9d4a67899c06b",
+      "ev-1f4565e3ed960095",
+      "ev-2c3eb95f5b9ca915",
+      "ev-3ddd16e83393aa77",
+      "ev-490cc61a558a4bb7",
+      "ev-56e5f2fbad21331d",
+      "ev-8a5b1e0f85bee746",
+      "ev-98a431ef9072a713",
+      "ev-b3edb96b78419e4d"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "extra",
+    "phase_index": 2,
+    "phase_count": 3,
+    "parent_mission_id": "ger-q-bac5ee519566",
+    "variant": "survival_phase_2_of_3",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-30a03ad89563"
+    ],
+    "objectives_en": "Phase 2\nEliminate four polar Gboro-Gboro. Blaze equipment \nis recommended. As the situation is critical, you \nonly have five minutes to succeed.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 300,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20439,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 161720
+    }
+  },
+  {
+    "id": "ger-q-28567c724bd8",
+    "game": "ger",
+    "name_en": "Phantom Embrace 3",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-e186577cba4f12eb",
+      "ev-26ebfab808bfb0a2",
+      "ev-5f1bf0328ac06c78",
+      "ev-86d81cd6c95d1a3a"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "extra",
+    "phase_index": 3,
+    "phase_count": 3,
+    "parent_mission_id": "ger-q-bac5ee519566",
+    "variant": "survival_phase_3_of_3",
+    "location_id": "ger-l-3fbe64cc2465",
+    "aragami_ids": [
+      "ger-a-aaa98fec8ac7"
+    ],
+    "objectives_en": "Phase 3\nEliminate a Fallen Arda Nova. A shield with divine \nresistance will come in handy. It may only be for \na short while, but a support unit should be able \nto help you out from anywhere in the operational \narea. You only have five minutes to succeed.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 300,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20440,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 162032
+    }
+  },
+  {
+    "id": "ger-q-67e73d125e0f",
+    "game": "ger",
+    "name_en": "The Lion and the Peonies",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-1a0a616c63661ae2",
+      "ev-06cf7abb8fe4934c",
+      "ev-0aaaa8eb2659fc49",
+      "ev-4b44105db0e4631a",
+      "ev-509cacb48195d62a",
+      "ev-6677698c2208c754",
+      "ev-818bf806530657f7",
+      "ev-82701b403693fe07",
+      "ev-9d7e95b0a7583783",
+      "ev-ba2bec0c94e54403",
+      "ev-c376f7d4818b602d"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 14,
+    "type": "extra",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-42ffd31f5e4a",
+      "ger-a-70acb4113eb5",
+      "ger-a-faef635fc47e"
+    ],
+    "objectives_en": "Predator 2 Enhance Mission: Difficulty 14\nR&D are developing techniques to detect Burst and \nprovide support accordingly, and they need you to\nhelp with field tests. Proceed to the plains and \neliminate two Sekhmet, an Aether, and a Tsukuyomi. \nTry to maintain Burst for as long as possible.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 2400,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20441,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 162344
     }
   }
 ]

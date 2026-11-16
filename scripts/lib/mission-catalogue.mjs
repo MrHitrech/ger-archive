@@ -1,5 +1,10 @@
 import { idFor } from './files.mjs';
 import { activeEnemyClasses, FIELD_ACQUISITION_DECODER } from './field-acquisition.mjs';
+import {
+  fullMissionCatalogueDrafts,
+  validateFullCatalogueMission,
+  FULL_MISSION_CATALOGUE_VERSION,
+} from './full-mission-catalogue.mjs';
 
 export const MISSION_CATALOGUE_VERSION = 'ger-mission-catalogue-v1';
 const baseId = (id) => (id >= 20000 ? id - 20000 : id);
@@ -25,6 +30,8 @@ export function missionCatalogueDrafts(
   { manifest, decoded },
   { scope, aragamiMappings = [] },
 ) {
+  if (scope.format_version === 2)
+    return fullMissionCatalogueDrafts(data, { manifest, decoded }, { scope, aragamiMappings });
   if (
     scope.game !== 'ger' ||
     scope.app_id !== '460870' ||
@@ -170,7 +177,9 @@ export function linkCatalogueEnemyEvidence(data) {
   for (const mission of data.missions) {
     if (
       !mission.references.some((ref) =>
-        ev.get(ref)?.excerpt.includes(`"version":"${MISSION_CATALOGUE_VERSION}"`),
+        [MISSION_CATALOGUE_VERSION, FULL_MISSION_CATALOGUE_VERSION].some((version) =>
+          ev.get(ref)?.excerpt.includes(`"version":"${version}"`),
+        ),
       )
     )
       continue;
@@ -187,8 +196,10 @@ export function linkCatalogueEnemyEvidence(data) {
   }
 }
 
-export function validateCatalogueMission(mission, facts, index, mappings) {
+export function validateCatalogueMission(mission, facts, index, mappings, scope) {
   if (!facts.catalogue) return [];
+  if (facts.catalogue.version === FULL_MISSION_CATALOGUE_VERSION)
+    return validateFullCatalogueMission(mission, facts, index, mappings, scope);
   try {
     const meta = facts.catalogue,
       b = Buffer.from(facts.raw_hex, 'hex');

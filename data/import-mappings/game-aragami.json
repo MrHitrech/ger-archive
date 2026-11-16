@@ -168,6 +168,14 @@
     "site_id": "ger-a-42ffd31f5e4a"
   },
   {
+    "family_id": 31,
+    "native_name": "Heavenly Father",
+    "res_name": "MS_001N_teio",
+    "site_id": "ger-a-2d47298b1d5f",
+    "create_record": true,
+    "variant": "original"
+  },
+  {
     "family_id": 32,
     "native_name": "Fallen Borg Camlann",
     "res_name": "MS_003C_fire",

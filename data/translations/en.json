@@ -24,6 +24,10 @@
     "name_en": "Fallen Zygote (Freeze)"
   },
   {
+    "id": "ger-a-2d47298b1d5f",
+    "name_en": "Heavenly Father"
+  },
+  {
     "id": "ger-a-30a03ad89563",
     "name_en": "Fallen Gboro-Gboro (Freeze)"
   },
@@ -11380,6 +11384,10 @@
     "name_en": "City of Mercy"
   },
   {
+    "id": "ger-l-a8d8f712e7be",
+    "name_en": "Training Grounds"
+  },
+  {
     "id": "ger-l-cfb2f98647e1",
     "name_en": "Tranquil Temple"
   },
@@ -13860,6 +13868,10 @@
     "name_en": "Summer Horsefly"
   },
   {
+    "id": "ger-q-005e38650b85",
+    "name_en": "Drosera"
+  },
+  {
     "id": "ger-q-011a64857f30",
     "name_en": "Lantern Cutting"
   },
@@ -13876,8 +13888,20 @@
     "name_en": "Dutch Oven"
   },
   {
+    "id": "ger-q-05f119afd31e",
+    "name_en": "Mama's Boy"
+  },
+  {
     "id": "ger-q-066864caa5c9",
     "name_en": "Spider Lily"
+  },
+  {
+    "id": "ger-q-06bcaab63b65",
+    "name_en": "Noble Dining"
+  },
+  {
+    "id": "ger-q-073d865cac0c",
+    "name_en": "Flame Madness"
   },
   {
     "id": "ger-q-07ae46feb908",
@@ -13892,6 +13916,18 @@
     "name_en": "Cardinal"
   },
   {
+    "id": "ger-q-0b1f83890557",
+    "name_en": "Fukumuya Moat"
+  },
+  {
+    "id": "ger-q-0b520db331f1",
+    "name_en": "Red Tape"
+  },
+  {
+    "id": "ger-q-0ca16cd193e0",
+    "name_en": "King's Tryst"
+  },
+  {
     "id": "ger-q-0dc9ebd23f76",
     "name_en": "Fallen Angel Egg"
   },
@@ -13900,12 +13936,20 @@
     "name_en": "Kongou Giant"
   },
   {
+    "id": "ger-q-0ed9017168ac",
+    "name_en": "Sweeper"
+  },
+  {
     "id": "ger-q-10c05a91751e",
     "name_en": "God of Thunder"
   },
   {
     "id": "ger-q-113f94cc47d3",
     "name_en": "Knight's Mind"
+  },
+  {
+    "id": "ger-q-120b5c09860a",
+    "name_en": "Monochrome"
   },
   {
     "id": "ger-q-12fd666827f5",
@@ -13932,8 +13976,16 @@
     "name_en": "Home of Souls"
   },
   {
+    "id": "ger-q-174d0ac77b3f",
+    "name_en": "Junk-Eating Beast"
+  },
+  {
     "id": "ger-q-18c6f234012c",
     "name_en": "Poison Garnish"
+  },
+  {
+    "id": "ger-q-18e783fc7b6e",
+    "name_en": "Nepenthes"
   },
   {
     "id": "ger-q-18ee4e3db8f7",
@@ -13944,6 +13996,10 @@
     "name_en": "Undertaker"
   },
   {
+    "id": "ger-q-1affe3b13a04",
+    "name_en": "Malevolence in the Darkness"
+  },
+  {
     "id": "ger-q-1b5cf6e473d7",
     "name_en": "Fallen Vortex"
   },
@@ -13952,8 +14008,20 @@
     "name_en": "Soulmate"
   },
   {
+    "id": "ger-q-1d3c9a7125f3",
+    "name_en": "Material Age"
+  },
+  {
     "id": "ger-q-1d4ee108e8f7",
     "name_en": "An Aloof Dream"
+  },
+  {
+    "id": "ger-q-1dd1c16bf334",
+    "name_en": "One On One"
+  },
+  {
+    "id": "ger-q-1e596b66015d",
+    "name_en": "Cerberus"
   },
   {
     "id": "ger-q-1ec769b6cb43",
@@ -13966,6 +14034,10 @@
   {
     "id": "ger-q-202ed24f928f",
     "name_en": "Devourer of All"
+  },
+  {
+    "id": "ger-q-207c56434e16",
+    "name_en": "St. Elmo's Fire"
   },
   {
     "id": "ger-q-2161a33e4a22",
@@ -13984,6 +14056,10 @@
     "name_en": "Drifting Snow"
   },
   {
+    "id": "ger-q-2373fffb742f",
+    "name_en": "Today's Fortune"
+  },
+  {
     "id": "ger-q-24f99d95ba00",
     "name_en": "Pilgrim 2"
   },
@@ -13994,6 +14070,10 @@
   {
     "id": "ger-q-25ac80ddbb7d",
     "name_en": "September Shadow"
+  },
+  {
+    "id": "ger-q-25b53f115c17",
+    "name_en": "Missile Fire"
   },
   {
     "id": "ger-q-26c50f68889c",
@@ -14008,6 +14088,10 @@
     "name_en": "Dog Mines"
   },
   {
+    "id": "ger-q-27d970a2f977",
+    "name_en": "Wispy Clouds"
+  },
+  {
     "id": "ger-q-27e02d7e89c5",
     "name_en": "Gold Coast"
   },
@@ -14016,8 +14100,28 @@
     "name_en": "Heliamphora"
   },
   {
+    "id": "ger-q-28567c724bd8",
+    "name_en": "Phantom Embrace 3"
+  },
+  {
+    "id": "ger-q-28a7146176f7",
+    "name_en": "Tempest 2"
+  },
+  {
     "id": "ger-q-2901bc5eeb5c",
     "name_en": "Exiled Emperor"
+  },
+  {
+    "id": "ger-q-296ca8b875de",
+    "name_en": "Alligator Hunter"
+  },
+  {
+    "id": "ger-q-2a0d3fe51566",
+    "name_en": "Incense Bonfire"
+  },
+  {
+    "id": "ger-q-2cd7b2df1556",
+    "name_en": "Fifth Element"
   },
   {
     "id": "ger-q-2cf4eeb03e17",
@@ -14028,8 +14132,28 @@
     "name_en": "Purple Sparks"
   },
   {
+    "id": "ger-q-2dee03594246",
+    "name_en": "Black Ore"
+  },
+  {
+    "id": "ger-q-2e48e0f9fb2b",
+    "name_en": "Fire and Ice"
+  },
+  {
+    "id": "ger-q-2f35c383be6d",
+    "name_en": "Spiritus 3"
+  },
+  {
+    "id": "ger-q-30e9e056b160",
+    "name_en": "Infantry Swarm"
+  },
+  {
     "id": "ger-q-31e6165f55db",
     "name_en": "Croc Three"
+  },
+  {
+    "id": "ger-q-326775fa8b6c",
+    "name_en": "Shark Fin"
   },
   {
     "id": "ger-q-337dbfa5860b",
@@ -14052,20 +14176,48 @@
     "name_en": "First Frost"
   },
   {
+    "id": "ger-q-36815e9f50ff",
+    "name_en": "Burning Tracks"
+  },
+  {
+    "id": "ger-q-3683307f680a",
+    "name_en": "Road to Idavollr"
+  },
+  {
     "id": "ger-q-36deec6fd61f",
     "name_en": "Troika"
+  },
+  {
+    "id": "ger-q-379cffdaa203",
+    "name_en": "Nightfall Scam"
   },
   {
     "id": "ger-q-38cc751be251",
     "name_en": "Black Trojan"
   },
   {
+    "id": "ger-q-391f2710d31f",
+    "name_en": "Naked Monkey"
+  },
+  {
     "id": "ger-q-39350a3cc3c3",
     "name_en": "Artifacts"
   },
   {
+    "id": "ger-q-398f9dd1b328",
+    "name_en": "Triple Cross"
+  },
+  {
+    "id": "ger-q-3a1f06eb5f2e",
+    "name_en": "True Moon Welkin"
+  },
+  {
     "id": "ger-q-3c8beb69e798",
     "name_en": "Disjunction"
+  },
+  {
+    "id": "ger-q-3d47baa2bf37",
+    "name_en": "Focus Forever"
   },
   {
     "id": "ger-q-3dde76e07854",
@@ -14074,6 +14226,14 @@
   {
     "id": "ger-q-3ddfaf32b1b2",
     "name_en": "Angels in a Refuge"
+  },
+  {
+    "id": "ger-q-3e94d5d6d3e0",
+    "name_en": "Pilgrim 0"
+  },
+  {
+    "id": "ger-q-3f73f97c08de",
+    "name_en": "Thor's Banquet"
   },
   {
     "id": "ger-q-3fe64f73c6e3",
@@ -14086,6 +14246,10 @@
   {
     "id": "ger-q-430e58c6adee",
     "name_en": "Three Gun Turret"
+  },
+  {
+    "id": "ger-q-433b3b212713",
+    "name_en": "Corn Snow"
   },
   {
     "id": "ger-q-438779ac7c11",
@@ -14136,6 +14300,10 @@
     "name_en": "Water Lily"
   },
   {
+    "id": "ger-q-49887ae9f0e4",
+    "name_en": "Aurora"
+  },
+  {
     "id": "ger-q-49e1248326cd",
     "name_en": "Goddess' Duty"
   },
@@ -14144,24 +14312,56 @@
     "name_en": "The Venus"
   },
   {
+    "id": "ger-q-4aa03cca5eb4",
+    "name_en": "Evil Princess"
+  },
+  {
     "id": "ger-q-4ab0fbf0fe53",
     "name_en": "Newcomer Trials"
+  },
+  {
+    "id": "ger-q-4afbe67a717d",
+    "name_en": "Red River"
+  },
+  {
+    "id": "ger-q-4bb4f1107340",
+    "name_en": "Live Prey"
   },
   {
     "id": "ger-q-4be5a6ebf8c9",
     "name_en": "Gboro-Gboro Paradise"
   },
   {
+    "id": "ger-q-4c082ebb88f8",
+    "name_en": "Dust Trail"
+  },
+  {
     "id": "ger-q-4cd570da9a45",
     "name_en": "Crocodile Swagger"
+  },
+  {
+    "id": "ger-q-4cfe66d85cfa",
+    "name_en": "Death Mask"
+  },
+  {
+    "id": "ger-q-4d51e4044713",
+    "name_en": "Avalanche"
   },
   {
     "id": "ger-q-4dba15390300",
     "name_en": "Sailing Rock"
   },
   {
+    "id": "ger-q-4dd935728629",
+    "name_en": "Thunderstorm"
+  },
+  {
     "id": "ger-q-4ddfa7d25372",
     "name_en": "Crocodile Two"
+  },
+  {
+    "id": "ger-q-4f9f68227f6f",
+    "name_en": "Ice-Croc's Slumber"
   },
   {
     "id": "ger-q-4fc954c98980",
@@ -14236,8 +14436,20 @@
     "name_en": "Storm Baptism"
   },
   {
+    "id": "ger-q-5d4abb06eb2c",
+    "name_en": "Summer Gnats"
+  },
+  {
+    "id": "ger-q-5dcecde1f685",
+    "name_en": "Dark Wing"
+  },
+  {
     "id": "ger-q-5f10fc089934",
     "name_en": "Coyote Warrior"
+  },
+  {
+    "id": "ger-q-6030b08582e6",
+    "name_en": "Lady Butterfly"
   },
   {
     "id": "ger-q-617890574854",
@@ -14260,6 +14472,22 @@
     "name_en": "Poison Needle Fence"
   },
   {
+    "id": "ger-q-6499955c081f",
+    "name_en": "Tutorial 1"
+  },
+  {
+    "id": "ger-q-64ef4c114741",
+    "name_en": "Ranger Yell"
+  },
+  {
+    "id": "ger-q-65dcf1a123c5",
+    "name_en": "Material Age 2"
+  },
+  {
+    "id": "ger-q-67e73d125e0f",
+    "name_en": "The Lion and the Peonies"
+  },
+  {
     "id": "ger-q-683a2700bd0e",
     "name_en": "Quick Draw 3"
   },
@@ -14268,12 +14496,24 @@
     "name_en": "Screw Driver"
   },
   {
+    "id": "ger-q-68931a43c573",
+    "name_en": "Spilt Milk"
+  },
+  {
     "id": "ger-q-690e2b9b8574",
     "name_en": "God Eater"
   },
   {
+    "id": "ger-q-6931d1662178",
+    "name_en": "Haze"
+  },
+  {
     "id": "ger-q-699b2809971e",
     "name_en": "Blue Blade Dance"
+  },
+  {
+    "id": "ger-q-69fa722013a8",
+    "name_en": "Queen of Obstruction 2"
   },
   {
     "id": "ger-q-6abbe0596acf",
@@ -14292,8 +14532,20 @@
     "name_en": "Molten Iron"
   },
   {
+    "id": "ger-q-6eb5bcdcad7b",
+    "name_en": "Devourer of the Mind"
+  },
+  {
     "id": "ger-q-6f8323af5e22",
     "name_en": "Jungle Tiger"
+  },
+  {
+    "id": "ger-q-6fc6c6e2a39e",
+    "name_en": "Bestial Twilight"
+  },
+  {
+    "id": "ger-q-6fd100cf5907",
+    "name_en": "Firelords in a Storm"
   },
   {
     "id": "ger-q-708b977983cf",
@@ -14314,6 +14566,10 @@
   {
     "id": "ger-q-740078597122",
     "name_en": "Hope"
+  },
+  {
+    "id": "ger-q-750f687c9356",
+    "name_en": "Needles and Sewage"
   },
   {
     "id": "ger-q-761179694a69",
@@ -14344,6 +14600,10 @@
     "name_en": "Marianne"
   },
   {
+    "id": "ger-q-7b69c3371d36",
+    "name_en": "Tower of Ivory"
+  },
+  {
     "id": "ger-q-7b70fcbb25ec",
     "name_en": "Certainly Clear"
   },
@@ -14362,6 +14622,14 @@
   {
     "id": "ger-q-7e47e4d2bf00",
     "name_en": "Cracked Sanidine"
+  },
+  {
+    "id": "ger-q-7f0891d73240",
+    "name_en": "Front and Back"
+  },
+  {
+    "id": "ger-q-7f0a369914dc",
+    "name_en": "Practice Tutorial"
   },
   {
     "id": "ger-q-7f5d880315d7",
@@ -14384,12 +14652,24 @@
     "name_en": "Test Tube"
   },
   {
+    "id": "ger-q-83e27ae9257f",
+    "name_en": "The Fall of Mankind"
+  },
+  {
     "id": "ger-q-83e4340bc5a2",
     "name_en": "Salty Dog"
   },
   {
     "id": "ger-q-844d7746cfd4",
     "name_en": "Snowball"
+  },
+  {
+    "id": "ger-q-8461c345ca83",
+    "name_en": "Tempest 3"
+  },
+  {
+    "id": "ger-q-84fa4fdec007",
+    "name_en": "Thunder"
   },
   {
     "id": "ger-q-8512078cd4d6",
@@ -14448,8 +14728,20 @@
     "name_en": "A Pair of Predators"
   },
   {
+    "id": "ger-q-8bd17c798fe0",
+    "name_en": "Material Age 3"
+  },
+  {
+    "id": "ger-q-8bfc097bc680",
+    "name_en": "White-Out"
+  },
+  {
     "id": "ger-q-8f08ab5ab026",
     "name_en": "Quick Draw"
+  },
+  {
+    "id": "ger-q-90ca366909bd",
+    "name_en": "Frozen Murder 2"
   },
   {
     "id": "ger-q-91ae20c63f76",
@@ -14466,6 +14758,10 @@
   {
     "id": "ger-q-952b9acfefa0",
     "name_en": "Speculum Dianae"
+  },
+  {
+    "id": "ger-q-95949f5453f5",
+    "name_en": "Carnevale"
   },
   {
     "id": "ger-q-9682f135e49b",
@@ -14504,12 +14800,32 @@
     "name_en": "Oskopnir"
   },
   {
+    "id": "ger-q-9d69143d7947",
+    "name_en": "God Eater Burst"
+  },
+  {
+    "id": "ger-q-9da1ab0db49f",
+    "name_en": "Spilt Milk 2"
+  },
+  {
     "id": "ger-q-9dd272e95035",
     "name_en": "Iron Blizzard"
   },
   {
+    "id": "ger-q-9f0316c7670e",
+    "name_en": "Watch Out Overhead"
+  },
+  {
     "id": "ger-q-9f11f1734716",
     "name_en": "Knight and Rust"
+  },
+  {
+    "id": "ger-q-a080371d7ffc",
+    "name_en": "Sting Ray"
+  },
+  {
+    "id": "ger-q-a24bb6296186",
+    "name_en": "Spiral of Reminiscence"
   },
   {
     "id": "ger-q-a4343ea146ca",
@@ -14524,6 +14840,14 @@
     "name_en": "A Devil's Heart"
   },
   {
+    "id": "ger-q-a6cd90d239f3",
+    "name_en": "Ones Who Devour the End"
+  },
+  {
+    "id": "ger-q-a7510952c6c6",
+    "name_en": "Little Ruler"
+  },
+  {
     "id": "ger-q-a7b3a8addc4b",
     "name_en": "Big Over Small"
   },
@@ -14532,8 +14856,16 @@
     "name_en": "Giant Spin"
   },
   {
+    "id": "ger-q-aa0c1c8f0815",
+    "name_en": "Thunderstorm 2"
+  },
+  {
     "id": "ger-q-aa3d484b99da",
     "name_en": "Snow Firefly"
+  },
+  {
+    "id": "ger-q-aaf04367d5f5",
+    "name_en": "Flame Madness 2"
   },
   {
     "id": "ger-q-ab2e15aef13d",
@@ -14548,8 +14880,16 @@
     "name_en": "Fire Prevention"
   },
   {
+    "id": "ger-q-ac8effa06fe9",
+    "name_en": "Sea Fire"
+  },
+  {
     "id": "ger-q-ad0ac4510e64",
     "name_en": "Tyrant Breath"
+  },
+  {
+    "id": "ger-q-ad3fef032293",
+    "name_en": "Cabin Fever 2"
   },
   {
     "id": "ger-q-ae9391e1fd5d",
@@ -14576,6 +14916,10 @@
     "name_en": "Demon Slaying"
   },
   {
+    "id": "ger-q-b15e8da70c3f",
+    "name_en": "Corroded Gorget"
+  },
+  {
     "id": "ger-q-b32d3934cdd1",
     "name_en": "Radiant Halo"
   },
@@ -14584,8 +14928,28 @@
     "name_en": "Obsidian Heart"
   },
   {
+    "id": "ger-q-b3da5b17e7a7",
+    "name_en": "Perseverance"
+  },
+  {
+    "id": "ger-q-b57bacc22f6f",
+    "name_en": "Ranger Yell 2"
+  },
+  {
     "id": "ger-q-b58b25406da3",
     "name_en": "Poison Butterfly"
+  },
+  {
+    "id": "ger-q-b607b3bfab80",
+    "name_en": "Unidentified"
+  },
+  {
+    "id": "ger-q-b6724bbbe400",
+    "name_en": "Chatterbox"
+  },
+  {
+    "id": "ger-q-b773a480e43a",
+    "name_en": "Queen of Obstruction"
   },
   {
     "id": "ger-q-b77f8b3a51dc",
@@ -14596,12 +14960,28 @@
     "name_en": "Kanon's Secret Training"
   },
   {
+    "id": "ger-q-b899b94bfdef",
+    "name_en": "Frozen City"
+  },
+  {
+    "id": "ger-q-b9663fff985a",
+    "name_en": "Midpoint"
+  },
+  {
+    "id": "ger-q-bac5ee519566",
+    "name_en": "Phantom Embrace"
+  },
+  {
     "id": "ger-q-bb25f97d59c4",
     "name_en": "Devourer of World"
   },
   {
     "id": "ger-q-bbbc018f91eb",
     "name_en": "Return"
+  },
+  {
+    "id": "ger-q-bc52b4374e19",
+    "name_en": "Frozen Murder 3"
   },
   {
     "id": "ger-q-bd44b0011827",
@@ -14618,6 +14998,10 @@
   {
     "id": "ger-q-c0b304ee85dc",
     "name_en": "Thunderstorm"
+  },
+  {
+    "id": "ger-q-c117356fffdb",
+    "name_en": "Intermedia"
   },
   {
     "id": "ger-q-c1adc68170e2",
@@ -14660,6 +15044,18 @@
     "name_en": "Tequila Sunrise"
   },
   {
+    "id": "ger-q-ca9a3c740cfb",
+    "name_en": "Triumvirate"
+  },
+  {
+    "id": "ger-q-caf84e690f62",
+    "name_en": "Origin"
+  },
+  {
+    "id": "ger-q-cc9271f9f46d",
+    "name_en": "Diligence"
+  },
+  {
     "id": "ger-q-cd0208e5beb9",
     "name_en": "Sunlight on Snow"
   },
@@ -14684,6 +15080,10 @@
     "name_en": "Dionaea"
   },
   {
+    "id": "ger-q-d00f0c981304",
+    "name_en": "Tutorial 2"
+  },
+  {
     "id": "ger-q-d28ef7d18cfd",
     "name_en": "Grimsvotn"
   },
@@ -14696,12 +15096,24 @@
     "name_en": "Sunken Arrow"
   },
   {
+    "id": "ger-q-d3e2b4711d83",
+    "name_en": "Big Trouble"
+  },
+  {
+    "id": "ger-q-d409e76718b0",
+    "name_en": "Phantom Embrace 2"
+  },
+  {
     "id": "ger-q-d41e0d231601",
     "name_en": "Rat Trap"
   },
   {
     "id": "ger-q-d4aab02d2c69",
     "name_en": "Dirty Bomb"
+  },
+  {
+    "id": "ger-q-d4d0a10cc8f8",
+    "name_en": "Cabin Fever 3"
   },
   {
     "id": "ger-q-d5a6b779be6a",
@@ -14712,12 +15124,24 @@
     "name_en": "Break Shot"
   },
   {
+    "id": "ger-q-d63a6e0fb4b6",
+    "name_en": "Spiritus 2"
+  },
+  {
+    "id": "ger-q-d6839858321a",
+    "name_en": "Anantaboga"
+  },
+  {
     "id": "ger-q-d6c3055eaf5e",
     "name_en": "Buddha Smile"
   },
   {
     "id": "ger-q-d7a2523b0e3b",
     "name_en": "Basement Fire-Croc"
+  },
+  {
+    "id": "ger-q-d81759111530",
+    "name_en": "Infantry Swarm 2"
   },
   {
     "id": "ger-q-d846b2c78074",
@@ -14734,6 +15158,14 @@
   {
     "id": "ger-q-da5cbc76261f",
     "name_en": "Primordial Spiral"
+  },
+  {
+    "id": "ger-q-dae3b3e5a475",
+    "name_en": "Big Trouble 2"
+  },
+  {
+    "id": "ger-q-db500d5efcc1",
+    "name_en": "Devil Bear"
   },
   {
     "id": "ger-q-dc38f0d48678",
@@ -14756,16 +15188,44 @@
     "name_en": "Storm and Stress"
   },
   {
+    "id": "ger-q-e0cfd04c0812",
+    "name_en": "Icy Damsel"
+  },
+  {
+    "id": "ger-q-e122c9b898b7",
+    "name_en": "Waterline Repair"
+  },
+  {
     "id": "ger-q-e12d581076ea",
     "name_en": "Collector"
+  },
+  {
+    "id": "ger-q-e2b82c9a7c52",
+    "name_en": "Cabin Fever"
+  },
+  {
+    "id": "ger-q-e4638ea24f07",
+    "name_en": "Vortex of Chaos"
   },
   {
     "id": "ger-q-e47f4d8c1ccd",
     "name_en": "Cowboy"
   },
   {
+    "id": "ger-q-e4dc953ade96",
+    "name_en": "Icarus's Wing"
+  },
+  {
     "id": "ger-q-e56835681a84",
     "name_en": "New Moon in the Welkin"
+  },
+  {
+    "id": "ger-q-e5ad9c7dd7bd",
+    "name_en": "Big Trouble 3"
+  },
+  {
+    "id": "ger-q-e5cd6f958f4f",
+    "name_en": "Holy Moon in the Welkin"
   },
   {
     "id": "ger-q-e72b4b1850ed",
@@ -14776,12 +15236,28 @@
     "name_en": "Fire Engine"
   },
   {
+    "id": "ger-q-e80dfcac6516",
+    "name_en": "Hard Case"
+  },
+  {
+    "id": "ger-q-e80ec067001a",
+    "name_en": "Frozen Murder"
+  },
+  {
     "id": "ger-q-e97d0973fa8f",
     "name_en": "Obsidian Sacrifice"
   },
   {
+    "id": "ger-q-e97f1c58da6e",
+    "name_en": "Empress's Forest"
+  },
+  {
     "id": "ger-q-e9eaa91da7ea",
     "name_en": "Hunting Cloak"
+  },
+  {
+    "id": "ger-q-ead42598f704",
+    "name_en": "Spiritus"
   },
   {
     "id": "ger-q-eb537d671f45",
@@ -14808,8 +15284,24 @@
     "name_en": "Mayflies"
   },
   {
+    "id": "ger-q-ee7ad8978dd6",
+    "name_en": "Pest Purge"
+  },
+  {
+    "id": "ger-q-efe5a0602cae",
+    "name_en": "Backstabber"
+  },
+  {
+    "id": "ger-q-f09dd03e57da",
+    "name_en": "Restoration of Myth"
+  },
+  {
     "id": "ger-q-f0bcc01970da",
     "name_en": "The End to Vice"
+  },
+  {
+    "id": "ger-q-f24ecb14a203",
+    "name_en": "Ranger Yell 3"
   },
   {
     "id": "ger-q-f253691d583c",
@@ -14860,6 +15352,10 @@
     "name_en": "Hellfire Shield"
   },
   {
+    "id": "ger-q-f8ac41fd6d7d",
+    "name_en": "King of the Hill"
+  },
+  {
     "id": "ger-q-f90bb9509999",
     "name_en": "Sarracenia"
   },
@@ -14876,8 +15372,16 @@
     "name_en": "Deadly Sisters' Dance"
   },
   {
+    "id": "ger-q-fb70ba33ec8b",
+    "name_en": "Avalanche"
+  },
+  {
     "id": "ger-q-fcca627e545a",
     "name_en": "Big Smile"
+  },
+  {
+    "id": "ger-q-fd7210841ef8",
+    "name_en": "Closed City"
   },
   {
     "id": "ger-q-fdb076824876",
@@ -14886,6 +15390,10 @@
   {
     "id": "ger-q-fe28ac4ca2ff",
     "name_en": "Ruler's City"
+  },
+  {
+    "id": "ger-q-fed5c708fa48",
+    "name_en": "Tempest"
   },
   {
     "id": "ger-q-ffa2d39213dd",

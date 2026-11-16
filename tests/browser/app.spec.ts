@@ -13,6 +13,55 @@ const recipe = (name: string, operation = name === 'Knife P' ? 'craft' : 'upgrad
       r.item_id === item(name).id && r.operation === operation,
   );
 
+test('all difficulties include tutorials and Drosera and count survival missions once', async ({
+  page,
+}) => {
+  const counts = [7, 18, 24, 21, 23, 28, 28, 22, 23, 21, 12, 11, 14, 81];
+  for (let rank = 1; rank <= 14; rank++) {
+    await page.goto(`./#/missions?rank=${rank}`);
+    await expect(page.locator('.results-header b')).toHaveText(String(counts[rank - 1]));
+    await expect(page.locator('.mission-table tbody tr')).toHaveCount(
+      Math.min(24, counts[rank - 1]),
+    );
+  }
+  const missions = JSON.parse(await readFile(resolve('data/missions.json'), 'utf8'));
+  await page.goto('./#/missions?rank=1');
+  for (const native of [20016, 20017]) {
+    const mission = missions.find(
+      (m: { game_origin: { row_id: number } }) => m.game_origin.row_id === native,
+    );
+    await expect(page.locator(`.mission-table a[href$="${mission.id}"]`)).toBeVisible();
+  }
+  await page.locator('.mission-table a').filter({ hasText: 'Обучение 1' }).click();
+  await expect(page.getByRole('heading', { name: 'Обучение 1', exact: true })).toBeVisible();
+  await expect(page.getByText('Обучение использует тренировочные мишени.')).toBeVisible();
+  await expect(
+    page.getByText('В известных данных нет наград материалами для этой миссии.'),
+  ).toBeVisible();
+  await page.goto('./#/missions?rank=5');
+  await page.locator('.mission-table a').filter({ hasText: 'Росянка' }).click();
+  await expect(page.getByRole('heading', { name: 'Росянка', exact: true })).toBeVisible();
+  await expect(page.locator('.drop-table')).toBeVisible();
+  await page.goto('./#/missions?rank=14&type=all');
+  await expect(page.locator('.results-header b')).toHaveText('96');
+  const root = missions.find(
+    (m: { game_origin: { row_id: number } }) => m.game_origin.row_id === 20432,
+  );
+  const child = missions.find(
+    (m: { game_origin: { row_id: number } }) => m.game_origin.row_id === 20431,
+  );
+  await page.goto(`./#/missions/${root.id}`);
+  const stages = page
+    .locator('section.panel')
+    .filter({ has: page.getByRole('heading', { name: 'Этапы выживания' }) });
+  await expect(stages.locator('li')).toHaveCount(3);
+  await stages.locator(`a[href$="${child.id}"]`).click();
+  await expect(
+    page.getByText('Открыт этап 2 из 3. Ниже показаны награды этого этапа.'),
+  ).toBeVisible();
+  await expect(page.locator('.drop-table')).toBeVisible();
+});
+
 test('difficulty filters include all 24 rank-3 and 21 rank-4 ordinary missions', async ({
   page,
 }) => {

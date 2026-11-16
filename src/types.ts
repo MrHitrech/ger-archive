@@ -55,6 +55,9 @@ export interface Mission extends BaseRecord {
   story?: boolean;
   reward_table_status: 'partial' | 'missing' | 'complete';
   time_limit_seconds: number | null;
+  parent_mission_id?: string | null;
+  phase_index?: number;
+  phase_count?: number;
 }
 export interface Aragami extends BaseRecord {
   variant: string;

@@ -14,12 +14,24 @@ import {
 } from './mission-conditions.mjs';
 import { FIELD_ACQUISITION_DECODER, validateFieldAcquisition } from './field-acquisition.mjs';
 import { validateCatalogueMission } from './mission-catalogue.mjs';
+import {
+  nativeMissionType,
+  survivalStage,
+  MISSION_LOCATION_CODEC,
+  RU_MISSION_LOCATION_CODEC,
+} from './full-mission-catalogue.mjs';
 
 const schema = JSON.parse(
   await readFile(new URL('../../data/schema.json', import.meta.url), 'utf8'),
 );
 const aragamiMappings = JSON.parse(
   await readFile(new URL('../../data/import-mappings/game-aragami.json', import.meta.url), 'utf8'),
+);
+const reviewedCatalogueScope = JSON.parse(
+  await readFile(
+    new URL('../../data/import-mappings/game-mission-catalogue.json', import.meta.url),
+    'utf8',
+  ),
 );
 const validateSchema = new Ajv({ allErrors: true, strict: false, allowUnionTypes: true }).compile(
   schema,
@@ -48,6 +60,11 @@ export function validateDataset(data) {
     Object.entries(data).map(([k, records]) => [k, new Map(records.map((r) => [r.id, r]))]),
   );
   const all = new Map();
+  const fullScope = data.sources.find(
+    (s) => s.catalogue_scope?.format_version === 2,
+  )?.catalogue_scope;
+  if (fullScope && JSON.stringify(fullScope) !== JSON.stringify(reviewedCatalogueScope))
+    errors.push('Native mission catalogue scope differs from the reviewed mapping');
   const nativeIdentities = new Set();
   function fail(message) {
     errors.push(message);
@@ -294,8 +311,31 @@ export function validateDataset(data) {
           .find((e) => JSON.stringify(e?.game_origin) === JSON.stringify(mission.game_origin));
         const facts = JSON.parse(ev?.excerpt ?? '{}');
         const raw = missionRewardFields(facts.raw_hex, mission.game_origin.row_id);
-        for (const error of validateCatalogueMission(mission, facts, index, aragamiMappings))
+        for (const error of validateCatalogueMission(
+          mission,
+          facts,
+          index,
+          aragamiMappings,
+          fullScope,
+        ))
           fail(`${mission.id}: ${error}`);
+        if (fullScope) {
+          const native = {
+            id: mission.game_origin.row_id,
+            rank: raw.rank,
+            raw_hex: facts.raw_hex,
+            name: facts.name_en,
+            context: facts.context,
+          };
+          if (mission.rank !== raw.rank || mission.type !== nativeMissionType(native, fullScope))
+            fail(`${mission.id}: native mission classification differs`);
+          const phase = survivalStage(native);
+          if (phase) {
+            if (mission.phase_index !== phase.index || mission.phase_count !== phase.count)
+              fail(`${mission.id}: native survival phase differs`);
+          } else if (mission.parent_mission_id || mission.phase_index || mission.phase_count)
+            fail(`${mission.id}: unexpected survival fields`);
+        }
         if (
           facts.decoder !== MISSION_REWARDS_DECODER ||
           facts.name_en !== mission.name_en ||
@@ -310,6 +350,42 @@ export function validateDataset(data) {
         fail(`${mission.id}: unreadable native mission evidence`);
       }
     }
+    if (mission.phase_count) {
+      const parent = mission.parent_mission_id
+        ? index.missions.get(mission.parent_mission_id)
+        : mission;
+      if (
+        !parent ||
+        parent.phase_index !== 1 ||
+        parent.parent_mission_id ||
+        parent.rank !== mission.rank ||
+        parent.type !== mission.type ||
+        parent.phase_count !== mission.phase_count ||
+        (mission.phase_index === 1 && mission.parent_mission_id)
+      )
+        fail(`${mission.id}: invalid survival parent`);
+      if (parent === mission) {
+        const phases = data.missions.filter(
+          (m) => m.id === mission.id || m.parent_mission_id === mission.id,
+        );
+        if (
+          phases.length !== mission.phase_count ||
+          new Set(phases.map((m) => m.phase_index)).size !== mission.phase_count ||
+          phases.some((m) => m.phase_index > mission.phase_count)
+        )
+          fail(`${mission.id}: incomplete survival chain`);
+      }
+    } else if (mission.parent_mission_id || mission.phase_index)
+      fail(`${mission.id}: incomplete survival fields`);
+  }
+  if (fullScope) {
+    const ids = data.missions
+      .map((m) => (m.game_origin?.resource === 'mission_en' ? m.game_origin.row_id : null))
+      .sort((a, b) => a - b);
+    if (JSON.stringify(ids) !== JSON.stringify(fullScope.expected_native_ids))
+      fail('Native mission catalogue is incomplete or contains duplicate variants');
+    if (data.missions.filter((m) => !m.parent_mission_id).length !== fullScope.expected_root_count)
+      fail('Native distinct mission count differs');
   }
   const dropIdentities = new Set();
   for (const drop of data.drops) {
@@ -404,6 +480,77 @@ export function validateDataset(data) {
       fail(`${t.id}: translation contains undecoded control characters`);
     const source = index.sources.get(t.source);
     if (source?.acquisition === 'game_files') {
+      if (index.locations.has(t.id)) {
+        try {
+          const location = index.locations.get(t.id),
+            refs = location.references.map((ref) => index.evidence.get(ref));
+          const en = refs.find(
+            (e) => JSON.parse(e?.excerpt ?? '{}').decoder === MISSION_LOCATION_CODEC,
+          );
+          const ru = (t.references ?? [])
+            .map((ref) => index.evidence.get(ref))
+            .find((e) => JSON.parse(e?.excerpt ?? '{}').decoder === RU_MISSION_LOCATION_CODEC);
+          const english = JSON.parse(en?.excerpt ?? '{}'),
+            russian = JSON.parse(ru?.excerpt ?? '{}');
+          if (
+            en?.source_id !== t.source ||
+            ru?.source_id !== t.source ||
+            en?.game_origin?.resource !== 'mission_en' ||
+            ru?.game_origin?.resource !== 'mission_ru' ||
+            en?.game_origin?.row_id !== ru?.game_origin?.row_id ||
+            english.entity_id !== t.id ||
+            russian.entity_id !== t.id ||
+            english.name_en !== t.name_en ||
+            russian.name_en !== t.name_en ||
+            russian.name_ru !== t.name_ru ||
+            !english.context.includes(t.name_en) ||
+            !russian.context.includes(t.name_ru) ||
+            english.location_code !== russian.location_code ||
+            Buffer.from(english.raw_hex, 'hex')[7] !== english.location_code ||
+            Buffer.from(russian.raw_hex, 'hex')[7] !== russian.location_code
+          )
+            fail(`${t.id}: location translation differs from native context`);
+        } catch {
+          fail(`${t.id}: unreadable native location context`);
+        }
+        continue;
+      }
+      const entity = all.get(t.id);
+      if (index.aragami.has(t.id) && entity.game_origin?.resource.endsWith('_base_en')) {
+        try {
+          const origin = entity.game_origin,
+            ruResource = origin.resource.replace(/_en$/, '_ru');
+          const en = entity.references
+            .map((ref) => index.evidence.get(ref))
+            .find((e) => JSON.stringify(e?.game_origin) === JSON.stringify(origin));
+          const ru = (t.references ?? [])
+            .map((ref) => index.evidence.get(ref))
+            .find(
+              (e) =>
+                e?.source_id === t.source &&
+                e.game_origin?.resource === ruResource &&
+                e.game_origin.row_id === origin.row_id,
+            );
+          const english = JSON.parse(en?.excerpt ?? '{}'),
+            russian = JSON.parse(ru?.excerpt ?? '{}');
+          const mapping = aragamiMappings.find((m) => m.site_id === t.id);
+          if (
+            english.decoder !== FIELD_ACQUISITION_DECODER ||
+            russian.decoder !== FIELD_ACQUISITION_DECODER ||
+            english.row.en_base_display_name !== t.name_en ||
+            russian.row.en_base_display_name !== t.name_ru ||
+            english.row.en_base_family_id !== russian.row.en_base_family_id ||
+            english.row.en_base_res_name !== russian.row.en_base_res_name ||
+            mapping?.family_id !== english.row.en_base_family_id ||
+            mapping?.res_name !== english.row.en_base_res_name ||
+            mapping?.native_name !== t.name_en
+          )
+            fail(`${t.id}: enemy translation differs from native identity`);
+        } catch {
+          fail(`${t.id}: unreadable Russian enemy evidence`);
+        }
+        continue;
+      }
       const nativeId = all.get(t.id)?.game_origin?.row_id;
       const resource =
         all.get(t.id)?.game_origin?.resource === 'mission_en' ? 'mission_ru' : 'article_ru';
@@ -492,7 +639,7 @@ export async function validateSnapshots(
 export function qualityReport(data, issues = []) {
   const coverage = {};
   for (const key of collections) {
-    const records = data[key];
+    const records = key === 'missions' ? data[key].filter((m) => !m.parent_mission_id) : data[key];
     coverage[key] = {
       total: records.length,
       verified: records.filter((r) => r.verification_status === 'verified').length,
@@ -502,6 +649,17 @@ export function qualityReport(data, issues = []) {
       universe_total: null,
       missing_from_universe: null,
     };
+  }
+  if (data.sources.some((s) => s.catalogue_scope?.format_version === 2)) {
+    coverage.missions.records_total = data.missions.length;
+    coverage.missions.stage_records = data.missions.filter((m) => m.parent_mission_id).length;
+    coverage.missions.universe_total = data.sources.find(
+      (s) => s.catalogue_scope?.format_version === 2,
+    ).catalogue_scope.expected_root_count;
+    coverage.missions.missing_from_universe = Math.max(
+      0,
+      coverage.missions.universe_total - coverage.missions.total,
+    );
   }
   const named = collections
     .filter((k) => !['recipes', 'drops'].includes(k))

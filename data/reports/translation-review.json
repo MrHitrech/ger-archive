@@ -42,6 +42,13 @@
     "reason": "review_draft"
   },
   {
+    "id": "ger-a-2d47298b1d5f",
+    "name_en": "Heavenly Father",
+    "suggested_ru": "Небесный отец",
+    "source": "game-field-acquisition-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-a-30a03ad89563",
     "name_en": "Fallen Gboro-Gboro (Freeze)",
     "suggested_ru": "Падший Гборо-Гборо (лёд)",
@@ -19915,6 +19922,13 @@
     "reason": "review_draft"
   },
   {
+    "id": "ger-l-a8d8f712e7be",
+    "name_en": "Training Grounds",
+    "suggested_ru": "Тренировочный центр",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-l-cfb2f98647e1",
     "name_en": "Tranquil Temple",
     "suggested_ru": "Безмятежный храм",
@@ -24255,6 +24269,13 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-005e38650b85",
+    "name_en": "Drosera",
+    "suggested_ru": "Росянка",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-011a64857f30",
     "name_en": "Lantern Cutting",
     "suggested_ru": "Вырезание фонариков",
@@ -24283,11 +24304,32 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-05f119afd31e",
+    "name_en": "Mama's Boy",
+    "suggested_ru": "Маменькин сынок",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-066864caa5c9",
     "name_en": "Spider Lily",
     "suggested_ru": "Паучья лилия",
     "source": "project-draft: редакционный вариант, требует проверки",
     "reason": "review_draft"
+  },
+  {
+    "id": "ger-q-06bcaab63b65",
+    "name_en": "Noble Dining",
+    "suggested_ru": "Благородный обед",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-073d865cac0c",
+    "name_en": "Flame Madness",
+    "suggested_ru": "Пламенное безумие",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-07ae46feb908",
@@ -24311,6 +24353,27 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-0b1f83890557",
+    "name_en": "Fukumuya Moat",
+    "suggested_ru": "Крепостной ров",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-0b520db331f1",
+    "name_en": "Red Tape",
+    "suggested_ru": "Красная пленка",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-0ca16cd193e0",
+    "name_en": "King's Tryst",
+    "suggested_ru": "Встреча с королем",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-0dc9ebd23f76",
     "name_en": "Fallen Angel Egg",
     "suggested_ru": "Яйцо падшего ангела",
@@ -24325,6 +24388,13 @@
     "reason": "review_draft"
   },
   {
+    "id": "ger-q-0ed9017168ac",
+    "name_en": "Sweeper",
+    "suggested_ru": "Тральщик",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-10c05a91751e",
     "name_en": "God of Thunder",
     "suggested_ru": "Бог грома",
@@ -24335,6 +24405,13 @@
     "id": "ger-q-113f94cc47d3",
     "name_en": "Knight's Mind",
     "suggested_ru": "Разум рыцаря",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-120b5c09860a",
+    "name_en": "Monochrome",
+    "suggested_ru": "Ч/б",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -24381,9 +24458,23 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-174d0ac77b3f",
+    "name_en": "Junk-Eating Beast",
+    "suggested_ru": "Зверский аппетит",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-18c6f234012c",
     "name_en": "Poison Garnish",
     "suggested_ru": "Ядовитая приправа",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-18e783fc7b6e",
+    "name_en": "Nepenthes",
+    "suggested_ru": "Непентес",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -24402,6 +24493,13 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-1affe3b13a04",
+    "name_en": "Malevolence in the Darkness",
+    "suggested_ru": "Опасность во тьме",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-1b5cf6e473d7",
     "name_en": "Fallen Vortex",
     "suggested_ru": "Водоворот падших",
@@ -24416,9 +24514,30 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-1d3c9a7125f3",
+    "name_en": "Material Age",
+    "suggested_ru": "Материальная эпоха",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-1d4ee108e8f7",
     "name_en": "An Aloof Dream",
     "suggested_ru": "Далекая мечта",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-1dd1c16bf334",
+    "name_en": "One On One",
+    "suggested_ru": "Один на один",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-1e596b66015d",
+    "name_en": "Cerberus",
+    "suggested_ru": "Цербер",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -24440,6 +24559,13 @@
     "id": "ger-q-202ed24f928f",
     "name_en": "Devourer of All",
     "suggested_ru": "Тот, кто пожирает всё",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-207c56434e16",
+    "name_en": "St. Elmo's Fire",
+    "suggested_ru": "Огни святого Эльма",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -24472,6 +24598,13 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-2373fffb742f",
+    "name_en": "Today's Fortune",
+    "suggested_ru": "Сегодняшнее предсказание",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-24f99d95ba00",
     "name_en": "Pilgrim 2",
     "suggested_ru": "Пилигрим 2",
@@ -24489,6 +24622,13 @@
     "id": "ger-q-25ac80ddbb7d",
     "name_en": "September Shadow",
     "suggested_ru": "Тень в сентябре",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-25b53f115c17",
+    "name_en": "Missile Fire",
+    "suggested_ru": "Стрельба ракетами",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -24514,6 +24654,13 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-27d970a2f977",
+    "name_en": "Wispy Clouds",
+    "suggested_ru": "Легкие облака",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-27e02d7e89c5",
     "name_en": "Gold Coast",
     "suggested_ru": "Золотой берег",
@@ -24528,9 +24675,44 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-28567c724bd8",
+    "name_en": "Phantom Embrace 3",
+    "suggested_ru": "Объятия призрака 3",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-28a7146176f7",
+    "name_en": "Tempest 2",
+    "suggested_ru": "Буря 2",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-2901bc5eeb5c",
     "name_en": "Exiled Emperor",
     "suggested_ru": "Император в изгнании",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-296ca8b875de",
+    "name_en": "Alligator Hunter",
+    "suggested_ru": "Охотник на крокодилов",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-2a0d3fe51566",
+    "name_en": "Incense Bonfire",
+    "suggested_ru": "Костер благовоний",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-2cd7b2df1556",
+    "name_en": "Fifth Element",
+    "suggested_ru": "Пятый элемент",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -24549,9 +24731,44 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-2dee03594246",
+    "name_en": "Black Ore",
+    "suggested_ru": "Черная руда",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-2e48e0f9fb2b",
+    "name_en": "Fire and Ice",
+    "suggested_ru": "Огонь и лед",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-2f35c383be6d",
+    "name_en": "Spiritus 3",
+    "suggested_ru": "Дух 3",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-30e9e056b160",
+    "name_en": "Infantry Swarm",
+    "suggested_ru": "Рой пехотных",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-31e6165f55db",
     "name_en": "Croc Three",
     "suggested_ru": "Крокодил Три",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-326775fa8b6c",
+    "name_en": "Shark Fin",
+    "suggested_ru": "Акулий плавник",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -24591,9 +24808,30 @@
     "reason": "review_draft"
   },
   {
+    "id": "ger-q-36815e9f50ff",
+    "name_en": "Burning Tracks",
+    "suggested_ru": "Горящие пути",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-3683307f680a",
+    "name_en": "Road to Idavollr",
+    "suggested_ru": "Дорога в Идаволлр",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-36deec6fd61f",
     "name_en": "Troika",
     "suggested_ru": "Тройка",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-379cffdaa203",
+    "name_en": "Nightfall Scam",
+    "suggested_ru": "Вечерняя афера",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -24605,9 +24843,30 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-391f2710d31f",
+    "name_en": "Naked Monkey",
+    "suggested_ru": "Голая обезьяна",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-39350a3cc3c3",
     "name_en": "Artifacts",
     "suggested_ru": "Артефакты",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-398f9dd1b328",
+    "name_en": "Triple Cross",
+    "suggested_ru": "Тройное скрещивание",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-3a1f06eb5f2e",
+    "name_en": "True Moon Welkin",
+    "suggested_ru": "Серп луны в небесах",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -24617,6 +24876,13 @@
     "suggested_ru": "Разъединение",
     "source": "project-draft: редакционный вариант, требует проверки",
     "reason": "review_draft"
+  },
+  {
+    "id": "ger-q-3d47baa2bf37",
+    "name_en": "Focus Forever",
+    "suggested_ru": "Вечная сосредоточенность",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-3dde76e07854",
@@ -24629,6 +24895,20 @@
     "id": "ger-q-3ddfaf32b1b2",
     "name_en": "Angels in a Refuge",
     "suggested_ru": "Ангелы в убежище",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-3e94d5d6d3e0",
+    "name_en": "Pilgrim 0",
+    "suggested_ru": "Пилигрим 0",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-3f73f97c08de",
+    "name_en": "Thor's Banquet",
+    "suggested_ru": "Пир Тора",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -24650,6 +24930,13 @@
     "id": "ger-q-430e58c6adee",
     "name_en": "Three Gun Turret",
     "suggested_ru": "Трехствольная пушка",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-433b3b212713",
+    "name_en": "Corn Snow",
+    "suggested_ru": "Талый снег",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -24738,6 +25025,13 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-49887ae9f0e4",
+    "name_en": "Aurora",
+    "suggested_ru": "Аврора",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-49e1248326cd",
     "name_en": "Goddess' Duty",
     "suggested_ru": "Долг богини",
@@ -24752,9 +25046,30 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-4aa03cca5eb4",
+    "name_en": "Evil Princess",
+    "suggested_ru": "Злая принцесса",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-4ab0fbf0fe53",
     "name_en": "Newcomer Trials",
     "suggested_ru": "Испытание для новичков",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-4afbe67a717d",
+    "name_en": "Red River",
+    "suggested_ru": "Красная река",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-4bb4f1107340",
+    "name_en": "Live Prey",
+    "suggested_ru": "Живая добыча",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -24766,9 +25081,30 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-4c082ebb88f8",
+    "name_en": "Dust Trail",
+    "suggested_ru": "Пыльная тропа",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-4cd570da9a45",
     "name_en": "Crocodile Swagger",
     "suggested_ru": "Крокодил-пижон",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-4cfe66d85cfa",
+    "name_en": "Death Mask",
+    "suggested_ru": "Посмертная маска",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-4d51e4044713",
+    "name_en": "Avalanche",
+    "suggested_ru": "Лавина",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -24780,11 +25116,25 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-4dd935728629",
+    "name_en": "Thunderstorm",
+    "suggested_ru": "Гроза",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-4ddfa7d25372",
     "name_en": "Crocodile Two",
     "suggested_ru": "Крокодил два",
     "source": "project-draft: редакционный вариант, требует проверки",
     "reason": "review_draft"
+  },
+  {
+    "id": "ger-q-4f9f68227f6f",
+    "name_en": "Ice-Croc's Slumber",
+    "suggested_ru": "Сон ледяного крокодила",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-4fc954c98980",
@@ -24913,9 +25263,30 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-5d4abb06eb2c",
+    "name_en": "Summer Gnats",
+    "suggested_ru": "Гнус",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-5dcecde1f685",
+    "name_en": "Dark Wing",
+    "suggested_ru": "Темное крыло",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-5f10fc089934",
     "name_en": "Coyote Warrior",
     "suggested_ru": "Койот-воин",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-6030b08582e6",
+    "name_en": "Lady Butterfly",
+    "suggested_ru": "Леди-бабочка",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -24955,6 +25326,34 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-6499955c081f",
+    "name_en": "Tutorial 1",
+    "suggested_ru": "Обучение 1",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-64ef4c114741",
+    "name_en": "Ranger Yell",
+    "suggested_ru": "Крик рейнджера",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-65dcf1a123c5",
+    "name_en": "Material Age 2",
+    "suggested_ru": "Материальная эпоха 2",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-67e73d125e0f",
+    "name_en": "The Lion and the Peonies",
+    "suggested_ru": "Лев и пеоны",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-683a2700bd0e",
     "name_en": "Quick Draw 3",
     "suggested_ru": "Быстрый стрелок 3",
@@ -24969,6 +25368,13 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-68931a43c573",
+    "name_en": "Spilt Milk",
+    "suggested_ru": "Разлитое молоко",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-690e2b9b8574",
     "name_en": "God Eater",
     "suggested_ru": "Пожиратель богов",
@@ -24976,9 +25382,23 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-6931d1662178",
+    "name_en": "Haze",
+    "suggested_ru": "Дымка",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-699b2809971e",
     "name_en": "Blue Blade Dance",
     "suggested_ru": "Танец синих лезвий",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-69fa722013a8",
+    "name_en": "Queen of Obstruction 2",
+    "suggested_ru": "Королева преград 2",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -25011,9 +25431,30 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-6eb5bcdcad7b",
+    "name_en": "Devourer of the Mind",
+    "suggested_ru": "Пожирающий разум",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-6f8323af5e22",
     "name_en": "Jungle Tiger",
     "suggested_ru": "Тигр в джунглях",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-6fc6c6e2a39e",
+    "name_en": "Bestial Twilight",
+    "suggested_ru": "Звериные сумерки",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-6fd100cf5907",
+    "name_en": "Firelords in a Storm",
+    "suggested_ru": "Повелители огня в бурю",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -25049,6 +25490,13 @@
     "id": "ger-q-740078597122",
     "name_en": "Hope",
     "suggested_ru": "Надежда",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-750f687c9356",
+    "name_en": "Needles and Sewage",
+    "suggested_ru": "Иглы и канализации",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -25102,6 +25550,13 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-7b69c3371d36",
+    "name_en": "Tower of Ivory",
+    "suggested_ru": "Башня из слоновой кости",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-7b70fcbb25ec",
     "name_en": "Certainly Clear",
     "suggested_ru": "Определенно ясно",
@@ -25133,6 +25588,20 @@
     "id": "ger-q-7e47e4d2bf00",
     "name_en": "Cracked Sanidine",
     "suggested_ru": "Потрескавшийся санидин",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-7f0891d73240",
+    "name_en": "Front and Back",
+    "suggested_ru": "Туда и обратно",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-7f0a369914dc",
+    "name_en": "Practice Tutorial",
+    "suggested_ru": "Практическое обучение",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -25172,6 +25641,13 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-83e27ae9257f",
+    "name_en": "The Fall of Mankind",
+    "suggested_ru": "Падение человечества",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-83e4340bc5a2",
     "name_en": "Salty Dog",
     "suggested_ru": "Соленый пес",
@@ -25184,6 +25660,20 @@
     "suggested_ru": "Снежный ком",
     "source": "project-draft: редакционный вариант, требует проверки",
     "reason": "review_draft"
+  },
+  {
+    "id": "ger-q-8461c345ca83",
+    "name_en": "Tempest 3",
+    "suggested_ru": "Буря 3",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-84fa4fdec007",
+    "name_en": "Thunder",
+    "suggested_ru": "Гром",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-8512078cd4d6",
@@ -25284,9 +25774,30 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-8bd17c798fe0",
+    "name_en": "Material Age 3",
+    "suggested_ru": "Материальная эпоха 3",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-8bfc097bc680",
+    "name_en": "White-Out",
+    "suggested_ru": "Белая мгла",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-8f08ab5ab026",
     "name_en": "Quick Draw",
     "suggested_ru": "Быстрый стрелок",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-90ca366909bd",
+    "name_en": "Frozen Murder 2",
+    "suggested_ru": "Холодное убийство 2",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -25315,6 +25826,13 @@
     "id": "ger-q-952b9acfefa0",
     "name_en": "Speculum Dianae",
     "suggested_ru": "Зеркало Дианы",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-95949f5453f5",
+    "name_en": "Carnevale",
+    "suggested_ru": "Карнавал",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -25382,6 +25900,20 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-9d69143d7947",
+    "name_en": "God Eater Burst",
+    "suggested_ru": "Пожиратель богов: Всплеск",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-9da1ab0db49f",
+    "name_en": "Spilt Milk 2",
+    "suggested_ru": "Разлитое молоко 2",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-9dd272e95035",
     "name_en": "Iron Blizzard",
     "suggested_ru": "Железная метель",
@@ -25389,9 +25921,30 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-9f0316c7670e",
+    "name_en": "Watch Out Overhead",
+    "suggested_ru": "Не ударьтесь головой",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-9f11f1734716",
     "name_en": "Knight and Rust",
     "suggested_ru": "Рыцарь и ржавчина",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-a080371d7ffc",
+    "name_en": "Sting Ray",
+    "suggested_ru": "Скат-хвостокол",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-a24bb6296186",
+    "name_en": "Spiral of Reminiscence",
+    "suggested_ru": "Спираль воспоминаний",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -25417,6 +25970,20 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-a6cd90d239f3",
+    "name_en": "Ones Who Devour the End",
+    "suggested_ru": "Те, кто пожирает конец",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-a7510952c6c6",
+    "name_en": "Little Ruler",
+    "suggested_ru": "Маленький правитель",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-a7b3a8addc4b",
     "name_en": "Big Over Small",
     "suggested_ru": "От мала до велика",
@@ -25431,9 +25998,23 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-aa0c1c8f0815",
+    "name_en": "Thunderstorm 2",
+    "suggested_ru": "Гроза 2",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-aa3d484b99da",
     "name_en": "Snow Firefly",
     "suggested_ru": "Снежный светлячок",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-aaf04367d5f5",
+    "name_en": "Flame Madness 2",
+    "suggested_ru": "Пламенное безумие 2",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -25459,9 +26040,23 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-ac8effa06fe9",
+    "name_en": "Sea Fire",
+    "suggested_ru": "Морской огонь",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-ad0ac4510e64",
     "name_en": "Tyrant Breath",
     "suggested_ru": "Дыхание тирана",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-ad3fef032293",
+    "name_en": "Cabin Fever 2",
+    "suggested_ru": "Боязнь одиночества 2",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -25508,6 +26103,13 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-b15e8da70c3f",
+    "name_en": "Corroded Gorget",
+    "suggested_ru": "Ржавое ожерелье",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-b32d3934cdd1",
     "name_en": "Radiant Halo",
     "suggested_ru": "Сияющий нимб",
@@ -25522,9 +26124,44 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-b3da5b17e7a7",
+    "name_en": "Perseverance",
+    "suggested_ru": "Упорство",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-b57bacc22f6f",
+    "name_en": "Ranger Yell 2",
+    "suggested_ru": "Крик рейнджера 2",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-b58b25406da3",
     "name_en": "Poison Butterfly",
     "suggested_ru": "Ядовитая бабочка",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-b607b3bfab80",
+    "name_en": "Unidentified",
+    "suggested_ru": "Неизвестные",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-b6724bbbe400",
+    "name_en": "Chatterbox",
+    "suggested_ru": "Болтун",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-b773a480e43a",
+    "name_en": "Queen of Obstruction",
+    "suggested_ru": "Королева преград",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -25543,6 +26180,27 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-b899b94bfdef",
+    "name_en": "Frozen City",
+    "suggested_ru": "Замерзший город",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-b9663fff985a",
+    "name_en": "Midpoint",
+    "suggested_ru": "Центральная точка",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-bac5ee519566",
+    "name_en": "Phantom Embrace",
+    "suggested_ru": "Объятия призрака",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-bb25f97d59c4",
     "name_en": "Devourer of World",
     "suggested_ru": "Пожиратель Мира",
@@ -25553,6 +26211,13 @@
     "id": "ger-q-bbbc018f91eb",
     "name_en": "Return",
     "suggested_ru": "Возвращение",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-bc52b4374e19",
+    "name_en": "Frozen Murder 3",
+    "suggested_ru": "Холодное убийство 3",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -25581,6 +26246,13 @@
     "id": "ger-q-c0b304ee85dc",
     "name_en": "Thunderstorm",
     "suggested_ru": "Гроза",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-c117356fffdb",
+    "name_en": "Intermedia",
+    "suggested_ru": "Связующее звено",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -25655,6 +26327,27 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-ca9a3c740cfb",
+    "name_en": "Triumvirate",
+    "suggested_ru": "Триумвират",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-caf84e690f62",
+    "name_en": "Origin",
+    "suggested_ru": "Исток",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-cc9271f9f46d",
+    "name_en": "Diligence",
+    "suggested_ru": "Усердие",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-cd0208e5beb9",
     "name_en": "Sunlight on Snow",
     "suggested_ru": "Солнечный свет на снегу",
@@ -25697,6 +26390,13 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-d00f0c981304",
+    "name_en": "Tutorial 2",
+    "suggested_ru": "Обучение 2",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-d28ef7d18cfd",
     "name_en": "Grimsvotn",
     "suggested_ru": "Гримсвотн",
@@ -25718,6 +26418,20 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-d3e2b4711d83",
+    "name_en": "Big Trouble",
+    "suggested_ru": "Большие неприятности",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-d409e76718b0",
+    "name_en": "Phantom Embrace 2",
+    "suggested_ru": "Объятия призрака 2",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-d41e0d231601",
     "name_en": "Rat Trap",
     "suggested_ru": "Крысоловка",
@@ -25728,6 +26442,13 @@
     "id": "ger-q-d4aab02d2c69",
     "name_en": "Dirty Bomb",
     "suggested_ru": "Грязная бомба",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-d4d0a10cc8f8",
+    "name_en": "Cabin Fever 3",
+    "suggested_ru": "Боязнь одиночества 3",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -25746,6 +26467,20 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-d63a6e0fb4b6",
+    "name_en": "Spiritus 2",
+    "suggested_ru": "Дух 2",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-d6839858321a",
+    "name_en": "Anantaboga",
+    "suggested_ru": "Анантабога",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-d6c3055eaf5e",
     "name_en": "Buddha Smile",
     "suggested_ru": "Улыбка Будды",
@@ -25756,6 +26491,13 @@
     "id": "ger-q-d7a2523b0e3b",
     "name_en": "Basement Fire-Croc",
     "suggested_ru": "Огненный монстр в метро",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-d81759111530",
+    "name_en": "Infantry Swarm 2",
+    "suggested_ru": "Рой пехотных 2",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -25784,6 +26526,20 @@
     "id": "ger-q-da5cbc76261f",
     "name_en": "Primordial Spiral",
     "suggested_ru": "Первичная спираль",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-dae3b3e5a475",
+    "name_en": "Big Trouble 2",
+    "suggested_ru": "Большие неприятности 2",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-db500d5efcc1",
+    "name_en": "Devil Bear",
+    "suggested_ru": "Медведь-демон",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -25823,9 +26579,37 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-e0cfd04c0812",
+    "name_en": "Icy Damsel",
+    "suggested_ru": "Ледяная девица",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-e122c9b898b7",
+    "name_en": "Waterline Repair",
+    "suggested_ru": "Ремонт по ватерлинии",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-e12d581076ea",
     "name_en": "Collector",
     "suggested_ru": "Коллекционер",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-e2b82c9a7c52",
+    "name_en": "Cabin Fever",
+    "suggested_ru": "Боязнь одиночества",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-e4638ea24f07",
+    "name_en": "Vortex of Chaos",
+    "suggested_ru": "Вихрь хаоса",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -25837,9 +26621,30 @@
     "reason": "review_draft"
   },
   {
+    "id": "ger-q-e4dc953ade96",
+    "name_en": "Icarus's Wing",
+    "suggested_ru": "Крыло Икара",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-e56835681a84",
     "name_en": "New Moon in the Welkin",
     "suggested_ru": "Новолуние в небесах",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-e5ad9c7dd7bd",
+    "name_en": "Big Trouble 3",
+    "suggested_ru": "Большие неприятности 3",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-e5cd6f958f4f",
+    "name_en": "Holy Moon in the Welkin",
+    "suggested_ru": "Святая луна в небесах",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -25858,6 +26663,20 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-e80dfcac6516",
+    "name_en": "Hard Case",
+    "suggested_ru": "Трудное дело",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-e80ec067001a",
+    "name_en": "Frozen Murder",
+    "suggested_ru": "Холодное убийство",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-e97d0973fa8f",
     "name_en": "Obsidian Sacrifice",
     "suggested_ru": "Обсидиановый ритуал",
@@ -25865,9 +26684,23 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-e97f1c58da6e",
+    "name_en": "Empress's Forest",
+    "suggested_ru": "Лес императрицы",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-e9eaa91da7ea",
     "name_en": "Hunting Cloak",
     "suggested_ru": "Охотничий плащ",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-ead42598f704",
+    "name_en": "Spiritus",
+    "suggested_ru": "Дух",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -25914,9 +26747,37 @@
     "reason": "review_draft"
   },
   {
+    "id": "ger-q-ee7ad8978dd6",
+    "name_en": "Pest Purge",
+    "suggested_ru": "Выжигая чуму",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-efe5a0602cae",
+    "name_en": "Backstabber",
+    "suggested_ru": "Удар в спину",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-f09dd03e57da",
+    "name_en": "Restoration of Myth",
+    "suggested_ru": "Возвращение мифа",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-f0bcc01970da",
     "name_en": "The End to Vice",
     "suggested_ru": "Конец порока",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-f24ecb14a203",
+    "name_en": "Ranger Yell 3",
+    "suggested_ru": "Крик рейнджера 3",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -26005,6 +26866,13 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-f8ac41fd6d7d",
+    "name_en": "King of the Hill",
+    "suggested_ru": "Царь горы",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-f90bb9509999",
     "name_en": "Sarracenia",
     "suggested_ru": "Саррацения",
@@ -26033,9 +26901,23 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-fb70ba33ec8b",
+    "name_en": "Avalanche",
+    "suggested_ru": "Лавина",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-fcca627e545a",
     "name_en": "Big Smile",
     "suggested_ru": "Большая улыбка",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-fd7210841ef8",
+    "name_en": "Closed City",
+    "suggested_ru": "Закрытый город",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -26050,6 +26932,13 @@
     "id": "ger-q-fe28ac4ca2ff",
     "name_en": "Ruler's City",
     "suggested_ru": "Город правителя",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-fed5c708fa48",
+    "name_en": "Tempest",
+    "suggested_ru": "Буря",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },

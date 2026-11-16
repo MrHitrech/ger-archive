@@ -115,5 +115,19 @@
     "missing_fields": [
       "original_page_review"
     ]
+  },
+  {
+    "id": "ger-l-a8d8f712e7be",
+    "game": "ger",
+    "name_en": "Training Grounds",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-bdbdfa8363d069fd",
+      "ev-0d69d584ee9bd606"
+    ],
+    "missing_fields": [
+      "manual_location_review"
+    ]
   }
 ]

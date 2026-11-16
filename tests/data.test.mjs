@@ -227,7 +227,11 @@ test('game imports preserve legacy IDs, editorial names, and unsupported acquisi
   for (const collection of ['materials', 'items', 'recipes'])
     for (const row of seed[collection]) assert.ok(data[collection].some((r) => r.id === row.id));
   for (const collection of ['aragami', 'locations'])
-    assert.deepEqual(data[collection], seed[collection]);
+    for (const original of seed[collection])
+      assert.deepEqual(
+        data[collection].find((row) => row.id === original.id),
+        original,
+      );
   for (const original of seed.missions) {
     const current = data.missions.find((r) => r.id === original.id);
     const mapping = mappings.find((m) => m.existing_id === original.id);
@@ -237,15 +241,13 @@ test('game imports preserve legacy IDs, editorial names, and unsupported acquisi
       assert.ok(
         data.translations.find((t) => t.id === current.id).aliases.includes(original.name_en),
       );
-    for (const key of [
-      'rank',
-      'type',
-      'variant',
-      'aragami_ids',
-      'objectives_en',
-      'story',
-      'time_limit_seconds',
-    ])
+    const nativeRank = original.rank === 'challenge' ? 14 : original.rank;
+    assert.equal(current.rank, nativeRank);
+    assert.equal(
+      current.type,
+      nativeRank === 14 && original.type === 'standard' ? 'challenge' : original.type,
+    );
+    for (const key of ['variant', 'aragami_ids', 'objectives_en', 'story', 'time_limit_seconds'])
       assert.deepEqual(current[key], original[key]);
   }
   for (const original of seed.drops) {

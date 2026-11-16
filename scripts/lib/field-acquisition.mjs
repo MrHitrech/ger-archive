@@ -174,7 +174,7 @@ export function validateFieldAcquisition(drop, index, mappings) {
 export function createFieldAcquisitionImport(
   current,
   { manifest, decoded },
-  { checkedAt, aragamiMappings = [] },
+  { checkedAt, aragamiMappings = [], nonAragamiTargets = [] },
 ) {
   const data = structuredClone(current),
     sourceId = `game-field-acquisition-460870-${manifest.build_id}`;
@@ -330,6 +330,10 @@ export function createFieldAcquisitionImport(
       russian = table('base_ru'),
       partsRu = table('parts_ru');
     const active = activeEnemyClasses(table('quest'), table('entries'));
+    if (!active.size) {
+      for (const row of table('quest')) proof(key('quest'), row);
+      for (const row of table('entries')) proof(key('entries'), row);
+    }
     const enemies = new Map();
     for (const row of base.filter((r) => active.has(r.id))) {
       const matches = aragamiMappings.filter(
@@ -338,7 +342,18 @@ export function createFieldAcquisitionImport(
           m.res_name === row.en_base_res_name &&
           m.native_name === row.en_base_display_name,
       );
-      if (matches.length !== 1 || !data.aragami.some((a) => a.id === matches[0].site_id)) {
+      const trainingTarget =
+        mission.type === 'tutorial' &&
+        nonAragamiTargets.some(
+          (m) =>
+            m.family_id === row.en_base_family_id &&
+            m.res_name === row.en_base_res_name &&
+            m.native_name === row.en_base_display_name,
+        );
+      if (
+        !trainingTarget &&
+        (matches.length !== 1 || !data.aragami.some((a) => a.id === matches[0].site_id))
+      ) {
         issues.push({
           code: 'GAME_ENEMY_UNMATCHED',
           source_id: sourceId,
@@ -373,11 +388,39 @@ export function createFieldAcquisitionImport(
           )
           .map((q) => proof(key('entries'), q)),
       ];
+      const baseRefs = [proof(key('base_en'), row), proof(key('base_ru'), ru), ...spawnRefs];
+      if (trainingTarget) continue;
+      if (mapping.create_record) {
+        const enemy = data.aragami.find((a) => a.id === mapping.site_id);
+        Object.assign(enemy, {
+          game_origin: origins(key('base_en'), row),
+          checked_at: checkedAt,
+          references: unique([...enemy.references, ...baseRefs]),
+        });
+        if (!data.translations.some((t) => t.id === enemy.id && t.name_ru)) {
+          const nameRu = ru.en_base_display_name;
+          if (!nameRu || /[\x00-\x1f\x7f\ufffd]/.test(nameRu))
+            throw new Error('Invalid native enemy translation');
+          const old = data.translations.find((t) => t.id === enemy.id);
+          const translated = {
+            ...(old ?? {}),
+            id: enemy.id,
+            name_en: enemy.name_en,
+            name_ru: nameRu,
+            aliases: old?.aliases ?? [],
+            source: sourceId,
+            status: 'unverified',
+            references: unique([...(old?.references ?? []), baseRefs[1]]),
+          };
+          if (old) Object.assign(old, translated);
+          else data.translations.push(translated);
+        }
+      }
       enemies.set(row.id, {
         ...mapping,
         nameEn: row.en_base_display_name,
         nameRu: ru.en_base_display_name,
-        refs: [proof(key('base_en'), row), proof(key('base_ru'), ru), ...spawnRefs],
+        refs: baseRefs,
       });
       const pool = table('materials').filter((r) => r.en_mat_enemy_class_id === row.id);
       const weights = weightedEntries(

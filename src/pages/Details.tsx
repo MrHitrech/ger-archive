@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { ArrowRight, CircleHelp, GitBranch, ListPlus, Minus, Plus, Target } from 'lucide-react';
 import { useCollections } from '../lib/data';
+import { matchesMissionRank, missionPhases } from '../lib/missions';
 import { useApp } from '../context';
 import {
   categories,
@@ -53,7 +54,10 @@ export function DropTable({
   const rows = drops
     .filter(
       (d) =>
-        (!rank || String(missions.find((m) => m.id === d.mission_id)?.rank) === rank) &&
+        matchesMissionRank(
+          missions.find((m) => m.id === d.mission_id),
+          rank,
+        ) &&
         (!method || d.method === method),
     )
     .sort((a, b) => {
@@ -612,8 +616,13 @@ export function MissionDetail() {
   if (!data) return <Loading error={error} retry={retry} />;
   const mission = data.missions.find((m) => m.id === id);
   if (!mission) return <MissingRecord />;
-  const drops = data.drops.filter((d) => d.mission_id === id);
-  const refs = [...new Set([...mission.references, ...drops.flatMap((d) => d.references)])];
+  const phases = missionPhases(mission, data.missions);
+  const scope = mission.parent_mission_id ? [mission] : phases;
+  const drops = data.drops.filter((d) => scope.some((m) => m.id === d.mission_id));
+  const enemyIds = [...new Set(scope.flatMap((m) => m.aragami_ids))];
+  const refs = [
+    ...new Set([...scope.flatMap((m) => m.references), ...drops.flatMap((d) => d.references)]),
+  ];
   return (
     <>
       <DetailHeader record={mission} kind="mission" />
@@ -644,11 +653,31 @@ export function MissionDetail() {
           </b>
         </div>
       </div>
-      {mission.type === 'extra' && <p className="footnote">Вариант миссии: {mission.variant}</p>}
+      {mission.phase_count && (
+        <section className="panel">
+          <SectionHeading title="Этапы выживания" count={phases.length} />
+          <p className="footnote">
+            {mission.parent_mission_id
+              ? `Открыт этап ${mission.phase_index} из ${mission.phase_count}. Ниже показаны награды этого этапа.`
+              : 'Ниже собраны награды всех этапов. В каждой строке указана миссия соответствующего этапа.'}
+          </p>
+          <ol>
+            {phases.map((phase) => (
+              <li key={phase.id} aria-current={phase.id === mission.id ? 'step' : undefined}>
+                Этап {phase.phase_index}: <EntityLink id={phase.id} kind="mission" /> ·{' '}
+                <EntityName id={phase.location_id} compact />
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
       <section className="panel">
-        <SectionHeading title="Арагами в миссии" count={mission.aragami_ids.length} />
+        <SectionHeading
+          title={mission.type === 'tutorial' ? 'Учебные цели' : 'Арагами в миссии'}
+          count={enemyIds.length || undefined}
+        />
         <div className="mission-enemy-grid">
-          {mission.aragami_ids.map((id) => (
+          {enemyIds.map((id) => (
             <div key={id}>
               <Target size={20} />
               <EntityLink kind="aragami" id={id} />
@@ -656,11 +685,14 @@ export function MissionDetail() {
           ))}
         </div>
         <p className="footnote">
-          Список включает встречающихся противников. Основные цели и точные количества требуют
-          сверки с условиями задания.
+          {mission.type === 'tutorial'
+            ? 'Обучение использует тренировочные мишени.'
+            : !enemyIds.length
+              ? 'В таблице задания не указано появление боевых противников.'
+              : 'Список включает встречающихся противников. Основные цели и точные количества требуют сверки с условиями задания.'}
         </p>
         <details className="objective-source">
-          <summary>Список противников в источнике (English)</summary>
+          <summary>Описание задания в источнике (English)</summary>
           <p>{mission.objectives_en}</p>
         </details>
       </section>
@@ -677,7 +709,11 @@ export function MissionDetail() {
         ) : (
           <div className="inline-empty">
             <CircleHelp size={20} />
-            <p>Таблица наград пока не импортирована. Это не означает, что в миссии нет наград.</p>
+            <p>
+              {mission.reward_table_status === 'missing'
+                ? 'Таблица наград пока не импортирована. Это не означает, что в миссии нет наград.'
+                : 'В известных данных нет наград материалами для этой миссии.'}
+            </p>
           </div>
         )}
       </section>

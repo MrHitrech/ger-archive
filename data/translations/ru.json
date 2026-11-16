@@ -48,6 +48,17 @@
     "status": "unverified"
   },
   {
+    "id": "ger-a-2d47298b1d5f",
+    "name_en": "Heavenly Father",
+    "name_ru": "Небесный отец",
+    "aliases": [],
+    "source": "game-field-acquisition-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-9d9b3ad5d8aee341"
+    ]
+  },
+  {
     "id": "ger-a-30a03ad89563",
     "name_en": "Fallen Gboro-Gboro (Freeze)",
     "name_ru": "Падший Гборо-Гборо (лёд)",
@@ -30947,6 +30958,17 @@
     "status": "unverified"
   },
   {
+    "id": "ger-l-a8d8f712e7be",
+    "name_en": "Training Grounds",
+    "name_ru": "Тренировочный центр",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-0d69d584ee9bd606"
+    ]
+  },
+  {
     "id": "ger-l-cfb2f98647e1",
     "name_en": "Tranquil Temple",
     "name_ru": "Безмятежный храм",
@@ -37294,6 +37316,17 @@
     ]
   },
   {
+    "id": "ger-q-005e38650b85",
+    "name_en": "Drosera",
+    "name_ru": "Росянка",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-f905c1fd412cf2f1"
+    ]
+  },
+  {
     "id": "ger-q-011a64857f30",
     "name_en": "Lantern Cutting",
     "name_ru": "Вырезание фонариков",
@@ -37340,12 +37373,45 @@
     ]
   },
   {
+    "id": "ger-q-05f119afd31e",
+    "name_en": "Mama's Boy",
+    "name_ru": "Маменькин сынок",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-e41952604f563c66"
+    ]
+  },
+  {
     "id": "ger-q-066864caa5c9",
     "name_en": "Spider Lily",
     "name_ru": "Паучья лилия",
     "aliases": [],
     "source": "project-draft: редакционный вариант, требует проверки",
     "status": "unverified"
+  },
+  {
+    "id": "ger-q-06bcaab63b65",
+    "name_en": "Noble Dining",
+    "name_ru": "Благородный обед",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-ed3c39297cff1b31"
+    ]
+  },
+  {
+    "id": "ger-q-073d865cac0c",
+    "name_en": "Flame Madness",
+    "name_ru": "Пламенное безумие",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-a3237c7c9c3d925f"
+    ]
   },
   {
     "id": "ger-q-07ae46feb908",
@@ -37383,6 +37449,39 @@
     ]
   },
   {
+    "id": "ger-q-0b1f83890557",
+    "name_en": "Fukumuya Moat",
+    "name_ru": "Крепостной ров",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-a6b03f38daaea088"
+    ]
+  },
+  {
+    "id": "ger-q-0b520db331f1",
+    "name_en": "Red Tape",
+    "name_ru": "Красная пленка",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-6754767a43ed1ab5"
+    ]
+  },
+  {
+    "id": "ger-q-0ca16cd193e0",
+    "name_en": "King's Tryst",
+    "name_ru": "Встреча с королем",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-885ca06852cb9ba9"
+    ]
+  },
+  {
     "id": "ger-q-0dc9ebd23f76",
     "name_en": "Fallen Angel Egg",
     "name_ru": "Яйцо падшего ангела",
@@ -37397,6 +37496,17 @@
     "aliases": [],
     "source": "project-draft: редакционный вариант, требует проверки",
     "status": "unverified"
+  },
+  {
+    "id": "ger-q-0ed9017168ac",
+    "name_en": "Sweeper",
+    "name_ru": "Тральщик",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-0d0c752a72cd2fce"
+    ]
   },
   {
     "id": "ger-q-10c05a91751e",
@@ -37418,6 +37528,17 @@
     "status": "unverified",
     "references": [
       "ev-a6660609a95fa266"
+    ]
+  },
+  {
+    "id": "ger-q-120b5c09860a",
+    "name_en": "Monochrome",
+    "name_ru": "Ч/б",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-e904bc81f9169473"
     ]
   },
   {
@@ -37484,6 +37605,17 @@
     ]
   },
   {
+    "id": "ger-q-174d0ac77b3f",
+    "name_en": "Junk-Eating Beast",
+    "name_ru": "Зверский аппетит",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-42c6357717301642"
+    ]
+  },
+  {
     "id": "ger-q-18c6f234012c",
     "name_en": "Poison Garnish",
     "name_ru": "Ядовитая приправа",
@@ -37492,6 +37624,17 @@
     "status": "unverified",
     "references": [
       "ev-53e0590efb2ed93a"
+    ]
+  },
+  {
+    "id": "ger-q-18e783fc7b6e",
+    "name_en": "Nepenthes",
+    "name_ru": "Непентес",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-92b97a4b9ff0e569"
     ]
   },
   {
@@ -37517,6 +37660,17 @@
     ]
   },
   {
+    "id": "ger-q-1affe3b13a04",
+    "name_en": "Malevolence in the Darkness",
+    "name_ru": "Опасность во тьме",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-4b88b0f4adf85b78"
+    ]
+  },
+  {
     "id": "ger-q-1b5cf6e473d7",
     "name_en": "Fallen Vortex",
     "name_ru": "Водоворот падших",
@@ -37539,6 +37693,17 @@
     ]
   },
   {
+    "id": "ger-q-1d3c9a7125f3",
+    "name_en": "Material Age",
+    "name_ru": "Материальная эпоха",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-957a6d61253a7c6f"
+    ]
+  },
+  {
     "id": "ger-q-1d4ee108e8f7",
     "name_en": "An Aloof Dream",
     "name_ru": "Далекая мечта",
@@ -37547,6 +37712,28 @@
     "status": "unverified",
     "references": [
       "ev-08860bed6eaf0c16"
+    ]
+  },
+  {
+    "id": "ger-q-1dd1c16bf334",
+    "name_en": "One On One",
+    "name_ru": "Один на один",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-9edd7fedb2c6870a"
+    ]
+  },
+  {
+    "id": "ger-q-1e596b66015d",
+    "name_en": "Cerberus",
+    "name_ru": "Цербер",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-9ae856e67252ca32"
     ]
   },
   {
@@ -37580,6 +37767,17 @@
     "status": "unverified",
     "references": [
       "ev-a1146efbd21dc91d"
+    ]
+  },
+  {
+    "id": "ger-q-207c56434e16",
+    "name_en": "St. Elmo's Fire",
+    "name_ru": "Огни святого Эльма",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-79402964984bfd13"
     ]
   },
   {
@@ -37627,6 +37825,17 @@
     ]
   },
   {
+    "id": "ger-q-2373fffb742f",
+    "name_en": "Today's Fortune",
+    "name_ru": "Сегодняшнее предсказание",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-7b4516e63ca90e91"
+    ]
+  },
+  {
     "id": "ger-q-24f99d95ba00",
     "name_en": "Pilgrim 2",
     "name_ru": "Пилигрим 2",
@@ -37654,6 +37863,17 @@
     "status": "unverified",
     "references": [
       "ev-d358f1abe612aa69"
+    ]
+  },
+  {
+    "id": "ger-q-25b53f115c17",
+    "name_en": "Missile Fire",
+    "name_ru": "Стрельба ракетами",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-ab17f970fbfcb670"
     ]
   },
   {
@@ -37690,6 +37910,17 @@
     ]
   },
   {
+    "id": "ger-q-27d970a2f977",
+    "name_en": "Wispy Clouds",
+    "name_ru": "Легкие облака",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-101493234bdf3a96"
+    ]
+  },
+  {
     "id": "ger-q-27e02d7e89c5",
     "name_en": "Gold Coast",
     "name_ru": "Золотой берег",
@@ -37712,6 +37943,28 @@
     ]
   },
   {
+    "id": "ger-q-28567c724bd8",
+    "name_en": "Phantom Embrace 3",
+    "name_ru": "Объятия призрака 3",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-e5f990b779d5d839"
+    ]
+  },
+  {
+    "id": "ger-q-28a7146176f7",
+    "name_en": "Tempest 2",
+    "name_ru": "Буря 2",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-6d4aa3901c3a7cdd"
+    ]
+  },
+  {
     "id": "ger-q-2901bc5eeb5c",
     "name_en": "Exiled Emperor",
     "name_ru": "Император в изгнании",
@@ -37720,6 +37973,39 @@
     "status": "unverified",
     "references": [
       "ev-42ec38318e0c1fde"
+    ]
+  },
+  {
+    "id": "ger-q-296ca8b875de",
+    "name_en": "Alligator Hunter",
+    "name_ru": "Охотник на крокодилов",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-724b12512920f64a"
+    ]
+  },
+  {
+    "id": "ger-q-2a0d3fe51566",
+    "name_en": "Incense Bonfire",
+    "name_ru": "Костер благовоний",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-dd5b0b532029c695"
+    ]
+  },
+  {
+    "id": "ger-q-2cd7b2df1556",
+    "name_en": "Fifth Element",
+    "name_ru": "Пятый элемент",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-261753e042bbc1b8"
     ]
   },
   {
@@ -37745,6 +38031,50 @@
     ]
   },
   {
+    "id": "ger-q-2dee03594246",
+    "name_en": "Black Ore",
+    "name_ru": "Черная руда",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-3c481dde2f78e685"
+    ]
+  },
+  {
+    "id": "ger-q-2e48e0f9fb2b",
+    "name_en": "Fire and Ice",
+    "name_ru": "Огонь и лед",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-04968be631930bca"
+    ]
+  },
+  {
+    "id": "ger-q-2f35c383be6d",
+    "name_en": "Spiritus 3",
+    "name_ru": "Дух 3",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-bb3c06b7b99b42df"
+    ]
+  },
+  {
+    "id": "ger-q-30e9e056b160",
+    "name_en": "Infantry Swarm",
+    "name_ru": "Рой пехотных",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-62839e37b9717f93"
+    ]
+  },
+  {
     "id": "ger-q-31e6165f55db",
     "name_en": "Croc Three",
     "name_ru": "Крокодил Три",
@@ -37753,6 +38083,17 @@
     "status": "unverified",
     "references": [
       "ev-7cb240fc75677eea"
+    ]
+  },
+  {
+    "id": "ger-q-326775fa8b6c",
+    "name_en": "Shark Fin",
+    "name_ru": "Акулий плавник",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-82290d5269d00c4d"
     ]
   },
   {
@@ -37808,6 +38149,28 @@
     "status": "unverified"
   },
   {
+    "id": "ger-q-36815e9f50ff",
+    "name_en": "Burning Tracks",
+    "name_ru": "Горящие пути",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-ac9bb4f4017c235c"
+    ]
+  },
+  {
+    "id": "ger-q-3683307f680a",
+    "name_en": "Road to Idavollr",
+    "name_ru": "Дорога в Идаволлр",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-676170d71d28e24a"
+    ]
+  },
+  {
     "id": "ger-q-36deec6fd61f",
     "name_en": "Troika",
     "name_ru": "Тройка",
@@ -37816,6 +38179,17 @@
     "status": "unverified",
     "references": [
       "ev-2d1d508369bbc4db"
+    ]
+  },
+  {
+    "id": "ger-q-379cffdaa203",
+    "name_en": "Nightfall Scam",
+    "name_ru": "Вечерняя афера",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-8c4f2c83045ac376"
     ]
   },
   {
@@ -37830,6 +38204,17 @@
     ]
   },
   {
+    "id": "ger-q-391f2710d31f",
+    "name_en": "Naked Monkey",
+    "name_ru": "Голая обезьяна",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-e5a1101b51046fd8"
+    ]
+  },
+  {
     "id": "ger-q-39350a3cc3c3",
     "name_en": "Artifacts",
     "name_ru": "Артефакты",
@@ -37841,12 +38226,45 @@
     ]
   },
   {
+    "id": "ger-q-398f9dd1b328",
+    "name_en": "Triple Cross",
+    "name_ru": "Тройное скрещивание",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-e4293c6866553547"
+    ]
+  },
+  {
+    "id": "ger-q-3a1f06eb5f2e",
+    "name_en": "True Moon Welkin",
+    "name_ru": "Серп луны в небесах",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-05d5a9598d5b36e7"
+    ]
+  },
+  {
     "id": "ger-q-3c8beb69e798",
     "name_en": "Disjunction",
     "name_ru": "Разъединение",
     "aliases": [],
     "source": "project-draft: редакционный вариант, требует проверки",
     "status": "unverified"
+  },
+  {
+    "id": "ger-q-3d47baa2bf37",
+    "name_en": "Focus Forever",
+    "name_ru": "Вечная сосредоточенность",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-67e2208c0af0ceaf"
+    ]
   },
   {
     "id": "ger-q-3dde76e07854",
@@ -37868,6 +38286,28 @@
     "status": "unverified",
     "references": [
       "ev-2b0431eb912cc110"
+    ]
+  },
+  {
+    "id": "ger-q-3e94d5d6d3e0",
+    "name_en": "Pilgrim 0",
+    "name_ru": "Пилигрим 0",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-1a2d177787f6a2cb"
+    ]
+  },
+  {
+    "id": "ger-q-3f73f97c08de",
+    "name_en": "Thor's Banquet",
+    "name_ru": "Пир Тора",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-3abf0db5f05906a4"
     ]
   },
   {
@@ -37898,6 +38338,17 @@
     "status": "unverified",
     "references": [
       "ev-3f42801bbeb96574"
+    ]
+  },
+  {
+    "id": "ger-q-433b3b212713",
+    "name_en": "Corn Snow",
+    "name_ru": "Талый снег",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-07b2791de0fe8a5a"
     ]
   },
   {
@@ -38030,6 +38481,17 @@
     ]
   },
   {
+    "id": "ger-q-49887ae9f0e4",
+    "name_en": "Aurora",
+    "name_ru": "Аврора",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-c5af58eba697a45b"
+    ]
+  },
+  {
     "id": "ger-q-49e1248326cd",
     "name_en": "Goddess' Duty",
     "name_ru": "Долг богини",
@@ -38052,6 +38514,17 @@
     ]
   },
   {
+    "id": "ger-q-4aa03cca5eb4",
+    "name_en": "Evil Princess",
+    "name_ru": "Злая принцесса",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-5735d56a53b93ce7"
+    ]
+  },
+  {
     "id": "ger-q-4ab0fbf0fe53",
     "name_en": "Newcomer Trials",
     "name_ru": "Испытание для новичков",
@@ -38060,6 +38533,28 @@
     "status": "unverified",
     "references": [
       "ev-cb95c66d201953b1"
+    ]
+  },
+  {
+    "id": "ger-q-4afbe67a717d",
+    "name_en": "Red River",
+    "name_ru": "Красная река",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-4f910613e7ba0ddb"
+    ]
+  },
+  {
+    "id": "ger-q-4bb4f1107340",
+    "name_en": "Live Prey",
+    "name_ru": "Живая добыча",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-5b32ed2600f0ff59"
     ]
   },
   {
@@ -38074,6 +38569,17 @@
     ]
   },
   {
+    "id": "ger-q-4c082ebb88f8",
+    "name_en": "Dust Trail",
+    "name_ru": "Пыльная тропа",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-c25e723cd13ce1af"
+    ]
+  },
+  {
     "id": "ger-q-4cd570da9a45",
     "name_en": "Crocodile Swagger",
     "name_ru": "Крокодил-пижон",
@@ -38082,6 +38588,28 @@
     "status": "unverified",
     "references": [
       "ev-d2e09d72ac510310"
+    ]
+  },
+  {
+    "id": "ger-q-4cfe66d85cfa",
+    "name_en": "Death Mask",
+    "name_ru": "Посмертная маска",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-2b8b98f51220b1bc"
+    ]
+  },
+  {
+    "id": "ger-q-4d51e4044713",
+    "name_en": "Avalanche",
+    "name_ru": "Лавина",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-8a99a43867e99ae6"
     ]
   },
   {
@@ -38096,12 +38624,34 @@
     ]
   },
   {
+    "id": "ger-q-4dd935728629",
+    "name_en": "Thunderstorm",
+    "name_ru": "Гроза",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-c881f798a1b3bc18"
+    ]
+  },
+  {
     "id": "ger-q-4ddfa7d25372",
     "name_en": "Crocodile Two",
     "name_ru": "Крокодил два",
     "aliases": [],
     "source": "project-draft: редакционный вариант, требует проверки",
     "status": "unverified"
+  },
+  {
+    "id": "ger-q-4f9f68227f6f",
+    "name_en": "Ice-Croc's Slumber",
+    "name_ru": "Сон ледяного крокодила",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-146158086aa5d92b"
+    ]
   },
   {
     "id": "ger-q-4fc954c98980",
@@ -38306,6 +38856,28 @@
     ]
   },
   {
+    "id": "ger-q-5d4abb06eb2c",
+    "name_en": "Summer Gnats",
+    "name_ru": "Гнус",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-80b2278cdc24bca0"
+    ]
+  },
+  {
+    "id": "ger-q-5dcecde1f685",
+    "name_en": "Dark Wing",
+    "name_ru": "Темное крыло",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-96dd8aeb94b1759b"
+    ]
+  },
+  {
     "id": "ger-q-5f10fc089934",
     "name_en": "Coyote Warrior",
     "name_ru": "Койот-воин",
@@ -38314,6 +38886,17 @@
     "status": "unverified",
     "references": [
       "ev-81319ed385a71cfa"
+    ]
+  },
+  {
+    "id": "ger-q-6030b08582e6",
+    "name_en": "Lady Butterfly",
+    "name_ru": "Леди-бабочка",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-11cfa0c54a960176"
     ]
   },
   {
@@ -38369,6 +38952,50 @@
     ]
   },
   {
+    "id": "ger-q-6499955c081f",
+    "name_en": "Tutorial 1",
+    "name_ru": "Обучение 1",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-3d527665e35b45e5"
+    ]
+  },
+  {
+    "id": "ger-q-64ef4c114741",
+    "name_en": "Ranger Yell",
+    "name_ru": "Крик рейнджера",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-e32ba5a4af49cb42"
+    ]
+  },
+  {
+    "id": "ger-q-65dcf1a123c5",
+    "name_en": "Material Age 2",
+    "name_ru": "Материальная эпоха 2",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-2e46db4da22f4793"
+    ]
+  },
+  {
+    "id": "ger-q-67e73d125e0f",
+    "name_en": "The Lion and the Peonies",
+    "name_ru": "Лев и пеоны",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-f6ec85ae49041305"
+    ]
+  },
+  {
     "id": "ger-q-683a2700bd0e",
     "name_en": "Quick Draw 3",
     "name_ru": "Быстрый стрелок 3",
@@ -38391,6 +39018,17 @@
     ]
   },
   {
+    "id": "ger-q-68931a43c573",
+    "name_en": "Spilt Milk",
+    "name_ru": "Разлитое молоко",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-00e93bc319b24e47"
+    ]
+  },
+  {
     "id": "ger-q-690e2b9b8574",
     "name_en": "God Eater",
     "name_ru": "Пожиратель богов",
@@ -38402,6 +39040,17 @@
     ]
   },
   {
+    "id": "ger-q-6931d1662178",
+    "name_en": "Haze",
+    "name_ru": "Дымка",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-d6cb3fe0e64e3a2c"
+    ]
+  },
+  {
     "id": "ger-q-699b2809971e",
     "name_en": "Blue Blade Dance",
     "name_ru": "Танец синих лезвий",
@@ -38410,6 +39059,17 @@
     "status": "unverified",
     "references": [
       "ev-f7b14a9c87a6f910"
+    ]
+  },
+  {
+    "id": "ger-q-69fa722013a8",
+    "name_en": "Queen of Obstruction 2",
+    "name_ru": "Королева преград 2",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-c74bcb87db153500"
     ]
   },
   {
@@ -38457,6 +39117,17 @@
     ]
   },
   {
+    "id": "ger-q-6eb5bcdcad7b",
+    "name_en": "Devourer of the Mind",
+    "name_ru": "Пожирающий разум",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-a741eb8305f993e8"
+    ]
+  },
+  {
     "id": "ger-q-6f8323af5e22",
     "name_en": "Jungle Tiger",
     "name_ru": "Тигр в джунглях",
@@ -38465,6 +39136,28 @@
     "status": "unverified",
     "references": [
       "ev-03f62a2f9335f49b"
+    ]
+  },
+  {
+    "id": "ger-q-6fc6c6e2a39e",
+    "name_en": "Bestial Twilight",
+    "name_ru": "Звериные сумерки",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-dbb8501d2a22413b"
+    ]
+  },
+  {
+    "id": "ger-q-6fd100cf5907",
+    "name_en": "Firelords in a Storm",
+    "name_ru": "Повелители огня в бурю",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-497922be8f9878c6"
     ]
   },
   {
@@ -38520,6 +39213,17 @@
     "status": "unverified",
     "references": [
       "ev-1887b8d11df75216"
+    ]
+  },
+  {
+    "id": "ger-q-750f687c9356",
+    "name_en": "Needles and Sewage",
+    "name_ru": "Иглы и канализации",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-206beb31c07fb47b"
     ]
   },
   {
@@ -38604,6 +39308,17 @@
     ]
   },
   {
+    "id": "ger-q-7b69c3371d36",
+    "name_en": "Tower of Ivory",
+    "name_ru": "Башня из слоновой кости",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-0bec4f254d8b947a"
+    ]
+  },
+  {
     "id": "ger-q-7b70fcbb25ec",
     "name_en": "Certainly Clear",
     "name_ru": "Определенно ясно",
@@ -38659,6 +39374,28 @@
     ]
   },
   {
+    "id": "ger-q-7f0891d73240",
+    "name_en": "Front and Back",
+    "name_ru": "Туда и обратно",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-b2167176df336f1d"
+    ]
+  },
+  {
+    "id": "ger-q-7f0a369914dc",
+    "name_en": "Practice Tutorial",
+    "name_ru": "Практическое обучение",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-e5c56e490b19e148"
+    ]
+  },
+  {
     "id": "ger-q-7f5d880315d7",
     "name_en": "Whirlwind",
     "name_ru": "Вихрь",
@@ -38711,6 +39448,17 @@
     ]
   },
   {
+    "id": "ger-q-83e27ae9257f",
+    "name_en": "The Fall of Mankind",
+    "name_ru": "Падение человечества",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-212e01c6d0d8bba6"
+    ]
+  },
+  {
     "id": "ger-q-83e4340bc5a2",
     "name_en": "Salty Dog",
     "name_ru": "Соленый пес",
@@ -38728,6 +39476,28 @@
     "aliases": [],
     "source": "project-draft: редакционный вариант, требует проверки",
     "status": "unverified"
+  },
+  {
+    "id": "ger-q-8461c345ca83",
+    "name_en": "Tempest 3",
+    "name_ru": "Буря 3",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-db7b42b2bb05317a"
+    ]
+  },
+  {
+    "id": "ger-q-84fa4fdec007",
+    "name_en": "Thunder",
+    "name_ru": "Гром",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-a6ca5e703a442432"
+    ]
   },
   {
     "id": "ger-q-8512078cd4d6",
@@ -38878,6 +39648,28 @@
     ]
   },
   {
+    "id": "ger-q-8bd17c798fe0",
+    "name_en": "Material Age 3",
+    "name_ru": "Материальная эпоха 3",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-31a180a75ef02fc3"
+    ]
+  },
+  {
+    "id": "ger-q-8bfc097bc680",
+    "name_en": "White-Out",
+    "name_ru": "Белая мгла",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-7443d15fd3212c44"
+    ]
+  },
+  {
     "id": "ger-q-8f08ab5ab026",
     "name_en": "Quick Draw",
     "name_ru": "Быстрый стрелок",
@@ -38886,6 +39678,17 @@
     "status": "unverified",
     "references": [
       "ev-02f43b5eb260454e"
+    ]
+  },
+  {
+    "id": "ger-q-90ca366909bd",
+    "name_en": "Frozen Murder 2",
+    "name_ru": "Холодное убийство 2",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-ae9c12a13e904bcf"
     ]
   },
   {
@@ -38930,6 +39733,17 @@
     "status": "unverified",
     "references": [
       "ev-484d6e290cf9b27e"
+    ]
+  },
+  {
+    "id": "ger-q-95949f5453f5",
+    "name_en": "Carnevale",
+    "name_ru": "Карнавал",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-60d2c90d2023598d"
     ]
   },
   {
@@ -39026,6 +39840,28 @@
     ]
   },
   {
+    "id": "ger-q-9d69143d7947",
+    "name_en": "God Eater Burst",
+    "name_ru": "Пожиратель богов: Всплеск",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-60d43c00cd7f7ffb"
+    ]
+  },
+  {
+    "id": "ger-q-9da1ab0db49f",
+    "name_en": "Spilt Milk 2",
+    "name_ru": "Разлитое молоко 2",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-beb6cdd073d2d61e"
+    ]
+  },
+  {
     "id": "ger-q-9dd272e95035",
     "name_en": "Iron Blizzard",
     "name_ru": "Железная метель",
@@ -39037,6 +39873,17 @@
     ]
   },
   {
+    "id": "ger-q-9f0316c7670e",
+    "name_en": "Watch Out Overhead",
+    "name_ru": "Не ударьтесь головой",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-240ce1da89c6b02a"
+    ]
+  },
+  {
     "id": "ger-q-9f11f1734716",
     "name_en": "Knight and Rust",
     "name_ru": "Рыцарь и ржавчина",
@@ -39045,6 +39892,28 @@
     "status": "unverified",
     "references": [
       "ev-b8f5c288f9ba3416"
+    ]
+  },
+  {
+    "id": "ger-q-a080371d7ffc",
+    "name_en": "Sting Ray",
+    "name_ru": "Скат-хвостокол",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-17fcdd3a62bb92a0"
+    ]
+  },
+  {
+    "id": "ger-q-a24bb6296186",
+    "name_en": "Spiral of Reminiscence",
+    "name_ru": "Спираль воспоминаний",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-9571b1f64030768e"
     ]
   },
   {
@@ -39081,6 +39950,28 @@
     ]
   },
   {
+    "id": "ger-q-a6cd90d239f3",
+    "name_en": "Ones Who Devour the End",
+    "name_ru": "Те, кто пожирает конец",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-f34dcb9e25e248e2"
+    ]
+  },
+  {
+    "id": "ger-q-a7510952c6c6",
+    "name_en": "Little Ruler",
+    "name_ru": "Маленький правитель",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-f78bd1566afa7138"
+    ]
+  },
+  {
     "id": "ger-q-a7b3a8addc4b",
     "name_en": "Big Over Small",
     "name_ru": "От мала до велика",
@@ -39103,6 +39994,17 @@
     ]
   },
   {
+    "id": "ger-q-aa0c1c8f0815",
+    "name_en": "Thunderstorm 2",
+    "name_ru": "Гроза 2",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-16f5fcf2f3a6231c"
+    ]
+  },
+  {
     "id": "ger-q-aa3d484b99da",
     "name_en": "Snow Firefly",
     "name_ru": "Снежный светлячок",
@@ -39111,6 +40013,17 @@
     "status": "unverified",
     "references": [
       "ev-37eaa591e0cdf483"
+    ]
+  },
+  {
+    "id": "ger-q-aaf04367d5f5",
+    "name_en": "Flame Madness 2",
+    "name_ru": "Пламенное безумие 2",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-aed9458159ca6b6b"
     ]
   },
   {
@@ -39147,6 +40060,17 @@
     ]
   },
   {
+    "id": "ger-q-ac8effa06fe9",
+    "name_en": "Sea Fire",
+    "name_ru": "Морской огонь",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-70b0d5303f30dd2e"
+    ]
+  },
+  {
     "id": "ger-q-ad0ac4510e64",
     "name_en": "Tyrant Breath",
     "name_ru": "Дыхание тирана",
@@ -39155,6 +40079,17 @@
     "status": "unverified",
     "references": [
       "ev-f9241d923e156cad"
+    ]
+  },
+  {
+    "id": "ger-q-ad3fef032293",
+    "name_en": "Cabin Fever 2",
+    "name_ru": "Боязнь одиночества 2",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-5d036a8bee63937b"
     ]
   },
   {
@@ -39224,6 +40159,17 @@
     ]
   },
   {
+    "id": "ger-q-b15e8da70c3f",
+    "name_en": "Corroded Gorget",
+    "name_ru": "Ржавое ожерелье",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-bebd718bf690ed4d"
+    ]
+  },
+  {
     "id": "ger-q-b32d3934cdd1",
     "name_en": "Radiant Halo",
     "name_ru": "Сияющий нимб",
@@ -39246,6 +40192,28 @@
     ]
   },
   {
+    "id": "ger-q-b3da5b17e7a7",
+    "name_en": "Perseverance",
+    "name_ru": "Упорство",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-647e548cdba69a1a"
+    ]
+  },
+  {
+    "id": "ger-q-b57bacc22f6f",
+    "name_en": "Ranger Yell 2",
+    "name_ru": "Крик рейнджера 2",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-34e3826f23388a8a"
+    ]
+  },
+  {
     "id": "ger-q-b58b25406da3",
     "name_en": "Poison Butterfly",
     "name_ru": "Ядовитая бабочка",
@@ -39254,6 +40222,39 @@
     "status": "unverified",
     "references": [
       "ev-d1388520ec3e633b"
+    ]
+  },
+  {
+    "id": "ger-q-b607b3bfab80",
+    "name_en": "Unidentified",
+    "name_ru": "Неизвестные",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-78acccee572218a8"
+    ]
+  },
+  {
+    "id": "ger-q-b6724bbbe400",
+    "name_en": "Chatterbox",
+    "name_ru": "Болтун",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-d9c5ffa27115840d"
+    ]
+  },
+  {
+    "id": "ger-q-b773a480e43a",
+    "name_en": "Queen of Obstruction",
+    "name_ru": "Королева преград",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-12f44d3f4bd4306b"
     ]
   },
   {
@@ -39279,6 +40280,39 @@
     ]
   },
   {
+    "id": "ger-q-b899b94bfdef",
+    "name_en": "Frozen City",
+    "name_ru": "Замерзший город",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-989c88ab7b6f14e0"
+    ]
+  },
+  {
+    "id": "ger-q-b9663fff985a",
+    "name_en": "Midpoint",
+    "name_ru": "Центральная точка",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-cc0b53cef59c0200"
+    ]
+  },
+  {
+    "id": "ger-q-bac5ee519566",
+    "name_en": "Phantom Embrace",
+    "name_ru": "Объятия призрака",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-b4b299ef336dc603"
+    ]
+  },
+  {
     "id": "ger-q-bb25f97d59c4",
     "name_en": "Devourer of World",
     "name_ru": "Пожиратель Мира",
@@ -39300,6 +40334,17 @@
     "status": "unverified",
     "references": [
       "ev-f54d5af034d540f9"
+    ]
+  },
+  {
+    "id": "ger-q-bc52b4374e19",
+    "name_en": "Frozen Murder 3",
+    "name_ru": "Холодное убийство 3",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-e97c9970ca19b827"
     ]
   },
   {
@@ -39346,6 +40391,17 @@
     "status": "unverified",
     "references": [
       "ev-b91a3f788ca592af"
+    ]
+  },
+  {
+    "id": "ger-q-c117356fffdb",
+    "name_en": "Intermedia",
+    "name_ru": "Связующее звено",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-364e383fd46acfac"
     ]
   },
   {
@@ -39456,6 +40512,39 @@
     ]
   },
   {
+    "id": "ger-q-ca9a3c740cfb",
+    "name_en": "Triumvirate",
+    "name_ru": "Триумвират",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-ab30ea36d80f433c"
+    ]
+  },
+  {
+    "id": "ger-q-caf84e690f62",
+    "name_en": "Origin",
+    "name_ru": "Исток",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-3a0dadba55838f31"
+    ]
+  },
+  {
+    "id": "ger-q-cc9271f9f46d",
+    "name_en": "Diligence",
+    "name_ru": "Усердие",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-76cd1fd459fd6ffe"
+    ]
+  },
+  {
     "id": "ger-q-cd0208e5beb9",
     "name_en": "Sunlight on Snow",
     "name_ru": "Солнечный свет на снегу",
@@ -39521,6 +40610,17 @@
     ]
   },
   {
+    "id": "ger-q-d00f0c981304",
+    "name_en": "Tutorial 2",
+    "name_ru": "Обучение 2",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-09a34131b4da7ece"
+    ]
+  },
+  {
     "id": "ger-q-d28ef7d18cfd",
     "name_en": "Grimsvotn",
     "name_ru": "Гримсвотн",
@@ -39554,6 +40654,28 @@
     ]
   },
   {
+    "id": "ger-q-d3e2b4711d83",
+    "name_en": "Big Trouble",
+    "name_ru": "Большие неприятности",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-03085febe245a629"
+    ]
+  },
+  {
+    "id": "ger-q-d409e76718b0",
+    "name_en": "Phantom Embrace 2",
+    "name_ru": "Объятия призрака 2",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-5b2c92dad366bfe6"
+    ]
+  },
+  {
     "id": "ger-q-d41e0d231601",
     "name_en": "Rat Trap",
     "name_ru": "Крысоловка",
@@ -39570,6 +40692,17 @@
     "status": "unverified",
     "references": [
       "ev-a9c5f2744b0be886"
+    ]
+  },
+  {
+    "id": "ger-q-d4d0a10cc8f8",
+    "name_en": "Cabin Fever 3",
+    "name_ru": "Боязнь одиночества 3",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-2566d39bc1fcf963"
     ]
   },
   {
@@ -39595,6 +40728,28 @@
     ]
   },
   {
+    "id": "ger-q-d63a6e0fb4b6",
+    "name_en": "Spiritus 2",
+    "name_ru": "Дух 2",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-5f26d6f87e349d6d"
+    ]
+  },
+  {
+    "id": "ger-q-d6839858321a",
+    "name_en": "Anantaboga",
+    "name_ru": "Анантабога",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-70827e398f791702"
+    ]
+  },
+  {
     "id": "ger-q-d6c3055eaf5e",
     "name_en": "Buddha Smile",
     "name_ru": "Улыбка Будды",
@@ -39616,6 +40771,17 @@
     "status": "unverified",
     "references": [
       "ev-e284e1efd7260ba0"
+    ]
+  },
+  {
+    "id": "ger-q-d81759111530",
+    "name_en": "Infantry Swarm 2",
+    "name_ru": "Рой пехотных 2",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-89c2f272569d4d3f"
     ]
   },
   {
@@ -39660,6 +40826,28 @@
     "status": "unverified",
     "references": [
       "ev-f5d722e8d02ae2f2"
+    ]
+  },
+  {
+    "id": "ger-q-dae3b3e5a475",
+    "name_en": "Big Trouble 2",
+    "name_ru": "Большие неприятности 2",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-1c0f1425c30b8e2a"
+    ]
+  },
+  {
+    "id": "ger-q-db500d5efcc1",
+    "name_en": "Devil Bear",
+    "name_ru": "Медведь-демон",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-002c7d13b9f912b9"
     ]
   },
   {
@@ -39715,6 +40903,28 @@
     ]
   },
   {
+    "id": "ger-q-e0cfd04c0812",
+    "name_en": "Icy Damsel",
+    "name_ru": "Ледяная девица",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-cc28d031625a233f"
+    ]
+  },
+  {
+    "id": "ger-q-e122c9b898b7",
+    "name_en": "Waterline Repair",
+    "name_ru": "Ремонт по ватерлинии",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-a7be9ce4652d3296"
+    ]
+  },
+  {
     "id": "ger-q-e12d581076ea",
     "name_en": "Collector",
     "name_ru": "Коллекционер",
@@ -39726,12 +40936,45 @@
     ]
   },
   {
+    "id": "ger-q-e2b82c9a7c52",
+    "name_en": "Cabin Fever",
+    "name_ru": "Боязнь одиночества",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-527974497a8608f8"
+    ]
+  },
+  {
+    "id": "ger-q-e4638ea24f07",
+    "name_en": "Vortex of Chaos",
+    "name_ru": "Вихрь хаоса",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-912e9764e86eb13e"
+    ]
+  },
+  {
     "id": "ger-q-e47f4d8c1ccd",
     "name_en": "Cowboy",
     "name_ru": "Ковбой",
     "aliases": [],
     "source": "project-draft: редакционный вариант, требует проверки",
     "status": "unverified"
+  },
+  {
+    "id": "ger-q-e4dc953ade96",
+    "name_en": "Icarus's Wing",
+    "name_ru": "Крыло Икара",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-74d0efa98aaee6ef"
+    ]
   },
   {
     "id": "ger-q-e56835681a84",
@@ -39742,6 +40985,28 @@
     "status": "unverified",
     "references": [
       "ev-e1f322dfeab5c19e"
+    ]
+  },
+  {
+    "id": "ger-q-e5ad9c7dd7bd",
+    "name_en": "Big Trouble 3",
+    "name_ru": "Большие неприятности 3",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-3f90632327fdff7c"
+    ]
+  },
+  {
+    "id": "ger-q-e5cd6f958f4f",
+    "name_en": "Holy Moon in the Welkin",
+    "name_ru": "Святая луна в небесах",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-91a105c766550206"
     ]
   },
   {
@@ -39767,6 +41032,28 @@
     ]
   },
   {
+    "id": "ger-q-e80dfcac6516",
+    "name_en": "Hard Case",
+    "name_ru": "Трудное дело",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-6c096dbd77598a02"
+    ]
+  },
+  {
+    "id": "ger-q-e80ec067001a",
+    "name_en": "Frozen Murder",
+    "name_ru": "Холодное убийство",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-5258f83dc812d9fa"
+    ]
+  },
+  {
     "id": "ger-q-e97d0973fa8f",
     "name_en": "Obsidian Sacrifice",
     "name_ru": "Обсидиановый ритуал",
@@ -39778,6 +41065,17 @@
     ]
   },
   {
+    "id": "ger-q-e97f1c58da6e",
+    "name_en": "Empress's Forest",
+    "name_ru": "Лес императрицы",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-1f7d28872a926c6a"
+    ]
+  },
+  {
     "id": "ger-q-e9eaa91da7ea",
     "name_en": "Hunting Cloak",
     "name_ru": "Охотничий плащ",
@@ -39786,6 +41084,17 @@
     "status": "unverified",
     "references": [
       "ev-2e2e5432fba324f8"
+    ]
+  },
+  {
+    "id": "ger-q-ead42598f704",
+    "name_en": "Spiritus",
+    "name_ru": "Дух",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-a4857abb6d57acd6"
     ]
   },
   {
@@ -39852,6 +41161,39 @@
     "status": "unverified"
   },
   {
+    "id": "ger-q-ee7ad8978dd6",
+    "name_en": "Pest Purge",
+    "name_ru": "Выжигая чуму",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-2aeeb3730d08984b"
+    ]
+  },
+  {
+    "id": "ger-q-efe5a0602cae",
+    "name_en": "Backstabber",
+    "name_ru": "Удар в спину",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-07da82da7816215d"
+    ]
+  },
+  {
+    "id": "ger-q-f09dd03e57da",
+    "name_en": "Restoration of Myth",
+    "name_ru": "Возвращение мифа",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-8ece23b218b43b55"
+    ]
+  },
+  {
     "id": "ger-q-f0bcc01970da",
     "name_en": "The End to Vice",
     "name_ru": "Конец порока",
@@ -39860,6 +41202,17 @@
     "status": "unverified",
     "references": [
       "ev-402d3977aae90b12"
+    ]
+  },
+  {
+    "id": "ger-q-f24ecb14a203",
+    "name_en": "Ranger Yell 3",
+    "name_ru": "Крик рейнджера 3",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-8027162147b39229"
     ]
   },
   {
@@ -39986,6 +41339,17 @@
     ]
   },
   {
+    "id": "ger-q-f8ac41fd6d7d",
+    "name_en": "King of the Hill",
+    "name_ru": "Царь горы",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-e5faf067bd0234cd"
+    ]
+  },
+  {
     "id": "ger-q-f90bb9509999",
     "name_en": "Sarracenia",
     "name_ru": "Саррацения",
@@ -40030,6 +41394,17 @@
     ]
   },
   {
+    "id": "ger-q-fb70ba33ec8b",
+    "name_en": "Avalanche",
+    "name_ru": "Лавина",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-889ad341acf3622e"
+    ]
+  },
+  {
     "id": "ger-q-fcca627e545a",
     "name_en": "Big Smile",
     "name_ru": "Большая улыбка",
@@ -40038,6 +41413,17 @@
     "status": "unverified",
     "references": [
       "ev-2c467631c3d276f8"
+    ]
+  },
+  {
+    "id": "ger-q-fd7210841ef8",
+    "name_en": "Closed City",
+    "name_ru": "Закрытый город",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-3e0f9786f005f437"
     ]
   },
   {
@@ -40060,6 +41446,17 @@
     "status": "unverified",
     "references": [
       "ev-4995c201c0589df3"
+    ]
+  },
+  {
+    "id": "ger-q-fed5c708fa48",
+    "name_en": "Tempest",
+    "name_ru": "Буря",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-01959a672e1db84b"
     ]
   },
   {

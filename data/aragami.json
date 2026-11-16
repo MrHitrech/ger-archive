@@ -934,5 +934,31 @@
     "variant": "Arius Nova (Larval)",
     "size": null,
     "breakable_parts": null
+  },
+  {
+    "id": "ger-a-2d47298b1d5f",
+    "game": "ger",
+    "name_en": "Heavenly Father",
+    "variant": "original",
+    "size": null,
+    "breakable_parts": null,
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-f29f1d8df813590b",
+      "ev-9d9b3ad5d8aee341",
+      "ev-280f776722c02de2"
+    ],
+    "missing_fields": [
+      "size",
+      "breakable_parts",
+      "manual_game_review"
+    ],
+    "game_origin": {
+      "source_id": "game-field-acquisition-460870-1412844",
+      "resource": "mission_410_base_en",
+      "row_id": 2,
+      "resource_sha256": "b6c84dab59a8d5a9404e4185dc2aeaea13997133104a1622b2b7ad831b9b0479"
+    }
   }
 ]

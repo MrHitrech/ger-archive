@@ -7,6 +7,7 @@ import {
   decodeRussianMissionName,
 } from './mission-conditions.mjs';
 import { missionCatalogueDrafts, catalogueMetadata } from './mission-catalogue.mjs';
+import { MISSION_LOCATION_CODEC, RU_MISSION_LOCATION_CODEC } from './full-mission-catalogue.mjs';
 
 export const MISSION_REWARDS_DECODER = 'ger-mission-rewards-v1';
 const unique = (values) => [...new Set(values)];
@@ -110,6 +111,7 @@ export function createMissionRewardImport(
           }
         : {}),
     },
+    ...(catalogueScope?.format_version === 2 ? { catalogue_scope: catalogueScope } : {}),
     note_ru:
       'Из mission.kst извлечены основные награды и подтверждённые бонусы за время и выносливость. Русские имена присоединяются по игровым ID с сохранением заполненных переводов. Процент относится к отдельной позиции; количество и зависимость позиций не установлены.',
   };
@@ -150,9 +152,56 @@ export function createMissionRewardImport(
         { scope: catalogueScope, aragamiMappings },
       )
     : null;
-  if (catalogue)
+  if (catalogue) {
+    for (const update of catalogue.updates ?? [])
+      Object.assign(
+        data.missions.find((m) => m.id === update.id),
+        update.fields,
+      );
+    for (const enemy of catalogue.aragamiAdds ?? [])
+      data.aragami.push({ ...enemy, checked_at: checkedAt });
+    for (const { record, row, ru, name_ru, code } of catalogue.locationAdds ?? []) {
+      const enRef = extraProof(
+        'mission_en',
+        row,
+        {
+          context_kind: 'mission_location',
+          entity_id: record.id,
+          name_en: record.name_en,
+          location_code: code,
+          context: row.context,
+          raw_hex: row.raw_hex,
+        },
+        MISSION_LOCATION_CODEC,
+      );
+      const ruRef = extraProof(
+        'mission_ru',
+        ru,
+        {
+          context_kind: 'mission_location',
+          entity_id: record.id,
+          name_en: record.name_en,
+          name_ru,
+          location_code: code,
+          context: ru.context,
+          raw_hex: ru.raw_hex,
+        },
+        RU_MISSION_LOCATION_CODEC,
+      );
+      data.locations.push({ ...record, checked_at: checkedAt, references: [enRef, ruRef] });
+      data.translations.push({
+        id: record.id,
+        name_en: record.name_en,
+        name_ru,
+        aliases: [],
+        source: sourceId,
+        status: 'unverified',
+        references: [ruRef],
+      });
+    }
     for (const mission of catalogue.additions)
       data.missions.push({ ...mission, checked_at: checkedAt });
+  }
   const drops = new Map(data.drops.map((r) => [r.id, r]));
   const materials = new Map(
     data.materials
@@ -271,7 +320,9 @@ export function createMissionRewardImport(
       equivalent_row_ids: candidates.map((r) => r.id).sort((a, b) => a - b),
       raw_hex: row.raw_hex,
       rewards: row.rewards,
-      ...(catalogue?.managed.has(mission.id) ? { catalogue: catalogueMetadata(row) } : {}),
+      ...(catalogue?.managed.has(mission.id)
+        ? { catalogue: catalogue.metadata?.get(mission.id) ?? catalogueMetadata(row) }
+        : {}),
     });
     Object.assign(mission, {
       checked_at: checkedAt,

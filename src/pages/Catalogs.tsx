@@ -19,6 +19,12 @@ import {
   elements,
 } from '../components';
 import { useCollections } from '../lib/data';
+import {
+  isMissionRoot,
+  matchesMissionRank,
+  matchesMissionType,
+  missionPhases,
+} from '../lib/missions';
 import type { EntityKind } from '../types';
 
 function useFilters(kind: EntityKind) {
@@ -414,15 +420,24 @@ export function MissionCatalog() {
   const enemy = f.params.get('enemy') || '';
   const material = f.params.get('material') || '';
   const type = f.params.get('type') || '';
+  const phases = new Map(
+    data.missions
+      .filter((m) => isMissionRoot(m))
+      .map((m) => [m.id, missionPhases(m, data.missions)]),
+  );
   const rows = data.missions
     .filter(
       (m) =>
-        f.ids.has(m.id) &&
-        (!rank || String(m.rank) === rank) &&
-        (!enemy || m.aragami_ids.includes(enemy)) &&
+        isMissionRoot(m) &&
+        phases.get(m.id)!.some((p) => f.ids.has(p.id)) &&
+        matchesMissionRank(m, rank) &&
+        (!enemy || phases.get(m.id)!.some((p) => p.aragami_ids.includes(enemy))) &&
         (!material ||
-          data.drops.some((d) => d.mission_id === m.id && d.material_id === material)) &&
-        (!type || m.type === type),
+          data.drops.some(
+            (d) =>
+              phases.get(m.id)!.some((p) => p.id === d.mission_id) && d.material_id === material,
+          )) &&
+        matchesMissionType(m, type),
     )
     .sort((a, b) =>
       f.q
@@ -436,7 +451,7 @@ export function MissionCatalog() {
       <PageTitle
         eyebrow="Архив / 03"
         title="Миссии"
-        description="Уровни сложности 1–14 и испытания. Противники, локации и известные награды."
+        description="Сложности 1–14, обучения, срочные и дополнительные задания. Этапы выживания объединены в одну миссию."
       />
       <CoverageBar collection="missions" />
       <div className="filter-panel">
@@ -470,7 +485,8 @@ export function MissionCatalog() {
           <label className="filter-label">
             <span>Тип</span>
             <select value={type} onChange={(e) => f.set('type', e.target.value)}>
-              <option value="">Все миссии</option>
+              <option value="">Обычные, обучения и испытания</option>
+              <option value="all">Все типы</option>
               {Object.entries(missionTypes).map(([k, v]) => (
                 <option key={k} value={k}>
                   {v}
@@ -507,6 +523,7 @@ export function MissionCatalog() {
                     <EntityLink id={m.id} kind="mission" />
                     <small className="table-subtext">
                       {missionTypes[m.type]}
+                      {m.phase_count ? ` · ${m.phase_count} этапа` : ''}
                       {m.story ? ' · сюжетная' : ''}
                     </small>
                   </td>
@@ -518,7 +535,10 @@ export function MissionCatalog() {
                   </td>
                   <td>
                     <div className="enemy-links">
-                      {m.aragami_ids.map((id) => (
+                      {m.type === 'tutorial' && !m.aragami_ids.length && (
+                        <span>Тренировочные цели</span>
+                      )}
+                      {[...new Set(phases.get(m.id)!.flatMap((p) => p.aragami_ids))].map((id) => (
                         <EntityLink key={id} id={id} kind="aragami" compact />
                       ))}
                     </div>
@@ -563,7 +583,7 @@ export function AragamiCatalog() {
       (a) =>
         f.ids.has(a.id) &&
         (!rank ||
-          data.missions.some((m) => String(m.rank) === rank && m.aragami_ids.includes(a.id))),
+          data.missions.some((m) => matchesMissionRank(m, rank) && m.aragami_ids.includes(a.id))),
     )
     .sort((a, b) => name(a.id).localeCompare(name(b.id), 'ru'));
   const page = Math.min(f.page, Math.max(1, Math.ceil(rows.length / 24)));
@@ -599,7 +619,14 @@ export function AragamiCatalog() {
                 <EntityName id={a.id} />
               </Link>
               <p>
-                {data.missions.filter((m) => m.aragami_ids.includes(a.id)).length} связанных миссий
+                {
+                  new Set(
+                    data.missions
+                      .filter((m) => m.aragami_ids.includes(a.id))
+                      .map((m) => m.parent_mission_id || m.id),
+                  ).size
+                }{' '}
+                связанных миссий
               </p>
               <div className="equipment-card-bottom">
                 <StatusBadge status={a.verification_status} />

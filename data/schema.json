@@ -100,6 +100,9 @@
           "objectives_en": { "type": "string", "minLength": 1 },
           "reward_table_status": { "enum": ["partial", "missing", "complete"] },
           "time_limit_seconds": { "type": ["integer", "null"], "minimum": 1 },
+          "parent_mission_id": { "anyOf": [{ "$ref": "#/definitions/id" }, { "type": "null" }] },
+          "phase_index": { "type": "integer", "minimum": 1 },
+          "phase_count": { "type": "integer", "minimum": 2 },
           "story": { "type": "boolean" }
         }
       }]

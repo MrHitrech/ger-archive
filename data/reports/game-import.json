@@ -24,15 +24,15 @@
       "updated": 0
     },
     "missions": {
-      "before": 245,
-      "after": 259,
-      "added": 14,
+      "before": 384,
+      "after": 384,
+      "added": 0,
       "updated": 0
     },
     "drops": {
-      "before": 13984,
-      "after": 14694,
-      "added": 710,
+      "before": 21798,
+      "after": 21798,
+      "added": 0,
       "updated": 0
     }
   },
@@ -92,141 +92,206 @@
       "code": "GAME_SECONDARY_POOL_REVIEW",
       "source_id": "game-field-acquisition-460870-1412844",
       "name": "Отдельные дополнительные пулы материалов",
-      "detail": "В 268 классах en_base.append_material отличается от en_mat. Эти дополнительные пулы не объединены с основной таблицей материалов миссии и не используются для подстановки весов."
+      "detail": "В 381 классах en_base.append_material отличается от en_mat. Эти дополнительные пулы не объединены с основной таблицей материалов миссии и не используются для подстановки весов."
     }
   ],
   "scope": "Materials, equipment, elements, craft and upgrade recipes; mission names by native RU IDs; automatic and supported conditional mission rewards; per-part bond breaks, devour and gathering with raw weights kept separate from confirmed percentages. Unknown conditions and synthesis are not imported.",
   "mission_rewards": {
     "decoder": "ger-mission-rewards-v1",
-    "matched_missions": 259,
-    "total_missions": 259,
-    "automatic_reward_slots": 3742,
-    "bonus_reward_slots": 1498,
+    "matched_missions": 384,
+    "total_missions": 384,
+    "automatic_reward_slots": 5481,
+    "bonus_reward_slots": 2221,
     "translation_import": {
-      "filled": 14,
-      "preserved_existing": 245
+      "filled": 0,
+      "preserved_existing": 384
     },
     "mission_mapping_changes": [],
     "catalogue": {
       "scope": [
+        1,
+        2,
         3,
-        4
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
       ],
+      "complete_native_catalogue": true,
+      "native_rows": 515,
+      "native_groups": 384,
+      "distinct_missions": 363,
+      "stage_records": 21,
       "coverage": [
         {
+          "rank": 1,
+          "ordinary": 7,
+          "urgent": 0,
+          "extra": 0,
+          "phases": 0,
+          "records": 7,
+          "added": 0,
+          "classification_updates": 0
+        },
+        {
+          "rank": 2,
+          "ordinary": 18,
+          "urgent": 1,
+          "extra": 0,
+          "phases": 0,
+          "records": 19,
+          "added": 0,
+          "classification_updates": 0
+        },
+        {
           "rank": 3,
-          "type": "standard",
-          "native_type_code": 0,
-          "native_unique_missions": 24,
-          "added": 13,
-          "after": 24,
-          "excluded_urgent_rows": [
-            20377
-          ]
+          "ordinary": 24,
+          "urgent": 1,
+          "extra": 0,
+          "phases": 0,
+          "records": 25,
+          "added": 0,
+          "classification_updates": 0
         },
         {
           "rank": 4,
-          "type": "standard",
-          "native_type_code": 0,
-          "native_unique_missions": 21,
-          "added": 1,
-          "after": 21,
-          "excluded_urgent_rows": [
-            20378
-          ]
+          "ordinary": 21,
+          "urgent": 1,
+          "extra": 0,
+          "phases": 0,
+          "records": 22,
+          "added": 0,
+          "classification_updates": 0
+        },
+        {
+          "rank": 5,
+          "ordinary": 23,
+          "urgent": 1,
+          "extra": 0,
+          "phases": 1,
+          "records": 25,
+          "added": 0,
+          "classification_updates": 0
+        },
+        {
+          "rank": 6,
+          "ordinary": 28,
+          "urgent": 1,
+          "extra": 0,
+          "phases": 1,
+          "records": 30,
+          "added": 0,
+          "classification_updates": 0
+        },
+        {
+          "rank": 7,
+          "ordinary": 28,
+          "urgent": 1,
+          "extra": 0,
+          "phases": 1,
+          "records": 30,
+          "added": 0,
+          "classification_updates": 0
+        },
+        {
+          "rank": 8,
+          "ordinary": 22,
+          "urgent": 1,
+          "extra": 0,
+          "phases": 0,
+          "records": 23,
+          "added": 0,
+          "classification_updates": 0
+        },
+        {
+          "rank": 9,
+          "ordinary": 23,
+          "urgent": 1,
+          "extra": 1,
+          "phases": 1,
+          "records": 26,
+          "added": 0,
+          "classification_updates": 0
+        },
+        {
+          "rank": 10,
+          "ordinary": 21,
+          "urgent": 1,
+          "extra": 0,
+          "phases": 2,
+          "records": 24,
+          "added": 0,
+          "classification_updates": 0
+        },
+        {
+          "rank": 11,
+          "ordinary": 12,
+          "urgent": 1,
+          "extra": 0,
+          "phases": 1,
+          "records": 14,
+          "added": 0,
+          "classification_updates": 0
+        },
+        {
+          "rank": 12,
+          "ordinary": 11,
+          "urgent": 1,
+          "extra": 0,
+          "phases": 2,
+          "records": 14,
+          "added": 0,
+          "classification_updates": 0
+        },
+        {
+          "rank": 13,
+          "ordinary": 14,
+          "urgent": 1,
+          "extra": 2,
+          "phases": 2,
+          "records": 19,
+          "added": 0,
+          "classification_updates": 0
+        },
+        {
+          "rank": 14,
+          "ordinary": 81,
+          "urgent": 3,
+          "extra": 12,
+          "phases": 10,
+          "records": 106,
+          "added": 0,
+          "classification_updates": 0
         }
       ],
-      "added": [
-        {
-          "id": "ger-q-af3064046e54",
-          "name_en": "Rusted Edge",
-          "rank": 3
-        },
-        {
-          "id": "ger-q-38cc751be251",
-          "name_en": "Black Trojan",
-          "rank": 3
-        },
-        {
-          "id": "ger-q-86fbd7980673",
-          "name_en": "Red Antares",
-          "rank": 3
-        },
-        {
-          "id": "ger-q-2161a33e4a22",
-          "name_en": "Winter's Dawn",
-          "rank": 3
-        },
-        {
-          "id": "ger-q-5584d568c613",
-          "name_en": "Flame Shield",
-          "rank": 3
-        },
-        {
-          "id": "ger-q-9dd272e95035",
-          "name_en": "Iron Blizzard",
-          "rank": 3
-        },
-        {
-          "id": "ger-q-ad0ac4510e64",
-          "name_en": "Tyrant Breath",
-          "rank": 3
-        },
-        {
-          "id": "ger-q-400c6cd4cc7e",
-          "name_en": "Monkey Guts",
-          "rank": 3
-        },
-        {
-          "id": "ger-q-83e4340bc5a2",
-          "name_en": "Salty Dog",
-          "rank": 3
-        },
-        {
-          "id": "ger-q-7f671d00788e",
-          "name_en": "Snow Mouse",
-          "rank": 3
-        },
-        {
-          "id": "ger-q-58370a2cb8bd",
-          "name_en": "Scarlet Charger",
-          "rank": 3
-        },
-        {
-          "id": "ger-q-c2e66e61a33e",
-          "name_en": "Picnic Fields",
-          "rank": 3
-        },
-        {
-          "id": "ger-q-d2c891f3899d",
-          "name_en": "Rabbit Hunt",
-          "rank": 3
-        },
-        {
-          "id": "ger-q-56e7042cb9bf",
-          "name_en": "Symbol of Swords",
-          "rank": 4
-        }
-      ]
+      "added": [],
+      "classification_updates": []
     },
-    "covered_materials": 563,
-    "skipped_bonus_slots": 1737,
-    "skipped_non_material_slots": 540,
+    "covered_materials": 584,
+    "skipped_bonus_slots": 2598,
+    "skipped_non_material_slots": 736,
     "unmatched_missions": [],
     "corrected_existing_rewards": []
   },
   "field_acquisition": {
     "counts": {
-      "break": 2223,
-      "devour": 2367,
-      "gather": 4864
+      "break": 3753,
+      "devour": 3588,
+      "gather": 6755
     },
-    "covered_materials": 602,
+    "covered_materials": 610,
     "unmatched_enemy_classes": 0,
-    "secondary_pool_differences": 268
+    "secondary_pool_differences": 381
   },
-  "plan_sha256": "5ecf84e927276200ea27c8b0d2b117fd139b46c69b32533a1af8c38f3441ec3d",
-  "base_sha256": "a0ec3eea2b28678dfb9ad8f608361317e850876fde5048d173b33e2d7eedbbf4",
+  "plan_sha256": "a2766d759c121bf4512666223537395ae205249352b64181b53bd50ed8cf0bb2",
+  "base_sha256": "5cd4b2c9e2886d78e080f516c0596b4abe6f3f06651109455ac39cf4b7eed74f",
   "validation_errors": [],
   "valid": true,
   "applied": true

@@ -105,8 +105,8 @@ test('catalogue stops on inconsistent native variants, missing bundles or unknow
 
 const data = await readDataset();
 test('difficulty 3 has all 24 ordinary missions and difficulty 4 has all 21', () => {
-  assert.equal(data.missions.filter((m) => m.rank === 3).length, 24);
-  assert.equal(data.missions.filter((m) => m.rank === 4).length, 21);
+  assert.equal(data.missions.filter((m) => m.rank === 3 && m.type === 'standard').length, 24);
+  assert.equal(data.missions.filter((m) => m.rank === 4 && m.type === 'standard').length, 21);
   const names = [
     'Rusted Edge',
     'Black Trojan',

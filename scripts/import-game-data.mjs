@@ -99,6 +99,7 @@ export async function importGameData({
       const fields = createFieldAcquisitionImport(staged.dataset, exported, {
         checkedAt,
         aragamiMappings,
+        nonAragamiTargets: catalogueScope.non_aragami_targets ?? [],
       });
       staged.dataset = fields.dataset;
       linkCatalogueEnemyEvidence(staged.dataset);
