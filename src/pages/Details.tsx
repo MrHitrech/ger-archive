@@ -8,6 +8,7 @@ import { useApp } from '../context';
 import {
   categories,
   DetailHeader,
+  AragamiArtwork,
   Empty,
   EntityLink,
   EntityName,
@@ -741,6 +742,7 @@ export function AragamiDetail() {
   return (
     <>
       <DetailHeader record={enemy} kind="aragami" />
+      <AragamiArtwork id={enemy.id} />
       <div className="fact-strip">
         <div>
           <span>Разновидность (оригинал)</span>

@@ -15,6 +15,7 @@
     "data:import": "node scripts/import-data.mjs",
     "game:extract": "node scripts/extract-game-data.mjs",
     "game:import": "node scripts/import-game-data.mjs",
+    "game:images": "node scripts/extract-game-images.mjs",
     "data:check": "node scripts/validate-data.mjs --check",
     "data:report": "node scripts/validate-data.mjs --write",
     "translations:prepare": "node scripts/prepare-translations.mjs",

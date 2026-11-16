@@ -23,6 +23,7 @@ const payloads = {
   ...data,
   report: await readJson(path.join(dataDir, 'quality-report.json')),
   search,
+  images: await readJson(path.join(dataDir, 'game-images.json')),
 };
 const manifest = { version: '0.1.0', checked_at: payloads.report.checked_at, files: {} };
 for (const [key, value] of Object.entries(payloads)) {
@@ -31,4 +32,11 @@ for (const [key, value] of Object.entries(payloads)) {
 }
 await writeJson(path.join(output, 'manifest.json'), manifest);
 await cp(path.join(root, 'LICENSE-DATA.md'), path.join(output, 'LICENSE-DATA.md'));
+const imageOutput = path.join(root, 'public/images/ger');
+await mkdir(imageOutput, { recursive: true });
+for (const asset of Object.values(payloads.images.assets))
+  await cp(
+    path.join(dataDir, 'image-assets', path.basename(asset.file)),
+    path.join(imageOutput, path.basename(asset.file)),
+  );
 console.log(`Prepared ${search.length} searchable records and versioned local data.`);

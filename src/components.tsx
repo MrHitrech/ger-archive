@@ -134,14 +134,40 @@ export function StatusBadge({ status = 'partial' }: { status?: Verification }) {
   );
 }
 export function RecordIcon({
+  id,
   kind = 'material',
   category = '',
   large = false,
 }: {
+  id?: string;
   kind?: EntityKind;
   category?: string;
   large?: boolean;
 }) {
+  const { images } = useApp();
+  const [failed, setFailed] = useState('');
+  const image = id ? images.entities[id] : undefined;
+  const asset = image ? images.assets[image.asset_id] : undefined;
+  if (asset && failed !== asset.file)
+    return (
+      <span
+        className={`record-icon ${kind} ${large ? 'large' : ''} with-game-image`}
+        title={
+          image?.kind === 'inventory_icon' ? 'Игровая иконка категории' : 'Иллюстрация из NORN'
+        }
+      >
+        <img
+          src={`${import.meta.env.BASE_URL}${asset.file}`}
+          alt=""
+          width={asset.width}
+          height={asset.height}
+          loading={large ? 'eager' : 'lazy'}
+          decoding="async"
+          className={image?.kind === 'norn_illustration' ? 'norn-thumbnail' : ''}
+          onError={() => setFailed(asset.file)}
+        />
+      </span>
+    );
   const Icon: LucideIcon =
     kind === 'aragami'
       ? Skull
@@ -156,6 +182,38 @@ export function RecordIcon({
     <span className={`record-icon ${kind} ${large ? 'large' : ''}`}>
       <Icon size={large ? 32 : 21} strokeWidth={1.4} />
     </span>
+  );
+}
+export function AragamiArtwork({ id, compact = false }: { id: string; compact?: boolean }) {
+  const { images, name } = useApp();
+  const [failed, setFailed] = useState('');
+  const image = images.entities[id],
+    asset = image?.kind === 'norn_illustration' ? images.assets[image.asset_id] : undefined;
+  if (!asset || failed === asset.file)
+    return compact ? (
+      <div className="game-artwork missing compact">
+        <RecordIcon kind="aragami" />
+      </div>
+    ) : (
+      <p className="footnote game-image-missing">
+        {asset
+          ? 'Не удалось загрузить иллюстрацию. Остальные данные доступны.'
+          : 'Для этой формы иллюстрация NORN в игровых файлах не найдена.'}
+      </p>
+    );
+  return (
+    <figure className={`game-artwork ${compact ? 'compact' : ''}`}>
+      <img
+        src={`${import.meta.env.BASE_URL}${asset.file}`}
+        alt={`${name(id)} — иллюстрация NORN`}
+        width={asset.width}
+        height={asset.height}
+        loading={compact ? 'lazy' : 'eager'}
+        decoding="async"
+        onError={() => setFailed(asset.file)}
+      />
+      {!compact && <figcaption>Иллюстрация из игровой базы NORN</figcaption>}
+    </figure>
   );
 }
 export function PageTitle({
@@ -431,7 +489,7 @@ export function SearchBox({
               onPointerMove={() => setActive(i)}
             >
               <button type="button" tabIndex={-1} onClick={() => go(e)}>
-                <RecordIcon kind={e.kind} category={e.category} />
+                <RecordIcon id={e.id} kind={e.kind} category={e.category} />
                 <span>
                   <b>{name(e.id)}</b>
                   <small>{e.name_en}</small>
@@ -458,7 +516,7 @@ export function DetailHeader({
   kind: EntityKind;
   category?: string;
 }) {
-  const { translations, visit, english, name, progress, sources } = useApp();
+  const { translations, visit, english, name, progress, sources, images } = useApp();
   useEffect(() => {
     visit(record.id);
     document.title = `${name(record.id)} — GER Archive`;
@@ -479,7 +537,7 @@ export function DetailHeader({
         }
       </Link>
       <header className="detail-heading">
-        <RecordIcon kind={kind} category={category} large />
+        <RecordIcon id={record.id} kind={kind} category={category} large />
         <div>
           <div className="detail-meta">
             <span className="eyebrow">
@@ -502,6 +560,10 @@ export function DetailHeader({
                   : 'Проверенный неофициальный перевод'
               : 'Перевод не найден'}
           </p>
+          {['item', 'material'].includes(kind) &&
+            images.entities[record.id]?.kind === 'inventory_icon' && (
+              <p className="image-caption">Иконка категории из игры</p>
+            )}
         </div>
         <FavoriteButton id={record.id} />
       </header>

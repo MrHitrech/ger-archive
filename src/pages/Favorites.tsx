@@ -50,7 +50,7 @@ export default function Favorites() {
         <div className="panel compact-records">
           {favorites.map((e) => (
             <div className="compact-record" key={e.id}>
-              <RecordIcon kind={e.kind} category={e.category} />
+              <RecordIcon id={e.id} kind={e.kind} category={e.category} />
               <Link className="entity-link" to={routeFor(e)}>
                 <EntityName id={e.id} />
               </Link>

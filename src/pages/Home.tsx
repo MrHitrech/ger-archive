@@ -142,7 +142,7 @@ export default function Home() {
           <div className="panel compact-records">
             {materials.map((e) => (
               <div className="compact-record" key={e.id}>
-                <RecordIcon />
+                <RecordIcon id={e.id} />
                 <EntityLink kind="material" id={e.id} />
                 <FavoriteButton id={e.id} />
               </div>
@@ -154,7 +154,7 @@ export default function Home() {
           <div className="panel compact-records">
             {equipment.map((e) => (
               <div className="compact-record" key={e.id}>
-                <RecordIcon kind="item" category={e.category} />
+                <RecordIcon id={e.id} kind="item" category={e.category} />
                 <EntityLink kind="item" id={e.id} />
                 <span className="rank-label">Ранг {e.rank ?? 'не установлен'}</span>
                 <FavoriteButton id={e.id} />
@@ -188,7 +188,7 @@ export default function Home() {
           <div className="recent-grid">
             {recent.map((e) => (
               <Link to={routeFor(e)} className="recent-card" key={e.id}>
-                <RecordIcon kind={e.kind} category={e.category} />
+                <RecordIcon id={e.id} kind={e.kind} category={e.category} />
                 <EntityName id={e.id} compact />
                 <ArrowUpRight size={14} />
               </Link>

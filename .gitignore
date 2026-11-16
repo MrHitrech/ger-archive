@@ -4,6 +4,7 @@ dist/
 .cache/
 artifacts/
 public/data/
+public/images/
 playwright-report/
 test-results/
 .env

@@ -42,7 +42,7 @@ const issueLabels: Record<string, string> = {
   GAME_SECONDARY_POOL_REVIEW: 'Дополнительные пулы материалов',
 };
 export default function Sources() {
-  const { report, sources } = useApp();
+  const { report, sources, images } = useApp();
   const [expanded, setExpanded] = useState(false);
   return (
     <>
@@ -72,6 +72,22 @@ export default function Sources() {
           </p>
         </div>
       </div>
+      <section className="panel">
+        <SectionHeading title="Изображения из игры" />
+        <p>
+          Иконки категорий для {images.coverage?.items ?? 0} предметов снаряжения и{' '}
+          {images.coverage?.materials ?? 0} материалов. Иллюстрации NORN для{' '}
+          {images.coverage?.aragami ?? 0} арагами. Сборка: {images.build_id ?? 'не загружена'}.
+        </p>
+        <p className="footnote">
+          Иконки предметов обозначают их категорию. Без подтверждённого игрового изображения
+          остаётся записей: {images.missing.length}. Игровые изображения принадлежат
+          правообладателям.
+        </p>
+        <a className="text-link" href={dataUrl('images.json')} download="ger-image-provenance.json">
+          Скачать привязки и происхождение изображений
+        </a>
+      </section>
       <section className="panel">
         <SectionHeading title="Наполнение базы" />
         <div className="table-scroll">

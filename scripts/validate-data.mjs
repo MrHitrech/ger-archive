@@ -2,11 +2,18 @@ import path from 'node:path';
 import { readFile } from 'node:fs/promises';
 import { dataDir, root, readDataset, readJson, writeJson } from './lib/files.mjs';
 import { validateDataset, validateSnapshots, qualityReport } from './lib/validate.mjs';
+import { validateImageManifest, validateImageFiles } from './lib/game-image-validation.mjs';
 
 try {
   const data = await readDataset();
   const { errors, warnings } = validateDataset(data);
   if (!errors.length) errors.push(...(await validateSnapshots(data)));
+  if (!errors.length) {
+    const images = await readJson(path.join(dataDir, 'game-images.json'));
+    const mappings = await readJson(path.join(dataDir, 'import-mappings/game-aragami.json'));
+    errors.push(...validateImageManifest(data, images, mappings));
+    if (!errors.length) errors.push(...(await validateImageFiles(images)));
+  }
   if (errors.length) throw new Error(errors.join('\n'));
   const issues = await readJson(path.join(dataDir, 'quarantine.json'));
   const report = qualityReport(data, issues);

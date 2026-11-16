@@ -6,9 +6,11 @@ import type {
   Translation,
   SearchEntry,
   Source,
+  GameImages,
 } from '../types.ts';
 
 interface Payloads extends Collections {
+  images: GameImages;
   report: QualityReport;
   translations: Translation[];
   search: SearchEntry[];

@@ -1,6 +1,40 @@
 export type Verification = 'verified' | 'partial' | 'unverified';
 export type LanguageMode = 'both' | 'ru' | 'en';
 export type EntityKind = 'material' | 'item' | 'mission' | 'aragami';
+export interface GameImages {
+  assets: Record<
+    string,
+    {
+      id: string;
+      file: string;
+      sha256: string;
+      width: number;
+      height: number;
+      resource: string;
+      texture_index: number;
+    }
+  >;
+  entities: Record<
+    string,
+    {
+      asset_id: string;
+      kind: 'inventory_icon' | 'norn_illustration';
+      native_id?: number;
+      family_id?: number;
+    }
+  >;
+  resources: Record<string, { resource_path: string; sha256: string; archive: string }>;
+  missing: { id: string; reason: string }[];
+  build_id?: string;
+  coverage?: {
+    materials: number;
+    items: number;
+    aragami: number;
+    assets: number;
+    missing: number;
+    bytes: number;
+  };
+}
 export interface GameOrigin {
   source_id: string;
   resource: string;

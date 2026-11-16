@@ -1,10 +1,19 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
-import type { Progress, Translation, SearchEntry, QualityReport, Source, Recipe } from './types';
+import type {
+  Progress,
+  Translation,
+  SearchEntry,
+  QualityReport,
+  Source,
+  Recipe,
+  GameImages,
+} from './types';
 import { loadData } from './lib/data';
 import { createSearch } from './lib/search';
 import { emptyProgress, sanitizeProgress, STORAGE_KEY } from './lib/storage';
 
 interface ContextValue {
+  images: GameImages;
   progress: Progress;
   update: (fn: (s: Progress) => Progress) => void;
   storageError: boolean;
@@ -36,6 +45,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   });
   const [storageError, setStorageError] = useState(false);
   const [payload, setPayload] = useState<{
+    images: GameImages;
     translations: Translation[];
     entries: SearchEntry[];
     report: QualityReport;
@@ -51,9 +61,15 @@ export function AppProvider({ children }: { children: ReactNode }) {
       loadData('search'),
       loadData('report'),
       loadData('sources'),
+      loadData('images').catch((): GameImages => ({
+        assets: {},
+        entities: {},
+        resources: {},
+        missing: [],
+      })),
     ])
-      .then(([translations, entries, report, sources]) => {
-        if (active) setPayload({ translations, entries, report, sources });
+      .then(([translations, entries, report, sources, images]) => {
+        if (active) setPayload({ translations, entries, report, sources, images });
       })
       .catch((e) => {
         if (active) setError((e as Error).message);
@@ -120,6 +136,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
       </div>
     );
   const value: ContextValue = {
+    images: payload.images,
     progress,
     update: setProgress,
     storageError,

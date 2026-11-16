@@ -41,7 +41,7 @@ export default function SearchResults() {
               <div className="compact-records">
                 {entries.map((e) => (
                   <div className="compact-record" key={e.id}>
-                    <RecordIcon kind={e.kind} category={e.category} />
+                    <RecordIcon id={e.id} kind={e.kind} category={e.category} />
                     <EntityLink kind={kind} id={e.id} />
                   </div>
                 ))}

@@ -15,6 +15,7 @@ import {
   Pager,
   RankSelect,
   RecordIcon,
+  AragamiArtwork,
   StatusBadge,
   elements,
 } from '../components';
@@ -185,7 +186,7 @@ export function MaterialCatalog() {
                 <tr key={m.id}>
                   <td>
                     <div className="cell-name">
-                      <RecordIcon />
+                      <RecordIcon id={m.id} />
                       <EntityLink id={m.id} kind="material" />
                     </div>
                   </td>
@@ -356,7 +357,7 @@ export function CraftCatalog() {
             return (
               <article className="equipment-card" key={item.id}>
                 <div className="equipment-card-top">
-                  <RecordIcon kind="item" category={item.category} />
+                  <RecordIcon id={item.id} kind="item" category={item.category} />
                   <span className="rank-label">Ранг {item.rank ?? 'не установлен'}</span>
                   <FavoriteButton id={item.id} />
                 </div>
@@ -613,8 +614,8 @@ export function AragamiCatalog() {
         <div className="equipment-grid aragami-grid">
           {rows.slice((page - 1) * 24, page * 24).map((a) => (
             <article className="equipment-card" key={a.id}>
-              <div className="equipment-card-top">
-                <RecordIcon kind="aragami" />
+              <div className="aragami-card-image">
+                <AragamiArtwork id={a.id} compact />
                 <FavoriteButton id={a.id} />
               </div>
               <Link className="equipment-title" to={`/aragami/${a.id}`}>
