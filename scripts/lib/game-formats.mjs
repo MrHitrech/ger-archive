@@ -233,7 +233,7 @@ const numericTypes = {
   FLOAT32: [4, 'readFloatLE'],
 };
 
-export function parseTr2(bytes) {
+export function parseTr2(bytes, { selectedFields = null } = {}) {
   bounds(bytes, 0, 64, 'TR2 header');
   if (bytes.subarray(0, 4).toString() !== '.tr2') throw new Error('Not a TR2 table');
   const name = cstring(bytes, 8, 48),
@@ -262,6 +262,7 @@ export function parseTr2(bytes) {
       const lo = meta + bytes.readUInt32LE(meta + 128 + r * 4),
         hi = meta + bytes.readUInt32LE(meta + 132 + r * 4);
       bounds(bytes, lo, hi - lo, `TR2 ${field} cell`);
+      if (selectedFields && !selectedFields.includes(field)) continue;
       let value;
       if (numericTypes[type]) {
         const [width, reader] = numericTypes[type];
@@ -277,5 +278,7 @@ export function parseTr2(bytes) {
       rows[r][field] = value;
     }
   }
+  if (selectedFields?.some((field) => !fields.some((f) => f.name === field)))
+    throw new Error('Selected TR2 field is missing');
   return { name, fields, rows };
 }

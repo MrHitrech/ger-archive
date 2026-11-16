@@ -83,10 +83,12 @@ export function createGameImport(
     build_id: manifest.build_id,
     archives: manifest.archives,
     resources: Object.fromEntries(
-      Object.entries(manifest.resources).map(([key, value]) => {
-        const { local_file, ...metadata } = value;
-        return [key, metadata];
-      }),
+      Object.entries(manifest.resources)
+        .filter(([key]) => !/^mission_\d+_/.test(key))
+        .map(([key, value]) => {
+          const { local_file, ...metadata } = value;
+          return [key, metadata];
+        }),
     ),
     note_ru:
       'Факты извлечены из файлов установленной игры. Проверка структуры и контрольных сумм выполнена автоматически; доступность контента и нерасшифрованные поля требуют проверки в игре.',

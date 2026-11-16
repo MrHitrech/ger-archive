@@ -1,5 +1,11 @@
 import { parseKst, kstString } from './game-formats.mjs';
 import { hash, idFor } from './files.mjs';
+import {
+  MISSION_CONDITIONS,
+  CONDITIONAL_REWARDS_DECODER,
+  RUSSIAN_MISSION_NAME_CODEC,
+  decodeRussianMissionName,
+} from './mission-conditions.mjs';
 
 export const MISSION_REWARDS_DECODER = 'ger-mission-rewards-v1';
 const unique = (values) => [...new Set(values)];
@@ -36,11 +42,46 @@ export function decodeMissionResource(bytes) {
   });
 }
 
-/** Only condition 0 (Automatic) is interpreted. Currency, consumables and unknown IDs are excluded. */
-export function createMissionRewardImport(current, { manifest, decoded }, { checkedAt }) {
+/** Automatic and explicitly supported condition codes only; unknown conditions remain excluded. */
+export function createMissionRewardImport(
+  current,
+  { manifest, decoded },
+  { checkedAt, missionMappings = [] },
+) {
   if (manifest.app_id !== '460870' || !decoded.mission_en || !manifest.resources.mission_en)
     throw new Error('GER mission export required');
   const data = structuredClone(current);
+  const mappingChanges = [];
+  for (const mapping of missionMappings) {
+    const mission = data.missions.find((m) => m.id === mapping.existing_id);
+    if (!mission) throw new Error(`Mapped mission missing: ${mapping.existing_id}`);
+    const native = decoded.mission_en.find((r) => r.id === mapping.native_id);
+    const location = data.locations.find((l) => l.id === mapping.location_id);
+    if (
+      !native ||
+      native.name !== mapping.canonical_name ||
+      !native.context.includes(location?.name_en) ||
+      (mission.rank !== 'challenge' && mission.rank !== native.rank) ||
+      ![mapping.previous_name, mapping.canonical_name].includes(mission.name_en) ||
+      ![mapping.previous_location_id, mapping.location_id].includes(mission.location_id)
+    )
+      throw new Error(`Invalid explicit mission mapping: ${mission.id}`);
+    if (mission.name_en !== native.name || mission.location_id !== mapping.location_id)
+      mappingChanges.push({
+        id: mission.id,
+        before_name: mission.name_en,
+        after_name: native.name,
+        before_location_id: mission.location_id,
+        after_location_id: mapping.location_id,
+      });
+    const translation = data.translations.find((t) => t.id === mission.id);
+    if (translation && translation.name_en !== native.name) {
+      translation.aliases = unique([...translation.aliases, translation.name_en]);
+      translation.name_en = native.name;
+    }
+    mission.name_en = native.name;
+    mission.location_id = mapping.location_id;
+  }
   const sourceId = `game-mission-rewards-460870-${manifest.build_id}`;
   const metadata = manifest.resources.mission_en;
   const { local_file, ...resource } = metadata;
@@ -57,9 +98,18 @@ export function createMissionRewardImport(current, { manifest, decoded }, { chec
     app_id: '460870',
     build_id: manifest.build_id,
     archives: manifest.archives,
-    resources: { mission_en: resource },
+    resources: {
+      mission_en: resource,
+      ...(manifest.resources.mission_ru
+        ? {
+            mission_ru: Object.fromEntries(
+              Object.entries(manifest.resources.mission_ru).filter(([k]) => k !== 'local_file'),
+            ),
+          }
+        : {}),
+    },
     note_ru:
-      'Из mission.kst извлечены основные награды (Automatic, код 0). Процент относится к отдельной позиции. Количество и зависимость позиций не установлены. Бонусные условия, пожирание и сбор этим импортом не расшифровываются.',
+      'Из mission.kst извлечены основные награды и подтверждённые бонусы за время и выносливость. Русские имена присоединяются по игровым ID с сохранением заполненных переводов. Процент относится к отдельной позиции; количество и зависимость позиций не установлены.',
   };
   const oldSource = data.sources.findIndex((s) => s.id === sourceId);
   if (oldSource < 0) data.sources.push(source);
@@ -78,6 +128,19 @@ export function createMissionRewardImport(current, { manifest, decoded }, { chec
     idMap = [],
     unmatched = [],
     changes = [];
+  const extraSnapshots = new Map();
+  const ruRows = new Map((decoded.mission_ru ?? []).map((r) => [r.id, r]));
+  if (
+    decoded.mission_ru &&
+    (ruRows.size !== decoded.mission_en.length ||
+      decoded.mission_en.some(
+        (r) =>
+          !ruRows.has(r.id) ||
+          JSON.stringify(r.rewards) !== JSON.stringify(ruRows.get(r.id).rewards),
+      ))
+  )
+    throw new Error('EN/RU mission IDs or reward fields differ');
+  const translationSummary = { filled: 0, preserved_existing: 0 };
   const drops = new Map(data.drops.map((r) => [r.id, r]));
   const materials = new Map(
     data.materials
@@ -89,7 +152,8 @@ export function createMissionRewardImport(current, { manifest, decoded }, { chec
   let mapped = 0,
     imported = 0,
     skippedBonus = 0,
-    skippedNonMaterial = 0;
+    skippedNonMaterial = 0,
+    bonusImported = 0;
   function origin(row, slot) {
     return {
       source_id: sourceId,
@@ -118,6 +182,44 @@ export function createMissionRewardImport(current, { manifest, decoded }, { chec
       snapshot,
       snapshot_sha256: '',
       game_origin: origin(row, slot),
+    });
+    return id;
+  }
+  function extraProof(resourceKey, row, facts, decoder, slot) {
+    const meta = manifest.resources[resourceKey];
+    const file = `game-${manifest.build_id}-${resourceKey.replaceAll('_', '-')}-${meta.sha256.slice(0, 12)}-${decoder}.json`;
+    if (!extraSnapshots.has(file))
+      extraSnapshots.set(file, {
+        resource: resourceKey,
+        decoder,
+        rows: new Map(
+          data.evidence
+            .filter((e) => e.snapshot === file)
+            .map((e) => {
+              const f = JSON.parse(e.excerpt);
+              return [`${f.row_id}:${f.slot ?? 'mission'}`, e.excerpt];
+            }),
+        ),
+      });
+    const excerpt = JSON.stringify({ resource: resourceKey, row_id: row.id, decoder, ...facts });
+    const id = `ev-${hash(`${sourceId}|${meta.sha256}|${excerpt}`).slice(0, 16)}`;
+    extraSnapshots.get(file).rows.set(`${row.id}:${slot ?? 'mission'}`, excerpt);
+    evidence.set(id, {
+      id,
+      source_id: sourceId,
+      game: 'ger',
+      section: `God Eater Resurrection / ${meta.resource_path} / row ${row.id}${slot === undefined ? '' : ` / slot ${slot}`}`,
+      excerpt,
+      snapshot: file,
+      snapshot_sha256: '',
+      game_origin: {
+        source_id: sourceId,
+        resource: resourceKey,
+        row_id: row.id,
+        resource_sha256: meta.sha256,
+        byte_offset: row.record_offset,
+        ...(slot === undefined ? {} : { slot }),
+      },
     });
     return id;
   }
@@ -172,6 +274,31 @@ export function createMissionRewardImport(current, { manifest, decoded }, { chec
       ]),
     });
     mapped++;
+    const existingTranslation = data.translations.find((t) => t.id === mission.id);
+    if (existingTranslation?.name_ru != null) translationSummary.preserved_existing++;
+    else if (ruRows.has(row.id)) {
+      const ruRow = ruRows.get(row.id),
+        nameRu = decodeRussianMissionName(ruRow.name);
+      const ruRef = extraProof(
+        'mission_ru',
+        ruRow,
+        { name_ru: nameRu, raw_name_ru: ruRow.name },
+        RUSSIAN_MISSION_NAME_CODEC,
+      );
+      const translation = {
+        ...(existingTranslation ?? {}),
+        id: mission.id,
+        name_en: mission.name_en,
+        name_ru: nameRu,
+        aliases: existingTranslation?.aliases ?? [],
+        source: sourceId,
+        status: 'unverified',
+        references: unique([...(existingTranslation?.references ?? []), ruRef]),
+      };
+      if (existingTranslation) Object.assign(existingTranslation, translation);
+      else data.translations.push(translation);
+      translationSummary.filled++;
+    }
     idMap.push({
       collection: 'missions',
       game_id: row.id,
@@ -181,7 +308,8 @@ export function createMissionRewardImport(current, { manifest, decoded }, { chec
     for (const reward of row.rewards) {
       if (!reward.article_id || !reward.rate_percent) continue;
       const material = materials.get(reward.article_id);
-      if (reward.condition_code !== 0) {
+      const condition = MISSION_CONDITIONS[reward.condition_code];
+      if (!condition) {
         skippedBonus++;
         continue;
       }
@@ -202,7 +330,7 @@ export function createMissionRewardImport(current, { manifest, decoded }, { chec
           (r) =>
             !r.game_origin &&
             !used.has(r.id) &&
-            r.method === 'mission_reward' &&
+            r.method === condition.method &&
             r.mission_id === mission.id &&
             r.material_id === material.id &&
             (r.drop_rate === null || r.drop_rate === reward.rate_percent),
@@ -216,23 +344,22 @@ export function createMissionRewardImport(current, { manifest, decoded }, { chec
       const id = old?.id ?? idFor('d', `steam:460870:mission:${row.id}:reward:${reward.slot}`);
       if (used.has(id)) throw new Error(`Reward ID reused: ${id}`);
       used.add(id);
-      const evidenceId = proof(
-        row,
-        {
-          slot: reward.slot,
-          ...reward,
-          mission_name_en: row.name,
-          material_name_en: material.name_en,
-          condition_en: 'Automatic',
-          raw_hex: row.raw_hex,
-        },
-        reward.slot,
-      );
+      const facts = {
+        ...reward,
+        mission_name_en: row.name,
+        material_name_en: material.name_en,
+        condition_en: condition.en,
+        raw_hex: row.raw_hex,
+      };
+      const evidenceId =
+        reward.condition_code === 0
+          ? proof(row, facts, reward.slot)
+          : extraProof('mission_en', row, facts, CONDITIONAL_REWARDS_DECODER, reward.slot);
       const record = {
         ...(old ?? {}),
         id,
         game: 'ger',
-        name_en: `${material.name_en} / ${mission.name_en} / Automatic / slot ${reward.slot + 1}`,
+        name_en: `${material.name_en} / ${mission.name_en} / ${condition.en} / slot ${reward.slot + 1}`,
         verification_status: 'partial',
         checked_at: checkedAt,
         references: unique([...(old?.references ?? []), evidenceId]),
@@ -242,9 +369,9 @@ export function createMissionRewardImport(current, { manifest, decoded }, { chec
         mission_id: mission.id,
         aragami_id: null,
         location_id: mission.location_id,
-        method: 'mission_reward',
-        condition_ru: 'Основная награда за завершение миссии',
-        condition_en: 'Automatic',
+        method: condition.method,
+        condition_ru: condition.ru,
+        condition_en: condition.en,
         drop_rate: reward.rate_percent,
         quantity: null,
         slot: `mission_reward_${reward.slot}`,
@@ -258,7 +385,8 @@ export function createMissionRewardImport(current, { manifest, decoded }, { chec
           slot: reward.slot,
         });
       drops.set(id, record);
-      imported++;
+      if (reward.condition_code === 0) imported++;
+      else bonusImported++;
       covered.add(material.id);
     }
   }
@@ -276,8 +404,20 @@ ${[...snapshotRows]
   ]
 }
 `;
-  for (const ev of evidence.values())
-    if (ev.snapshot === snapshot) ev.snapshot_sha256 = hash(content);
+  const checksum = hash(content);
+  for (const ev of evidence.values()) if (ev.snapshot === snapshot) ev.snapshot_sha256 = checksum;
+  const snapshots = new Map([[snapshot, content]]);
+  for (const [file, entry] of extraSnapshots) {
+    const text = `{"app_id":"460870","build_id":"${manifest.build_id}","resource_path":${JSON.stringify(manifest.resources[entry.resource].resource_path)},"resource_sha256":"${manifest.resources[entry.resource].sha256}","decoder":"${entry.decoder}","rows":[\n${[
+      ...entry.rows,
+    ]
+      .sort(([a], [b]) => a.localeCompare(b, 'en', { numeric: true }))
+      .map(([, line]) => line)
+      .join(',\n')}\n]}\n`;
+    snapshots.set(file, text);
+    const textChecksum = hash(text);
+    for (const ev of evidence.values()) if (ev.snapshot === file) ev.snapshot_sha256 = textChecksum;
+  }
   data.evidence = [...evidence.values()].sort((a, b) => a.id.localeCompare(b.id));
   data.drops = [...drops.values()].sort((a, b) => a.id.localeCompare(b.id));
   issues.push({
@@ -285,11 +425,11 @@ ${[...snapshotRows]
     source_id: sourceId,
     name: 'Неполная таблица способов получения',
     detail:
-      'Импортированы только основные награды сопоставленных миссий. Бонусные коды условий, количество, зависимость позиций, пожирание, разрушения и сбор требуют отдельной проверки.',
+      'Импортированы основные награды и поддержанные бонусы за время и выносливость (коды 0, 2–5). Остальные коды условий, количество наград и зависимость позиций ещё требуют проверки.',
   });
   return {
     dataset: data,
-    snapshots: new Map([[snapshot, content]]),
+    snapshots,
     issues,
     idMap,
     report: {
@@ -297,6 +437,9 @@ ${[...snapshotRows]
       matched_missions: mapped,
       total_missions: data.missions.length,
       automatic_reward_slots: imported,
+      bonus_reward_slots: bonusImported,
+      translation_import: translationSummary,
+      mission_mapping_changes: mappingChanges,
       covered_materials: covered.size,
       skipped_bonus_slots: skippedBonus,
       skipped_non_material_slots: skippedNonMaterial,

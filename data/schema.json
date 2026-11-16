@@ -128,7 +128,11 @@
           "drop_rate": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
           "quantity": { "type": ["integer", "null"], "minimum": 1 },
           "slot": { "type": ["string", "null"] },
-            "source_url": { "type": ["string", "null"], "pattern": "^https://" }
+            "source_url": { "type": ["string", "null"], "pattern": "^https://" },
+            "pool_weight": { "type": "integer", "minimum": 1 },
+            "pool_total_weight": { "type": "integer", "minimum": 1 },
+            "part_en": { "type": ["string", "null"] },
+            "part_ru": { "type": ["string", "null"] }
         }
       }]
     },

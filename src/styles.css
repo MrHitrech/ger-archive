@@ -1436,6 +1436,11 @@ td:first-child {
   color: #d7c686;
   background: #51482366;
 }
+.drop-group-title th {
+  background: var(--surface-soft, #171a21);
+  color: var(--text, #e8e8ec);
+  font-weight: 650;
+}
 .element.divine {
   color: #b19dcd;
   background: #40345266;

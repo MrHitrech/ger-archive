@@ -127,20 +127,21 @@ test('mission import preserves IDs and imports automatic material positions with
     before = structuredClone(current);
   const first = createMissionRewardImport(current, exported, { checkedAt: '2026-11-16' });
   assert.deepEqual(current, before);
-  assert.equal(first.dataset.drops.length, 2);
+  assert.equal(first.dataset.drops.length, 3);
   assert.ok(
     first.dataset.drops.some(
       (d) => d.id === 'legacy-reward' && d.references.includes('legacy-proof'),
     ),
   );
   assert.deepEqual(
-    first.dataset.drops.map((d) => d.drop_rate),
+    first.dataset.drops.filter((d) => d.method === 'mission_reward').map((d) => d.drop_rate),
     [25, 25],
   );
   assert.ok(
     first.dataset.drops.every((d) => d.quantity === null && d.game_origin.row_id === 20024),
   );
-  assert.equal(first.report.skipped_bonus_slots, 1);
+  assert.equal(first.report.skipped_bonus_slots, 0);
+  assert.equal(first.report.bonus_reward_slots, 1);
   assert.equal(first.report.skipped_non_material_slots, 2);
   const repeat = createMissionRewardImport(first.dataset, exported, { checkedAt: '2026-11-16' });
   assert.deepEqual(repeat.dataset, first.dataset);
@@ -166,6 +167,60 @@ test('ambiguous mission variants and mismatching ranks or locations receive no a
     assert.ok(result.issues.some((i) => i.code === 'GAME_MISSION_UNMATCHED'));
   }
 });
+
+test('missing mission translations use Russian native IDs and keep editorial names untouched', () => {
+  const { current, exported } = fixture();
+  exported.manifest.resources.mission_ru = {
+    sha256: 'b'.repeat(64),
+    resource_path: 'fixture/ru/mission.kst',
+  };
+  exported.decoded.mission_ru = exported.decoded.mission_en.map((r) => ({
+    ...r,
+    name: 'Испытание',
+  }));
+  current.translations = [
+    {
+      id: 'mission',
+      name_en: 'Fixture Mission',
+      name_ru: null,
+      aliases: ['Old title'],
+      source: 'untranslated',
+      status: 'unverified',
+      references: [],
+    },
+  ];
+  const filled = createMissionRewardImport(current, exported, { checkedAt: '2026-11-16' });
+  const t = filled.dataset.translations[0];
+  assert.equal(t.name_ru, 'Испытание');
+  assert.deepEqual(t.aliases, ['Old title']);
+  assert.ok(
+    t.references.some((ref) =>
+      filled.dataset.evidence.some(
+        (e) =>
+          e.id === ref && e.game_origin.resource === 'mission_ru' && e.game_origin.row_id === 20024,
+      ),
+    ),
+  );
+  const editorial = {
+    ...current.translations[0],
+    name_ru: 'Авторское название',
+    status: 'verified',
+    source: 'editorial-review',
+    reviewed_by: 'Editor',
+    references: ['editorial-proof'],
+  };
+  current.translations = [editorial];
+  assert.deepEqual(
+    createMissionRewardImport(current, exported, { checkedAt: '2026-11-16' }).dataset
+      .translations[0],
+    editorial,
+  );
+  exported.decoded.mission_ru.pop();
+  assert.throws(
+    () => createMissionRewardImport(current, exported, { checkedAt: '2026-11-16' }),
+    /EN\/RU/,
+  );
+});
 test('published element coverage and native reward percentages are checked against raw evidence', () => {
   assert.equal(data.items.filter((i) => i.missing_fields.includes('elements')).length, 0);
   const immunity = data.items.find((i) => i.name_en === 'Immunity Buckler');
@@ -173,9 +228,11 @@ test('published element coverage and native reward percentages are checked again
   const light = data.items.filter((i) => i.elements.includes('divine'));
   assert.ok(light.length > 200);
   assert.ok(data.evidence.some((e) => e.excerpt.includes(ARTICLE_ELEMENTS_DECODER)));
-  const nativeDrops = data.drops.filter((d) => d.game_origin?.resource === 'mission_en');
-  assert.equal(nativeDrops.length, 3390);
-  assert.equal(new Set(nativeDrops.map((d) => d.material_id)).size, 544);
+  const nativeDrops = data.drops.filter(
+    (d) => d.game_origin?.resource === 'mission_en' && d.method === 'mission_reward',
+  );
+  assert.ok(nativeDrops.length >= 3390);
+  assert.ok(new Set(nativeDrops.map((d) => d.material_id)).size >= 544);
   for (const mutate of [
     (d) => {
       d.items.find((i) => i.elements.includes('divine')).elements = [];

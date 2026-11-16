@@ -149,12 +149,44 @@ test('mission rewards show separate 25% positions and native provenance', async 
   const mayflies = missions.find((m: { name_en: string }) => m.name_en === 'Mayflies');
   await page.goto(`./#/missions/${mayflies.id}`);
   const rows = page
-    .locator('.drop-table tbody tr')
+    .locator('.drop-table tbody')
+    .filter({ has: page.locator('.drop-group-title', { hasText: 'Автоматически' }) })
+    .locator('tr')
     .filter({ has: page.getByRole('link', { name: /Шип пикси/ }) });
   await expect(rows).toHaveCount(2);
   await expect(rows.locator('.drop-rate')).toHaveText(['25%', '25%']);
   await expect(rows.first().getByText('из файлов игры · для этой позиции')).toBeVisible();
   await expect(rows.first().getByText(/Позиция награды:/)).toBeVisible();
+});
+
+test('mission names are Russian and drop categories retain part-specific weights', async ({
+  page,
+}) => {
+  const missions = JSON.parse(await readFile(resolve('data/missions.json'), 'utf8'));
+  const giant = missions.find((m: { name_en: string }) => m.name_en === 'Kongou Giant');
+  const tandoor = missions.find((m: { name_en: string }) => m.name_en === 'Tandoor');
+  await page.goto('./#/missions?q=Tandall');
+  const corrected = page.locator(`tbody a[href$="${tandoor.id}"]`);
+  await expect(corrected).toHaveCount(1);
+  await corrected.click();
+  await expect(page.getByRole('heading', { name: 'Тандыр', exact: true })).toBeVisible();
+  await page.goto(`./#/missions/${giant.id}`);
+  await expect(page.getByRole('heading', { name: 'Гигант Конго', exact: true })).toBeVisible();
+  const groups = page.locator('.drop-group-title');
+  for (const label of [
+    'Автоматически',
+    'За выполнение условий',
+    'Раскол защиты',
+    'Пожирание',
+    'Сбор на локации',
+  ])
+    await expect(groups.filter({ hasText: label })).toHaveCount(1);
+  await page.getByRole('combobox', { name: 'Способ', exact: true }).selectOption('break');
+  await expect(groups).toHaveCount(1);
+  await expect(groups).toContainText('Раскол защиты');
+  await expect(page.locator('.pool-share').first()).toContainText('Доля веса:');
+  await expect(page.locator('.drop-rate')).toHaveCount(0);
+  await expect(page.getByText(/Точный шанс с учётом механики/)).toBeVisible();
 });
 
 test('mobile navigation and wide tables stay within the viewport', async ({ page }) => {

@@ -36,6 +36,10 @@ const issueLabels: Record<string, string> = {
   GAME_LEGACY_MATERIAL_UNMATCHED: 'Не сопоставлен материал Wiki',
   GAME_MISSION_UNMATCHED: 'Не сопоставлена миссия',
   GAME_REWARD_SCOPE_REVIEW: 'Неполное покрытие способов получения',
+  GAME_WEIGHT_MODEL_REVIEW: 'Веса и вероятность',
+  GAME_ENEMY_UNMATCHED: 'Не сопоставлен вариант арагами',
+  GAME_DEVOUR_POOL_MISMATCH: 'Различие таблиц пожирания',
+  GAME_SECONDARY_POOL_REVIEW: 'Дополнительные пулы материалов',
 };
 export default function Sources() {
   const { report, sources } = useApp();

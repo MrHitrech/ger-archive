@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readDataset, idFor } from '../scripts/lib/files.mjs';
+import { readDataset, idFor, readJson, dataDir } from '../scripts/lib/files.mjs';
+import path from 'node:path';
 import { validateDataset, validateSnapshots } from '../scripts/lib/validate.mjs';
 import { scopedSection, mergeDataset, parseEquipment } from '../scripts/lib/importer.mjs';
 import { createSeed } from '../scripts/import-seed.mjs';
@@ -77,7 +78,8 @@ test('native reward slots resolve ambiguous Wiki rows without adding their proba
   const mayflies = data.missions.find((m) => m.name_en === 'Mayflies');
   const grease = data.materials.find((m) => m.name_en === 'Impure Grease');
   const greaseDrops = data.drops.filter(
-    (d) => d.material_id === grease.id && d.mission_id === devil.id,
+    (d) =>
+      d.material_id === grease.id && d.mission_id === devil.id && d.method === 'mission_reward',
   );
   assert.deepEqual(
     greaseDrops.map((d) => d.drop_rate).sort((a, b) => a - b),
@@ -86,7 +88,10 @@ test('native reward slots resolve ambiguous Wiki rows without adding their proba
   assert.notEqual(greaseDrops[0].game_origin.slot, greaseDrops[1].game_origin.slot);
   const mana = data.materials.find((m) => m.name_en === 'Mana Stone Chip');
   const manaDrops = data.drops.filter(
-    (d) => d.material_id === mana.id && d.mission_id === devil.id,
+    (d) =>
+      d.material_id === mana.id &&
+      d.mission_id === devil.id &&
+      ['mission_reward', 'bonus_reward'].includes(d.method),
   );
   assert.deepEqual(
     manaDrops.map((d) => d.drop_rate).sort((a, b) => a - b),
@@ -94,7 +99,8 @@ test('native reward slots resolve ambiguous Wiki rows without adding their proba
   );
   const pixie = data.materials.find((m) => m.name_en === 'Pixie Thorn');
   const pixieDrops = data.drops.filter(
-    (d) => d.material_id === pixie.id && d.mission_id === mayflies.id,
+    (d) =>
+      d.material_id === pixie.id && d.mission_id === mayflies.id && d.method === 'mission_reward',
   );
   assert.equal(pixieDrops.length, 2);
   assert.deepEqual(
@@ -217,18 +223,24 @@ test('translation preparation preserves confirmed editorial choices', async () =
 
 test('game imports preserve legacy IDs, editorial names, and unsupported acquisition methods', async () => {
   const seed = (await createSeed()).dataset;
+  const mappings = await readJson(path.join(dataDir, 'import-mappings/game-missions.json'));
   for (const collection of ['materials', 'items', 'recipes'])
     for (const row of seed[collection]) assert.ok(data[collection].some((r) => r.id === row.id));
   for (const collection of ['aragami', 'locations'])
     assert.deepEqual(data[collection], seed[collection]);
   for (const original of seed.missions) {
     const current = data.missions.find((r) => r.id === original.id);
+    const mapping = mappings.find((m) => m.existing_id === original.id);
+    assert.equal(current.name_en, mapping?.canonical_name ?? original.name_en);
+    assert.equal(current.location_id, mapping?.location_id ?? original.location_id);
+    if (mapping && mapping.previous_name !== mapping.canonical_name)
+      assert.ok(
+        data.translations.find((t) => t.id === current.id).aliases.includes(original.name_en),
+      );
     for (const key of [
-      'name_en',
       'rank',
       'type',
       'variant',
-      'location_id',
       'aragami_ids',
       'objectives_en',
       'story',
@@ -240,7 +252,9 @@ test('game imports preserve legacy IDs, editorial names, and unsupported acquisi
     const current = data.drops.find((r) => r.id === original.id);
     assert.ok(current);
     for (const ref of original.references) assert.ok(current.references.includes(ref));
-    if (original.method !== 'mission_reward') assert.deepEqual(current, original);
+    for (const key of ['material_id', 'mission_id', 'method', 'quantity'])
+      assert.deepEqual(current[key], original[key]);
+    if (original.drop_rate !== null) assert.equal(current.drop_rate, original.drop_rate);
   }
   assert.ok(data.sources.some((s) => s.acquisition === 'game_files' && s.app_id === '460870'));
 });

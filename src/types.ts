@@ -73,6 +73,10 @@ export interface Drop extends BaseRecord {
   quantity: number | null;
   slot: string | null;
   source_url: string | null;
+  pool_weight?: number;
+  pool_total_weight?: number;
+  part_en?: string | null;
+  part_ru?: string | null;
 }
 export interface Translation {
   id: string;

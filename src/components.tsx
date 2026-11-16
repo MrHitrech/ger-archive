@@ -55,10 +55,10 @@ export const kindLabels: Record<EntityKind, string> = {
 export const routeFor = (entry: Pick<SearchEntry, 'id' | 'kind'>) =>
   `/${{ material: 'materials', item: 'craft', mission: 'missions', aragami: 'aragami' }[entry.kind]}/${entry.id}`;
 export const methods: Record<string, string> = {
-  mission_reward: 'Награда миссии',
-  bonus_reward: 'Дополнительная награда',
+  mission_reward: 'Автоматически',
+  bonus_reward: 'За выполнение условий',
+  break: 'Раскол защиты',
   devour: 'Пожирание',
-  break: 'Разрушение части',
   gather: 'Сбор на локации',
   shop: 'Покупка',
   exchange: 'Обмен / синтез',

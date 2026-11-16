@@ -24250,37 +24250,37 @@
   {
     "id": "ger-q-0009a7c45752",
     "name_en": "Summer Horsefly",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Слепень",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-011a64857f30",
     "name_en": "Lantern Cutting",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Вырезание фонариков",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-0270d83ba27e",
     "name_en": "Sunken Beacon",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Затонувший маяк",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-02db51b696d8",
-    "name_en": "Tandall",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "name_en": "Tandoor",
+    "suggested_ru": "Тандыр",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-05c18c83cedc",
     "name_en": "Dutch Oven",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Жаровня",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-066864caa5c9",
@@ -24292,23 +24292,23 @@
   {
     "id": "ger-q-07ae46feb908",
     "name_en": "Dance of the Lunar Hare",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Танец лунного кролика",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-085dcdd4e0ae",
-    "name_en": "Runway Tank",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "name_en": "Runaway Tank",
+    "suggested_ru": "Бешеный танк",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-094291c07077",
     "name_en": "Cardinal",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Кардинал",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-0dc9ebd23f76",
@@ -24327,16 +24327,16 @@
   {
     "id": "ger-q-10c05a91751e",
     "name_en": "God of Thunder",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Бог грома",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-113f94cc47d3",
     "name_en": "Knight's Mind",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Разум рыцаря",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-12fd666827f5",
@@ -24348,128 +24348,128 @@
   {
     "id": "ger-q-1356510a8054",
     "name_en": "Sea Breeze",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Морской бриз",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-140e014b6fae",
     "name_en": "Daytime Owl",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Дневная сова",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-158572292d87",
     "name_en": "Mole's Tunnel",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Кротовая нора",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-16b77ae64769",
     "name_en": "Grounded Lightning",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Заземленная молния",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-171a801b5406",
     "name_en": "Home of Souls",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Дом душ",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-18c6f234012c",
     "name_en": "Poison Garnish",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Ядовитая приправа",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-18ee4e3db8f7",
     "name_en": "Devourer of Tomorrow",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Пожирающий будущее",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-19318bb4c04a",
     "name_en": "Undertaker",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Гробовщик",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-1b5cf6e473d7",
     "name_en": "Fallen Vortex",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Водоворот падших",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-1bf2b694120d",
     "name_en": "Soulmate",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Родственная душа",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-1d4ee108e8f7",
     "name_en": "An Aloof Dream",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Далекая мечта",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-1ec769b6cb43",
     "name_en": "Separated Kings",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Разделенные короли",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-1f47fb419b0b",
     "name_en": "Insulation",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Изоляция",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-202ed24f928f",
     "name_en": "Devourer of All",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Тот, кто пожирает всё",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-21946e6e92eb",
     "name_en": "Forty-Niner",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Золотоискатель",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-2220f2b86abc",
     "name_en": "Trick Shot",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Обманный выстрел",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-224a15d91534",
     "name_en": "Drifting Snow",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Метель",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-24f99d95ba00",
     "name_en": "Pilgrim 2",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Пилигрим 2",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-2554b914d8e4",
@@ -24481,100 +24481,100 @@
   {
     "id": "ger-q-25ac80ddbb7d",
     "name_en": "September Shadow",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Тень в сентябре",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-26c50f68889c",
     "name_en": "Regal Bones",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Королевские кости",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-2739c32542e9",
     "name_en": "Lion's Revenge",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Месть льва",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-276aabfd9045",
     "name_en": "Dog Mines",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Собачьи мины",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-27e02d7e89c5",
     "name_en": "Gold Coast",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Золотой берег",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-2811e9cd2a8c",
     "name_en": "Heliamphora",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Гелиамфора",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-2901bc5eeb5c",
     "name_en": "Exiled Emperor",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Император в изгнании",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-2cf4eeb03e17",
     "name_en": "Moth's Grave",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Могила моли",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-2ddf1c185e58",
     "name_en": "Purple Sparks",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Пурпурные искры",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-31e6165f55db",
     "name_en": "Croc Three",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Крокодил Три",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-337dbfa5860b",
     "name_en": "Merciless Commander",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Безжалостный командир",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-33a5ad1562da",
     "name_en": "Ruffians",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Головорезы",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-33f906159c1b",
     "name_en": "Firefly",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Светлячок",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-3472c85cf332",
     "name_en": "Dancing Ogre",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Танцующий огр",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-35f0c3f813bd",
@@ -24586,16 +24586,16 @@
   {
     "id": "ger-q-36deec6fd61f",
     "name_en": "Troika",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Тройка",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-39350a3cc3c3",
     "name_en": "Artifacts",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Артефакты",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-3c8beb69e798",
@@ -24607,16 +24607,16 @@
   {
     "id": "ger-q-3dde76e07854",
     "name_en": "Eton Blazer",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Парадная форма",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-3ddfaf32b1b2",
     "name_en": "Angels in a Refuge",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Ангелы в убежище",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-3fe64f73c6e3",
@@ -24628,58 +24628,58 @@
   {
     "id": "ger-q-430e58c6adee",
     "name_en": "Three Gun Turret",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Трехствольная пушка",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-438779ac7c11",
     "name_en": "Dragon-Tiger Fang",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Клыки тигра и дракона",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-4562249c9a20",
     "name_en": "Frozen Elephant",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Замерзший слон",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-45ed2e0540fc",
     "name_en": "Bow and Spear",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Лук и копье",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-46081782506f",
     "name_en": "Cavern Bears",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Пещерные медведи",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-4736a4cbfc66",
     "name_en": "West-southwest",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Запад-юго-запад",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-47d4a2b923f6",
     "name_en": "Carnage Feast",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Бойня",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-47f9c99b3ace",
     "name_en": "Lone Monkey",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Одинокая обезьяна",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-483f94bfba87",
@@ -24691,72 +24691,72 @@
   {
     "id": "ger-q-484444beb164",
     "name_en": "Gboro-Gboro Panic",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Паника Гборо-Гборо",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-48acdf096f01",
     "name_en": "Deadly Flock",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Смертоносная стая",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-492d343b7424",
     "name_en": "Swirl Fire",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Вихрь огня",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-4936a59dc315",
     "name_en": "Water Lily",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Водяная лилия",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-49e1248326cd",
     "name_en": "Goddess' Duty",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Долг богини",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-4a90d693cc04",
     "name_en": "The Venus",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Венера",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-4ab0fbf0fe53",
     "name_en": "Newcomer Trials",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Испытание для новичков",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-4be5a6ebf8c9",
     "name_en": "Gboro-Gboro Paradise",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Рай Гборо-Гборо",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-4cd570da9a45",
     "name_en": "Crocodile Swagger",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Крокодил-пижон",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-4dba15390300",
     "name_en": "Sailing Rock",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Плавучий камень",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-4ddfa7d25372",
@@ -24768,121 +24768,121 @@
   {
     "id": "ger-q-4fc954c98980",
     "name_en": "Wicked Fruit",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Гнилой фрукт",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-5029d80fc134",
     "name_en": "The Little Ones' Revenge",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Месть малышей",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-50ab5948630b",
     "name_en": "Idle Warrior",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Праздный воин",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-5197a393eb6e",
     "name_en": "Quick Draw X",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Быстрый стрелок X",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-521dbef24e92",
     "name_en": "Sanghyang Jaran",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Сангхьянг Джаран",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-521f61dfa0cf",
     "name_en": "Rebellion's Beacon",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Маяк восставших",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-5254cffc1163",
     "name_en": "Lone Evil Eye",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Одинокий дурной глаз",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-5497718ed2bd",
     "name_en": "Reminiscence",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Воспоминания",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-5717e51b5cc8",
     "name_en": "Sacred Rhythm",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Священный ритм",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-5818ea0150e7",
-    "name_en": "Devil's Festival",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "name_en": "Devils' Festival",
+    "suggested_ru": "Дьявольский фестиваль",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-59511484a5fc",
-    "name_en": "Dance Macabre",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "name_en": "Danse Macabre",
+    "suggested_ru": "Пляска смерти",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-5b123d7e331d",
     "name_en": "Enceladus Rapids",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Пороги Энкелада",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-5c238c37b018",
     "name_en": "Braggart's Heart",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Сердце хвастуна",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-5c729d7a1290",
     "name_en": "Disastrous Dance",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Разрушительный танец",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-5cbc751e9544",
     "name_en": "Storm Baptism",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Крещение штормом",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-5f10fc089934",
     "name_en": "Coyote Warrior",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Койот-воин",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-617890574854",
     "name_en": "Here, Here, Here",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Здесь, здесь, здесь",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-61c91bce6d9a",
@@ -24894,205 +24894,205 @@
   {
     "id": "ger-q-61d9d5c42a47",
     "name_en": "Ancient Battle Tank",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Древний боевой танк",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-63c5cb8d53f4",
     "name_en": "Wing Scales",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Чешуйчатые крылья",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-64124d52c59a",
     "name_en": "Poison Needle Fence",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Фехтов. на отравл. иглах",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-683a2700bd0e",
     "name_en": "Quick Draw 3",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Быстрый стрелок 3",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-68875f715ae6",
     "name_en": "Screw Driver",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Отвертка",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-690e2b9b8574",
     "name_en": "God Eater",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Пожиратель богов",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-699b2809971e",
     "name_en": "Blue Blade Dance",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Танец синих лезвий",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-6abbe0596acf",
     "name_en": "Venus Trap",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Ловушка Венеры",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-6ba7e5a6aaee",
     "name_en": "Grouse of the Mist",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Куропатка в тумане",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-6cefb7cae76e",
     "name_en": "Death Stalker",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Несущий смерть",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-6d5775c03f66",
     "name_en": "Molten Iron",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Расплавленное железо",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-6f8323af5e22",
     "name_en": "Jungle Tiger",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Тигр в джунглях",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-708b977983cf",
     "name_en": "Cephalotus",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Цефалот",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-70b0a7eda4bf",
     "name_en": "Coven Tea Party",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Чаепитие на шабаше",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-71f1617a5a00",
     "name_en": "Sleet",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Мокрый снег",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-72b66f770b42",
     "name_en": "Thermal Jacket",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Теплозащитная куртка",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-740078597122",
     "name_en": "Hope",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Надежда",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-761179694a69",
-    "name_en": "Soilder's Grave",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "name_en": "Soldier's Grave",
+    "suggested_ru": "Могила солдата",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-76cf9534cd95",
     "name_en": "Bloody Rose",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Кровавая роза",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-772b4f146f0f",
     "name_en": "Into Thin Air",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Исчезнувшие",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-77496442181c",
-    "name_en": "Swawpside Heron",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "name_en": "Swampside Heron",
+    "suggested_ru": "Болотная цапля",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-78841c082bb0",
     "name_en": "Rampage",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Буйство",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-7a793d8dd3cf",
     "name_en": "Fake Sun",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Поддельное солнце",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-7ad361c9d524",
     "name_en": "Marianne",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Марианна",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-7b70fcbb25ec",
     "name_en": "Certainly Clear",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Определенно ясно",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-7c52b7437158",
     "name_en": "Shopping Mall",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Торговый центр",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-7dd98d1ebc9c",
     "name_en": "Dragon's Breath",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Дыхание дракона",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-7e1b0f3e7460",
     "name_en": "Monkey Wrath",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Гнев обезьяны",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-7e47e4d2bf00",
     "name_en": "Cracked Sanidine",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Потрескавшийся санидин",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-7f5d880315d7",
@@ -25104,23 +25104,23 @@
   {
     "id": "ger-q-80111109bb08",
     "name_en": "Ink Clouds",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Чернильные облака",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-8052c5123725",
     "name_en": "Flash of Light",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Вспышка света",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-839c4acde402",
     "name_en": "Test Tube",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Пробирка",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-844d7746cfd4",
@@ -25132,9 +25132,9 @@
   {
     "id": "ger-q-8512078cd4d6",
     "name_en": "Steady Flare",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Устойчивый блеск",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-85898e5ed57f",
@@ -25146,58 +25146,58 @@
   {
     "id": "ger-q-85acca3b0a18",
     "name_en": "Submarine",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Подводная лодка",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-86008844da92",
     "name_en": "Phoenix Nest",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Гнездо феникса",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-873e90d8a4dc",
     "name_en": "Dragon God",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Драконий бог",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-876331c2458c",
     "name_en": "Martial Drill",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Военная муштра",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-877b34c359ef",
     "name_en": "Big Family",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Большая семья",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-87b2bd3852ec",
     "name_en": "Archvillain",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Злодей",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-8854819d90f6",
     "name_en": "Supply Retrieval",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Поиски припасов",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-8919c957b829",
     "name_en": "Pilgrim",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Пилигрим",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-89312bc5ad53",
@@ -25209,65 +25209,65 @@
   {
     "id": "ger-q-89380fd77e89",
     "name_en": "Fires of Caldera",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Огни кратера",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-89f985aa04ab",
     "name_en": "A Pair of Predators",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Пара хищников",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-8f08ab5ab026",
     "name_en": "Quick Draw",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Быстрый стрелок",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-91ae20c63f76",
     "name_en": "Wildfire",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Пожар",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-937259789d66",
     "name_en": "Bog Offering",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Жертвоприношение",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-94e2ad1645fc",
     "name_en": "Dead Charger",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Мертвый заряд",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-952b9acfefa0",
     "name_en": "Speculum Dianae",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Зеркало Дианы",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-9682f135e49b",
     "name_en": "Angel's Ladder",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Лестница ангелов",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-96c05f7e7660",
     "name_en": "Dark Shimmer",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Темное мерцание",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-976b1d84f062",
@@ -25279,9 +25279,9 @@
   {
     "id": "ger-q-97edc0d2bdb6",
     "name_en": "Assortment",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Подборка",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-990a842022ae",
@@ -25293,240 +25293,240 @@
   {
     "id": "ger-q-992b99268f73",
     "name_en": "Twilight Monkey",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Сумеречная обезьяна",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-9ab1bbf7ce36",
     "name_en": "Garimpeiro",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Старатель",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-9c95426eca42",
     "name_en": "Nut Cracker",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Щелкунчик",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-9cb226c55072",
     "name_en": "Oskopnir",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Оскопнир",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-9f11f1734716",
     "name_en": "Knight and Rust",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Рыцарь и ржавчина",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-a4343ea146ca",
     "name_en": "Moon in the Welkin",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Луна в небесах",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-a52a881bf02c",
     "name_en": "Dead Proof",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Железные доказательства",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-a5ee51ad0b79",
     "name_en": "A Devil's Heart",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Сердце дьявола",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-a7b3a8addc4b",
     "name_en": "Big Over Small",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "От мала до велика",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-a8c2fb63426a",
     "name_en": "Giant Spin",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Гигантский волчок",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-aa3d484b99da",
     "name_en": "Snow Firefly",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Снежный светлячок",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-ab2e15aef13d",
     "name_en": "Ice-Cold Glare",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Ледяное свечение",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-ab4ff20b1a1e",
     "name_en": "Storm Queen",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Королева бури",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-ac3ee01d1eb0",
     "name_en": "Fire Prevention",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Предотвращение пожара",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-ae9391e1fd5d",
     "name_en": "Icebreaker Scouts",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Разведчики-ледорезы",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-aedcc11b3c02",
     "name_en": "Supernova",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Сверхновая",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-af13bb321c3f",
     "name_en": "Humpty Dumpty",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Шалтай-Болтай",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-b05f69a5b9a9",
     "name_en": "Hailstorm",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Град",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-b0839e472ec6",
     "name_en": "Demon Slaying",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Уничтожение демонов",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-b32d3934cdd1",
     "name_en": "Radiant Halo",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Сияющий нимб",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-b352242242e8",
     "name_en": "Obsidian Heart",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Обсидиановое сердце",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-b58b25406da3",
     "name_en": "Poison Butterfly",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Ядовитая бабочка",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-b77f8b3a51dc",
     "name_en": "Mars Sublime",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Величественный Марс",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-b7af492698ed",
     "name_en": "Kanon's Secret Training",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Тайные тренировки Канон",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-bb25f97d59c4",
-    "name_en": "Devourer of the World",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "name_en": "Devourer of World",
+    "suggested_ru": "Пожиратель Мира",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-bbbc018f91eb",
     "name_en": "Return",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Возвращение",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-bd44b0011827",
     "name_en": "Demonic Parade",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Парад демонов",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-bd76d4c066fa",
     "name_en": "One Breath",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Один вздох",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-bf665aad920c",
-    "name_en": "Looter's Night",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "name_en": "Looters' Night",
+    "suggested_ru": "Ночь грабителей",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-c0b304ee85dc",
     "name_en": "Thunderstorm",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Гроза",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-c1adc68170e2",
     "name_en": "Rice Chase",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Рисовая погоня",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-c3d3d77c8e69",
     "name_en": "Harvest Festival",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Праздник урожая",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-c3e02ac07d61",
     "name_en": "Snow Dragon's Garden",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Сад снежного дракона",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-c3fb4d14efb1",
     "name_en": "Fool's Gold",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Золото дураков",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-c464b6ddfdee",
@@ -25538,37 +25538,37 @@
   {
     "id": "ger-q-c5f5130a6555",
     "name_en": "Sweet Home",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Милый дом",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-c86888f928fc",
     "name_en": "Nocturnal Axe",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Ночной топор",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-c8a8cb4b6df2",
     "name_en": "Jewel Hoard",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Гора самоцветов",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-ca80a1036a4e",
     "name_en": "Tequila Sunrise",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Текила Санрайз",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-cd0208e5beb9",
-    "name_en": "Sunlight On Snow",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "name_en": "Sunlight on Snow",
+    "suggested_ru": "Солнечный свет на снегу",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-cdea48da865f",
@@ -25580,44 +25580,44 @@
   {
     "id": "ger-q-ce98589a352d",
     "name_en": "Great Black",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Великая тьма",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-cebf63603ee1",
     "name_en": "Slingshot",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Рогатка",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-ced1b11d5cc5",
     "name_en": "Sidecar",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Коляска",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-cf9313a4e56a",
     "name_en": "Dionaea",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Венерина мухоловка",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-d28ef7d18cfd",
     "name_en": "Grimsvotn",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Гримсвотн",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-d3be8bb08b91",
     "name_en": "Sunken Arrow",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Затонувшая стрела",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-d41e0d231601",
@@ -25629,65 +25629,65 @@
   {
     "id": "ger-q-d4aab02d2c69",
     "name_en": "Dirty Bomb",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Грязная бомба",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-d5a6b779be6a",
     "name_en": "Rumbling Treads",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Шум гусениц",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-d5a6ef666cad",
     "name_en": "Break Shot",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Перехват инициативы",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-d6c3055eaf5e",
-    "name_en": "Budda Smile",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "name_en": "Buddha Smile",
+    "suggested_ru": "Улыбка Будды",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-d7a2523b0e3b",
     "name_en": "Basement Fire-Croc",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Огненный монстр в метро",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-d846b2c78074",
     "name_en": "City Riot",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Городской бунт",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-d90999356ad5",
     "name_en": "Grand Prize",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Главный приз",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-d93329b63e14",
     "name_en": "Double Date",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Двойное свидание",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-da5cbc76261f",
     "name_en": "Primordial Spiral",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Первичная спираль",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-dc38f0d48678",
@@ -25699,37 +25699,37 @@
   {
     "id": "ger-q-dd1e64008cae",
     "name_en": "Hell's Kitchen",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Адская Кухня",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-df16a6a1df75",
     "name_en": "Invasive Swarm",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Рой захватчиков",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-dfa283282f8a",
     "name_en": "Purple Spark",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Пурпурная искра",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-e0ad76e5bd78",
     "name_en": "Storm and Stress",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Буря и натиск",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-e12d581076ea",
     "name_en": "Collector",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Коллекционер",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-e47f4d8c1ccd",
@@ -25741,72 +25741,72 @@
   {
     "id": "ger-q-e56835681a84",
     "name_en": "New Moon in the Welkin",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Новолуние в небесах",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-e72b4b1850ed",
     "name_en": "Tsunami",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Цунами",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-e75d45207385",
     "name_en": "Fire Engine",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Пожарная машина",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-e97d0973fa8f",
     "name_en": "Obsidian Sacrifice",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Обсидиановый ритуал",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-e9eaa91da7ea",
     "name_en": "Hunting Cloak",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Охотничий плащ",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-eb537d671f45",
     "name_en": "Molecular Eyes",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Молекулярные глаза",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-ecfef29e50ee",
     "name_en": "Treacherous Temple",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Опасный храм",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-ed6ae366d0b2",
     "name_en": "Quick Draw 2",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Быстрый стрелок 2",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-ee0dd08ee682",
     "name_en": "Spring Thunder",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Весенний гром",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-ee5605e08604",
     "name_en": "Black Alligator",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Черный аллигатор",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-ee74f7e82d71",
@@ -25818,23 +25818,23 @@
   {
     "id": "ger-q-f0bcc01970da",
     "name_en": "The End to Vice",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Конец порока",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-f253691d583c",
     "name_en": "Guardians",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Опекуны",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-f329c82938b9",
     "name_en": "Beauty's End",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Конец красоты",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-f33a97bef54a",
@@ -25846,23 +25846,23 @@
   {
     "id": "ger-q-f3cca8f536a6",
     "name_en": "Divine Shadows",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Божественные тени",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-f4b6550f7f47",
     "name_en": "Sewer Crocodile",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Крокодил в канализации",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-f5d8053f6183",
     "name_en": "Proud Bird",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Гордая птица",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-f6719d678e37",
@@ -25874,16 +25874,16 @@
   {
     "id": "ger-q-f6a2c1f5145c",
     "name_en": "Scaly Thrush",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Пестрый дрозд",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-f74d9c049261",
     "name_en": "Chimera",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Химера",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-f7b7c57c325f",
@@ -25895,71 +25895,71 @@
   {
     "id": "ger-q-f7ff7bcb4fb1",
     "name_en": "Devourer of Future",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Тот, кто пожирает будущее",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-f831322485ff",
     "name_en": "Hellfire Shield",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Щит из адского пламени",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-f90bb9509999",
     "name_en": "Sarracenia",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Саррацения",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-f9bdcbbf18b7",
     "name_en": "Tropical Fish",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Тропические рыбы",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-fb10a829c490",
     "name_en": "Hematite Rose",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Красный железняк",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-fb6261171fb7",
     "name_en": "Deadly Sisters' Dance",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Танец смертоносных сестер",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-fcca627e545a",
     "name_en": "Big Smile",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Большая улыбка",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-fdb076824876",
     "name_en": "Onyx Smoke",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Ониксовый дым",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-fe28ac4ca2ff",
     "name_en": "Ruler's City",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Город правителя",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-ffa2d39213dd",
     "name_en": "Bison Grass Vodka",
-    "suggested_ru": null,
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "reason": "translation_missing"
+    "suggested_ru": "Водка из бизоновой травы",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   }
 ]

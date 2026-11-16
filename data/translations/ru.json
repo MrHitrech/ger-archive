@@ -37285,42 +37285,59 @@
   {
     "id": "ger-q-0009a7c45752",
     "name_en": "Summer Horsefly",
-    "name_ru": null,
+    "name_ru": "Слепень",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-8adc04a5f3f1cfab"
+    ]
   },
   {
     "id": "ger-q-011a64857f30",
     "name_en": "Lantern Cutting",
-    "name_ru": null,
+    "name_ru": "Вырезание фонариков",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-20aff033e409de98"
+    ]
   },
   {
     "id": "ger-q-0270d83ba27e",
     "name_en": "Sunken Beacon",
-    "name_ru": null,
+    "name_ru": "Затонувший маяк",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-162507c0be831b5c"
+    ]
   },
   {
     "id": "ger-q-02db51b696d8",
-    "name_en": "Tandall",
-    "name_ru": null,
-    "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "name_en": "Tandoor",
+    "name_ru": "Тандыр",
+    "aliases": [
+      "Tandall"
+    ],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-c382e895bf119e60"
+    ]
   },
   {
     "id": "ger-q-05c18c83cedc",
     "name_en": "Dutch Oven",
-    "name_ru": null,
+    "name_ru": "Жаровня",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-5e26e0629f11d85e"
+    ]
   },
   {
     "id": "ger-q-066864caa5c9",
@@ -37333,26 +37350,37 @@
   {
     "id": "ger-q-07ae46feb908",
     "name_en": "Dance of the Lunar Hare",
-    "name_ru": null,
+    "name_ru": "Танец лунного кролика",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-74ae48bfc3430bb5"
+    ]
   },
   {
     "id": "ger-q-085dcdd4e0ae",
-    "name_en": "Runway Tank",
-    "name_ru": null,
-    "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "name_en": "Runaway Tank",
+    "name_ru": "Бешеный танк",
+    "aliases": [
+      "Runway Tank"
+    ],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-0b5769cdfd0ae250"
+    ]
   },
   {
     "id": "ger-q-094291c07077",
     "name_en": "Cardinal",
-    "name_ru": null,
+    "name_ru": "Кардинал",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-7a4dae8aa99ba6c4"
+    ]
   },
   {
     "id": "ger-q-0dc9ebd23f76",
@@ -37373,18 +37401,24 @@
   {
     "id": "ger-q-10c05a91751e",
     "name_en": "God of Thunder",
-    "name_ru": null,
+    "name_ru": "Бог грома",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-bf0da82252b022bd"
+    ]
   },
   {
     "id": "ger-q-113f94cc47d3",
     "name_en": "Knight's Mind",
-    "name_ru": null,
+    "name_ru": "Разум рыцаря",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-a6660609a95fa266"
+    ]
   },
   {
     "id": "ger-q-12fd666827f5",
@@ -37397,146 +37431,200 @@
   {
     "id": "ger-q-1356510a8054",
     "name_en": "Sea Breeze",
-    "name_ru": null,
+    "name_ru": "Морской бриз",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-aaf97e7235eeff71"
+    ]
   },
   {
     "id": "ger-q-140e014b6fae",
     "name_en": "Daytime Owl",
-    "name_ru": null,
+    "name_ru": "Дневная сова",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-a119d2866fffddfb"
+    ]
   },
   {
     "id": "ger-q-158572292d87",
     "name_en": "Mole's Tunnel",
-    "name_ru": null,
+    "name_ru": "Кротовая нора",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-605041a6bbe93689"
+    ]
   },
   {
     "id": "ger-q-16b77ae64769",
     "name_en": "Grounded Lightning",
-    "name_ru": null,
+    "name_ru": "Заземленная молния",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-c4a2ce447ff7d523"
+    ]
   },
   {
     "id": "ger-q-171a801b5406",
     "name_en": "Home of Souls",
-    "name_ru": null,
+    "name_ru": "Дом душ",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-a6e277e9a1ba6f9b"
+    ]
   },
   {
     "id": "ger-q-18c6f234012c",
     "name_en": "Poison Garnish",
-    "name_ru": null,
+    "name_ru": "Ядовитая приправа",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-53e0590efb2ed93a"
+    ]
   },
   {
     "id": "ger-q-18ee4e3db8f7",
     "name_en": "Devourer of Tomorrow",
-    "name_ru": null,
+    "name_ru": "Пожирающий будущее",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-1381df87d1524e76"
+    ]
   },
   {
     "id": "ger-q-19318bb4c04a",
     "name_en": "Undertaker",
-    "name_ru": null,
+    "name_ru": "Гробовщик",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-6d1c3d47ff774900"
+    ]
   },
   {
     "id": "ger-q-1b5cf6e473d7",
     "name_en": "Fallen Vortex",
-    "name_ru": null,
+    "name_ru": "Водоворот падших",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-7eeeb27428d55bb9"
+    ]
   },
   {
     "id": "ger-q-1bf2b694120d",
     "name_en": "Soulmate",
-    "name_ru": null,
+    "name_ru": "Родственная душа",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-a1340685705ae736"
+    ]
   },
   {
     "id": "ger-q-1d4ee108e8f7",
     "name_en": "An Aloof Dream",
-    "name_ru": null,
+    "name_ru": "Далекая мечта",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-08860bed6eaf0c16"
+    ]
   },
   {
     "id": "ger-q-1ec769b6cb43",
     "name_en": "Separated Kings",
-    "name_ru": null,
+    "name_ru": "Разделенные короли",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-cc2fe8fa8506e1e2"
+    ]
   },
   {
     "id": "ger-q-1f47fb419b0b",
     "name_en": "Insulation",
-    "name_ru": null,
+    "name_ru": "Изоляция",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-6acd2075500139c0"
+    ]
   },
   {
     "id": "ger-q-202ed24f928f",
     "name_en": "Devourer of All",
-    "name_ru": null,
+    "name_ru": "Тот, кто пожирает всё",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-a1146efbd21dc91d"
+    ]
   },
   {
     "id": "ger-q-21946e6e92eb",
     "name_en": "Forty-Niner",
-    "name_ru": null,
+    "name_ru": "Золотоискатель",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-bed8c4a5d3c92c1f"
+    ]
   },
   {
     "id": "ger-q-2220f2b86abc",
     "name_en": "Trick Shot",
-    "name_ru": null,
+    "name_ru": "Обманный выстрел",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-2f6c01a6bbfc1c80"
+    ]
   },
   {
     "id": "ger-q-224a15d91534",
     "name_en": "Drifting Snow",
-    "name_ru": null,
+    "name_ru": "Метель",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-2387eb2e2beb67b5"
+    ]
   },
   {
     "id": "ger-q-24f99d95ba00",
     "name_en": "Pilgrim 2",
-    "name_ru": null,
+    "name_ru": "Пилигрим 2",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-a0f8cf67b2f49f5c"
+    ]
   },
   {
     "id": "ger-q-2554b914d8e4",
@@ -37549,114 +37637,156 @@
   {
     "id": "ger-q-25ac80ddbb7d",
     "name_en": "September Shadow",
-    "name_ru": null,
+    "name_ru": "Тень в сентябре",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-d358f1abe612aa69"
+    ]
   },
   {
     "id": "ger-q-26c50f68889c",
     "name_en": "Regal Bones",
-    "name_ru": null,
+    "name_ru": "Королевские кости",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-aab1bbbf6f48d2eb"
+    ]
   },
   {
     "id": "ger-q-2739c32542e9",
     "name_en": "Lion's Revenge",
-    "name_ru": null,
+    "name_ru": "Месть льва",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-9caa0babfaf50938"
+    ]
   },
   {
     "id": "ger-q-276aabfd9045",
     "name_en": "Dog Mines",
-    "name_ru": null,
+    "name_ru": "Собачьи мины",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-709c8b02c203367d"
+    ]
   },
   {
     "id": "ger-q-27e02d7e89c5",
     "name_en": "Gold Coast",
-    "name_ru": null,
+    "name_ru": "Золотой берег",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-e05bee4466f783df"
+    ]
   },
   {
     "id": "ger-q-2811e9cd2a8c",
     "name_en": "Heliamphora",
-    "name_ru": null,
+    "name_ru": "Гелиамфора",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-e3832e54eb8471d1"
+    ]
   },
   {
     "id": "ger-q-2901bc5eeb5c",
     "name_en": "Exiled Emperor",
-    "name_ru": null,
+    "name_ru": "Император в изгнании",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-42ec38318e0c1fde"
+    ]
   },
   {
     "id": "ger-q-2cf4eeb03e17",
     "name_en": "Moth's Grave",
-    "name_ru": null,
+    "name_ru": "Могила моли",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-4c82bde7e9ef45d7"
+    ]
   },
   {
     "id": "ger-q-2ddf1c185e58",
     "name_en": "Purple Sparks",
-    "name_ru": null,
+    "name_ru": "Пурпурные искры",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-673605ed0b8920c6"
+    ]
   },
   {
     "id": "ger-q-31e6165f55db",
     "name_en": "Croc Three",
-    "name_ru": null,
+    "name_ru": "Крокодил Три",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-7cb240fc75677eea"
+    ]
   },
   {
     "id": "ger-q-337dbfa5860b",
     "name_en": "Merciless Commander",
-    "name_ru": null,
+    "name_ru": "Безжалостный командир",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-85ed6a3202e099ba"
+    ]
   },
   {
     "id": "ger-q-33a5ad1562da",
     "name_en": "Ruffians",
-    "name_ru": null,
+    "name_ru": "Головорезы",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-5a261adbd08dd2d2"
+    ]
   },
   {
     "id": "ger-q-33f906159c1b",
     "name_en": "Firefly",
-    "name_ru": null,
+    "name_ru": "Светлячок",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-4d782fe13d962f40"
+    ]
   },
   {
     "id": "ger-q-3472c85cf332",
     "name_en": "Dancing Ogre",
-    "name_ru": null,
+    "name_ru": "Танцующий огр",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-08856c426848de9b"
+    ]
   },
   {
     "id": "ger-q-35f0c3f813bd",
@@ -37669,18 +37799,24 @@
   {
     "id": "ger-q-36deec6fd61f",
     "name_en": "Troika",
-    "name_ru": null,
+    "name_ru": "Тройка",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-2d1d508369bbc4db"
+    ]
   },
   {
     "id": "ger-q-39350a3cc3c3",
     "name_en": "Artifacts",
-    "name_ru": null,
+    "name_ru": "Артефакты",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-693406892eb752c7"
+    ]
   },
   {
     "id": "ger-q-3c8beb69e798",
@@ -37693,18 +37829,24 @@
   {
     "id": "ger-q-3dde76e07854",
     "name_en": "Eton Blazer",
-    "name_ru": null,
+    "name_ru": "Парадная форма",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-5e7c96053fa28515"
+    ]
   },
   {
     "id": "ger-q-3ddfaf32b1b2",
     "name_en": "Angels in a Refuge",
-    "name_ru": null,
+    "name_ru": "Ангелы в убежище",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-2b0431eb912cc110"
+    ]
   },
   {
     "id": "ger-q-3fe64f73c6e3",
@@ -37717,66 +37859,90 @@
   {
     "id": "ger-q-430e58c6adee",
     "name_en": "Three Gun Turret",
-    "name_ru": null,
+    "name_ru": "Трехствольная пушка",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-3f42801bbeb96574"
+    ]
   },
   {
     "id": "ger-q-438779ac7c11",
     "name_en": "Dragon-Tiger Fang",
-    "name_ru": null,
+    "name_ru": "Клыки тигра и дракона",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-12b7dceed7be2bbe"
+    ]
   },
   {
     "id": "ger-q-4562249c9a20",
     "name_en": "Frozen Elephant",
-    "name_ru": null,
+    "name_ru": "Замерзший слон",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-3102c9ebc497c60d"
+    ]
   },
   {
     "id": "ger-q-45ed2e0540fc",
     "name_en": "Bow and Spear",
-    "name_ru": null,
+    "name_ru": "Лук и копье",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-357fb02b9a9a006e"
+    ]
   },
   {
     "id": "ger-q-46081782506f",
     "name_en": "Cavern Bears",
-    "name_ru": null,
+    "name_ru": "Пещерные медведи",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-b4b083e8484d8a25"
+    ]
   },
   {
     "id": "ger-q-4736a4cbfc66",
     "name_en": "West-southwest",
-    "name_ru": null,
+    "name_ru": "Запад-юго-запад",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-56d4befe5658f929"
+    ]
   },
   {
     "id": "ger-q-47d4a2b923f6",
     "name_en": "Carnage Feast",
-    "name_ru": null,
+    "name_ru": "Бойня",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-c6620a8fa7265457"
+    ]
   },
   {
     "id": "ger-q-47f9c99b3ace",
     "name_en": "Lone Monkey",
-    "name_ru": null,
+    "name_ru": "Одинокая обезьяна",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-371417abac4d8e15"
+    ]
   },
   {
     "id": "ger-q-483f94bfba87",
@@ -37789,82 +37955,112 @@
   {
     "id": "ger-q-484444beb164",
     "name_en": "Gboro-Gboro Panic",
-    "name_ru": null,
+    "name_ru": "Паника Гборо-Гборо",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-615f95c453c0c095"
+    ]
   },
   {
     "id": "ger-q-48acdf096f01",
     "name_en": "Deadly Flock",
-    "name_ru": null,
+    "name_ru": "Смертоносная стая",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-c47b979e7553f685"
+    ]
   },
   {
     "id": "ger-q-492d343b7424",
     "name_en": "Swirl Fire",
-    "name_ru": null,
+    "name_ru": "Вихрь огня",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-802d76af7afec8d8"
+    ]
   },
   {
     "id": "ger-q-4936a59dc315",
     "name_en": "Water Lily",
-    "name_ru": null,
+    "name_ru": "Водяная лилия",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-0853c754dea2fd38"
+    ]
   },
   {
     "id": "ger-q-49e1248326cd",
     "name_en": "Goddess' Duty",
-    "name_ru": null,
+    "name_ru": "Долг богини",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-51d364ba4a7643db"
+    ]
   },
   {
     "id": "ger-q-4a90d693cc04",
     "name_en": "The Venus",
-    "name_ru": null,
+    "name_ru": "Венера",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-f33525adedc45c0c"
+    ]
   },
   {
     "id": "ger-q-4ab0fbf0fe53",
     "name_en": "Newcomer Trials",
-    "name_ru": null,
+    "name_ru": "Испытание для новичков",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-cb95c66d201953b1"
+    ]
   },
   {
     "id": "ger-q-4be5a6ebf8c9",
     "name_en": "Gboro-Gboro Paradise",
-    "name_ru": null,
+    "name_ru": "Рай Гборо-Гборо",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-0a9e292f65019626"
+    ]
   },
   {
     "id": "ger-q-4cd570da9a45",
     "name_en": "Crocodile Swagger",
-    "name_ru": null,
+    "name_ru": "Крокодил-пижон",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-d2e09d72ac510310"
+    ]
   },
   {
     "id": "ger-q-4dba15390300",
     "name_en": "Sailing Rock",
-    "name_ru": null,
+    "name_ru": "Плавучий камень",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-8146740dc284f0db"
+    ]
   },
   {
     "id": "ger-q-4ddfa7d25372",
@@ -37877,138 +38073,193 @@
   {
     "id": "ger-q-4fc954c98980",
     "name_en": "Wicked Fruit",
-    "name_ru": null,
+    "name_ru": "Гнилой фрукт",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-8e3f392529ba941d"
+    ]
   },
   {
     "id": "ger-q-5029d80fc134",
     "name_en": "The Little Ones' Revenge",
-    "name_ru": null,
+    "name_ru": "Месть малышей",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-c947856c5267b2dd"
+    ]
   },
   {
     "id": "ger-q-50ab5948630b",
     "name_en": "Idle Warrior",
-    "name_ru": null,
+    "name_ru": "Праздный воин",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-f7242ba6276b7fe3"
+    ]
   },
   {
     "id": "ger-q-5197a393eb6e",
     "name_en": "Quick Draw X",
-    "name_ru": null,
+    "name_ru": "Быстрый стрелок X",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-299d34b22c84c690"
+    ]
   },
   {
     "id": "ger-q-521dbef24e92",
     "name_en": "Sanghyang Jaran",
-    "name_ru": null,
+    "name_ru": "Сангхьянг Джаран",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-be0c7dc8f771afc9"
+    ]
   },
   {
     "id": "ger-q-521f61dfa0cf",
     "name_en": "Rebellion's Beacon",
-    "name_ru": null,
+    "name_ru": "Маяк восставших",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-667f9b695ec74612"
+    ]
   },
   {
     "id": "ger-q-5254cffc1163",
     "name_en": "Lone Evil Eye",
-    "name_ru": null,
+    "name_ru": "Одинокий дурной глаз",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-59d9d4e5310de010"
+    ]
   },
   {
     "id": "ger-q-5497718ed2bd",
     "name_en": "Reminiscence",
-    "name_ru": null,
+    "name_ru": "Воспоминания",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-0f9cef5325f110cc"
+    ]
   },
   {
     "id": "ger-q-5717e51b5cc8",
     "name_en": "Sacred Rhythm",
-    "name_ru": null,
+    "name_ru": "Священный ритм",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-d4b60422f911b220"
+    ]
   },
   {
     "id": "ger-q-5818ea0150e7",
-    "name_en": "Devil's Festival",
-    "name_ru": null,
-    "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "name_en": "Devils' Festival",
+    "name_ru": "Дьявольский фестиваль",
+    "aliases": [
+      "Devil's Festival"
+    ],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-5b107f252f1d67d4"
+    ]
   },
   {
     "id": "ger-q-59511484a5fc",
-    "name_en": "Dance Macabre",
-    "name_ru": null,
-    "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "name_en": "Danse Macabre",
+    "name_ru": "Пляска смерти",
+    "aliases": [
+      "Dance Macabre"
+    ],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-aba7cceb51469742"
+    ]
   },
   {
     "id": "ger-q-5b123d7e331d",
     "name_en": "Enceladus Rapids",
-    "name_ru": null,
+    "name_ru": "Пороги Энкелада",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-e36de213b60e5335"
+    ]
   },
   {
     "id": "ger-q-5c238c37b018",
     "name_en": "Braggart's Heart",
-    "name_ru": null,
+    "name_ru": "Сердце хвастуна",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-a00a6deadce26c0f"
+    ]
   },
   {
     "id": "ger-q-5c729d7a1290",
     "name_en": "Disastrous Dance",
-    "name_ru": null,
+    "name_ru": "Разрушительный танец",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-fea7f687a5b44f41"
+    ]
   },
   {
     "id": "ger-q-5cbc751e9544",
     "name_en": "Storm Baptism",
-    "name_ru": null,
+    "name_ru": "Крещение штормом",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-f474e98fef4ebe4b"
+    ]
   },
   {
     "id": "ger-q-5f10fc089934",
     "name_en": "Coyote Warrior",
-    "name_ru": null,
+    "name_ru": "Койот-воин",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-81319ed385a71cfa"
+    ]
   },
   {
     "id": "ger-q-617890574854",
     "name_en": "Here, Here, Here",
-    "name_ru": null,
+    "name_ru": "Здесь, здесь, здесь",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-8172f62f0bf0350a"
+    ]
   },
   {
     "id": "ger-q-61c91bce6d9a",
@@ -38021,234 +38272,325 @@
   {
     "id": "ger-q-61d9d5c42a47",
     "name_en": "Ancient Battle Tank",
-    "name_ru": null,
+    "name_ru": "Древний боевой танк",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-f854eeb463af6c7d"
+    ]
   },
   {
     "id": "ger-q-63c5cb8d53f4",
     "name_en": "Wing Scales",
-    "name_ru": null,
+    "name_ru": "Чешуйчатые крылья",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-bf4c9898699d2672"
+    ]
   },
   {
     "id": "ger-q-64124d52c59a",
     "name_en": "Poison Needle Fence",
-    "name_ru": null,
+    "name_ru": "Фехтов. на отравл. иглах",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-ba14c145a4baad32"
+    ]
   },
   {
     "id": "ger-q-683a2700bd0e",
     "name_en": "Quick Draw 3",
-    "name_ru": null,
+    "name_ru": "Быстрый стрелок 3",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-e19d9f74c6f84765"
+    ]
   },
   {
     "id": "ger-q-68875f715ae6",
     "name_en": "Screw Driver",
-    "name_ru": null,
+    "name_ru": "Отвертка",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-82b9aeba644c121e"
+    ]
   },
   {
     "id": "ger-q-690e2b9b8574",
     "name_en": "God Eater",
-    "name_ru": null,
+    "name_ru": "Пожиратель богов",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-c0947df4f86bdd1f"
+    ]
   },
   {
     "id": "ger-q-699b2809971e",
     "name_en": "Blue Blade Dance",
-    "name_ru": null,
+    "name_ru": "Танец синих лезвий",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-f7b14a9c87a6f910"
+    ]
   },
   {
     "id": "ger-q-6abbe0596acf",
     "name_en": "Venus Trap",
-    "name_ru": null,
+    "name_ru": "Ловушка Венеры",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-e5fa65a74fe9a91e"
+    ]
   },
   {
     "id": "ger-q-6ba7e5a6aaee",
     "name_en": "Grouse of the Mist",
-    "name_ru": null,
+    "name_ru": "Куропатка в тумане",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-eaae90bb4f818175"
+    ]
   },
   {
     "id": "ger-q-6cefb7cae76e",
     "name_en": "Death Stalker",
-    "name_ru": null,
+    "name_ru": "Несущий смерть",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-820b4ea9ee5151bf"
+    ]
   },
   {
     "id": "ger-q-6d5775c03f66",
     "name_en": "Molten Iron",
-    "name_ru": null,
+    "name_ru": "Расплавленное железо",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-6fedeb4848754608"
+    ]
   },
   {
     "id": "ger-q-6f8323af5e22",
     "name_en": "Jungle Tiger",
-    "name_ru": null,
+    "name_ru": "Тигр в джунглях",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-03f62a2f9335f49b"
+    ]
   },
   {
     "id": "ger-q-708b977983cf",
     "name_en": "Cephalotus",
-    "name_ru": null,
+    "name_ru": "Цефалот",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-9d713f585ed8f27b"
+    ]
   },
   {
     "id": "ger-q-70b0a7eda4bf",
     "name_en": "Coven Tea Party",
-    "name_ru": null,
+    "name_ru": "Чаепитие на шабаше",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-0e2d1214a4bb14d1"
+    ]
   },
   {
     "id": "ger-q-71f1617a5a00",
     "name_en": "Sleet",
-    "name_ru": null,
+    "name_ru": "Мокрый снег",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-c85aa3e8bfdab140"
+    ]
   },
   {
     "id": "ger-q-72b66f770b42",
     "name_en": "Thermal Jacket",
-    "name_ru": null,
+    "name_ru": "Теплозащитная куртка",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-6e6c14b5e047fd0f"
+    ]
   },
   {
     "id": "ger-q-740078597122",
     "name_en": "Hope",
-    "name_ru": null,
+    "name_ru": "Надежда",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-1887b8d11df75216"
+    ]
   },
   {
     "id": "ger-q-761179694a69",
-    "name_en": "Soilder's Grave",
-    "name_ru": null,
-    "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "name_en": "Soldier's Grave",
+    "name_ru": "Могила солдата",
+    "aliases": [
+      "Soilder's Grave"
+    ],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-3702d8fc1e519571"
+    ]
   },
   {
     "id": "ger-q-76cf9534cd95",
     "name_en": "Bloody Rose",
-    "name_ru": null,
+    "name_ru": "Кровавая роза",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-57417c61ebcc6027"
+    ]
   },
   {
     "id": "ger-q-772b4f146f0f",
     "name_en": "Into Thin Air",
-    "name_ru": null,
+    "name_ru": "Исчезнувшие",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-2e135fab8cb91fb0"
+    ]
   },
   {
     "id": "ger-q-77496442181c",
-    "name_en": "Swawpside Heron",
-    "name_ru": null,
-    "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "name_en": "Swampside Heron",
+    "name_ru": "Болотная цапля",
+    "aliases": [
+      "Swawpside Heron"
+    ],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-a9465d84f2dfab5c"
+    ]
   },
   {
     "id": "ger-q-78841c082bb0",
     "name_en": "Rampage",
-    "name_ru": null,
+    "name_ru": "Буйство",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-c5aac9b20c1e158e"
+    ]
   },
   {
     "id": "ger-q-7a793d8dd3cf",
     "name_en": "Fake Sun",
-    "name_ru": null,
+    "name_ru": "Поддельное солнце",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-bc554c7e398f018e"
+    ]
   },
   {
     "id": "ger-q-7ad361c9d524",
     "name_en": "Marianne",
-    "name_ru": null,
+    "name_ru": "Марианна",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-07b831eff6153084"
+    ]
   },
   {
     "id": "ger-q-7b70fcbb25ec",
     "name_en": "Certainly Clear",
-    "name_ru": null,
+    "name_ru": "Определенно ясно",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-81bed9ed145a3684"
+    ]
   },
   {
     "id": "ger-q-7c52b7437158",
     "name_en": "Shopping Mall",
-    "name_ru": null,
+    "name_ru": "Торговый центр",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-70c35d56b88e446a"
+    ]
   },
   {
     "id": "ger-q-7dd98d1ebc9c",
     "name_en": "Dragon's Breath",
-    "name_ru": null,
+    "name_ru": "Дыхание дракона",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-da7619703b1dde8f"
+    ]
   },
   {
     "id": "ger-q-7e1b0f3e7460",
     "name_en": "Monkey Wrath",
-    "name_ru": null,
+    "name_ru": "Гнев обезьяны",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-f34673668dbd8a80"
+    ]
   },
   {
     "id": "ger-q-7e47e4d2bf00",
     "name_en": "Cracked Sanidine",
-    "name_ru": null,
+    "name_ru": "Потрескавшийся санидин",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-9760769ca296c131"
+    ]
   },
   {
     "id": "ger-q-7f5d880315d7",
@@ -38261,26 +38603,35 @@
   {
     "id": "ger-q-80111109bb08",
     "name_en": "Ink Clouds",
-    "name_ru": null,
+    "name_ru": "Чернильные облака",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-5d54a884ee4f3361"
+    ]
   },
   {
     "id": "ger-q-8052c5123725",
     "name_en": "Flash of Light",
-    "name_ru": null,
+    "name_ru": "Вспышка света",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-834ba3dd636c1a0b"
+    ]
   },
   {
     "id": "ger-q-839c4acde402",
     "name_en": "Test Tube",
-    "name_ru": null,
+    "name_ru": "Пробирка",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-25f852ce0c0905e4"
+    ]
   },
   {
     "id": "ger-q-844d7746cfd4",
@@ -38293,10 +38644,13 @@
   {
     "id": "ger-q-8512078cd4d6",
     "name_en": "Steady Flare",
-    "name_ru": null,
+    "name_ru": "Устойчивый блеск",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-36ae6cf1ff9d7d3f"
+    ]
   },
   {
     "id": "ger-q-85898e5ed57f",
@@ -38309,66 +38663,90 @@
   {
     "id": "ger-q-85acca3b0a18",
     "name_en": "Submarine",
-    "name_ru": null,
+    "name_ru": "Подводная лодка",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-cd44d09864bcab84"
+    ]
   },
   {
     "id": "ger-q-86008844da92",
     "name_en": "Phoenix Nest",
-    "name_ru": null,
+    "name_ru": "Гнездо феникса",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-a3e0dc3b937e778d"
+    ]
   },
   {
     "id": "ger-q-873e90d8a4dc",
     "name_en": "Dragon God",
-    "name_ru": null,
+    "name_ru": "Драконий бог",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-c97ce4e7e7f406be"
+    ]
   },
   {
     "id": "ger-q-876331c2458c",
     "name_en": "Martial Drill",
-    "name_ru": null,
+    "name_ru": "Военная муштра",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-dfb35cfba4a0640b"
+    ]
   },
   {
     "id": "ger-q-877b34c359ef",
     "name_en": "Big Family",
-    "name_ru": null,
+    "name_ru": "Большая семья",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-12d8b4e96eb631f5"
+    ]
   },
   {
     "id": "ger-q-87b2bd3852ec",
     "name_en": "Archvillain",
-    "name_ru": null,
+    "name_ru": "Злодей",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-2d4edde29cecf176"
+    ]
   },
   {
     "id": "ger-q-8854819d90f6",
     "name_en": "Supply Retrieval",
-    "name_ru": null,
+    "name_ru": "Поиски припасов",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-98810d02291561ad"
+    ]
   },
   {
     "id": "ger-q-8919c957b829",
     "name_en": "Pilgrim",
-    "name_ru": null,
+    "name_ru": "Пилигрим",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-1e92e0f45d3be45f"
+    ]
   },
   {
     "id": "ger-q-89312bc5ad53",
@@ -38381,74 +38759,101 @@
   {
     "id": "ger-q-89380fd77e89",
     "name_en": "Fires of Caldera",
-    "name_ru": null,
+    "name_ru": "Огни кратера",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-b205aa90d3c1b510"
+    ]
   },
   {
     "id": "ger-q-89f985aa04ab",
     "name_en": "A Pair of Predators",
-    "name_ru": null,
+    "name_ru": "Пара хищников",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-347a524f161ac630"
+    ]
   },
   {
     "id": "ger-q-8f08ab5ab026",
     "name_en": "Quick Draw",
-    "name_ru": null,
+    "name_ru": "Быстрый стрелок",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-02f43b5eb260454e"
+    ]
   },
   {
     "id": "ger-q-91ae20c63f76",
     "name_en": "Wildfire",
-    "name_ru": null,
+    "name_ru": "Пожар",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-f5abf451996d011f"
+    ]
   },
   {
     "id": "ger-q-937259789d66",
     "name_en": "Bog Offering",
-    "name_ru": null,
+    "name_ru": "Жертвоприношение",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-96fb409971b2e1e3"
+    ]
   },
   {
     "id": "ger-q-94e2ad1645fc",
     "name_en": "Dead Charger",
-    "name_ru": null,
+    "name_ru": "Мертвый заряд",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-ba15866660b81ddf"
+    ]
   },
   {
     "id": "ger-q-952b9acfefa0",
     "name_en": "Speculum Dianae",
-    "name_ru": null,
+    "name_ru": "Зеркало Дианы",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-484d6e290cf9b27e"
+    ]
   },
   {
     "id": "ger-q-9682f135e49b",
     "name_en": "Angel's Ladder",
-    "name_ru": null,
+    "name_ru": "Лестница ангелов",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-4a5569e8965097d4"
+    ]
   },
   {
     "id": "ger-q-96c05f7e7660",
     "name_en": "Dark Shimmer",
-    "name_ru": null,
+    "name_ru": "Темное мерцание",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-ad6053fe943b4bcd"
+    ]
   },
   {
     "id": "ger-q-976b1d84f062",
@@ -38461,10 +38866,13 @@
   {
     "id": "ger-q-97edc0d2bdb6",
     "name_en": "Assortment",
-    "name_ru": null,
+    "name_ru": "Подборка",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-1841bc56805837bb"
+    ]
   },
   {
     "id": "ger-q-990a842022ae",
@@ -38477,274 +38885,380 @@
   {
     "id": "ger-q-992b99268f73",
     "name_en": "Twilight Monkey",
-    "name_ru": null,
+    "name_ru": "Сумеречная обезьяна",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-9e2a4232654a0ee1"
+    ]
   },
   {
     "id": "ger-q-9ab1bbf7ce36",
     "name_en": "Garimpeiro",
-    "name_ru": null,
+    "name_ru": "Старатель",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-35874c3deffaa135"
+    ]
   },
   {
     "id": "ger-q-9c95426eca42",
     "name_en": "Nut Cracker",
-    "name_ru": null,
+    "name_ru": "Щелкунчик",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-d6c1da684cf7b927"
+    ]
   },
   {
     "id": "ger-q-9cb226c55072",
     "name_en": "Oskopnir",
-    "name_ru": null,
+    "name_ru": "Оскопнир",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-d9635ae40de3ccbc"
+    ]
   },
   {
     "id": "ger-q-9f11f1734716",
     "name_en": "Knight and Rust",
-    "name_ru": null,
+    "name_ru": "Рыцарь и ржавчина",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-b8f5c288f9ba3416"
+    ]
   },
   {
     "id": "ger-q-a4343ea146ca",
     "name_en": "Moon in the Welkin",
-    "name_ru": null,
+    "name_ru": "Луна в небесах",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-c7235c70ad9d9cd9"
+    ]
   },
   {
     "id": "ger-q-a52a881bf02c",
     "name_en": "Dead Proof",
-    "name_ru": null,
+    "name_ru": "Железные доказательства",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-66a58cb09b92b146"
+    ]
   },
   {
     "id": "ger-q-a5ee51ad0b79",
     "name_en": "A Devil's Heart",
-    "name_ru": null,
+    "name_ru": "Сердце дьявола",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-d9e2c198c3fb55b2"
+    ]
   },
   {
     "id": "ger-q-a7b3a8addc4b",
     "name_en": "Big Over Small",
-    "name_ru": null,
+    "name_ru": "От мала до велика",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-a84ce3ac581d6908"
+    ]
   },
   {
     "id": "ger-q-a8c2fb63426a",
     "name_en": "Giant Spin",
-    "name_ru": null,
+    "name_ru": "Гигантский волчок",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-541e08e691b8b18a"
+    ]
   },
   {
     "id": "ger-q-aa3d484b99da",
     "name_en": "Snow Firefly",
-    "name_ru": null,
+    "name_ru": "Снежный светлячок",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-37eaa591e0cdf483"
+    ]
   },
   {
     "id": "ger-q-ab2e15aef13d",
     "name_en": "Ice-Cold Glare",
-    "name_ru": null,
+    "name_ru": "Ледяное свечение",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-1072d13ae374cc01"
+    ]
   },
   {
     "id": "ger-q-ab4ff20b1a1e",
     "name_en": "Storm Queen",
-    "name_ru": null,
+    "name_ru": "Королева бури",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-68577d053bb149a1"
+    ]
   },
   {
     "id": "ger-q-ac3ee01d1eb0",
     "name_en": "Fire Prevention",
-    "name_ru": null,
+    "name_ru": "Предотвращение пожара",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-074269f4811f5661"
+    ]
   },
   {
     "id": "ger-q-ae9391e1fd5d",
     "name_en": "Icebreaker Scouts",
-    "name_ru": null,
+    "name_ru": "Разведчики-ледорезы",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-a90f9556db156d08"
+    ]
   },
   {
     "id": "ger-q-aedcc11b3c02",
     "name_en": "Supernova",
-    "name_ru": null,
+    "name_ru": "Сверхновая",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-ce6f3805501b2fb2"
+    ]
   },
   {
     "id": "ger-q-af13bb321c3f",
     "name_en": "Humpty Dumpty",
-    "name_ru": null,
+    "name_ru": "Шалтай-Болтай",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-de55311af85be1b4"
+    ]
   },
   {
     "id": "ger-q-b05f69a5b9a9",
     "name_en": "Hailstorm",
-    "name_ru": null,
+    "name_ru": "Град",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-233d031ba0f15f1b"
+    ]
   },
   {
     "id": "ger-q-b0839e472ec6",
     "name_en": "Demon Slaying",
-    "name_ru": null,
+    "name_ru": "Уничтожение демонов",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-541820a4784abfd9"
+    ]
   },
   {
     "id": "ger-q-b32d3934cdd1",
     "name_en": "Radiant Halo",
-    "name_ru": null,
+    "name_ru": "Сияющий нимб",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-7d24cbaef6101bb7"
+    ]
   },
   {
     "id": "ger-q-b352242242e8",
     "name_en": "Obsidian Heart",
-    "name_ru": null,
+    "name_ru": "Обсидиановое сердце",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-ceea5e6d4380d4b6"
+    ]
   },
   {
     "id": "ger-q-b58b25406da3",
     "name_en": "Poison Butterfly",
-    "name_ru": null,
+    "name_ru": "Ядовитая бабочка",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-d1388520ec3e633b"
+    ]
   },
   {
     "id": "ger-q-b77f8b3a51dc",
     "name_en": "Mars Sublime",
-    "name_ru": null,
+    "name_ru": "Величественный Марс",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-797db61a4c003ea8"
+    ]
   },
   {
     "id": "ger-q-b7af492698ed",
     "name_en": "Kanon's Secret Training",
-    "name_ru": null,
+    "name_ru": "Тайные тренировки Канон",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-1e6e245e3de85220"
+    ]
   },
   {
     "id": "ger-q-bb25f97d59c4",
-    "name_en": "Devourer of the World",
-    "name_ru": null,
-    "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "name_en": "Devourer of World",
+    "name_ru": "Пожиратель Мира",
+    "aliases": [
+      "Devourer of the World"
+    ],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-6a1dda94e2607e73"
+    ]
   },
   {
     "id": "ger-q-bbbc018f91eb",
     "name_en": "Return",
-    "name_ru": null,
+    "name_ru": "Возвращение",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-f54d5af034d540f9"
+    ]
   },
   {
     "id": "ger-q-bd44b0011827",
     "name_en": "Demonic Parade",
-    "name_ru": null,
+    "name_ru": "Парад демонов",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-c9d6ec2305544421"
+    ]
   },
   {
     "id": "ger-q-bd76d4c066fa",
     "name_en": "One Breath",
-    "name_ru": null,
+    "name_ru": "Один вздох",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-a1ab961a9e524991"
+    ]
   },
   {
     "id": "ger-q-bf665aad920c",
-    "name_en": "Looter's Night",
-    "name_ru": null,
-    "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "name_en": "Looters' Night",
+    "name_ru": "Ночь грабителей",
+    "aliases": [
+      "Looter's Night"
+    ],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-1449f49c422f0450"
+    ]
   },
   {
     "id": "ger-q-c0b304ee85dc",
     "name_en": "Thunderstorm",
-    "name_ru": null,
+    "name_ru": "Гроза",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-b91a3f788ca592af"
+    ]
   },
   {
     "id": "ger-q-c1adc68170e2",
     "name_en": "Rice Chase",
-    "name_ru": null,
+    "name_ru": "Рисовая погоня",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-2a91dfb7e9e1748b"
+    ]
   },
   {
     "id": "ger-q-c3d3d77c8e69",
     "name_en": "Harvest Festival",
-    "name_ru": null,
+    "name_ru": "Праздник урожая",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-e1a4fd4a703ef5b0"
+    ]
   },
   {
     "id": "ger-q-c3e02ac07d61",
     "name_en": "Snow Dragon's Garden",
-    "name_ru": null,
+    "name_ru": "Сад снежного дракона",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-d4763f36c4e18fc8"
+    ]
   },
   {
     "id": "ger-q-c3fb4d14efb1",
     "name_en": "Fool's Gold",
-    "name_ru": null,
+    "name_ru": "Золото дураков",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-ab36b347cdcc5d2c"
+    ]
   },
   {
     "id": "ger-q-c464b6ddfdee",
@@ -38757,42 +39271,59 @@
   {
     "id": "ger-q-c5f5130a6555",
     "name_en": "Sweet Home",
-    "name_ru": null,
+    "name_ru": "Милый дом",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-667939882915bec9"
+    ]
   },
   {
     "id": "ger-q-c86888f928fc",
     "name_en": "Nocturnal Axe",
-    "name_ru": null,
+    "name_ru": "Ночной топор",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-e278ce705bbf5695"
+    ]
   },
   {
     "id": "ger-q-c8a8cb4b6df2",
     "name_en": "Jewel Hoard",
-    "name_ru": null,
+    "name_ru": "Гора самоцветов",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-ba9cf5998a92cd28"
+    ]
   },
   {
     "id": "ger-q-ca80a1036a4e",
     "name_en": "Tequila Sunrise",
-    "name_ru": null,
+    "name_ru": "Текила Санрайз",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-7dcdd9490f811352"
+    ]
   },
   {
     "id": "ger-q-cd0208e5beb9",
-    "name_en": "Sunlight On Snow",
-    "name_ru": null,
-    "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "name_en": "Sunlight on Snow",
+    "name_ru": "Солнечный свет на снегу",
+    "aliases": [
+      "Sunlight On Snow"
+    ],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-a19598f25bc3ce3d"
+    ]
   },
   {
     "id": "ger-q-cdea48da865f",
@@ -38805,50 +39336,68 @@
   {
     "id": "ger-q-ce98589a352d",
     "name_en": "Great Black",
-    "name_ru": null,
+    "name_ru": "Великая тьма",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-48319809157331cc"
+    ]
   },
   {
     "id": "ger-q-cebf63603ee1",
     "name_en": "Slingshot",
-    "name_ru": null,
+    "name_ru": "Рогатка",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-2330779e2b56d387"
+    ]
   },
   {
     "id": "ger-q-ced1b11d5cc5",
     "name_en": "Sidecar",
-    "name_ru": null,
+    "name_ru": "Коляска",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-f9c2e40684157b95"
+    ]
   },
   {
     "id": "ger-q-cf9313a4e56a",
     "name_en": "Dionaea",
-    "name_ru": null,
+    "name_ru": "Венерина мухоловка",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-8639545545c4c899"
+    ]
   },
   {
     "id": "ger-q-d28ef7d18cfd",
     "name_en": "Grimsvotn",
-    "name_ru": null,
+    "name_ru": "Гримсвотн",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-4ffdd8501d0d56e6"
+    ]
   },
   {
     "id": "ger-q-d3be8bb08b91",
     "name_en": "Sunken Arrow",
-    "name_ru": null,
+    "name_ru": "Затонувшая стрела",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-d2f6487963172b67"
+    ]
   },
   {
     "id": "ger-q-d41e0d231601",
@@ -38861,74 +39410,103 @@
   {
     "id": "ger-q-d4aab02d2c69",
     "name_en": "Dirty Bomb",
-    "name_ru": null,
+    "name_ru": "Грязная бомба",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-a9c5f2744b0be886"
+    ]
   },
   {
     "id": "ger-q-d5a6b779be6a",
     "name_en": "Rumbling Treads",
-    "name_ru": null,
+    "name_ru": "Шум гусениц",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-37b09c1d1079a1e7"
+    ]
   },
   {
     "id": "ger-q-d5a6ef666cad",
     "name_en": "Break Shot",
-    "name_ru": null,
+    "name_ru": "Перехват инициативы",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-31a1752f322d425c"
+    ]
   },
   {
     "id": "ger-q-d6c3055eaf5e",
-    "name_en": "Budda Smile",
-    "name_ru": null,
-    "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "name_en": "Buddha Smile",
+    "name_ru": "Улыбка Будды",
+    "aliases": [
+      "Budda Smile"
+    ],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-65e7c73f33e196a9"
+    ]
   },
   {
     "id": "ger-q-d7a2523b0e3b",
     "name_en": "Basement Fire-Croc",
-    "name_ru": null,
+    "name_ru": "Огненный монстр в метро",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-e284e1efd7260ba0"
+    ]
   },
   {
     "id": "ger-q-d846b2c78074",
     "name_en": "City Riot",
-    "name_ru": null,
+    "name_ru": "Городской бунт",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-0fbf96b5b004fa8e"
+    ]
   },
   {
     "id": "ger-q-d90999356ad5",
     "name_en": "Grand Prize",
-    "name_ru": null,
+    "name_ru": "Главный приз",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-d15eb5db63dbb240"
+    ]
   },
   {
     "id": "ger-q-d93329b63e14",
     "name_en": "Double Date",
-    "name_ru": null,
+    "name_ru": "Двойное свидание",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-551211d4cfb7b2fa"
+    ]
   },
   {
     "id": "ger-q-da5cbc76261f",
     "name_en": "Primordial Spiral",
-    "name_ru": null,
+    "name_ru": "Первичная спираль",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-f5d722e8d02ae2f2"
+    ]
   },
   {
     "id": "ger-q-dc38f0d48678",
@@ -38941,42 +39519,57 @@
   {
     "id": "ger-q-dd1e64008cae",
     "name_en": "Hell's Kitchen",
-    "name_ru": null,
+    "name_ru": "Адская Кухня",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-19b3da16bd860a33"
+    ]
   },
   {
     "id": "ger-q-df16a6a1df75",
     "name_en": "Invasive Swarm",
-    "name_ru": null,
+    "name_ru": "Рой захватчиков",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-3d964139b00e938a"
+    ]
   },
   {
     "id": "ger-q-dfa283282f8a",
     "name_en": "Purple Spark",
-    "name_ru": null,
+    "name_ru": "Пурпурная искра",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-2fb03d54eb2db412"
+    ]
   },
   {
     "id": "ger-q-e0ad76e5bd78",
     "name_en": "Storm and Stress",
-    "name_ru": null,
+    "name_ru": "Буря и натиск",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-15a4180bc81281aa"
+    ]
   },
   {
     "id": "ger-q-e12d581076ea",
     "name_en": "Collector",
-    "name_ru": null,
+    "name_ru": "Коллекционер",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-a99af1fa08dd59e8"
+    ]
   },
   {
     "id": "ger-q-e47f4d8c1ccd",
@@ -38989,82 +39582,112 @@
   {
     "id": "ger-q-e56835681a84",
     "name_en": "New Moon in the Welkin",
-    "name_ru": null,
+    "name_ru": "Новолуние в небесах",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-e1f322dfeab5c19e"
+    ]
   },
   {
     "id": "ger-q-e72b4b1850ed",
     "name_en": "Tsunami",
-    "name_ru": null,
+    "name_ru": "Цунами",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-7e00511a850153c5"
+    ]
   },
   {
     "id": "ger-q-e75d45207385",
     "name_en": "Fire Engine",
-    "name_ru": null,
+    "name_ru": "Пожарная машина",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-e090c0b85436b526"
+    ]
   },
   {
     "id": "ger-q-e97d0973fa8f",
     "name_en": "Obsidian Sacrifice",
-    "name_ru": null,
+    "name_ru": "Обсидиановый ритуал",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-64d56878eab12359"
+    ]
   },
   {
     "id": "ger-q-e9eaa91da7ea",
     "name_en": "Hunting Cloak",
-    "name_ru": null,
+    "name_ru": "Охотничий плащ",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-2e2e5432fba324f8"
+    ]
   },
   {
     "id": "ger-q-eb537d671f45",
     "name_en": "Molecular Eyes",
-    "name_ru": null,
+    "name_ru": "Молекулярные глаза",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-f729c65ca990b459"
+    ]
   },
   {
     "id": "ger-q-ecfef29e50ee",
     "name_en": "Treacherous Temple",
-    "name_ru": null,
+    "name_ru": "Опасный храм",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-aad589646056b536"
+    ]
   },
   {
     "id": "ger-q-ed6ae366d0b2",
     "name_en": "Quick Draw 2",
-    "name_ru": null,
+    "name_ru": "Быстрый стрелок 2",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-77f0309b5b1ed398"
+    ]
   },
   {
     "id": "ger-q-ee0dd08ee682",
     "name_en": "Spring Thunder",
-    "name_ru": null,
+    "name_ru": "Весенний гром",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-e39a59f0511424e3"
+    ]
   },
   {
     "id": "ger-q-ee5605e08604",
     "name_en": "Black Alligator",
-    "name_ru": null,
+    "name_ru": "Черный аллигатор",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-5e4072b689c19150"
+    ]
   },
   {
     "id": "ger-q-ee74f7e82d71",
@@ -39077,26 +39700,35 @@
   {
     "id": "ger-q-f0bcc01970da",
     "name_en": "The End to Vice",
-    "name_ru": null,
+    "name_ru": "Конец порока",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-402d3977aae90b12"
+    ]
   },
   {
     "id": "ger-q-f253691d583c",
     "name_en": "Guardians",
-    "name_ru": null,
+    "name_ru": "Опекуны",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-018c6837a2a3845d"
+    ]
   },
   {
     "id": "ger-q-f329c82938b9",
     "name_en": "Beauty's End",
-    "name_ru": null,
+    "name_ru": "Конец красоты",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-af8b8c04dbbd4336"
+    ]
   },
   {
     "id": "ger-q-f33a97bef54a",
@@ -39109,26 +39741,35 @@
   {
     "id": "ger-q-f3cca8f536a6",
     "name_en": "Divine Shadows",
-    "name_ru": null,
+    "name_ru": "Божественные тени",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-d29943447b744b45"
+    ]
   },
   {
     "id": "ger-q-f4b6550f7f47",
     "name_en": "Sewer Crocodile",
-    "name_ru": null,
+    "name_ru": "Крокодил в канализации",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-65fdd3fcaf69e807"
+    ]
   },
   {
     "id": "ger-q-f5d8053f6183",
     "name_en": "Proud Bird",
-    "name_ru": null,
+    "name_ru": "Гордая птица",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-05ffb2155c802d9d"
+    ]
   },
   {
     "id": "ger-q-f6719d678e37",
@@ -39141,18 +39782,24 @@
   {
     "id": "ger-q-f6a2c1f5145c",
     "name_en": "Scaly Thrush",
-    "name_ru": null,
+    "name_ru": "Пестрый дрозд",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-05ac76307d94ff55"
+    ]
   },
   {
     "id": "ger-q-f74d9c049261",
     "name_en": "Chimera",
-    "name_ru": null,
+    "name_ru": "Химера",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-02fee23e45092fad"
+    ]
   },
   {
     "id": "ger-q-f7b7c57c325f",
@@ -39165,81 +39812,111 @@
   {
     "id": "ger-q-f7ff7bcb4fb1",
     "name_en": "Devourer of Future",
-    "name_ru": null,
+    "name_ru": "Тот, кто пожирает будущее",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-59e6a8a5df347850"
+    ]
   },
   {
     "id": "ger-q-f831322485ff",
     "name_en": "Hellfire Shield",
-    "name_ru": null,
+    "name_ru": "Щит из адского пламени",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-a33f01bd42bd4565"
+    ]
   },
   {
     "id": "ger-q-f90bb9509999",
     "name_en": "Sarracenia",
-    "name_ru": null,
+    "name_ru": "Саррацения",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-b3915cd77dafa392"
+    ]
   },
   {
     "id": "ger-q-f9bdcbbf18b7",
     "name_en": "Tropical Fish",
-    "name_ru": null,
+    "name_ru": "Тропические рыбы",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-d626cd5d5eec662f"
+    ]
   },
   {
     "id": "ger-q-fb10a829c490",
     "name_en": "Hematite Rose",
-    "name_ru": null,
+    "name_ru": "Красный железняк",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-2eb2f693638a1ebd"
+    ]
   },
   {
     "id": "ger-q-fb6261171fb7",
     "name_en": "Deadly Sisters' Dance",
-    "name_ru": null,
+    "name_ru": "Танец смертоносных сестер",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-7574289ebf977af3"
+    ]
   },
   {
     "id": "ger-q-fcca627e545a",
     "name_en": "Big Smile",
-    "name_ru": null,
+    "name_ru": "Большая улыбка",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-2c467631c3d276f8"
+    ]
   },
   {
     "id": "ger-q-fdb076824876",
     "name_en": "Onyx Smoke",
-    "name_ru": null,
+    "name_ru": "Ониксовый дым",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-b30d71cb01e425a4"
+    ]
   },
   {
     "id": "ger-q-fe28ac4ca2ff",
     "name_en": "Ruler's City",
-    "name_ru": null,
+    "name_ru": "Город правителя",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-4995c201c0589df3"
+    ]
   },
   {
     "id": "ger-q-ffa2d39213dd",
     "name_en": "Bison Grass Vodka",
-    "name_ru": null,
+    "name_ru": "Водка из бизоновой травы",
     "aliases": [],
-    "source": "pending: требуется сопоставление с русской Wiki или локализацией",
-    "status": "unverified"
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-1f274a4d75eedd41"
+    ]
   }
 ]

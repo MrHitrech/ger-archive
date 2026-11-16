@@ -114,16 +114,19 @@
   {
     "id": "ger-q-02db51b696d8",
     "game": "ger",
-    "name_en": "Tandall",
+    "name_en": "Tandoor",
     "verification_status": "partial",
-    "checked_at": "2026-11-14",
+    "checked_at": "2026-11-16",
     "references": [
       "ev-5c4655d5236d4f1e",
-      "ev-85e7bfa41f2b0b79"
+      "ev-85e7bfa41f2b0b79",
+      "ev-f4407775438eb418"
     ],
     "missing_fields": [
-      "rewards",
-      "original_page_review"
+      "original_page_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
     ],
     "rank": 8,
     "type": "standard",
@@ -136,8 +139,15 @@
     ],
     "objectives_en": "Hannibal, Ogretail, Vajratail (Blaze)",
     "story": true,
-    "reward_table_status": "missing",
-    "time_limit_seconds": null
+    "reward_table_status": "partial",
+    "time_limit_seconds": null,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20241,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 108056
+    }
   },
   {
     "id": "ger-q-05c18c83cedc",
@@ -252,16 +262,19 @@
   {
     "id": "ger-q-085dcdd4e0ae",
     "game": "ger",
-    "name_en": "Runway Tank",
+    "name_en": "Runaway Tank",
     "verification_status": "partial",
-    "checked_at": "2026-11-14",
+    "checked_at": "2026-11-16",
     "references": [
       "ev-8add71e55a0279ef",
-      "ev-aa7823e768a1198d"
+      "ev-aa7823e768a1198d",
+      "ev-048a331da6e7d01c"
     ],
     "missing_fields": [
-      "rewards",
-      "original_page_review"
+      "original_page_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
     ],
     "rank": 9,
     "type": "standard",
@@ -272,8 +285,15 @@
     ],
     "objectives_en": "Quadriga",
     "story": false,
-    "reward_table_status": "missing",
-    "time_limit_seconds": null
+    "reward_table_status": "partial",
+    "time_limit_seconds": null,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20214,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 99944
+    }
   },
   {
     "id": "ger-q-094291c07077",
@@ -3033,15 +3053,18 @@
   {
     "id": "ger-q-5818ea0150e7",
     "game": "ger",
-    "name_en": "Devil's Festival",
+    "name_en": "Devils' Festival",
     "verification_status": "partial",
-    "checked_at": "2026-11-14",
+    "checked_at": "2026-11-16",
     "references": [
-      "ev-45bdfc70f3e8c1ed"
+      "ev-45bdfc70f3e8c1ed",
+      "ev-0c7f7935d578fb35"
     ],
     "missing_fields": [
-      "rewards",
-      "original_page_review"
+      "original_page_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
     ],
     "rank": "challenge",
     "type": "challenge",
@@ -3053,23 +3076,33 @@
     ],
     "objectives_en": "Hannibal, Ogretails",
     "story": false,
-    "reward_table_status": "missing",
-    "time_limit_seconds": null
+    "reward_table_status": "partial",
+    "time_limit_seconds": null,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20315,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 129584
+    }
   },
   {
     "id": "ger-q-59511484a5fc",
     "game": "ger",
-    "name_en": "Dance Macabre",
+    "name_en": "Danse Macabre",
     "verification_status": "partial",
-    "checked_at": "2026-11-14",
+    "checked_at": "2026-11-16",
     "references": [
       "ev-ebd9429643d79306",
       "ev-70cc266c0723924c",
-      "ev-f734af1d69d00e49"
+      "ev-f734af1d69d00e49",
+      "ev-f6b222a937ff8ac1"
     ],
     "missing_fields": [
-      "rewards",
-      "original_page_review"
+      "original_page_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
     ],
     "rank": "challenge",
     "type": "challenge",
@@ -3081,8 +3114,15 @@
     ],
     "objectives_en": "Caligula, 2 Fallen Chi-You (Spark)",
     "story": false,
-    "reward_table_status": "missing",
-    "time_limit_seconds": null
+    "reward_table_status": "partial",
+    "time_limit_seconds": null,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20290,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 121784
+    }
   },
   {
     "id": "ger-q-5b123d7e331d",
@@ -3968,16 +4008,19 @@
   {
     "id": "ger-q-761179694a69",
     "game": "ger",
-    "name_en": "Soilder's Grave",
+    "name_en": "Soldier's Grave",
     "verification_status": "partial",
-    "checked_at": "2026-11-14",
+    "checked_at": "2026-11-16",
     "references": [
       "ev-0c8e6c2fbf920d5f",
-      "ev-5ecf5e48b1a5b5fe"
+      "ev-5ecf5e48b1a5b5fe",
+      "ev-978803da8f9d140f"
     ],
     "missing_fields": [
-      "rewards",
-      "original_page_review"
+      "original_page_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
     ],
     "rank": "challenge",
     "type": "challenge",
@@ -3988,8 +4031,15 @@
     ],
     "objectives_en": "2 Dyaus Pita",
     "story": false,
-    "reward_table_status": "missing",
-    "time_limit_seconds": null
+    "reward_table_status": "partial",
+    "time_limit_seconds": null,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20294,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 123032
+    }
   },
   {
     "id": "ger-q-76cf9534cd95",
@@ -4067,16 +4117,19 @@
   {
     "id": "ger-q-77496442181c",
     "game": "ger",
-    "name_en": "Swawpside Heron",
+    "name_en": "Swampside Heron",
     "verification_status": "partial",
-    "checked_at": "2026-11-14",
+    "checked_at": "2026-11-16",
     "references": [
       "ev-ba35f9d5bf7a50f7",
-      "ev-a7fbb3b0c650dccf"
+      "ev-a7fbb3b0c650dccf",
+      "ev-59700dc9ea6b1a92"
     ],
     "missing_fields": [
-      "rewards",
-      "original_page_review"
+      "original_page_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
     ],
     "rank": 5,
     "type": "standard",
@@ -4088,8 +4141,15 @@
     ],
     "objectives_en": "Borg Camlann, 2 Gboro-Gboro",
     "story": false,
-    "reward_table_status": "missing",
-    "time_limit_seconds": null
+    "reward_table_status": "partial",
+    "time_limit_seconds": null,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20080,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 62192
+    }
   },
   {
     "id": "ger-q-78841c082bb0",
@@ -5234,27 +5294,37 @@
     "game": "ger",
     "name_en": "Angel's Ladder",
     "verification_status": "partial",
-    "checked_at": "2026-11-14",
+    "checked_at": "2026-11-16",
     "references": [
       "ev-7c5a30761b99fd1a",
-      "ev-9c20f3cedb45b16d"
+      "ev-9c20f3cedb45b16d",
+      "ev-9f370cee5b1d393c"
     ],
     "missing_fields": [
-      "rewards",
-      "original_page_review"
+      "original_page_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
     ],
     "rank": 11,
     "type": "standard",
     "variant": "standard",
-    "location_id": "ger-l-021a8a807e24",
+    "location_id": "ger-l-0c0813c0117b",
     "aragami_ids": [
       "ger-a-70acb4113eb5",
       "ger-a-5bb7dc995996"
     ],
     "objectives_en": "Aether, Fallen Cocoon Maiden (Freeze)",
     "story": false,
-    "reward_table_status": "missing",
-    "time_limit_seconds": null
+    "reward_table_status": "partial",
+    "time_limit_seconds": null,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20334,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 133640
+    }
   },
   {
     "id": "ger-q-96c05f7e7660",
@@ -6285,16 +6355,19 @@
   {
     "id": "ger-q-bb25f97d59c4",
     "game": "ger",
-    "name_en": "Devourer of the World",
+    "name_en": "Devourer of World",
     "verification_status": "partial",
-    "checked_at": "2026-11-14",
+    "checked_at": "2026-11-16",
     "references": [
       "ev-a004cb6ae532829a",
-      "ev-cbd88f5d9999ccbe"
+      "ev-cbd88f5d9999ccbe",
+      "ev-6d6d65204a7c09bb"
     ],
     "missing_fields": [
-      "rewards",
-      "original_page_review"
+      "original_page_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
     ],
     "rank": 8,
     "type": "standard",
@@ -6305,8 +6378,15 @@
     ],
     "objectives_en": "Amaterasu",
     "story": true,
-    "reward_table_status": "missing",
-    "time_limit_seconds": null
+    "reward_table_status": "partial",
+    "time_limit_seconds": null,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20205,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 97136
+    }
   },
   {
     "id": "ger-q-bbbc018f91eb",
@@ -6421,16 +6501,19 @@
   {
     "id": "ger-q-bf665aad920c",
     "game": "ger",
-    "name_en": "Looter's Night",
+    "name_en": "Looters' Night",
     "verification_status": "partial",
-    "checked_at": "2026-11-14",
+    "checked_at": "2026-11-16",
     "references": [
       "ev-ef8fc4f772ef0235",
-      "ev-0f0500584ebc2fc0"
+      "ev-0f0500584ebc2fc0",
+      "ev-8954047300a60579"
     ],
     "missing_fields": [
-      "rewards",
-      "original_page_review"
+      "original_page_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
     ],
     "rank": 9,
     "type": "standard",
@@ -6442,8 +6525,15 @@
     ],
     "objectives_en": "Quadriga, Fallen Quadriga (Freeze)",
     "story": false,
-    "reward_table_status": "missing",
-    "time_limit_seconds": null
+    "reward_table_status": "partial",
+    "time_limit_seconds": null,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20131,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 77792
+    }
   },
   {
     "id": "ger-q-c0b304ee85dc",
@@ -6817,15 +6907,18 @@
   {
     "id": "ger-q-cd0208e5beb9",
     "game": "ger",
-    "name_en": "Sunlight On Snow",
+    "name_en": "Sunlight on Snow",
     "verification_status": "partial",
-    "checked_at": "2026-11-14",
+    "checked_at": "2026-11-16",
     "references": [
-      "ev-ae311c7e97cab57f"
+      "ev-ae311c7e97cab57f",
+      "ev-683b61e86d85bb3a"
     ],
     "missing_fields": [
-      "rewards",
-      "original_page_review"
+      "original_page_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
     ],
     "rank": 4,
     "type": "standard",
@@ -6839,8 +6932,15 @@
     ],
     "objectives_en": "Gboro-Gboro, Chi-You, Ogretail, Fallen Ogretail",
     "story": true,
-    "reward_table_status": "missing",
-    "time_limit_seconds": null
+    "reward_table_status": "partial",
+    "time_limit_seconds": null,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20064,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 57200
+    }
   },
   {
     "id": "ger-q-cdea48da865f",
@@ -7250,16 +7350,19 @@
   {
     "id": "ger-q-d6c3055eaf5e",
     "game": "ger",
-    "name_en": "Budda Smile",
+    "name_en": "Buddha Smile",
     "verification_status": "partial",
-    "checked_at": "2026-11-14",
+    "checked_at": "2026-11-16",
     "references": [
       "ev-62bc9acd6ae6b346",
-      "ev-d9337ac684b64bab"
+      "ev-d9337ac684b64bab",
+      "ev-68b7ade1c87db437"
     ],
     "missing_fields": [
-      "rewards",
-      "original_page_review"
+      "original_page_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
     ],
     "rank": 9,
     "type": "standard",
@@ -7270,8 +7373,15 @@
     ],
     "objectives_en": "Fallen Kongou (Freeze)",
     "story": false,
-    "reward_table_status": "missing",
-    "time_limit_seconds": null
+    "reward_table_status": "partial",
+    "time_limit_seconds": null,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20206,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 97448
+    }
   },
   {
     "id": "ger-q-d7a2523b0e3b",

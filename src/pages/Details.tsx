@@ -118,71 +118,96 @@ export function DropTable({
                 <th>Шанс</th>
               </tr>
             </thead>
-            <tbody>
-              {rows.map((d) => {
-                const mission = missions.find((m) => m.id === d.mission_id);
-                const enemy = aragami.find((a) => a.id === d.aragami_id);
-                return (
-                  <tr key={d.id}>
-                    {showMaterial && (
-                      <td>
-                        <EntityLink id={d.material_id} kind="material" />
-                      </td>
-                    )}
-                    <td>
-                      {mission ? (
-                        <>
-                          <EntityLink id={mission.id} kind="mission" />
-                          <small className="table-subtext">
-                            Сложность {mission.rank === 'challenge' ? 'испытание' : mission.rank}
-                            {mission.type === 'urgent' ? ' · срочная' : ''}
-                          </small>
-                          <div className="inline-enemies">
-                            В миссии:{' '}
-                            {mission.aragami_ids.map((id, i) => (
-                              <span key={id}>
-                                {i > 0 && ', '}
-                                <EntityLink id={id} kind="aragami" compact />
-                              </span>
-                            ))}
-                          </div>
-                        </>
-                      ) : enemy ? (
-                        <EntityLink id={enemy.id} kind="aragami" />
-                      ) : d.location_id ? (
-                        <EntityName id={d.location_id} />
-                      ) : (
-                        <span>См. условие</span>
-                      )}
-                    </td>
-                    <td>
-                      <span className="method-label">{methods[d.method]}</span>
-                      <p className="condition">{d.condition_ru}</p>
-                      <small className="table-subtext">
-                        Количество: {d.quantity ?? 'не установлено'}
-                      </small>
-                      {d.game_origin?.slot !== undefined && (
-                        <small className="table-subtext">
-                          Позиция награды: {d.game_origin.slot + 1}
-                        </small>
-                      )}
-                    </td>
-                    <td>
-                      <span className={d.drop_rate === null ? 'unknown-rate' : 'drop-rate'}>
-                        {d.drop_rate === null ? 'Шанс неизвестен' : `${d.drop_rate}%`}
-                      </span>
-                      {d.drop_rate !== null && (
-                        <small className="table-subtext">
-                          {d.game_origin
-                            ? 'из файлов игры · для этой позиции'
-                            : 'по копии источника'}
-                        </small>
-                      )}
-                    </td>
+            {Object.entries(methods)
+              .filter(([key]) => rows.some((d) => d.method === key))
+              .map(([key, label]) => (
+                <tbody key={key}>
+                  <tr className="drop-group-title">
+                    <th scope="rowgroup" colSpan={showMaterial ? 4 : 3}>
+                      {label} · {rows.filter((d) => d.method === key).length}
+                    </th>
                   </tr>
-                );
-              })}
-            </tbody>
+                  {rows
+                    .filter((d) => d.method === key)
+                    .map((d) => {
+                      const mission = missions.find((m) => m.id === d.mission_id);
+                      const enemy = aragami.find((a) => a.id === d.aragami_id);
+                      return (
+                        <tr key={d.id}>
+                          {showMaterial && (
+                            <td>
+                              <EntityLink id={d.material_id} kind="material" />
+                            </td>
+                          )}
+                          <td>
+                            {mission ? (
+                              <>
+                                <EntityLink id={mission.id} kind="mission" />
+                                <small className="table-subtext">
+                                  Сложность{' '}
+                                  {mission.rank === 'challenge' ? 'испытание' : mission.rank}
+                                  {mission.type === 'urgent' ? ' · срочная' : ''}
+                                </small>
+                                <div className="inline-enemies">
+                                  В миссии:{' '}
+                                  {mission.aragami_ids.map((id, i) => (
+                                    <span key={id}>
+                                      {i > 0 && ', '}
+                                      <EntityLink id={id} kind="aragami" compact />
+                                    </span>
+                                  ))}
+                                </div>
+                              </>
+                            ) : enemy ? (
+                              <EntityLink id={enemy.id} kind="aragami" />
+                            ) : d.location_id ? (
+                              <EntityName id={d.location_id} />
+                            ) : (
+                              <span>См. условие</span>
+                            )}
+                          </td>
+                          <td>
+                            <span className="method-label">{methods[d.method]}</span>
+                            <p className="condition">{d.condition_ru}</p>
+                            <small className="table-subtext">
+                              Количество: {d.quantity ?? 'не установлено'}
+                            </small>
+                            {d.game_origin?.resource === 'mission_en' &&
+                              d.game_origin.slot !== undefined && (
+                                <small className="table-subtext">
+                                  Позиция награды: {d.game_origin.slot + 1}
+                                </small>
+                              )}
+                          </td>
+                          <td>
+                            <span className={d.drop_rate === null ? 'unknown-rate' : 'drop-rate'}>
+                              {d.drop_rate === null ? 'Шанс неизвестен' : `${d.drop_rate}%`}
+                            </span>
+                            {d.drop_rate !== null && (
+                              <small className="table-subtext">
+                                {d.game_origin
+                                  ? 'из файлов игры · для этой позиции'
+                                  : 'по копии источника'}
+                              </small>
+                            )}
+                            {d.pool_weight !== undefined && d.pool_total_weight !== undefined && (
+                              <small className="table-subtext pool-share">
+                                Вес: {d.pool_weight} / {d.pool_total_weight}
+                                <br />
+                                Доля веса:{' '}
+                                {((100 * d.pool_weight) / d.pool_total_weight).toLocaleString(
+                                  'ru-RU',
+                                  { maximumFractionDigits: 2 },
+                                )}
+                                %
+                              </small>
+                            )}
+                          </td>
+                        </tr>
+                      );
+                    })}
+                </tbody>
+              ))}
           </table>
         </div>
       ) : (
@@ -192,6 +217,12 @@ export function DropTable({
         Вероятности разных строк не складываются. Без времени прохождения, количества наград и
         проверки условий нельзя определить самый быстрый фарм.
       </p>
+      {drops.some((d) => d.pool_weight !== undefined) && (
+        <p className="footnote">
+          Для раскола защиты, пожирания и сбора показаны исходные веса и их доля в таблице. Точный
+          шанс с учётом механики выбора и модификаторов ещё не подтверждён.
+        </p>
+      )}
     </>
   );
 }

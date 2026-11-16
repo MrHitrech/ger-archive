@@ -1,0 +1,314 @@
+[
+  {
+    "family_id": 1,
+    "native_name": "Vajra",
+    "res_name": "MS_001N_tora",
+    "site_id": "ger-a-e4442679b5cc"
+  },
+  {
+    "family_id": 2,
+    "native_name": "Corrosive Hannibal",
+    "res_name": "MS_010C_black",
+    "site_id": "ger-a-5e0e74a1da64"
+  },
+  {
+    "family_id": 3,
+    "native_name": "Ogretail",
+    "res_name": "MS_101N_ouga",
+    "site_id": "ger-a-1c2dd4819abe"
+  },
+  {
+    "family_id": 4,
+    "native_name": "Zygote",
+    "res_name": "MS_102N_egg",
+    "site_id": "ger-a-a023271bcec0"
+  },
+  {
+    "family_id": 5,
+    "native_name": "Cocoon Maiden",
+    "res_name": "MS_103N_cocon",
+    "site_id": "ger-a-f1f9875f1759"
+  },
+  {
+    "family_id": 6,
+    "native_name": "Kongou",
+    "res_name": "MS_002N_gori",
+    "site_id": "ger-a-383642d6c036"
+  },
+  {
+    "family_id": 7,
+    "native_name": "Gboro-Gboro",
+    "res_name": "MS_004N_wani",
+    "site_id": "ger-a-978b8ddc1252"
+  },
+  {
+    "family_id": 8,
+    "native_name": "Chi-You",
+    "res_name": "MS_006N_vamp",
+    "site_id": "ger-a-a4b55a512663"
+  },
+  {
+    "family_id": 9,
+    "native_name": "Sariel",
+    "res_name": "MS_005N_btfly",
+    "site_id": "ger-a-505fb118f827"
+  },
+  {
+    "family_id": 10,
+    "native_name": "Borg Camlann",
+    "res_name": "MS_003N_sasor",
+    "site_id": "ger-a-ca56f474370d"
+  },
+  {
+    "family_id": 11,
+    "native_name": "Quadriga",
+    "res_name": "MS_007N_manmo",
+    "site_id": "ger-a-7f59fa145dbf"
+  },
+  {
+    "family_id": 12,
+    "native_name": "Ouroboros",
+    "res_name": "MS_008N_damon",
+    "site_id": "ger-a-4992e686cc07"
+  },
+  {
+    "family_id": 13,
+    "native_name": "Prithvi Mata",
+    "res_name": "MS_001N_joou",
+    "site_id": "ger-a-a016ef6928e6"
+  },
+  {
+    "family_id": 14,
+    "native_name": "Fallen Ogre",
+    "res_name": "MS_101C_ice",
+    "site_id": "ger-a-5f3f5061ae7b"
+  },
+  {
+    "family_id": 15,
+    "native_name": "Vajratail",
+    "res_name": "MS_101C_fire",
+    "site_id": "ger-a-9ec2edfaeb35"
+  },
+  {
+    "family_id": 18,
+    "native_name": "Vajratail",
+    "res_name": "MS_101M_torat",
+    "site_id": "ger-a-d50dded847d0"
+  },
+  {
+    "family_id": 19,
+    "native_name": "Fallen Cocoon Maiden",
+    "res_name": "MS_103C_fire",
+    "site_id": "ger-a-4b6c72428dd1"
+  },
+  {
+    "family_id": 20,
+    "native_name": "Fallen Cocoon Maiden",
+    "res_name": "MS_103C_ice",
+    "site_id": "ger-a-5bb7dc995996"
+  },
+  {
+    "family_id": 21,
+    "native_name": "Fallen Cocoon Maiden",
+    "res_name": "MS_103C_thndr",
+    "site_id": "ger-a-dc90a0e31b7e"
+  },
+  {
+    "family_id": 22,
+    "native_name": "Fallen Zygote",
+    "res_name": "MS_102C_fire",
+    "site_id": "ger-a-491bdf55c868"
+  },
+  {
+    "family_id": 23,
+    "native_name": "Fallen Zygote",
+    "res_name": "MS_102C_ice",
+    "site_id": "ger-a-2c17a0d1e245"
+  },
+  {
+    "family_id": 24,
+    "native_name": "Fallen Zygote",
+    "res_name": "MS_102C_thndr",
+    "site_id": "ger-a-94305bba2f47"
+  },
+  {
+    "family_id": 25,
+    "native_name": "Fallen Gboro-Gboro",
+    "res_name": "MS_004C_fire",
+    "site_id": "ger-a-edb038db4478"
+  },
+  {
+    "family_id": 26,
+    "native_name": "Fallen Gboro-Gboro",
+    "res_name": "MS_004C_ice",
+    "site_id": "ger-a-30a03ad89563"
+  },
+  {
+    "family_id": 27,
+    "native_name": "Fallen Kongou",
+    "res_name": "MS_002C_ice",
+    "site_id": "ger-a-afa34afb3842"
+  },
+  {
+    "family_id": 28,
+    "native_name": "Fierce Kongou",
+    "res_name": "MS_002N_butzo",
+    "site_id": "ger-a-cd905643fe0e"
+  },
+  {
+    "family_id": 29,
+    "native_name": "Fallen Chi-You",
+    "res_name": "MS_006C_thndr",
+    "site_id": "ger-a-b9bc9ac1fbcc"
+  },
+  {
+    "family_id": 30,
+    "native_name": "Sekhmet",
+    "res_name": "MS_006N_sekme",
+    "site_id": "ger-a-42ffd31f5e4a"
+  },
+  {
+    "family_id": 32,
+    "native_name": "Fallen Borg Camlann",
+    "res_name": "MS_003C_fire",
+    "site_id": "ger-a-1a944b933680"
+  },
+  {
+    "family_id": 33,
+    "native_name": "Fallen Borg Camlann",
+    "res_name": "MS_003C_thndr",
+    "site_id": "ger-a-742f68ffae47"
+  },
+  {
+    "family_id": 34,
+    "native_name": "Fallen Sariel",
+    "res_name": "MS_005C_poisn",
+    "site_id": "ger-a-8c5eafaa5690"
+  },
+  {
+    "family_id": 35,
+    "native_name": "Aether",
+    "res_name": "MS_005N_zeus",
+    "site_id": "ger-a-70acb4113eb5"
+  },
+  {
+    "family_id": 36,
+    "native_name": "Fallen Quadriga",
+    "res_name": "MS_007C_ice",
+    "site_id": "ger-a-ee053d83139f"
+  },
+  {
+    "family_id": 37,
+    "native_name": "Tezcatlipoca",
+    "res_name": "MS_007N_tezca",
+    "site_id": "ger-a-d8f2b7ff68f0"
+  },
+  {
+    "family_id": 38,
+    "native_name": "Fallen Ouroboros",
+    "res_name": "MS_008C_reves",
+    "site_id": "ger-a-d4444a6170d8"
+  },
+  {
+    "family_id": 41,
+    "native_name": "Susano'o",
+    "res_name": "MS_003N_susan",
+    "site_id": "ger-a-769a948234b6"
+  },
+  {
+    "family_id": 45,
+    "native_name": "Golden Gboro-Gboro",
+    "res_name": "MS_004C_gold",
+    "site_id": "ger-a-3ecc2414e6cd"
+  },
+  {
+    "family_id": 46,
+    "native_name": "Amaterasu",
+    "res_name": "MS_008N_amtrs",
+    "site_id": "ger-a-5430ef45c41e"
+  },
+  {
+    "family_id": 47,
+    "native_name": "Tsukuyomi",
+    "res_name": "MS_009N_tkymi",
+    "site_id": "ger-a-faef635fc47e"
+  },
+  {
+    "family_id": 48,
+    "native_name": "Hannibal",
+    "res_name": "MS_010N_drago",
+    "site_id": "ger-a-7d38d15e2624"
+  },
+  {
+    "family_id": 49,
+    "native_name": "Venus",
+    "res_name": "MS_011N_zonbi",
+    "site_id": "ger-a-68fae44d3d2c"
+  },
+  {
+    "family_id": 50,
+    "native_name": "Caligula",
+    "res_name": "MS_010N_calig",
+    "site_id": "ger-a-4bad81a705d9"
+  },
+  {
+    "family_id": 51,
+    "native_name": "Ravana",
+    "res_name": "MS_001N_ravan",
+    "site_id": "ger-a-15d8e0363efd"
+  },
+  {
+    "family_id": 52,
+    "native_name": "Yaksha Raja",
+    "res_name": "MS_012N_asura",
+    "site_id": "ger-a-07720796c24e"
+  },
+  {
+    "family_id": 53,
+    "native_name": "Yaksha",
+    "res_name": "MS_012N_asurb",
+    "site_id": "ger-a-bebb2f4712a1"
+  },
+  {
+    "family_id": 124,
+    "native_name": "Blitz Hannibal",
+    "res_name": "MS_010C_white",
+    "site_id": "ger-a-cda626d39a0a"
+  },
+  {
+    "family_id": 141,
+    "native_name": "Arda Nova",
+    "res_name": "MS_022N_ardanova",
+    "site_id": "ger-a-204490f88904"
+  },
+  {
+    "family_id": 142,
+    "native_name": "Dyaus Pita",
+    "res_name": "MS_023N_neopita",
+    "site_id": "ger-a-fb4526992a64"
+  },
+  {
+    "family_id": 143,
+    "native_name": "Fallen Arda Nova",
+    "res_name": "MS_022C_ardanova_fallen",
+    "site_id": "ger-a-aaa98fec8ac7"
+  },
+  {
+    "family_id": 144,
+    "native_name": "Arius Nova",
+    "res_name": "MS_023N_true_neopita",
+    "site_id": "ger-a-3559595523da"
+  },
+  {
+    "family_id": 145,
+    "native_name": "Arius Nova",
+    "res_name": "MS_023N_kodomo_neopita",
+    "site_id": "ger-a-fd29a98b4f6e"
+  },
+  {
+    "family_id": 148,
+    "native_name": "Balfa Mata",
+    "res_name": "MS_001C_tsuyoimata",
+    "site_id": "ger-a-db87affe8bd0"
+  }
+]

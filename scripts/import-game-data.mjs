@@ -6,6 +6,8 @@ import { sha256 } from './lib/game-formats.mjs';
 import { resourcePaths, decodeGameResource } from './extract-game-data.mjs';
 import { createGameImport } from './lib/game-import.mjs';
 import { createMissionRewardImport } from './lib/mission-rewards.mjs';
+import { missionBundlePaths } from './lib/mission-resources.mjs';
+import { createFieldAcquisitionImport } from './lib/field-acquisition.mjs';
 import { prepareTranslations } from './prepare-translations.mjs';
 import { validateDataset, validateSnapshots, qualityReport } from './lib/validate.mjs';
 
@@ -15,12 +17,28 @@ export async function readGameExport(directory) {
     decoded = {};
   if (manifest.app_id !== '460870' || manifest.format_version !== 1)
     throw new Error('Only GER exports are accepted');
-  for (const key of Object.keys(resourcePaths)) {
+  const allowedPaths = { ...resourcePaths };
+  const catalogue = await readJson(
+    path.join(dataDir, 'import-mappings/game-mission-resources.json'),
+  );
+  const usedFolders = new Set();
+  for (const bundle of manifest.mission_bundles ?? []) {
+    if (
+      !catalogue.some((c) => JSON.stringify(c) === JSON.stringify(bundle)) ||
+      usedFolders.has(bundle.folder)
+    )
+      throw new Error('Unrecognized or duplicate mission bundle');
+    usedFolders.add(bundle.folder);
+    Object.assign(allowedPaths, missionBundlePaths(bundle));
+  }
+  if (Object.keys(manifest.resources).length !== Object.keys(allowedPaths).length)
+    throw new Error('Missing or extra exported resources');
+  for (const key of Object.keys(allowedPaths)) {
     const resource = manifest.resources?.[key];
     if (
       !resource ||
-      resource.resource_path !== resourcePaths[key] ||
-      !/^resources\/[a-z_]+\.(tr2|kst)$/.test(resource.local_file)
+      resource.resource_path !== allowedPaths[key] ||
+      !/^resources\/[a-z0-9_]+\.(tr2|kst)$/.test(resource.local_file)
     )
       throw new Error(`Invalid resource metadata: ${key}`);
     const raw = await readFile(path.join(input, resource.local_file));
@@ -58,14 +76,33 @@ export async function importGameData({
   const articleMappings = await readJson(path.join(dataDir, 'import-mappings/game-articles.json'));
   const staged = createGameImport(original, exported, { checkedAt, sample, articleMappings });
   if (!sample) {
-    const rewards = createMissionRewardImport(staged.dataset, exported, { checkedAt });
+    const missionMappings = await readJson(
+      path.join(dataDir, 'import-mappings/game-missions.json'),
+    );
+    const rewards = createMissionRewardImport(staged.dataset, exported, {
+      checkedAt,
+      missionMappings,
+    });
     staged.dataset = rewards.dataset;
     for (const [file, content] of rewards.snapshots) staged.snapshots.set(file, content);
     staged.issues.push(...rewards.issues);
     staged.idMap.push(...rewards.idMap);
     staged.report.mission_rewards = rewards.report;
+    if (exported.manifest.mission_bundles?.length) {
+      const aragamiMappings = await readJson(
+        path.join(dataDir, 'import-mappings/game-aragami.json'),
+      );
+      const fields = createFieldAcquisitionImport(staged.dataset, exported, {
+        checkedAt,
+        aragamiMappings,
+      });
+      staged.dataset = fields.dataset;
+      for (const [file, content] of fields.snapshots) staged.snapshots.set(file, content);
+      staged.issues.push(...fields.issues);
+      staged.report.field_acquisition = fields.report;
+    }
     staged.report.scope =
-      'Materials, equipment including clothing, elements, craft and upgrade recipes, and main mission material rewards by native mission ID and slot. Bonus conditions, devour, bond breaks, gathering and synthesis are not imported.';
+      'Materials, equipment, elements, craft and upgrade recipes; mission names by native RU IDs; automatic and supported conditional mission rewards; per-part bond breaks, devour and gathering with raw weights kept separate from confirmed percentages. Unknown conditions and synthesis are not imported.';
     for (const key of ['missions', 'drops'])
       staged.report.counts[key] = {
         before: original[key].length,
@@ -170,6 +207,7 @@ if (process.argv[1] && pathToFileURL(path.resolve(process.argv[1])).href === imp
           factual_changes: result.factual_changes.length,
           translation_import: result.translation_import,
           mission_rewards: result.mission_rewards,
+          field_acquisition: result.field_acquisition,
           preserved_existing_ids: result.preserved_existing_ids,
           backup: result.backup,
         },

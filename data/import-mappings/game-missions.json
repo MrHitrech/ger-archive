@@ -1,0 +1,101 @@
+[
+  {
+    "existing_id": "ger-q-02db51b696d8",
+    "previous_name": "Tandall",
+    "canonical_name": "Tandoor",
+    "native_id": 20241,
+    "previous_location_id": "ger-l-2e418eb7ca2c",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "reason": "explicit_native_spelling_correction"
+  },
+  {
+    "existing_id": "ger-q-085dcdd4e0ae",
+    "previous_name": "Runway Tank",
+    "canonical_name": "Runaway Tank",
+    "native_id": 20214,
+    "previous_location_id": "ger-l-0dc4f625c359",
+    "location_id": "ger-l-0dc4f625c359",
+    "reason": "explicit_native_spelling_correction"
+  },
+  {
+    "existing_id": "ger-q-5818ea0150e7",
+    "previous_name": "Devil's Festival",
+    "canonical_name": "Devils' Festival",
+    "native_id": 20315,
+    "previous_location_id": "ger-l-021a8a807e24",
+    "location_id": "ger-l-021a8a807e24",
+    "reason": "explicit_native_spelling_correction"
+  },
+  {
+    "existing_id": "ger-q-59511484a5fc",
+    "previous_name": "Dance Macabre",
+    "canonical_name": "Danse Macabre",
+    "native_id": 20290,
+    "previous_location_id": "ger-l-4bdf49c479e4",
+    "location_id": "ger-l-4bdf49c479e4",
+    "reason": "explicit_native_spelling_correction"
+  },
+  {
+    "existing_id": "ger-q-761179694a69",
+    "previous_name": "Soilder's Grave",
+    "canonical_name": "Soldier's Grave",
+    "native_id": 20294,
+    "previous_location_id": "ger-l-cfb2f98647e1",
+    "location_id": "ger-l-cfb2f98647e1",
+    "reason": "explicit_native_spelling_correction"
+  },
+  {
+    "existing_id": "ger-q-77496442181c",
+    "previous_name": "Swawpside Heron",
+    "canonical_name": "Swampside Heron",
+    "native_id": 20080,
+    "previous_location_id": "ger-l-0dc4f625c359",
+    "location_id": "ger-l-0dc4f625c359",
+    "reason": "explicit_native_spelling_correction"
+  },
+  {
+    "existing_id": "ger-q-9682f135e49b",
+    "previous_name": "Angel's Ladder",
+    "canonical_name": "Angel's Ladder",
+    "native_id": 20334,
+    "previous_location_id": "ger-l-021a8a807e24",
+    "location_id": "ger-l-0c0813c0117b",
+    "reason": "native_location_correction"
+  },
+  {
+    "existing_id": "ger-q-bb25f97d59c4",
+    "previous_name": "Devourer of the World",
+    "canonical_name": "Devourer of World",
+    "native_id": 20205,
+    "previous_location_id": "ger-l-3fbe64cc2465",
+    "location_id": "ger-l-3fbe64cc2465",
+    "reason": "explicit_native_spelling_correction"
+  },
+  {
+    "existing_id": "ger-q-bf665aad920c",
+    "previous_name": "Looter's Night",
+    "canonical_name": "Looters' Night",
+    "native_id": 20131,
+    "previous_location_id": "ger-l-cfb2f98647e1",
+    "location_id": "ger-l-cfb2f98647e1",
+    "reason": "explicit_native_spelling_correction"
+  },
+  {
+    "existing_id": "ger-q-cd0208e5beb9",
+    "previous_name": "Sunlight On Snow",
+    "canonical_name": "Sunlight on Snow",
+    "native_id": 20064,
+    "previous_location_id": "ger-l-cfb2f98647e1",
+    "location_id": "ger-l-cfb2f98647e1",
+    "reason": "explicit_native_spelling_correction"
+  },
+  {
+    "existing_id": "ger-q-d6c3055eaf5e",
+    "previous_name": "Budda Smile",
+    "canonical_name": "Buddha Smile",
+    "native_id": 20206,
+    "previous_location_id": "ger-l-4bdf49c479e4",
+    "location_id": "ger-l-4bdf49c479e4",
+    "reason": "explicit_native_spelling_correction"
+  }
+]

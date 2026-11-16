@@ -1,8 +1,9 @@
 import path from 'node:path';
 import { readFile, mkdir, writeFile, access } from 'node:fs/promises';
 import { pathToFileURL } from 'node:url';
-import { root, writeJson } from './lib/files.mjs';
+import { root, writeJson, readJson } from './lib/files.mjs';
 import { decodeMissionResource } from './lib/mission-rewards.mjs';
+import { missionBundlePaths, decodeMissionTable } from './lib/mission-resources.mjs';
 import {
   openQpck,
   gamePathHash,
@@ -23,6 +24,7 @@ export const resourcePaths = {
   synthesis: 'data/GameData/g999_Base/db/article/Tr2/article_composition.tr2',
   upgrades: 'bin/resconv_pc/data/GameData/g999_Base/db/article/Tr2/equipment_enhancement.kst',
   mission_en: 'bin/resconv_pc/data/Locale/exported/en/mission.kst',
+  mission_ru: 'bin/resconv_pc/data/Locale/exported/ru/mission.kst',
 };
 const containers = [
   'bin/resconv_pc/data/GameData/g999_Base/db/default_db.res',
@@ -31,7 +33,8 @@ const containers = [
 const canonical = (value) => value.replaceAll('\\', '/').replace(/^\/+/, '').toLowerCase();
 
 export function decodeGameResource(key, bytes) {
-  if (key === 'mission_en') return decodeMissionResource(bytes);
+  if (key === 'mission_en' || key === 'mission_ru') return decodeMissionResource(bytes);
+  if (/^mission_\d+_/.test(key)) return decodeMissionTable(key, bytes);
   if (key.startsWith('article')) {
     const table = parseKst(bytes),
       descriptions = key.startsWith('article_ex');
@@ -165,12 +168,12 @@ export async function extractGameData(
         path: containerPath,
       });
     }
-    async function resolve(resourcePath) {
+    async function resolve(resourcePath, extraContainers = []) {
       const direct = find(resourcePath) ?? find(`${resourcePath}.blz`);
       // The canonical global containers are checked even when a standalone table exists.
       // An overriding patched container must not be bypassed by an older standalone resource.
       const embedded = [];
-      for (const container of loadedContainers) {
+      for (const container of [...loadedContainers, ...extraContainers]) {
         for (const entry of container.descriptors.filter(
           (e) => e.path && canonical(e.path) === canonical(resourcePath),
         )) {
@@ -229,8 +232,8 @@ export async function extractGameData(
     await mkdir(path.join(output, 'resources'), { recursive: true });
     const resources = {},
       decoded = {};
-    for (const [key, resourcePath] of Object.entries(resourcePaths)) {
-      const loaded = await resolve(resourcePath),
+    async function extractResource(key, resourcePath, extraContainers = []) {
+      const loaded = await resolve(resourcePath, extraContainers),
         compressed = loaded.bytes.subarray(0, 4).toString() === 'blz4';
       const unpacked = loaded.unpacked;
       resources[key] = {
@@ -248,6 +251,25 @@ export async function extractGameData(
       decoded[key] = decodeGameResource(key, unpacked.bytes);
       progress(`${key}: ${decoded[key].length} records`);
     }
+    for (const [key, resourcePath] of Object.entries(resourcePaths))
+      await extractResource(key, resourcePath);
+    const missionBundles = await readJson(
+      path.join(root, 'data/import-mappings/game-mission-resources.json'),
+    );
+    for (const bundle of missionBundles) {
+      if (!decoded.mission_en.some((row) => row.id === bundle.native_id))
+        throw new Error(`Mapped mission absent in game: ${bundle.native_id}`);
+      const found = find(bundle.container_path);
+      if (!found) throw new Error(`Mission container missing: ${bundle.container_path}`);
+      const loaded = await load(found);
+      const container = {
+        ...loaded,
+        path: bundle.container_path,
+        descriptors: parsePres(loaded.bytes),
+      };
+      for (const [key, resourcePath] of Object.entries(missionBundlePaths(bundle)))
+        await extractResource(key, resourcePath, [container]);
+    }
     const manifest = {
       format_version: 1,
       app_id: appId,
@@ -261,6 +283,7 @@ export async function extractGameData(
         index_sha256: reader.index_sha256,
       })),
       resources,
+      mission_bundles: missionBundles,
     };
     manifest.decoded_files = {};
     for (const [key, rows] of Object.entries(decoded)) {

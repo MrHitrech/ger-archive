@@ -6,9 +6,19 @@ import { equipmentCategory } from './game-import.mjs';
 import { decodeRussianArticleName, RUSSIAN_ARTICLE_NAME_CODEC } from './game-text.mjs';
 import { decodeArticleElements, ARTICLE_ELEMENTS_DECODER } from './game-elements.mjs';
 import { missionRewardFields, MISSION_REWARDS_DECODER } from './mission-rewards.mjs';
+import {
+  MISSION_CONDITIONS,
+  CONDITIONAL_REWARDS_DECODER,
+  RUSSIAN_MISSION_NAME_CODEC,
+  decodeRussianMissionName,
+} from './mission-conditions.mjs';
+import { FIELD_ACQUISITION_DECODER, validateFieldAcquisition } from './field-acquisition.mjs';
 
 const schema = JSON.parse(
   await readFile(new URL('../../data/schema.json', import.meta.url), 'utf8'),
+);
+const aragamiMappings = JSON.parse(
+  await readFile(new URL('../../data/import-mappings/game-aragami.json', import.meta.url), 'utf8'),
 );
 const validateSchema = new Ajv({ allErrors: true, strict: false, allowUnionTypes: true }).compile(
   schema,
@@ -319,7 +329,10 @@ export function validateDataset(data) {
       fail(`${drop.id}: source_url differs from evidence`);
     if (drop.source_url === null && !drop.game_origin)
       fail(`${drop.id}: null source URL requires game-file evidence`);
-    if (drop.game_origin) {
+    if (drop.game_origin && drop.game_origin.resource !== 'mission_en') {
+      for (const error of validateFieldAcquisition(drop, index, aragamiMappings))
+        fail(`${drop.id}: ${error}`);
+    } else if (drop.game_origin) {
       try {
         const ev = drop.references
           .map((ref) => index.evidence.get(ref))
@@ -328,19 +341,21 @@ export function validateDataset(data) {
         const raw = missionRewardFields(facts.raw_hex, drop.game_origin.row_id);
         const reward = raw.rewards[drop.game_origin.slot];
         const mission = index.missions.get(drop.mission_id);
+        const condition = MISSION_CONDITIONS[reward?.condition_code];
         if (
           drop.game_origin.resource !== 'mission_en' ||
-          facts.decoder !== MISSION_REWARDS_DECODER ||
+          ![MISSION_REWARDS_DECODER, CONDITIONAL_REWARDS_DECODER].includes(facts.decoder) ||
           !reward ||
           reward.article_id !== index.materials.get(drop.material_id)?.game_origin?.row_id ||
           reward.rate_percent !== drop.drop_rate ||
-          reward.condition_code !== 0 ||
+          !condition ||
           ['slot', 'article_id', 'rate_percent', 'condition_code'].some(
             (key) => facts[key] !== reward[key],
           ) ||
-          facts.condition_en !== 'Automatic' ||
-          drop.condition_en !== 'Automatic' ||
-          drop.method !== 'mission_reward' ||
+          facts.condition_en !== condition.en ||
+          drop.condition_en !== condition.en ||
+          drop.condition_ru !== condition.ru ||
+          drop.method !== condition.method ||
           drop.slot !== `mission_reward_${reward.slot}` ||
           drop.quantity !== null ||
           drop.aragami_id !== null ||
@@ -387,12 +402,14 @@ export function validateDataset(data) {
     const source = index.sources.get(t.source);
     if (source?.acquisition === 'game_files') {
       const nativeId = all.get(t.id)?.game_origin?.row_id;
+      const resource =
+        all.get(t.id)?.game_origin?.resource === 'mission_en' ? 'mission_ru' : 'article_ru';
       const nativeEvidence = (t.references ?? [])
         .map((ref) => index.evidence.get(ref))
         .find(
           (ev) =>
             ev?.source_id === t.source &&
-            ev.game_origin?.resource === 'article_ru' &&
+            ev.game_origin?.resource === resource &&
             ev.game_origin.row_id === nativeId,
         );
       if (!nativeEvidence)
@@ -400,10 +417,14 @@ export function validateDataset(data) {
       else {
         try {
           const facts = JSON.parse(nativeEvidence.excerpt);
+          const expectedCodec =
+            resource === 'mission_ru' ? RUSSIAN_MISSION_NAME_CODEC : RUSSIAN_ARTICLE_NAME_CODEC;
+          const decode =
+            resource === 'mission_ru' ? decodeRussianMissionName : decodeRussianArticleName;
           if (
-            facts.decoder !== RUSSIAN_ARTICLE_NAME_CODEC ||
+            facts.decoder !== expectedCodec ||
             facts.name_ru !== t.name_ru ||
-            decodeRussianArticleName(facts.raw_name_ru) !== t.name_ru
+            decode(facts.raw_name_ru) !== t.name_ru
           )
             fail(`${t.id}: translation differs from decoded native evidence`);
         } catch {
@@ -426,6 +447,8 @@ export async function validateSnapshots(
   const errors = [];
   const loaded = new Map();
   const checksums = new Map();
+  const normalized = new Map();
+  const nativeRows = new Map();
   for (const ev of data.evidence) {
     try {
       if (!/^[a-z0-9][a-z0-9._-]*\.(txt|md|json|html)$/.test(ev.snapshot)) {
@@ -440,11 +463,22 @@ export async function validateSnapshots(
             : await readFile(path.join(directory, ev.snapshot), 'utf8'),
         );
       const raw = loaded.get(ev.snapshot);
-      if (!checksums.has(ev.snapshot)) checksums.set(ev.snapshot, hash(raw));
+      if (!checksums.has(ev.snapshot)) {
+        checksums.set(ev.snapshot, hash(raw));
+        normalized.set(ev.snapshot, raw.replace(/\r\n/g, '\n'));
+        if (ev.snapshot.endsWith('.json')) {
+          const parsed = JSON.parse(raw);
+          if (Array.isArray(parsed.rows))
+            nativeRows.set(ev.snapshot, new Set(parsed.rows.map((row) => JSON.stringify(row))));
+        }
+      }
       if (checksums.get(ev.snapshot) !== ev.snapshot_sha256)
         errors.push(`${ev.id}: snapshot checksum mismatch`);
-      if (!raw.replace(/\r\n/g, '\n').includes(ev.excerpt.replace(/\r\n/g, '\n')))
-        errors.push(`${ev.id}: excerpt not found in snapshot`);
+      const present =
+        ev.game_origin && nativeRows.has(ev.snapshot)
+          ? nativeRows.get(ev.snapshot).has(ev.excerpt)
+          : normalized.get(ev.snapshot).includes(ev.excerpt.replace(/\r\n/g, '\n'));
+      if (!present) errors.push(`${ev.id}: excerpt not found in snapshot`);
     } catch (error) {
       errors.push(`${ev.id}: ${error.message}`);
     }
@@ -479,7 +513,9 @@ export function qualityReport(data, issues = []) {
     baseline: null,
     notice_ru: data.sources.some((s) => s.acquisition === 'game_files')
       ? data.drops.some((d) => d.game_origin?.resource === 'mission_en')
-        ? 'Материалы, снаряжение, элементы, рецепты и основные награды сопоставленных миссий дополнены данными установленной GER. Проценты наград относятся к отдельным позициям. Бонусные условия, пожирание, разрушения и сбор ещё не покрыты полностью. Структура и контрольные суммы проверены автоматически; ручная проверка не завершена. Полнота относительно игры не установлена.'
+        ? data.drops.some((d) => d.pool_weight !== undefined)
+          ? 'Из файлов GER добавлены русские названия миссий, основные и поддержанные условные награды, раскол защиты по частям, пожирание и сбор. Проценты наград относятся к отдельным позициям. Веса раскола, пожирания и сбора сохранены отдельно и не объявляются подтверждёнными шансами. Неизвестные коды условий и модификаторы требуют проверки. Полнота относительно игры и ручная проверка не завершены.'
+          : 'Материалы, снаряжение, элементы, рецепты и основные награды сопоставленных миссий дополнены данными установленной GER. Проценты наград относятся к отдельным позициям. Бонусные условия, пожирание, разрушения и сбор ещё не покрыты полностью. Структура и контрольные суммы проверены автоматически; ручная проверка не завершена. Полнота относительно игры не установлена.'
         : 'Материалы, снаряжение и рецепты дополнены данными установленной GER. Структура и контрольные суммы проверены автоматически; ручная проверка доступности контента и условий открытия не завершена. Миссии и способы получения пока основаны на копиях Wiki. Полнота относительно игры не установлена.'
       : 'Начальный набор по поисковым копиям Wiki. Оригиналы недоступны (HTTP 403), игровые данные не подтверждены вручную. Полнота относительно игры не установлена.',
     coverage,
