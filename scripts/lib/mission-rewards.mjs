@@ -6,6 +6,7 @@ import {
   RUSSIAN_MISSION_NAME_CODEC,
   decodeRussianMissionName,
 } from './mission-conditions.mjs';
+import { missionCatalogueDrafts, catalogueMetadata } from './mission-catalogue.mjs';
 
 export const MISSION_REWARDS_DECODER = 'ger-mission-rewards-v1';
 const unique = (values) => [...new Set(values)];
@@ -32,6 +33,7 @@ export function decodeMissionResource(bytes) {
     return {
       id: row.key,
       name: kstString(bytes, row.bytes.readUInt32LE(292), table.record_end),
+      description: kstString(bytes, row.bytes.readUInt32LE(296), table.record_end),
       context: [300, 304, 308].map((offset) =>
         kstString(bytes, row.bytes.readUInt32LE(offset), table.record_end),
       ),
@@ -46,7 +48,7 @@ export function decodeMissionResource(bytes) {
 export function createMissionRewardImport(
   current,
   { manifest, decoded },
-  { checkedAt, missionMappings = [] },
+  { checkedAt, missionMappings = [], catalogueScope = null, aragamiMappings = [] },
 ) {
   if (manifest.app_id !== '460870' || !decoded.mission_en || !manifest.resources.mission_en)
     throw new Error('GER mission export required');
@@ -141,6 +143,16 @@ export function createMissionRewardImport(
   )
     throw new Error('EN/RU mission IDs or reward fields differ');
   const translationSummary = { filled: 0, preserved_existing: 0 };
+  const catalogue = catalogueScope
+    ? missionCatalogueDrafts(
+        data,
+        { manifest, decoded },
+        { scope: catalogueScope, aragamiMappings },
+      )
+    : null;
+  if (catalogue)
+    for (const mission of catalogue.additions)
+      data.missions.push({ ...mission, checked_at: checkedAt });
   const drops = new Map(data.drops.map((r) => [r.id, r]));
   const materials = new Map(
     data.materials
@@ -259,6 +271,7 @@ export function createMissionRewardImport(
       equivalent_row_ids: candidates.map((r) => r.id).sort((a, b) => a - b),
       raw_hex: row.raw_hex,
       rewards: row.rewards,
+      ...(catalogue?.managed.has(mission.id) ? { catalogue: catalogueMetadata(row) } : {}),
     });
     Object.assign(mission, {
       checked_at: checkedAt,
@@ -303,7 +316,7 @@ export function createMissionRewardImport(
       collection: 'missions',
       game_id: row.id,
       site_id: mission.id,
-      preserved_existing_id: true,
+      preserved_existing_id: current.missions.some((m) => m.id === mission.id),
     });
     for (const reward of row.rewards) {
       if (!reward.article_id || !reward.rate_percent) continue;
@@ -440,6 +453,7 @@ ${[...snapshotRows]
       bonus_reward_slots: bonusImported,
       translation_import: translationSummary,
       mission_mapping_changes: mappingChanges,
+      ...(catalogue ? { catalogue: catalogue.report } : {}),
       covered_materials: covered.size,
       skipped_bonus_slots: skippedBonus,
       skipped_non_material_slots: skippedNonMaterial,

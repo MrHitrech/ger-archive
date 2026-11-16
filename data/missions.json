@@ -8986,5 +8986,617 @@
       "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
       "byte_offset": 64064
     }
+  },
+  {
+    "id": "ger-q-af3064046e54",
+    "game": "ger",
+    "name_en": "Rusted Edge",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-54dc222efaf55107",
+      "ev-1a3f0f6cae57ed76",
+      "ev-2cdf01646b27d532",
+      "ev-2ee7d5bd02db38a8",
+      "ev-56ebbcca039a7db4",
+      "ev-594fb6b78f35047c",
+      "ev-9621495a0f40eae5",
+      "ev-dcfc483013845452",
+      "ev-f99956527ac8ab40"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 3,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-a4b55a512663",
+      "ger-a-a023271bcec0"
+    ],
+    "objectives_en": "Some resource traders who ignored our warning and\ncontinued operation in the Old City have been\ntaken prey by 1 Chi-You, still in the area.\nRetaliation Squad requested for clean up.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20048,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 52208
+    }
+  },
+  {
+    "id": "ger-q-38cc751be251",
+    "game": "ger",
+    "name_en": "Black Trojan",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-9cac16667ce13768",
+      "ev-067e7a77e0a6de5e",
+      "ev-08cd54199e4d75e6",
+      "ev-3862188db6afb39e",
+      "ev-444782018fbd3236",
+      "ev-60200ff19863fa70",
+      "ev-ab4f78a46c32e6ef",
+      "ev-fabc027fdec2d8b7"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 3,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-7f59fa145dbf",
+      "ger-a-5f3f5061ae7b"
+    ],
+    "objectives_en": "Detected 1 Quadriga, a tank-type Aragami in the\ngrasslands. Dispatch requested. Not much is known\nabout the giant other than its weakness to \nFreeze. Beware of its smaller Aragami \naccompaniments.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20051,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 53144
+    }
+  },
+  {
+    "id": "ger-q-86fbd7980673",
+    "game": "ger",
+    "name_en": "Red Antares",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-c86177b5ec8582fa",
+      "ev-244078e0a15650fc",
+      "ev-31c59531177ddfaa",
+      "ev-4692a6873e9445c6",
+      "ev-4e780e558801dcfc",
+      "ev-5ba3cd7c24c7495f",
+      "ev-61da5bad5cc2091e",
+      "ev-b953bc3d64f55717",
+      "ev-ccd33767ca196721"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 3,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-2e418eb7ca2c",
+    "aragami_ids": [
+      "ger-a-ca56f474370d",
+      "ger-a-4b6c72428dd1"
+    ],
+    "objectives_en": "Destroy 1 Borg Camlann before it crawls out of \nthe subway remains. These Aragami look like giant\nscorpions. Freeze and Spark may be effective.\nAvoiding the Fallen Cocoon Maidens is suggested.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20054,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 54080
+    }
+  },
+  {
+    "id": "ger-q-2161a33e4a22",
+    "game": "ger",
+    "name_en": "Winter's Dawn",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-6f6f549dec6fbf20",
+      "ev-0907d36cd17ec53e",
+      "ev-0a67ec75794f2962",
+      "ev-3e42c74e4935915a",
+      "ev-4e7d858a1c64b990",
+      "ev-6479d74c8f74b850",
+      "ev-80d3385ad94f0307",
+      "ev-d6e016a240aa07ec",
+      "ev-dd383b1ec42382b7",
+      "ev-e8bb447cad94d863",
+      "ev-e90893319b8dc2ec",
+      "ev-eae7bddb65112415"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 3,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-4bdf49c479e4",
+    "aragami_ids": [
+      "ger-a-e4442679b5cc",
+      "ger-a-491bdf55c868",
+      "ger-a-4b6c72428dd1"
+    ],
+    "objectives_en": "1 Vajra was encountered by the Research Unit's\nforce reconnaissance but has escaped to the Old\nCity. Blaze or Divine weapons are recommended.\nTake caution of other smaller Aragami.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20057,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 55016
+    }
+  },
+  {
+    "id": "ger-q-5584d568c613",
+    "game": "ger",
+    "name_en": "Flame Shield",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-bf63762d00ad4b20",
+      "ev-57c129503367a37e",
+      "ev-8863026517242e63",
+      "ev-fdfdc2d13cca8c08"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 3,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-ca56f474370d"
+    ],
+    "objectives_en": "Defeat a Borg Camlann in the bay district. \nDestroying its hard armor and needle tail should \nbe a priority. Freeze and Spark weapons will help \nget this done quickly.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20060,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 55952
+    }
+  },
+  {
+    "id": "ger-q-9dd272e95035",
+    "game": "ger",
+    "name_en": "Iron Blizzard",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-c146a4fca85784ac",
+      "ev-536356b1691d468d",
+      "ev-b569857e0aa8dcef",
+      "ev-c2a8726b0401c20d"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 3,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-7f59fa145dbf"
+    ],
+    "objectives_en": "A Quadriga has begun actively devouring in the\ntemple ruins. Freeze weapons are proven valid.\nParts of a Quadriga are weak to Impact—crushing\nweapons are thought to have a slight advantage.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20061,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 56264
+    }
+  },
+  {
+    "id": "ger-q-ad0ac4510e64",
+    "game": "ger",
+    "name_en": "Tyrant Breath",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-4b0416fa418c6ce1",
+      "ev-01397e7948f83799",
+      "ev-12174cf92348827b",
+      "ev-b068834faf711e3e",
+      "ev-d24f8822bdf14e81",
+      "ev-e400aa075fc2583d",
+      "ev-e933871423fb5518",
+      "ev-ef37f431365ec093"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 3,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-a4b55a512663",
+      "ger-a-491bdf55c868"
+    ],
+    "objectives_en": "Eliminate 1 Chi-You sighted in the grasslands. \nIt's a troublesome Aragami that swiftly flies on\nthe open grasslands. Destroy the wings with guns\nand make sure to suppress it so that it won't fly \naround again.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20235,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 106184
+    }
+  },
+  {
+    "id": "ger-q-400c6cd4cc7e",
+    "game": "ger",
+    "name_en": "Monkey Guts",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-b10aafa7913026ca",
+      "ev-07fb450ef38b7887",
+      "ev-15baeb38ad27f2d7",
+      "ev-24cd79e24b628b47",
+      "ev-764c697635e64702",
+      "ev-8a128929de25c3dc",
+      "ev-925b76d82b76a93e",
+      "ev-9fffe39ef27cdff5",
+      "ev-a2220dfed71d83d3",
+      "ev-aa18bcf773762e3c",
+      "ev-b4540031a010d94f",
+      "ev-cad7aacc61cda5c7",
+      "ev-d4fb2d33bc82dbfd",
+      "ev-ed0221b45b0d1500"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 3,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-383642d6c036",
+      "ger-a-a023271bcec0",
+      "ger-a-978b8ddc1252",
+      "ger-a-5f3f5061ae7b"
+    ],
+    "objectives_en": "Requesting defeat of a Kongou and Gboro-Gboro \nspotted in the plains. Spark seems to be effective \nagainst both, so bear this in mind when selecting \nyour weaponry. You may be in for a long fight, so \nprepare accordingly.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20236,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 106496
+    }
+  },
+  {
+    "id": "ger-q-83e4340bc5a2",
+    "game": "ger",
+    "name_en": "Salty Dog",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-dfdb2ca1c7b7fd8f",
+      "ev-0df3c4031c1f6337",
+      "ev-2bdccb9b6433b593",
+      "ev-5809ea9dd76f3522",
+      "ev-5efda8a8dd9d089c",
+      "ev-6e8b8c344274b185",
+      "ev-a0a0d6458877d47a",
+      "ev-ad086c1512ac1284",
+      "ev-b44ed4574022f5dc",
+      "ev-e3ce9857e09b04fa",
+      "ev-f8db633668c1b254"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 3,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-5f3f5061ae7b",
+      "ger-a-978b8ddc1252",
+      "ger-a-a023271bcec0"
+    ],
+    "objectives_en": "Defeat the 2 Gboro-Gboros and 1 Fallen Ogretail \nin the abandoned factory. Spark is effective against\nGboro-Gboros, while the Fallen Ogretail is \nadapted to the cold. Blaze weapons will prove \nuseful.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20053,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 53768
+    }
+  },
+  {
+    "id": "ger-q-7f671d00788e",
+    "game": "ger",
+    "name_en": "Snow Mouse",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-1ff36c5d94c96e6f",
+      "ev-13d6542567b61f6f",
+      "ev-1990a0601d361479",
+      "ev-7d4a9f9c5bd3b258",
+      "ev-8464fe3a338fcde8",
+      "ev-8d88e5527bab8ff6",
+      "ev-8f07efbb1dbf8196",
+      "ev-ce996e88f66b5607",
+      "ev-d9e30d0e30df07b2",
+      "ev-dfdd3d194ec54e40"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 3,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0dc4f625c359",
+    "aragami_ids": [
+      "ger-a-5f3f5061ae7b",
+      "ger-a-1c2dd4819abe"
+    ],
+    "objectives_en": "Research Unit has detected a swarm of Ogretails \nin the abandoned factory. Your target is 3 Ogretails \nand 2 Fallen Ogretails. All Ogretails are weak to\nSunder and piercing close-range attacks.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20055,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 54392
+    }
+  },
+  {
+    "id": "ger-q-58370a2cb8bd",
+    "game": "ger",
+    "name_en": "Scarlet Charger",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-0b422ca8352f28d4",
+      "ev-030e766a289cf7b8",
+      "ev-7952dfd7b7359301",
+      "ev-a166806e68faa690"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 3,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-0c0813c0117b",
+    "aragami_ids": [
+      "ger-a-7f59fa145dbf"
+    ],
+    "objectives_en": "1 Quadriga confirmed in the bay district. Head to \nthe landing point and defeat it. We have found \nthat Quadriga have low resistance to Freeze and \nDivine attributes. Keep this in mind.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20056,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 54704
+    }
+  },
+  {
+    "id": "ger-q-c2e66e61a33e",
+    "game": "ger",
+    "name_en": "Picnic Fields",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-21dde37ecd06d4e7",
+      "ev-253eb26991819915",
+      "ev-359c5257c9b8e704",
+      "ev-6435080ee126991b",
+      "ev-68c99f95e2e834c7",
+      "ev-a904308583935b04",
+      "ev-b0512b7a90d19651",
+      "ev-f6b3602572b64cf9"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 3,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-4b6c72428dd1",
+      "ger-a-491bdf55c868"
+    ],
+    "objectives_en": "Defeat 2 Cocoon Maidens and 1 Zygote in the\ngrasslands. All are magmatic. Freeze is effective\nfor these fallen species. Beware of the Cocoon's\nkillzone. This is not a difficult mission.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20058,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 55328
+    }
+  },
+  {
+    "id": "ger-q-d2c891f3899d",
+    "game": "ger",
+    "name_en": "Rabbit Hunt",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-61c7cea05e9868d4",
+      "ev-4bfa949a464ab9f3",
+      "ev-5a9f065db397499c",
+      "ev-7bdca9b65f21a5ac",
+      "ev-86b68425a177e92d",
+      "ev-c5b6498edc0f4938",
+      "ev-e45c09205687c666",
+      "ev-fed8bca698e5acbd"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 3,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-021a8a807e24",
+    "aragami_ids": [
+      "ger-a-5f3f5061ae7b",
+      "ger-a-a023271bcec0"
+    ],
+    "objectives_en": "Defeat two Fallen Ogretails in the grasslands. They\nare polar phenotypes, so Blaze weapons are\nadvised. The terrain is flat and Zygotes are on\nthe lookout. Prepare for a chaotic battle.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20059,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 55640
+    }
+  },
+  {
+    "id": "ger-q-56e7042cb9bf",
+    "game": "ger",
+    "name_en": "Symbol of Swords",
+    "verification_status": "partial",
+    "checked_at": "2026-11-16",
+    "references": [
+      "ev-f4b86b414ab5f5a1",
+      "ev-00b09977a99a30d2",
+      "ev-03104a44fc841aa2",
+      "ev-2643c7284b6a460e",
+      "ev-9e984fa5afc58fe6",
+      "ev-a43007143459a33d",
+      "ev-a5234d275e5a77d1",
+      "ev-ba662b593319c2ec",
+      "ev-c6cc06c2550c393c",
+      "ev-f12a7543227b30d7",
+      "ev-ff10a9ac2a42b457"
+    ],
+    "missing_fields": [
+      "story_availability",
+      "unlock_conditions",
+      "manual_mission_review",
+      "bonus_reward_conditions",
+      "reward_quantities",
+      "reward_roll_semantics"
+    ],
+    "rank": 4,
+    "type": "standard",
+    "variant": "standard",
+    "location_id": "ger-l-cfb2f98647e1",
+    "aragami_ids": [
+      "ger-a-ca56f474370d",
+      "ger-a-a023271bcec0",
+      "ger-a-5f3f5061ae7b"
+    ],
+    "objectives_en": "Defeat a Borg Camlann that was detected in the \ntemple ruins. Freeze and Spark weaponry is \nadvised. The target is accompanied by Zygotes and \nFallen Ogretails. Engaging multiple hostiles is \ndangerous and should be avoided where possible.",
+    "reward_table_status": "partial",
+    "time_limit_seconds": 1800,
+    "game_origin": {
+      "source_id": "game-mission-rewards-460870-1412844",
+      "resource": "mission_en",
+      "row_id": 20071,
+      "resource_sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+      "byte_offset": 59384
+    }
   }
 ]

@@ -24444,6 +24444,13 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-2161a33e4a22",
+    "name_en": "Winter's Dawn",
+    "suggested_ru": "Начало зимы",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-21946e6e92eb",
     "name_en": "Forty-Niner",
     "suggested_ru": "Золотоискатель",
@@ -24591,6 +24598,13 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-38cc751be251",
+    "name_en": "Black Trojan",
+    "suggested_ru": "Черный троянец",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-39350a3cc3c3",
     "name_en": "Artifacts",
     "suggested_ru": "Артефакты",
@@ -24624,6 +24638,13 @@
     "suggested_ru": "Хвост дьявола",
     "source": "project-draft: редакционный вариант, требует проверки",
     "reason": "review_draft"
+  },
+  {
+    "id": "ger-q-400c6cd4cc7e",
+    "name_en": "Monkey Guts",
+    "suggested_ru": "Кишки обезьяны",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
   },
   {
     "id": "ger-q-430e58c6adee",
@@ -24822,6 +24843,20 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-5584d568c613",
+    "name_en": "Flame Shield",
+    "suggested_ru": "Огненный щит",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-56e7042cb9bf",
+    "name_en": "Symbol of Swords",
+    "suggested_ru": "Символ мечей",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-5717e51b5cc8",
     "name_en": "Sacred Rhythm",
     "suggested_ru": "Священный ритм",
@@ -24832,6 +24867,13 @@
     "id": "ger-q-5818ea0150e7",
     "name_en": "Devils' Festival",
     "suggested_ru": "Дьявольский фестиваль",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-58370a2cb8bd",
+    "name_en": "Scarlet Charger",
+    "suggested_ru": "Багровый переключатель",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -25102,6 +25144,13 @@
     "reason": "review_draft"
   },
   {
+    "id": "ger-q-7f671d00788e",
+    "name_en": "Snow Mouse",
+    "suggested_ru": "Снеговая полевка",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-80111109bb08",
     "name_en": "Ink Clouds",
     "suggested_ru": "Чернильные облака",
@@ -25119,6 +25168,13 @@
     "id": "ger-q-839c4acde402",
     "name_en": "Test Tube",
     "suggested_ru": "Пробирка",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-83e4340bc5a2",
+    "name_en": "Salty Dog",
+    "suggested_ru": "Соленый пес",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -25154,6 +25210,13 @@
     "id": "ger-q-86008844da92",
     "name_en": "Phoenix Nest",
     "suggested_ru": "Гнездо феникса",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-86fbd7980673",
+    "name_en": "Red Antares",
+    "suggested_ru": "Красный Антарес",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -25319,6 +25382,13 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-9dd272e95035",
+    "name_en": "Iron Blizzard",
+    "suggested_ru": "Железная метель",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-9f11f1734716",
     "name_en": "Knight and Rust",
     "suggested_ru": "Рыцарь и ржавчина",
@@ -25389,6 +25459,13 @@
     "reason": "review_game_text"
   },
   {
+    "id": "ger-q-ad0ac4510e64",
+    "name_en": "Tyrant Breath",
+    "suggested_ru": "Дыхание тирана",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
     "id": "ger-q-ae9391e1fd5d",
     "name_en": "Icebreaker Scouts",
     "suggested_ru": "Разведчики-ледорезы",
@@ -25406,6 +25483,13 @@
     "id": "ger-q-af13bb321c3f",
     "name_en": "Humpty Dumpty",
     "suggested_ru": "Шалтай-Болтай",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-af3064046e54",
+    "name_en": "Rusted Edge",
+    "suggested_ru": "Ржавый край",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -25504,6 +25588,13 @@
     "id": "ger-q-c1adc68170e2",
     "name_en": "Rice Chase",
     "suggested_ru": "Рисовая погоня",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-c2e66e61a33e",
+    "name_en": "Picnic Fields",
+    "suggested_ru": "Поля для пикника",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },
@@ -25609,6 +25700,13 @@
     "id": "ger-q-d28ef7d18cfd",
     "name_en": "Grimsvotn",
     "suggested_ru": "Гримсвотн",
+    "source": "game-mission-rewards-460870-1412844",
+    "reason": "review_game_text"
+  },
+  {
+    "id": "ger-q-d2c891f3899d",
+    "name_en": "Rabbit Hunt",
+    "suggested_ru": "Охота на кролика",
     "source": "game-mission-rewards-460870-1412844",
     "reason": "review_game_text"
   },

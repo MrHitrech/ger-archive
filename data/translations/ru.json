@@ -37583,6 +37583,17 @@
     ]
   },
   {
+    "id": "ger-q-2161a33e4a22",
+    "name_en": "Winter's Dawn",
+    "name_ru": "Начало зимы",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-dc2e3506902510d5"
+    ]
+  },
+  {
     "id": "ger-q-21946e6e92eb",
     "name_en": "Forty-Niner",
     "name_ru": "Золотоискатель",
@@ -37808,6 +37819,17 @@
     ]
   },
   {
+    "id": "ger-q-38cc751be251",
+    "name_en": "Black Trojan",
+    "name_ru": "Черный троянец",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-88e641e78e9bf9e0"
+    ]
+  },
+  {
     "id": "ger-q-39350a3cc3c3",
     "name_en": "Artifacts",
     "name_ru": "Артефакты",
@@ -37855,6 +37877,17 @@
     "aliases": [],
     "source": "project-draft: редакционный вариант, требует проверки",
     "status": "unverified"
+  },
+  {
+    "id": "ger-q-400c6cd4cc7e",
+    "name_en": "Monkey Guts",
+    "name_ru": "Кишки обезьяны",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-eb2a9241e9842a60"
+    ]
   },
   {
     "id": "ger-q-430e58c6adee",
@@ -38159,6 +38192,28 @@
     ]
   },
   {
+    "id": "ger-q-5584d568c613",
+    "name_en": "Flame Shield",
+    "name_ru": "Огненный щит",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-da49f91ca6697f8f"
+    ]
+  },
+  {
+    "id": "ger-q-56e7042cb9bf",
+    "name_en": "Symbol of Swords",
+    "name_ru": "Символ мечей",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-dbfb253f641850b7"
+    ]
+  },
+  {
     "id": "ger-q-5717e51b5cc8",
     "name_en": "Sacred Rhythm",
     "name_ru": "Священный ритм",
@@ -38180,6 +38235,17 @@
     "status": "unverified",
     "references": [
       "ev-5b107f252f1d67d4"
+    ]
+  },
+  {
+    "id": "ger-q-58370a2cb8bd",
+    "name_en": "Scarlet Charger",
+    "name_ru": "Багровый переключатель",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-d53d78cb6e3ec337"
     ]
   },
   {
@@ -38601,6 +38667,17 @@
     "status": "unverified"
   },
   {
+    "id": "ger-q-7f671d00788e",
+    "name_en": "Snow Mouse",
+    "name_ru": "Снеговая полевка",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-65195f33f4f19794"
+    ]
+  },
+  {
     "id": "ger-q-80111109bb08",
     "name_en": "Ink Clouds",
     "name_ru": "Чернильные облака",
@@ -38631,6 +38708,17 @@
     "status": "unverified",
     "references": [
       "ev-25f852ce0c0905e4"
+    ]
+  },
+  {
+    "id": "ger-q-83e4340bc5a2",
+    "name_en": "Salty Dog",
+    "name_ru": "Соленый пес",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-2397da85c8a9b66f"
     ]
   },
   {
@@ -38680,6 +38768,17 @@
     "status": "unverified",
     "references": [
       "ev-a3e0dc3b937e778d"
+    ]
+  },
+  {
+    "id": "ger-q-86fbd7980673",
+    "name_en": "Red Antares",
+    "name_ru": "Красный Антарес",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-4d89f0a973ee8ec5"
     ]
   },
   {
@@ -38927,6 +39026,17 @@
     ]
   },
   {
+    "id": "ger-q-9dd272e95035",
+    "name_en": "Iron Blizzard",
+    "name_ru": "Железная метель",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-23bf11292e5e028b"
+    ]
+  },
+  {
     "id": "ger-q-9f11f1734716",
     "name_en": "Knight and Rust",
     "name_ru": "Рыцарь и ржавчина",
@@ -39037,6 +39147,17 @@
     ]
   },
   {
+    "id": "ger-q-ad0ac4510e64",
+    "name_en": "Tyrant Breath",
+    "name_ru": "Дыхание тирана",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-f9241d923e156cad"
+    ]
+  },
+  {
     "id": "ger-q-ae9391e1fd5d",
     "name_en": "Icebreaker Scouts",
     "name_ru": "Разведчики-ледорезы",
@@ -39067,6 +39188,17 @@
     "status": "unverified",
     "references": [
       "ev-de55311af85be1b4"
+    ]
+  },
+  {
+    "id": "ger-q-af3064046e54",
+    "name_en": "Rusted Edge",
+    "name_ru": "Ржавый край",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-8948989ab2527f52"
     ]
   },
   {
@@ -39228,6 +39360,17 @@
     ]
   },
   {
+    "id": "ger-q-c2e66e61a33e",
+    "name_en": "Picnic Fields",
+    "name_ru": "Поля для пикника",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-d8a9c8815826db43"
+    ]
+  },
+  {
     "id": "ger-q-c3d3d77c8e69",
     "name_en": "Harvest Festival",
     "name_ru": "Праздник урожая",
@@ -39386,6 +39529,17 @@
     "status": "unverified",
     "references": [
       "ev-4ffdd8501d0d56e6"
+    ]
+  },
+  {
+    "id": "ger-q-d2c891f3899d",
+    "name_en": "Rabbit Hunt",
+    "name_ru": "Охота на кролика",
+    "aliases": [],
+    "source": "game-mission-rewards-460870-1412844",
+    "status": "unverified",
+    "references": [
+      "ev-a3b4737026348d60"
     ]
   },
   {

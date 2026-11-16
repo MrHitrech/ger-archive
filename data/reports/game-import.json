@@ -25,14 +25,14 @@
     },
     "missions": {
       "before": 245,
-      "after": 245,
-      "added": 0,
+      "after": 259,
+      "added": 14,
       "updated": 0
     },
     "drops": {
       "before": 13984,
-      "after": 13984,
-      "added": 0,
+      "after": 14694,
+      "added": 710,
       "updated": 0
     }
   },
@@ -92,38 +92,140 @@
       "code": "GAME_SECONDARY_POOL_REVIEW",
       "source_id": "game-field-acquisition-460870-1412844",
       "name": "Отдельные дополнительные пулы материалов",
-      "detail": "В 248 классах en_base.append_material отличается от en_mat. Эти дополнительные пулы не объединены с основной таблицей материалов миссии и не используются для подстановки весов."
+      "detail": "В 268 классах en_base.append_material отличается от en_mat. Эти дополнительные пулы не объединены с основной таблицей материалов миссии и не используются для подстановки весов."
     }
   ],
   "scope": "Materials, equipment, elements, craft and upgrade recipes; mission names by native RU IDs; automatic and supported conditional mission rewards; per-part bond breaks, devour and gathering with raw weights kept separate from confirmed percentages. Unknown conditions and synthesis are not imported.",
   "mission_rewards": {
     "decoder": "ger-mission-rewards-v1",
-    "matched_missions": 245,
-    "total_missions": 245,
-    "automatic_reward_slots": 3546,
-    "bonus_reward_slots": 1421,
+    "matched_missions": 259,
+    "total_missions": 259,
+    "automatic_reward_slots": 3742,
+    "bonus_reward_slots": 1498,
     "translation_import": {
-      "filled": 0,
+      "filled": 14,
       "preserved_existing": 245
     },
     "mission_mapping_changes": [],
-    "covered_materials": 555,
-    "skipped_bonus_slots": 1645,
-    "skipped_non_material_slots": 506,
+    "catalogue": {
+      "scope": [
+        3,
+        4
+      ],
+      "coverage": [
+        {
+          "rank": 3,
+          "type": "standard",
+          "native_type_code": 0,
+          "native_unique_missions": 24,
+          "added": 13,
+          "after": 24,
+          "excluded_urgent_rows": [
+            20377
+          ]
+        },
+        {
+          "rank": 4,
+          "type": "standard",
+          "native_type_code": 0,
+          "native_unique_missions": 21,
+          "added": 1,
+          "after": 21,
+          "excluded_urgent_rows": [
+            20378
+          ]
+        }
+      ],
+      "added": [
+        {
+          "id": "ger-q-af3064046e54",
+          "name_en": "Rusted Edge",
+          "rank": 3
+        },
+        {
+          "id": "ger-q-38cc751be251",
+          "name_en": "Black Trojan",
+          "rank": 3
+        },
+        {
+          "id": "ger-q-86fbd7980673",
+          "name_en": "Red Antares",
+          "rank": 3
+        },
+        {
+          "id": "ger-q-2161a33e4a22",
+          "name_en": "Winter's Dawn",
+          "rank": 3
+        },
+        {
+          "id": "ger-q-5584d568c613",
+          "name_en": "Flame Shield",
+          "rank": 3
+        },
+        {
+          "id": "ger-q-9dd272e95035",
+          "name_en": "Iron Blizzard",
+          "rank": 3
+        },
+        {
+          "id": "ger-q-ad0ac4510e64",
+          "name_en": "Tyrant Breath",
+          "rank": 3
+        },
+        {
+          "id": "ger-q-400c6cd4cc7e",
+          "name_en": "Monkey Guts",
+          "rank": 3
+        },
+        {
+          "id": "ger-q-83e4340bc5a2",
+          "name_en": "Salty Dog",
+          "rank": 3
+        },
+        {
+          "id": "ger-q-7f671d00788e",
+          "name_en": "Snow Mouse",
+          "rank": 3
+        },
+        {
+          "id": "ger-q-58370a2cb8bd",
+          "name_en": "Scarlet Charger",
+          "rank": 3
+        },
+        {
+          "id": "ger-q-c2e66e61a33e",
+          "name_en": "Picnic Fields",
+          "rank": 3
+        },
+        {
+          "id": "ger-q-d2c891f3899d",
+          "name_en": "Rabbit Hunt",
+          "rank": 3
+        },
+        {
+          "id": "ger-q-56e7042cb9bf",
+          "name_en": "Symbol of Swords",
+          "rank": 4
+        }
+      ]
+    },
+    "covered_materials": 563,
+    "skipped_bonus_slots": 1737,
+    "skipped_non_material_slots": 540,
     "unmatched_missions": [],
     "corrected_existing_rewards": []
   },
   "field_acquisition": {
     "counts": {
-      "break": 2174,
-      "devour": 2249,
-      "gather": 4594
+      "break": 2223,
+      "devour": 2367,
+      "gather": 4864
     },
-    "covered_materials": 595,
+    "covered_materials": 602,
     "unmatched_enemy_classes": 0,
-    "secondary_pool_differences": 248
+    "secondary_pool_differences": 268
   },
-  "plan_sha256": "5b1a4b658633d7968ab3609f331ad0bce5206989a91859be5d7ef3e3e098e24e",
+  "plan_sha256": "5ecf84e927276200ea27c8b0d2b117fd139b46c69b32533a1af8c38f3441ec3d",
   "base_sha256": "a0ec3eea2b28678dfb9ad8f608361317e850876fde5048d173b33e2d7eedbbf4",
   "validation_errors": [],
   "valid": true,

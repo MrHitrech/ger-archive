@@ -120,6 +120,11 @@
     "container_path": "bin/resconv_pc/src/god_g000_Mission/047_Building_NormalRank03.res"
   },
   {
+    "native_id": 20048,
+    "folder": "048_Building_NormalRank03",
+    "container_path": "bin/resconv_pc/src/god_g000_Mission/048_Building_NormalRank03.res"
+  },
+  {
     "native_id": 20049,
     "folder": "049_Building_NormalRank03",
     "container_path": "bin/resconv_pc/src/god_g000_Mission/049_Building_NormalRank03.res"
@@ -130,9 +135,59 @@
     "container_path": "bin/resconv_pc/src/god_g000_Mission/050_Metro_NormalRank03.res"
   },
   {
+    "native_id": 20051,
+    "folder": "051_Step_NormalRank03",
+    "container_path": "bin/resconv_pc/src/god_g000_Mission/051_Step_NormalRank03.res"
+  },
+  {
     "native_id": 20052,
     "folder": "052_Temple_NormalRank03",
     "container_path": "bin/resconv_pc/src/god_g000_Mission/052_Temple_NormalRank03.res"
+  },
+  {
+    "native_id": 20053,
+    "folder": "053_Tower_NormalRank03",
+    "container_path": "bin/resconv_pc/src/god_g000_Mission/053_Tower_NormalRank03.res"
+  },
+  {
+    "native_id": 20054,
+    "folder": "054_Metro_NormalRank03",
+    "container_path": "bin/resconv_pc/src/god_g000_Mission/054_Metro_NormalRank03.res"
+  },
+  {
+    "native_id": 20055,
+    "folder": "055_Tower_NormalRank03",
+    "container_path": "bin/resconv_pc/src/god_g000_Mission/055_Tower_NormalRank03.res"
+  },
+  {
+    "native_id": 20056,
+    "folder": "056_Ship_NormalRank03",
+    "container_path": "bin/resconv_pc/src/god_g000_Mission/056_Ship_NormalRank03.res"
+  },
+  {
+    "native_id": 20057,
+    "folder": "057_Building_NormalRank03",
+    "container_path": "bin/resconv_pc/src/god_g000_Mission/057_Building_NormalRank03.res"
+  },
+  {
+    "native_id": 20058,
+    "folder": "058_Step_NormalRank03",
+    "container_path": "bin/resconv_pc/src/god_g000_Mission/058_Step_NormalRank03.res"
+  },
+  {
+    "native_id": 20059,
+    "folder": "059_Step_NormalRank03",
+    "container_path": "bin/resconv_pc/src/god_g000_Mission/059_Step_NormalRank03.res"
+  },
+  {
+    "native_id": 20060,
+    "folder": "060_Ship_NormalRank03",
+    "container_path": "bin/resconv_pc/src/god_g000_Mission/060_Ship_NormalRank03.res"
+  },
+  {
+    "native_id": 20061,
+    "folder": "061_Temple_NormalRank03",
+    "container_path": "bin/resconv_pc/src/god_g000_Mission/061_Temple_NormalRank03.res"
   },
   {
     "native_id": 20062,
@@ -178,6 +233,11 @@
     "native_id": 20070,
     "folder": "070_Metro_NormalRank04",
     "container_path": "bin/resconv_pc/src/god_g000_Mission/070_Metro_NormalRank04.res"
+  },
+  {
+    "native_id": 20071,
+    "folder": "071_Temple_NormalRank04",
+    "container_path": "bin/resconv_pc/src/god_g000_Mission/071_Temple_NormalRank04.res"
   },
   {
     "native_id": 20072,
@@ -738,6 +798,16 @@
     "native_id": 20234,
     "folder": "234_Metro_NormalRank03",
     "container_path": "bin/resconv_pc/src/god_g000_Mission/234_Metro_NormalRank03.res"
+  },
+  {
+    "native_id": 20235,
+    "folder": "235_Step_NormalRank03",
+    "container_path": "bin/resconv_pc/src/god_g000_Mission/235_Step_NormalRank03.res"
+  },
+  {
+    "native_id": 20236,
+    "folder": "236_Step_NormalRank03",
+    "container_path": "bin/resconv_pc/src/god_g000_Mission/236_Step_NormalRank03.res"
   },
   {
     "native_id": 20238,

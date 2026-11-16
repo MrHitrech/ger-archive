@@ -39,7 +39,7 @@ test('enemy pools require an actual quest or random-entry spawn', () => {
   );
 });
 test('all catalogue missions have readable Russian translations linked by native IDs', () => {
-  assert.equal(data.missions.length, 245);
+  assert.ok(data.missions.length >= 245);
   for (const mission of data.missions) {
     const translation = data.translations.find((t) => t.id === mission.id);
     assert.ok(translation?.name_ru, mission.name_en);

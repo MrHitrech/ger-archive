@@ -8,6 +8,7 @@ import { createGameImport } from './lib/game-import.mjs';
 import { createMissionRewardImport } from './lib/mission-rewards.mjs';
 import { missionBundlePaths } from './lib/mission-resources.mjs';
 import { createFieldAcquisitionImport } from './lib/field-acquisition.mjs';
+import { linkCatalogueEnemyEvidence } from './lib/mission-catalogue.mjs';
 import { prepareTranslations } from './prepare-translations.mjs';
 import { validateDataset, validateSnapshots, qualityReport } from './lib/validate.mjs';
 
@@ -79,9 +80,15 @@ export async function importGameData({
     const missionMappings = await readJson(
       path.join(dataDir, 'import-mappings/game-missions.json'),
     );
+    const catalogueScope = await readJson(
+      path.join(dataDir, 'import-mappings/game-mission-catalogue.json'),
+    );
+    const aragamiMappings = await readJson(path.join(dataDir, 'import-mappings/game-aragami.json'));
     const rewards = createMissionRewardImport(staged.dataset, exported, {
       checkedAt,
       missionMappings,
+      catalogueScope,
+      aragamiMappings,
     });
     staged.dataset = rewards.dataset;
     for (const [file, content] of rewards.snapshots) staged.snapshots.set(file, content);
@@ -89,14 +96,12 @@ export async function importGameData({
     staged.idMap.push(...rewards.idMap);
     staged.report.mission_rewards = rewards.report;
     if (exported.manifest.mission_bundles?.length) {
-      const aragamiMappings = await readJson(
-        path.join(dataDir, 'import-mappings/game-aragami.json'),
-      );
       const fields = createFieldAcquisitionImport(staged.dataset, exported, {
         checkedAt,
         aragamiMappings,
       });
       staged.dataset = fields.dataset;
+      linkCatalogueEnemyEvidence(staged.dataset);
       for (const [file, content] of fields.snapshots) staged.snapshots.set(file, content);
       staged.issues.push(...fields.issues);
       staged.report.field_acquisition = fields.report;

@@ -13,6 +13,25 @@ const recipe = (name: string, operation = name === 'Knife P' ? 'craft' : 'upgrad
       r.item_id === item(name).id && r.operation === operation,
   );
 
+test('difficulty filters include all 24 rank-3 and 21 rank-4 ordinary missions', async ({
+  page,
+}) => {
+  for (const [rank, count] of [
+    [3, 24],
+    [4, 21],
+  ]) {
+    await page.goto(`./#/missions?rank=${rank}`);
+    await expect(page.locator('.mission-table tbody tr')).toHaveCount(count);
+  }
+  const translations = JSON.parse(await readFile(resolve('data/translations/ru.json'), 'utf8'));
+  const missions = JSON.parse(await readFile(resolve('data/missions.json'), 'utf8'));
+  const swords = missions.find((m: { name_en: string }) => m.name_en === 'Symbol of Swords');
+  const title = translations.find((t: { id: string }) => t.id === swords.id).name_ru;
+  await page.locator(`.mission-table a[href$="${swords.id}"]`).click();
+  await expect(page.getByRole('heading', { name: title, exact: true })).toBeVisible();
+  await expect(page.locator('.drop-table')).toBeVisible();
+});
+
 test('production build loads from a repository subdirectory without external requests', async ({
   page,
 }) => {

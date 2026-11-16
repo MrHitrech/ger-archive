@@ -13,6 +13,7 @@ import {
   decodeRussianMissionName,
 } from './mission-conditions.mjs';
 import { FIELD_ACQUISITION_DECODER, validateFieldAcquisition } from './field-acquisition.mjs';
+import { validateCatalogueMission } from './mission-catalogue.mjs';
 
 const schema = JSON.parse(
   await readFile(new URL('../../data/schema.json', import.meta.url), 'utf8'),
@@ -293,6 +294,8 @@ export function validateDataset(data) {
           .find((e) => JSON.stringify(e?.game_origin) === JSON.stringify(mission.game_origin));
         const facts = JSON.parse(ev?.excerpt ?? '{}');
         const raw = missionRewardFields(facts.raw_hex, mission.game_origin.row_id);
+        for (const error of validateCatalogueMission(mission, facts, index, aragamiMappings))
+          fail(`${mission.id}: ${error}`);
         if (
           facts.decoder !== MISSION_REWARDS_DECODER ||
           facts.name_en !== mission.name_en ||
