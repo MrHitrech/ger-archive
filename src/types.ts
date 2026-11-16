@@ -11,16 +11,27 @@ export interface GameImages {
       width: number;
       height: number;
       resource: string;
-      texture_index: number;
+      texture_index?: number;
+      kind?: 'model_render';
     }
   >;
   entities: Record<
     string,
     {
       asset_id: string;
-      kind: 'inventory_icon' | 'norn_illustration';
+      kind: 'inventory_icon' | 'norn_illustration' | 'model_render';
       native_id?: number;
       family_id?: number;
+    }
+  >;
+  portraits?: Record<
+    string,
+    {
+      asset_id: string;
+      kind: 'model_render';
+      native_id: number;
+      model_index: number;
+      reference_id: string;
     }
   >;
   resources: Record<string, { resource_path: string; sha256: string; archive: string }>;
@@ -30,6 +41,7 @@ export interface GameImages {
     materials: number;
     items: number;
     aragami: number;
+    equipment_portraits: number;
     assets: number;
     missing: number;
     bytes: number;

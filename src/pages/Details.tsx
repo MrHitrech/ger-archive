@@ -9,6 +9,7 @@ import {
   categories,
   DetailHeader,
   AragamiArtwork,
+  EquipmentArtwork,
   Empty,
   EntityLink,
   EntityName,
@@ -436,6 +437,7 @@ export function ItemDetail() {
   return (
     <>
       <DetailHeader record={item} kind="item" category={item.category} />
+      <EquipmentArtwork id={item.id} />
       <div className="fact-strip">
         <div>
           <span>Ранг</span>

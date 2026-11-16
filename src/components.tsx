@@ -21,6 +21,7 @@ import {
 import { useApp } from './context';
 import { useCollections } from './lib/data';
 import type { BaseRecord, EntityKind, SearchEntry, Verification } from './types';
+export { elements } from './lib/game-elements';
 
 export const categories: Record<string, string> = {
   short_blade: 'Короткий клинок',
@@ -69,12 +70,6 @@ export const missionTypes: Record<string, string> = {
   extra: 'Дополнительная',
   challenge: 'Испытание',
   tutorial: 'Обучение',
-};
-export const elements: Record<string, string> = {
-  blaze: 'Огонь',
-  freeze: 'Лёд',
-  spark: 'Молния',
-  divine: 'Свет',
 };
 export const number = (n: number) => n.toLocaleString('ru-RU');
 
@@ -153,7 +148,9 @@ export function RecordIcon({
       <span
         className={`record-icon ${kind} ${large ? 'large' : ''} with-game-image`}
         title={
-          image?.kind === 'inventory_icon' ? 'Игровая иконка категории' : 'Иллюстрация из NORN'
+          image?.kind === 'inventory_icon'
+            ? 'Игровая иконка предмета'
+            : 'Изображение арагами из игры'
         }
       >
         <img
@@ -188,7 +185,10 @@ export function AragamiArtwork({ id, compact = false }: { id: string; compact?: 
   const { images, name } = useApp();
   const [failed, setFailed] = useState('');
   const image = images.entities[id],
-    asset = image?.kind === 'norn_illustration' ? images.assets[image.asset_id] : undefined;
+    asset =
+      image && ['norn_illustration', 'model_render'].includes(image.kind)
+        ? images.assets[image.asset_id]
+        : undefined;
   if (!asset || failed === asset.file)
     return compact ? (
       <div className="game-artwork missing compact">
@@ -202,17 +202,50 @@ export function AragamiArtwork({ id, compact = false }: { id: string; compact?: 
       </p>
     );
   return (
-    <figure className={`game-artwork ${compact ? 'compact' : ''}`}>
+    <figure
+      className={`game-artwork ${image?.kind === 'model_render' ? 'model-artwork' : ''} ${compact ? 'compact' : ''}`}
+    >
       <img
         src={`${import.meta.env.BASE_URL}${asset.file}`}
-        alt={`${name(id)} — иллюстрация NORN`}
+        alt={`${name(id)} — ${image?.kind === 'model_render' ? 'игровая модель' : 'иллюстрация NORN'}`}
         width={asset.width}
         height={asset.height}
         loading={compact ? 'lazy' : 'eager'}
         decoding="async"
         onError={() => setFailed(asset.file)}
       />
-      {!compact && <figcaption>Иллюстрация из игровой базы NORN</figcaption>}
+      {!compact && (
+        <figcaption>
+          {image?.kind === 'model_render' ? 'Модель из игры' : 'Иллюстрация из игровой базы NORN'}
+        </figcaption>
+      )}
+    </figure>
+  );
+}
+export function EquipmentArtwork({ id }: { id: string }) {
+  const { images, name } = useApp();
+  const [failed, setFailed] = useState('');
+  const image = images.portraits?.[id],
+    asset = image ? images.assets[image.asset_id] : undefined;
+  if (!asset) return null;
+  if (failed === asset.file)
+    return (
+      <p className="footnote game-image-missing">
+        Не удалось загрузить изображение. Рецепт и характеристики доступны ниже.
+      </p>
+    );
+  return (
+    <figure className="game-artwork equipment-artwork">
+      <img
+        src={`${import.meta.env.BASE_URL}${asset.file}`}
+        alt={`${name(id)} — модель из игры`}
+        width={asset.width}
+        height={asset.height}
+        loading="eager"
+        decoding="async"
+        onError={() => setFailed(asset.file)}
+      />
+      <figcaption>Модель из игры</figcaption>
     </figure>
   );
 }
@@ -523,6 +556,7 @@ export function DetailHeader({
   }, [record.id]); // record visit should not rerun when local progress changes
   const t = translations.get(record.id);
   const gameTranslation = sources.some((s) => s.id === t?.source && s.acquisition === 'game_files');
+  const showIcon = kind !== 'item' || !images.portraits?.[record.id];
   return (
     <>
       <Link className="back-link" to={routeFor({ id: '', kind }).replace(/\/$/, '')}>
@@ -537,7 +571,7 @@ export function DetailHeader({
         }
       </Link>
       <header className="detail-heading">
-        <RecordIcon id={record.id} kind={kind} category={category} large />
+        {showIcon && <RecordIcon id={record.id} kind={kind} category={category} large />}
         <div>
           <div className="detail-meta">
             <span className="eyebrow">
@@ -561,8 +595,9 @@ export function DetailHeader({
               : 'Перевод не найден'}
           </p>
           {['item', 'material'].includes(kind) &&
+            showIcon &&
             images.entities[record.id]?.kind === 'inventory_icon' && (
-              <p className="image-caption">Иконка категории из игры</p>
+              <p className="image-caption">Иконка из игры</p>
             )}
         </div>
         <FavoriteButton id={record.id} />

@@ -209,7 +209,7 @@ test('light filter includes recovered elements and displays the Russian name С�
     .locator(`a[href$="${item('Immunity Buckler').id}"]`)
     .first()
     .click();
-  await expect(page.getByText('Огонь · Лёд · Молния · Свет', { exact: true })).toBeVisible();
+  await expect(page.getByText('Огонь · Лёд · Искры · Свет', { exact: true })).toBeVisible();
 });
 
 test('mission rewards show separate 25% positions and native provenance', async ({ page }) => {

@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { readDataset, readJson, dataDir } from '../scripts/lib/files.mjs';
 import { ddsInfo, parseTextureSet, webpDimensions } from '../scripts/lib/game-textures.mjs';
 import { inventoryIcon } from '../scripts/lib/game-image-layouts.mjs';
+import { elements } from '../src/lib/game-elements.ts';
 import {
   validateImageManifest,
   validateImageFiles,
@@ -66,16 +67,20 @@ test('WebP dimensions are checked from the published bytes', () => {
   assert.deepEqual(webpDimensions(bytes), { width: 128, height: 64 });
   assert.throws(() => webpDimensions(bytes.subarray(0, -1)));
 });
-test('inventory category icons distinguish all weapon, shield, clothing and material types', () => {
-  const codes = [
-    14, 270, 526, 782, 1038, 1294, 15, 271, 527, 783, 16, 272, 528, 12, 13, 17, 10, 266, 522,
-  ];
-  const icons = codes.map(inventoryIcon);
-  assert.equal(new Set(icons.map((icon) => `${icon.sheet}/${icon.index}`)).size, 19);
-  assert.deepEqual(inventoryIcon(14), { sheet: 11, index: 5 });
-  assert.deepEqual(inventoryIcon(1294), { sheet: 12, index: 29 });
-  assert.deepEqual(inventoryIcon(522), { sheet: 14, index: 17 });
-  assert.equal(inventoryIcon(9999), null);
+test('native article icon bits preserve the actual shape and palette, independent of category or rank', () => {
+  assert.deepEqual(inventoryIcon(0), { sheet: 11, index: 0 });
+  assert.deepEqual(inventoryIcon(64), { sheet: 11, index: 1 });
+  assert.deepEqual(inventoryIcon(4096 + 256), { sheet: 11, index: 4 });
+  assert.deepEqual(inventoryIcon(12 + 5 * 64), { sheet: 12, index: 29 });
+  assert.deepEqual(inventoryIcon(19 + 5 * 64), { sheet: 13, index: 3 });
+  // Pixie Thorn is a gray rock; Wyrm Armor a blue rock, Hanuman Mask a blue organic material.
+  assert.deepEqual(inventoryIcon(344), { sheet: 14, index: 5 });
+  assert.deepEqual(inventoryIcon(152), { sheet: 14, index: 2 });
+  assert.deepEqual(inventoryIcon(154), { sheet: 14, index: 14 });
+  assert.deepEqual(inventoryIcon(89), { sheet: 14, index: 7 });
+  assert.deepEqual(inventoryIcon(347), { sheet: 14, index: 23 });
+  for (const bad of [-1, undefined, 65536, 63, 14, 24 + 6 * 64])
+    assert.equal(inventoryIcon(bad), null);
 });
 
 const data = await readDataset(),
@@ -86,9 +91,9 @@ test('all game images have native provenance, linked IDs, valid WebP bytes and a
   assert.deepEqual(await validateImageFiles(manifest), []);
   assert.equal(manifest.coverage.items, 2787);
   assert.equal(manifest.coverage.materials, 615);
-  assert.equal(manifest.coverage.aragami, 51);
-  assert.equal(manifest.coverage.assets, 70);
-  assert.equal(manifest.coverage.missing, 3);
+  assert.equal(manifest.coverage.aragami, 53);
+  assert.equal(manifest.coverage.equipment_portraits, 2186);
+  assert.equal(manifest.coverage.missing, 1);
   assert.equal(
     Object.values(manifest.entities).filter((e) => e.kind === 'inventory_icon').length,
     3402,
@@ -98,6 +103,15 @@ test('all game images have native provenance, linked IDs, valid WebP bytes and a
   assert.equal(manifest.entities[vajra.id].family_id, 1);
   assert.equal(manifest.entities[heaven.id].family_id, 31);
   assert.notEqual(manifest.entities[vajra.id].asset_id, manifest.entities[heaven.id].asset_id);
+  for (const family of [145, 148]) {
+    const mapping = mappings.find((m) => m.family_id === family),
+      image = manifest.entities[mapping.site_id];
+    assert.equal(image.kind, 'model_render');
+    assert.equal(image.family_id, family);
+  }
+  assert.equal(manifest.terminology.spark.en.text, 'Spark');
+  assert.equal(manifest.terminology.spark.ru.text, elements.spark);
+  assert.equal(elements.spark, 'Искры');
 });
 test('wrong enemy pictures, wrong category icons, corrupt hashes and uncovered records block the build', async () => {
   for (const mutate of [
@@ -115,7 +129,7 @@ test('wrong enemy pictures, wrong category icons, corrupt hashes and uncovered r
       Object.values(m.assets)[0].width++;
     },
     (m) => {
-      Object.values(m.assets)[0].dds_offset = 999999999;
+      Object.values(m.assets).find((a) => a.kind !== 'model_render').dds_offset = 999999999;
     },
     (m) => {
       Object.values(m.assets)[0].sha256 = '0'.repeat(64);
@@ -124,7 +138,30 @@ test('wrong enemy pictures, wrong category icons, corrupt hashes and uncovered r
       delete m.entities[data.items[0].id];
     },
     (m) => {
-      m.missing.find((e) => e.reason === 'no_norn_illustration').family_id = 1;
+      const image = Object.values(m.entities).find((e) => e.kind === 'model_render');
+      image.family_id = 1;
+    },
+    (m) => {
+      const item = data.items.find((i) => i.name_en === 'Knife P');
+      m.portraits[item.id].model_index++;
+    },
+    (m) => {
+      const knife = data.items.find((i) => i.name_en === 'Knife P'),
+        falcon = data.items.find((i) => i.name_en === 'Falcon P');
+      m.portraits[knife.id].asset_id = m.portraits[falcon.id].asset_id;
+    },
+    (m) => {
+      Object.values(m.assets).find((a) => a.render?.pose_clip_index === 1).render.pose_clip_index =
+        0;
+    },
+    (m) => {
+      const item = data.items.find((i) => i.name_en === 'Wyrm Armor'),
+        material = data.materials.find((i) => i.name_en === 'Wyrm Armor');
+      const image = m.entities[(material ?? item).id];
+      image.packed_icon = 344;
+    },
+    (m) => {
+      m.terminology.spark.ru.text = 'Молния';
     },
     (m) => {
       m.article_sha256 = '0'.repeat(64);

@@ -1027,6 +1027,20 @@ main {
   margin: 0;
   border-radius: 5px;
 }
+.equipment-artwork,
+.model-artwork:not(.compact) {
+  background: radial-gradient(ellipse at 50% 45%, #30343c 0%, #171d23 72%);
+}
+.equipment-artwork > img,
+.model-artwork:not(.compact) > img {
+  aspect-ratio: 3 / 2;
+  max-height: 440px;
+  object-fit: contain;
+}
+.equipment-artwork > figcaption,
+.model-artwork > figcaption {
+  text-align: center;
+}
 .game-artwork.missing.compact {
   display: flex;
   align-items: center;

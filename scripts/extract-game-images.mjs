@@ -4,18 +4,32 @@ import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import { pathToFileURL } from 'node:url';
 import { root, dataDir, readDataset, readJson, writeJson, hash } from './lib/files.mjs';
-import { openQpck, gamePathHash, parsePres, decompressBlz4, sha256 } from './lib/game-formats.mjs';
+import {
+  openQpck,
+  gamePathHash,
+  parsePres,
+  decompressBlz4,
+  parseTr2,
+  sha256,
+} from './lib/game-formats.mjs';
+import { decodeRussianArticleName } from './lib/game-text.mjs';
 import { decodeGameResource, resourcePaths } from './extract-game-data.mjs';
 import { parseTextureSet } from './lib/game-textures.mjs';
 import { IMAGE_DECODER, inventoryIcon, iconPath, nornPaths } from './lib/game-image-layouts.mjs';
 import { validateImageManifest, validateImageFiles } from './lib/game-image-validation.mjs';
+import { extractModelImages } from './lib/extract-model-images.mjs';
 
 const execute = promisify(execFile),
   canonical = (p) => p.replaceAll('\\', '/').toLowerCase();
 export async function extractGameImages(
   gameDirectory,
   outputDirectory,
-  { ffmpeg = 'ffmpeg', apply = false, progress = () => {} } = {},
+  {
+    ffmpeg = 'ffmpeg',
+    chrome = 'C:/Program Files/Google/Chrome/Application/chrome.exe',
+    apply = false,
+    progress = () => {},
+  } = {},
 ) {
   const gameDir = path.resolve(gameDirectory),
     output = path.resolve(outputDirectory),
@@ -144,7 +158,7 @@ export async function extractGameImages(
       decodeGameResource('article_en', article.unpacked.bytes).map((r) => [r.id, r]),
     );
     const manifest = {
-      format_version: 1,
+      format_version: 2,
       game: 'ger',
       app_id: appId,
       build_id: build,
@@ -162,6 +176,35 @@ export async function extractGameImages(
       entities: {},
       missing: [],
     };
+    const termResources = {};
+    for (const locale of ['en', 'ru']) {
+      const logical = `data/Locale/exported/${locale}/data-GameData-g999_Base-db-article-Tr2-eq_label_main_str.tr2`,
+        loaded = await resolve(logical),
+        key = `element_labels_${locale}`,
+        row = parseTr2(loaded.unpacked.bytes, {
+          selectedFields: ['eq_label_main_str_str'],
+        }).rows.find((r) => r.id === 154);
+      if (!row) throw new Error('Spark element label missing in native text table');
+      termResources[locale] = {
+        resource: key,
+        row_id: 154,
+        text:
+          locale === 'ru'
+            ? decodeRussianArticleName(row.eq_label_main_str_str)
+            : row.eq_label_main_str_str,
+      };
+      manifest.resources[key] = {
+        ...loaded.origin,
+        resource_path: logical,
+        format: 'tr2',
+        stored_sha256: sha256(loaded.bytes),
+        sha256: sha256(loaded.unpacked.bytes),
+        size: loaded.unpacked.bytes.length,
+        integrity: loaded.unpacked.md5 ? 'blz4_md5' : 'bounds_and_sha256',
+        md5: loaded.unpacked.md5 ?? null,
+      };
+    }
+    manifest.terminology = { spark: termResources };
     const textures = new Map(),
       requests = new Map(),
       links = [];
@@ -177,6 +220,7 @@ export async function extractGameImages(
         size: loaded.unpacked.bytes.length,
         md5: loaded.unpacked.md5 ?? null,
         integrity: loaded.unpacked.md5 ? 'blz4_md5' : 'bounds_and_sha256',
+        format: 'texture_set',
         texture_count: decoded.length,
       };
       textures.set(key, decoded);
@@ -200,12 +244,20 @@ export async function extractGameImages(
         continue;
       }
       const row = articles.get(record.game_origin.row_id),
-        icon = inventoryIcon(row?.category_code);
+        header = row ? Buffer.from(row.raw_hex, 'hex').subarray(0, 10) : null,
+        packed = header?.readUInt16LE(4),
+        icon = inventoryIcon(packed);
       if (!row || !icon) throw new Error(`Unsupported inventory image category: ${record.name_en}`);
       links.push({
         id: record.id,
         key: request(`icons_${icon.sheet}`, icon.index),
-        image: { kind: 'inventory_icon', native_id: row.id, category_code: row.category_code },
+        image: {
+          kind: 'inventory_icon',
+          native_id: row.id,
+          category_code: row.category_code,
+          packed_icon: packed,
+          article_header_hex: header.toString('hex'),
+        },
       });
     }
     for (const record of data.aragami) {
@@ -306,15 +358,36 @@ export async function extractGameImages(
         .sort((a, b) => a.id.localeCompare(b.id))
         .map((link) => [link.id, { asset_id: assetIds.get(link.key), ...link.image }]),
     );
+    await extractModelImages({
+      data,
+      manifest,
+      articles,
+      mappings,
+      resolve,
+      assetDir,
+      output,
+      execute,
+      ffmpeg,
+      chrome,
+      progress,
+    });
+    manifest.assets = Object.fromEntries(
+      Object.entries(manifest.assets).sort(([a], [b]) => a.localeCompare(b)),
+    );
+    manifest.entities = Object.fromEntries(
+      Object.entries(manifest.entities).sort(([a], [b]) => a.localeCompare(b)),
+    );
     manifest.missing.sort((a, b) => a.id.localeCompare(b.id));
     manifest.coverage = {
       materials: data.materials.filter((r) => manifest.entities[r.id]).length,
       items: data.items.filter((r) => manifest.entities[r.id]).length,
       aragami: data.aragami.filter((r) => manifest.entities[r.id]).length,
+      equipment_portraits: Object.keys(manifest.portraits).length,
       assets: Object.keys(manifest.assets).length,
       missing: manifest.missing.length,
       bytes: Object.values(manifest.assets).reduce((sum, a) => sum + a.size, 0),
     };
+    await writeJson(path.join(output, 'manifest.pending.json'), manifest);
     const errors = [
       ...validateImageManifest(data, manifest, mappings),
       ...(await validateImageFiles(manifest, assetDir)),
@@ -352,6 +425,7 @@ if (process.argv[1] && pathToFileURL(path.resolve(process.argv[1])).href === imp
       JSON.stringify(
         await extractGameImages(game, value('--output', path.join(root, 'artifacts/game-images')), {
           ffmpeg: value('--ffmpeg', 'ffmpeg'),
+          chrome: value('--chrome', 'C:/Program Files/Google/Chrome/Application/chrome.exe'),
           apply: args.includes('--apply'),
           progress: (message) => console.log(message),
         }),

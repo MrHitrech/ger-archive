@@ -75,16 +75,22 @@ export default function Sources() {
       <section className="panel">
         <SectionHeading title="Изображения из игры" />
         <p>
-          Иконки категорий для {images.coverage?.items ?? 0} предметов снаряжения и{' '}
-          {images.coverage?.materials ?? 0} материалов. Иллюстрации NORN для{' '}
+          Игровые иконки для {images.coverage?.items ?? 0} предметов снаряжения и{' '}
+          {images.coverage?.materials ?? 0} материалов. Изображения моделей для{' '}
+          {images.coverage?.equipment_portraits ?? 0} оружий и щитов. Изображения всех{' '}
           {images.coverage?.aragami ?? 0} арагами. Сборка: {images.build_id ?? 'не загружена'}.
         </p>
         <p className="footnote">
-          Иконки предметов обозначают их категорию. Без подтверждённого игрового изображения
-          остаётся записей: {images.missing.length}. Игровые изображения принадлежат
-          правообладателям.
+          Форма и цвет иконок прочитаны из записи каждого предмета. Оружие, щиты и две формы арагами
+          показаны по игровым моделям и текстурам; остальные арагами — по иллюстрациям NORN. Без
+          подтверждённого игрового изображения остаётся записей: {images.missing.length}. Игровые
+          изображения принадлежат правообладателям.
         </p>
-        <a className="text-link" href={dataUrl('images.json')} download="ger-image-provenance.json">
+        <a
+          className="text-link"
+          href={dataUrl('image-provenance.json')}
+          download="ger-image-provenance.json"
+        >
           Скачать привязки и происхождение изображений
         </a>
       </section>

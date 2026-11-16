@@ -19,11 +19,43 @@ const search = Object.entries(kinds).flatMap(([collection, kind]) =>
     verification_status: r.verification_status,
   })),
 );
+const images = await readJson(path.join(dataDir, 'game-images.json'));
 const payloads = {
   ...data,
   report: await readJson(path.join(dataDir, 'quality-report.json')),
   search,
-  images: await readJson(path.join(dataDir, 'game-images.json')),
+  images: {
+    build_id: images.build_id,
+    assets: Object.fromEntries(
+      Object.entries(images.assets).map(([id, a]) => [
+        id,
+        {
+          id,
+          file: a.file,
+          sha256: a.sha256,
+          width: a.width,
+          height: a.height,
+          resource: a.resource,
+          ...(a.kind ? { kind: a.kind } : { texture_index: a.texture_index }),
+        },
+      ]),
+    ),
+    entities: Object.fromEntries(
+      Object.entries(images.entities).map(([id, e]) => [
+        id,
+        {
+          asset_id: e.asset_id,
+          kind: e.kind,
+          ...(e.native_id !== undefined ? { native_id: e.native_id } : { family_id: e.family_id }),
+        },
+      ]),
+    ),
+    portraits: images.portraits,
+    resources: {},
+    missing: images.missing,
+    coverage: images.coverage,
+  },
+  'image-provenance': images,
 };
 const manifest = { version: '0.1.0', checked_at: payloads.report.checked_at, files: {} };
 for (const [key, value] of Object.entries(payloads)) {
