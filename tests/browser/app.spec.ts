@@ -57,6 +57,7 @@ test('weapon to material to mission to aragami is fully linked inside the site',
   await page
     .locator('.drop-table')
     .getByRole('link', { name: /Хвост дьявола/ })
+    .first()
     .click();
   await expect(page.getByRole('heading', { name: 'Хвост дьявола' })).toBeVisible();
   await page
@@ -108,13 +109,52 @@ test('shared physical chain and stock aggregate correctly in the browser', async
 });
 
 test('unknown probability is not rendered as zero or a made-up percent', async ({ page }) => {
+  await page.route('**/data/drops.json*', async (route) => {
+    const response = await route.fetch();
+    const rows = await response.json();
+    await route.fulfill({
+      response,
+      json: rows.map((d: { drop_rate: number | null }) => ({ ...d, drop_rate: null })),
+    });
+  });
   await page.goto(`./#/materials/${material('Pixie Thorn').id}`);
-  await expect(page.getByText('Шанс неизвестен', { exact: true })).toBeVisible();
+  await expect(page.getByText('Шанс неизвестен', { exact: true }).first()).toBeVisible();
   await expect(page.locator('.drop-rate')).toHaveCount(0);
   await page.getByRole('link', { name: 'О данных' }).click();
   await expect(
     page.getByRole('heading', { name: 'База ещё не готова к полной публикации' }),
   ).toBeVisible();
+});
+
+test('light filter includes recovered elements and displays the Russian name Свет', async ({
+  page,
+}) => {
+  await page.goto('./#/craft?element=divine&q=Immunity+Buckler');
+  await expect(page.getByRole('combobox', { name: 'Элемент', exact: true })).toHaveValue('divine');
+  await expect(page.getByRole('option', { name: 'Свет', exact: true })).toHaveCount(1);
+  const card = page.locator('.equipment-card').filter({
+    has: page.locator(`a[href$="${item('Immunity Buckler').id}"]`),
+  });
+  await expect(card).toHaveCount(1);
+  await expect(card.locator('.element.divine')).toHaveText('Свет');
+  await card
+    .locator(`a[href$="${item('Immunity Buckler').id}"]`)
+    .first()
+    .click();
+  await expect(page.getByText('Огонь · Лёд · Молния · Свет', { exact: true })).toBeVisible();
+});
+
+test('mission rewards show separate 25% positions and native provenance', async ({ page }) => {
+  const missions = JSON.parse(await readFile(resolve('data/missions.json'), 'utf8'));
+  const mayflies = missions.find((m: { name_en: string }) => m.name_en === 'Mayflies');
+  await page.goto(`./#/missions/${mayflies.id}`);
+  const rows = page
+    .locator('.drop-table tbody tr')
+    .filter({ has: page.getByRole('link', { name: /Шип пикси/ }) });
+  await expect(rows).toHaveCount(2);
+  await expect(rows.locator('.drop-rate')).toHaveText(['25%', '25%']);
+  await expect(rows.first().getByText('из файлов игры · для этой позиции')).toBeVisible();
+  await expect(rows.first().getByText(/Позиция награды:/)).toBeVisible();
 });
 
 test('mobile navigation and wide tables stay within the viewport', async ({ page }) => {

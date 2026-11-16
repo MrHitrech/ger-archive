@@ -28,7 +28,8 @@
         "resource": { "type": "string", "minLength": 1 },
         "row_id": { "type": "integer", "minimum": 0 },
         "resource_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
-        "byte_offset": { "type": "integer", "minimum": 0 }
+          "byte_offset": { "type": "integer", "minimum": 0 },
+          "slot": { "type": "integer", "minimum": 0, "maximum": 31 }
       }
     },
     "base": {
@@ -127,7 +128,7 @@
           "drop_rate": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
           "quantity": { "type": ["integer", "null"], "minimum": 1 },
           "slot": { "type": ["string", "null"] },
-          "source_url": { "type": "string", "pattern": "^https://" }
+            "source_url": { "type": ["string", "null"], "pattern": "^https://" }
         }
       }]
     },

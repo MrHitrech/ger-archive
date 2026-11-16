@@ -1,5 +1,6 @@
 import { idFor, hash } from './files.mjs';
 import { decodeRussianArticleName, RUSSIAN_ARTICLE_NAME_CODEC } from './game-text.mjs';
+import { decodeArticleElements, ARTICLE_ELEMENTS_DECODER } from './game-elements.mjs';
 
 export const equipmentCategories = {
   14: 'short_blade',
@@ -107,10 +108,14 @@ export function createGameImport(
       ...(row.record_offset !== undefined ? { byte_offset: row.record_offset } : {}),
     };
   }
-  function proof(resource, row, facts) {
+  function proof(resource, row, facts, variant = '') {
     const excerpt = JSON.stringify({ resource, row_id: row.id, ...facts });
     const id = `ev-${hash(`${sourceId}|${manifest.resources[resource].sha256}|${excerpt}`).slice(0, 16)}`;
-    const codecSuffix = resource === 'article_ru' ? `-${RUSSIAN_ARTICLE_NAME_CODEC}` : '';
+    const codecSuffix = variant
+      ? `-${variant}`
+      : resource === 'article_ru'
+        ? `-${RUSSIAN_ARTICLE_NAME_CODEC}`
+        : '';
     const snapshot = `game-${manifest.build_id}-${resource.replaceAll('_', '-')}-${manifest.resources[resource].sha256.slice(0, 12)}${codecSuffix}.json`;
     if (!snapshotRows.has(snapshot))
       snapshotRows.set(snapshot, {
@@ -239,7 +244,7 @@ export function createGameImport(
     const fields =
       collection === 'recipes'
         ? ['item_id', 'operation', 'from_item_id', 'materials', 'cost_fc', 'required_rank']
-        : ['name_en', 'category', 'rank'];
+        : ['name_en', 'category', 'rank', ...(collection === 'items' ? ['elements'] : [])];
     const equivalent = (field, a, b) =>
       field === 'materials'
         ? same(
@@ -338,6 +343,15 @@ export function createGameImport(
       if (rank === null) record.missing_fields = unique([...record.missing_fields, 'rank']);
       if (!old)
         record.missing_fields = unique([...record.missing_fields, 'stats', 'elements', 'skills']);
+      const affinities = decodeArticleElements(row);
+      if (affinities) {
+        record.elements = affinities.elements;
+        record.missing_fields = record.missing_fields.filter((field) => field !== 'elements');
+        record.references = unique([
+          ...record.references,
+          proof('article_en', row, affinities, ARTICLE_ELEMENTS_DECODER),
+        ]);
+      }
     } else if (!old)
       record.missing_fields = unique([
         ...record.missing_fields,

@@ -7,6 +7,7 @@ export interface GameOrigin {
   row_id: number;
   resource_sha256: string;
   byte_offset?: number;
+  slot?: number;
 }
 export interface BaseRecord {
   id: string;
@@ -71,7 +72,7 @@ export interface Drop extends BaseRecord {
   drop_rate: number | null;
   quantity: number | null;
   slot: string | null;
-  source_url: string;
+  source_url: string | null;
 }
 export interface Translation {
   id: string;

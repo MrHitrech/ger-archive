@@ -5,6 +5,7 @@ import { root, dataDir, readDataset, readJson, writeJson, fileNames, hash } from
 import { sha256 } from './lib/game-formats.mjs';
 import { resourcePaths, decodeGameResource } from './extract-game-data.mjs';
 import { createGameImport } from './lib/game-import.mjs';
+import { createMissionRewardImport } from './lib/mission-rewards.mjs';
 import { prepareTranslations } from './prepare-translations.mjs';
 import { validateDataset, validateSnapshots, qualityReport } from './lib/validate.mjs';
 
@@ -56,10 +57,31 @@ export async function importGameData({
   const exported = await readGameExport(input);
   const articleMappings = await readJson(path.join(dataDir, 'import-mappings/game-articles.json'));
   const staged = createGameImport(original, exported, { checkedAt, sample, articleMappings });
+  if (!sample) {
+    const rewards = createMissionRewardImport(staged.dataset, exported, { checkedAt });
+    staged.dataset = rewards.dataset;
+    for (const [file, content] of rewards.snapshots) staged.snapshots.set(file, content);
+    staged.issues.push(...rewards.issues);
+    staged.idMap.push(...rewards.idMap);
+    staged.report.mission_rewards = rewards.report;
+    staged.report.scope =
+      'Materials, equipment including clothing, elements, craft and upgrade recipes, and main mission material rewards by native mission ID and slot. Bonus conditions, devour, bond breaks, gathering and synthesis are not imported.';
+    for (const key of ['missions', 'drops'])
+      staged.report.counts[key] = {
+        before: original[key].length,
+        after: staged.dataset[key].length,
+        added: staged.dataset[key].filter((r) => !original[key].some((o) => o.id === r.id)).length,
+        updated: staged.dataset[key].filter((r) => {
+          const old = original[key].find((o) => o.id === r.id);
+          return old && JSON.stringify(old) !== JSON.stringify(r);
+        }).length,
+      };
+  }
   staged.dataset.translations = await prepareTranslations(staged.dataset);
   const oldIssues = await readJson(path.join(dataDir, 'quarantine.json'));
   const sourceId = `game-steam-460870-${exported.manifest.build_id}`;
-  const issues = [...oldIssues.filter((r) => r.source_id !== sourceId), ...staged.issues];
+  const importedSources = new Set([sourceId, ...staged.issues.map((r) => r.source_id)]);
+  const issues = [...oldIssues.filter((r) => !importedSources.has(r.source_id)), ...staged.issues];
   const { errors } = validateDataset(staged.dataset);
   if (!errors.length)
     errors.push(...(await validateSnapshots(staged.dataset, { snapshots: staged.snapshots })));
@@ -147,6 +169,7 @@ if (process.argv[1] && pathToFileURL(path.resolve(process.argv[1])).href === imp
           quarantined: result.quarantined_rows,
           factual_changes: result.factual_changes.length,
           translation_import: result.translation_import,
+          mission_rewards: result.mission_rewards,
           preserved_existing_ids: result.preserved_existing_ids,
           backup: result.backup,
         },

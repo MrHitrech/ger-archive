@@ -34,6 +34,8 @@ const issueLabels: Record<string, string> = {
   GAME_PACKED_LAYOUT_REVIEW: 'Поля рецептов',
   GAME_TEXT_ENCODING: 'Кодировка перевода',
   GAME_LEGACY_MATERIAL_UNMATCHED: 'Не сопоставлен материал Wiki',
+  GAME_MISSION_UNMATCHED: 'Не сопоставлена миссия',
+  GAME_REWARD_SCOPE_REVIEW: 'Неполное покрытие способов получения',
 };
 export default function Sources() {
   const { report, sources } = useApp();

@@ -2,6 +2,7 @@ import path from 'node:path';
 import { readFile, mkdir, writeFile, access } from 'node:fs/promises';
 import { pathToFileURL } from 'node:url';
 import { root, writeJson } from './lib/files.mjs';
+import { decodeMissionResource } from './lib/mission-rewards.mjs';
 import {
   openQpck,
   gamePathHash,
@@ -21,6 +22,7 @@ export const resourcePaths = {
   forge: 'data/GameData/g999_Base/db/article/Tr2/equipment_composition.tr2',
   synthesis: 'data/GameData/g999_Base/db/article/Tr2/article_composition.tr2',
   upgrades: 'bin/resconv_pc/data/GameData/g999_Base/db/article/Tr2/equipment_enhancement.kst',
+  mission_en: 'bin/resconv_pc/data/Locale/exported/en/mission.kst',
 };
 const containers = [
   'bin/resconv_pc/data/GameData/g999_Base/db/default_db.res',
@@ -29,6 +31,7 @@ const containers = [
 const canonical = (value) => value.replaceAll('\\', '/').replace(/^\/+/, '').toLowerCase();
 
 export function decodeGameResource(key, bytes) {
+  if (key === 'mission_en') return decodeMissionResource(bytes);
   if (key.startsWith('article')) {
     const table = parseKst(bytes),
       descriptions = key.startsWith('article_ex');

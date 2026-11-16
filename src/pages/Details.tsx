@@ -161,13 +161,22 @@ export function DropTable({
                       <small className="table-subtext">
                         Количество: {d.quantity ?? 'не установлено'}
                       </small>
+                      {d.game_origin?.slot !== undefined && (
+                        <small className="table-subtext">
+                          Позиция награды: {d.game_origin.slot + 1}
+                        </small>
+                      )}
                     </td>
                     <td>
                       <span className={d.drop_rate === null ? 'unknown-rate' : 'drop-rate'}>
                         {d.drop_rate === null ? 'Шанс неизвестен' : `${d.drop_rate}%`}
                       </span>
                       {d.drop_rate !== null && (
-                        <small className="table-subtext">по копии источника</small>
+                        <small className="table-subtext">
+                          {d.game_origin
+                            ? 'из файлов игры · для этой позиции'
+                            : 'по копии источника'}
+                        </small>
                       )}
                     </td>
                   </tr>

@@ -241,8 +241,77 @@
         "md5": "7d0c27c207f00aca02950f23a3c45996",
         "integrity": "blz4_md5",
         "chunk_order": "rotate_first_to_end"
+      },
+      "mission_en": {
+        "archive": "bin.qpck",
+        "entry_hash": "4e71ba40d33d4e18",
+        "archive_offset": 2129235572,
+        "stored_size": 77957,
+        "container_path": "bin/resconv_pc/data/GameData/g999_Base/db/default_db.res",
+        "resource_path": "bin/resconv_pc/data/Locale/exported/en/mission.kst",
+        "container_archive": "bin.qpck",
+        "stored_sha256": "4e4e13e838e92eeb41d0bf08b4201f3f144975fcee43ec6b9b0ef57e5a21f896",
+        "sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+        "size": 263978,
+        "md5": "978f894c0eee382898208d0015b5dcd8",
+        "integrity": "blz4_md5",
+        "chunk_order": "rotate_first_to_end"
       }
     },
     "note_ru": "Факты извлечены из файлов установленной игры. Проверка структуры и контрольных сумм выполнена автоматически; доступность контента и нерасшифрованные поля требуют проверки в игре."
+  },
+  {
+    "id": "game-mission-rewards-460870-1412844",
+    "title": "God Eater Resurrection — награды миссий, Steam 1412844",
+    "url": null,
+    "authors_url": null,
+    "game_scope": "ger",
+    "acquisition": "game_files",
+    "checked_at": "2026-11-16",
+    "revision": "1412844",
+    "license": "game_resources: no license assigned by the project",
+    "app_id": "460870",
+    "build_id": "1412844",
+    "archives": [
+      {
+        "name": "data.qpck",
+        "size": 4163500558,
+        "mtime": "2026-11-13T22:06:35.967Z",
+        "entry_count": 56273,
+        "index_sha256": "8e96b58916d43165f301936cc100f434f2d20e3ad76fccb33d6d33237a3a78a8"
+      },
+      {
+        "name": "bin.qpck",
+        "size": 6875530739,
+        "mtime": "2026-11-13T22:06:35.960Z",
+        "entry_count": 92090,
+        "index_sha256": "1d66291b80e3918fe149cce3695672b0657c5a2ee26480c4e186b7b241703bcc"
+      },
+      {
+        "name": "bin_patch.qpck",
+        "size": 34919851,
+        "mtime": "2026-11-13T22:06:35.960Z",
+        "entry_count": 101,
+        "index_sha256": "0516a1753c38b30f498bae0095ebf666d5108b68d97c280e4254121f906d2c99"
+      }
+    ],
+    "resources": {
+      "mission_en": {
+        "archive": "bin.qpck",
+        "entry_hash": "4e71ba40d33d4e18",
+        "archive_offset": 2129235572,
+        "stored_size": 77957,
+        "container_path": "bin/resconv_pc/data/GameData/g999_Base/db/default_db.res",
+        "resource_path": "bin/resconv_pc/data/Locale/exported/en/mission.kst",
+        "container_archive": "bin.qpck",
+        "stored_sha256": "4e4e13e838e92eeb41d0bf08b4201f3f144975fcee43ec6b9b0ef57e5a21f896",
+        "sha256": "a3fc69dd2570253033418d4ccc55a61cba54305ea287a61aea4acedd403376f3",
+        "size": 263978,
+        "md5": "978f894c0eee382898208d0015b5dcd8",
+        "integrity": "blz4_md5",
+        "chunk_order": "rotate_first_to_end"
+      }
+    },
+    "note_ru": "Из mission.kst извлечены основные награды (Automatic, код 0). Процент относится к отдельной позиции. Количество и зависимость позиций не установлены. Бонусные условия, пожирание и сбор этим импортом не расшифровываются."
   }
 ]

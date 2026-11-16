@@ -261,5 +261,77 @@
     "name": "Поля улучшений и условия открытия",
     "detail": "Структура KST проверена автоматически; ручная сверка с экраном игры ещё требуется. Сюжетные условия сохранены как исходные числа, а не преобразованы в ранги.",
     "source_id": "game-steam-460870-1412844"
+  },
+  {
+    "code": "GAME_MISSION_UNMATCHED",
+    "source_id": "game-mission-rewards-460870-1412844",
+    "name": "Tandall",
+    "detail": "Точное сочетание названия, ранга и локации не найдено. Игровые награды не присоединены."
+  },
+  {
+    "code": "GAME_MISSION_UNMATCHED",
+    "source_id": "game-mission-rewards-460870-1412844",
+    "name": "Runway Tank",
+    "detail": "Точное сочетание названия, ранга и локации не найдено. Игровые награды не присоединены."
+  },
+  {
+    "code": "GAME_MISSION_UNMATCHED",
+    "source_id": "game-mission-rewards-460870-1412844",
+    "name": "Devil's Festival",
+    "detail": "Точное сочетание названия, ранга и локации не найдено. Игровые награды не присоединены."
+  },
+  {
+    "code": "GAME_MISSION_UNMATCHED",
+    "source_id": "game-mission-rewards-460870-1412844",
+    "name": "Dance Macabre",
+    "detail": "Точное сочетание названия, ранга и локации не найдено. Игровые награды не присоединены."
+  },
+  {
+    "code": "GAME_MISSION_UNMATCHED",
+    "source_id": "game-mission-rewards-460870-1412844",
+    "name": "Soilder's Grave",
+    "detail": "Точное сочетание названия, ранга и локации не найдено. Игровые награды не присоединены."
+  },
+  {
+    "code": "GAME_MISSION_UNMATCHED",
+    "source_id": "game-mission-rewards-460870-1412844",
+    "name": "Swawpside Heron",
+    "detail": "Точное сочетание названия, ранга и локации не найдено. Игровые награды не присоединены."
+  },
+  {
+    "code": "GAME_MISSION_UNMATCHED",
+    "source_id": "game-mission-rewards-460870-1412844",
+    "name": "Angel's Ladder",
+    "detail": "Точное сочетание названия, ранга и локации не найдено. Игровые награды не присоединены."
+  },
+  {
+    "code": "GAME_MISSION_UNMATCHED",
+    "source_id": "game-mission-rewards-460870-1412844",
+    "name": "Devourer of the World",
+    "detail": "Точное сочетание названия, ранга и локации не найдено. Игровые награды не присоединены."
+  },
+  {
+    "code": "GAME_MISSION_UNMATCHED",
+    "source_id": "game-mission-rewards-460870-1412844",
+    "name": "Looter's Night",
+    "detail": "Точное сочетание названия, ранга и локации не найдено. Игровые награды не присоединены."
+  },
+  {
+    "code": "GAME_MISSION_UNMATCHED",
+    "source_id": "game-mission-rewards-460870-1412844",
+    "name": "Sunlight On Snow",
+    "detail": "Точное сочетание названия, ранга и локации не найдено. Игровые награды не присоединены."
+  },
+  {
+    "code": "GAME_MISSION_UNMATCHED",
+    "source_id": "game-mission-rewards-460870-1412844",
+    "name": "Budda Smile",
+    "detail": "Точное сочетание названия, ранга и локации не найдено. Игровые награды не присоединены."
+  },
+  {
+    "code": "GAME_REWARD_SCOPE_REVIEW",
+    "source_id": "game-mission-rewards-460870-1412844",
+    "name": "Неполная таблица способов получения",
+    "detail": "Импортированы только основные награды сопоставленных миссий. Бонусные коды условий, количество, зависимость позиций, пожирание, разрушения и сбор требуют отдельной проверки."
   }
 ]

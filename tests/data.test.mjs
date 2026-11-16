@@ -72,21 +72,40 @@ test('initial recipes and reward table are reproducible, with source context', a
       `rank ${rank}`,
     );
 });
-test('ambiguous reward slots stay unknown; distinct conditions stay separate', () => {
+test('native reward slots resolve ambiguous Wiki rows without adding their probabilities', () => {
+  const devil = data.missions.find((m) => m.name_en === "Devil's Tail");
+  const mayflies = data.missions.find((m) => m.name_en === 'Mayflies');
   const grease = data.materials.find((m) => m.name_en === 'Impure Grease');
-  const greaseDrops = data.drops.filter((d) => d.material_id === grease.id);
-  assert.equal(greaseDrops.length, 1);
-  assert.equal(greaseDrops[0].drop_rate, null);
+  const greaseDrops = data.drops.filter(
+    (d) => d.material_id === grease.id && d.mission_id === devil.id,
+  );
+  assert.deepEqual(
+    greaseDrops.map((d) => d.drop_rate).sort((a, b) => a - b),
+    [33, 100],
+  );
+  assert.notEqual(greaseDrops[0].game_origin.slot, greaseDrops[1].game_origin.slot);
   const mana = data.materials.find((m) => m.name_en === 'Mana Stone Chip');
-  const manaDrops = data.drops.filter((d) => d.material_id === mana.id);
+  const manaDrops = data.drops.filter(
+    (d) => d.material_id === mana.id && d.mission_id === devil.id,
+  );
   assert.deepEqual(
     manaDrops.map((d) => d.drop_rate).sort((a, b) => a - b),
     [36, 100],
   );
   const pixie = data.materials.find((m) => m.name_en === 'Pixie Thorn');
-  const pixieDrop = data.drops.find((d) => d.material_id === pixie.id);
-  assert.equal(data.missions.find((m) => m.id === pixieDrop.mission_id).name_en, 'Mayflies');
-  assert.equal(pixieDrop.drop_rate, null);
+  const pixieDrops = data.drops.filter(
+    (d) => d.material_id === pixie.id && d.mission_id === mayflies.id,
+  );
+  assert.equal(pixieDrops.length, 2);
+  assert.deepEqual(
+    pixieDrops.map((d) => d.drop_rate),
+    [25, 25],
+  );
+  assert.ok(
+    pixieDrops.every(
+      (d) => d.quantity === null && d.missing_fields.includes('reward_roll_semantics'),
+    ),
+  );
 });
 test('bad links, duplicate IDs, negative quantities and impossible probabilities fail', () => {
   for (const mutate of [
@@ -196,19 +215,42 @@ test('translation preparation preserves confirmed editorial choices', async () =
   );
 });
 
-test('game import preserves legacy IDs and leaves mission and drop facts untouched', async () => {
-  const seed=(await createSeed()).dataset;
-  for(const collection of ['materials','items','recipes']) for(const row of seed[collection]) assert.ok(data[collection].some((r)=>r.id===row.id));
-  for(const collection of ['missions','aragami','locations','drops']) assert.deepEqual(data[collection],seed[collection]);
-  assert.ok(data.sources.some((s)=>s.acquisition==='game_files'&&s.app_id==='460870'));
+test('game imports preserve legacy IDs, editorial names, and unsupported acquisition methods', async () => {
+  const seed = (await createSeed()).dataset;
+  for (const collection of ['materials', 'items', 'recipes'])
+    for (const row of seed[collection]) assert.ok(data[collection].some((r) => r.id === row.id));
+  for (const collection of ['aragami', 'locations'])
+    assert.deepEqual(data[collection], seed[collection]);
+  for (const original of seed.missions) {
+    const current = data.missions.find((r) => r.id === original.id);
+    for (const key of [
+      'name_en',
+      'rank',
+      'type',
+      'variant',
+      'location_id',
+      'aragami_ids',
+      'objectives_en',
+      'story',
+      'time_limit_seconds',
+    ])
+      assert.deepEqual(current[key], original[key]);
+  }
+  for (const original of seed.drops) {
+    const current = data.drops.find((r) => r.id === original.id);
+    assert.ok(current);
+    for (const ref of original.references) assert.ok(current.references.includes(ref));
+    if (original.method !== 'mission_reward') assert.deepEqual(current, original);
+  }
+  assert.ok(data.sources.some((s) => s.acquisition === 'game_files' && s.app_id === '460870'));
 });
-test('game recipe corrections use the existing Pixie Elastomer ID and retain unresolved Wiki data',()=>{
-  const target=data.items.find((r)=>r.name_en==='Dama de Ferro II');
-  const recipe=data.recipes.find((r)=>r.item_id===target.id);
-  const pixie=data.materials.find((r)=>r.name_en==='Pixie Elastomer');
-  const legacy=data.materials.find((r)=>r.name_en==='Elastomer');
-  assert.ok(recipe.materials.some((r)=>r.material_id===pixie.id));
-  assert.ok(!recipe.materials.some((r)=>r.material_id===legacy.id));
+test('game recipe corrections use the existing Pixie Elastomer ID and retain unresolved Wiki data', () => {
+  const target = data.items.find((r) => r.name_en === 'Dama de Ferro II');
+  const recipe = data.recipes.find((r) => r.item_id === target.id);
+  const pixie = data.materials.find((r) => r.name_en === 'Pixie Elastomer');
+  const legacy = data.materials.find((r) => r.name_en === 'Elastomer');
+  assert.ok(recipe.materials.some((r) => r.material_id === pixie.id));
+  assert.ok(!recipe.materials.some((r) => r.material_id === legacy.id));
   assert.ok(legacy.missing_fields.includes('native_identity'));
-  assert.equal(recipe.game_origin.row_id,942);
+  assert.equal(recipe.game_origin.row_id, 942);
 });

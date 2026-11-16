@@ -4,6 +4,8 @@ import path from 'node:path';
 import { dataDir, hash } from './files.mjs';
 import { equipmentCategory } from './game-import.mjs';
 import { decodeRussianArticleName, RUSSIAN_ARTICLE_NAME_CODEC } from './game-text.mjs';
+import { decodeArticleElements, ARTICLE_ELEMENTS_DECODER } from './game-elements.mjs';
+import { missionRewardFields, MISSION_REWARDS_DECODER } from './mission-rewards.mjs';
 
 const schema = JSON.parse(
   await readFile(new URL('../../data/schema.json', import.meta.url), 'utf8'),
@@ -55,7 +57,7 @@ export function validateDataset(data) {
       if (all.has(row.id)) fail(`ID shared across collections: ${row.id}`);
       all.set(row.id, row);
       const identity = row.game_origin
-        ? `${row.game_origin.source_id}|${row.game_origin.resource}|${row.game_origin.row_id}`
+        ? `${row.game_origin.source_id}|${row.game_origin.resource}|${row.game_origin.row_id}|${row.game_origin.slot ?? ''}`
         : collection === 'missions'
           ? `${row.type}|${row.rank}|${row.variant}|${row.location_id}|${row.name_en}`
           : collection === 'items'
@@ -73,7 +75,7 @@ export function validateDataset(data) {
       for (const ref of row.references) link('evidence', ref, row.id);
       if (row.game_origin) {
         checkOrigin(row.game_origin, row.id);
-        const native = `${index.sources.get(row.game_origin.source_id)?.app_id}|${row.game_origin.resource}|${row.game_origin.row_id}`;
+        const native = `${index.sources.get(row.game_origin.source_id)?.app_id}|${row.game_origin.resource}|${row.game_origin.row_id}|${row.game_origin.slot ?? ''}`;
         if (nativeIdentities.has(native)) fail(`${row.id}: duplicate native identity ${native}`);
         nativeIdentities.add(native);
         if (
@@ -104,6 +106,31 @@ export function validateDataset(data) {
                 row.category !== equipmentCategory(facts.category_code)
               )
                 fail(`${row.id}: article rank/category differs from native evidence`);
+              const elementEvidence = row.references
+                .map((ref) => index.evidence.get(ref))
+                .filter(
+                  (ev) =>
+                    ev?.game_origin?.resource === 'article_en' &&
+                    ev.game_origin.row_id === row.game_origin.row_id,
+                )
+                .map((ev) => JSON.parse(ev.excerpt))
+                .find((f) => f.decoder === ARTICLE_ELEMENTS_DECODER);
+              if (elementEvidence) {
+                const decoded = decodeArticleElements({
+                  id: row.game_origin.row_id,
+                  category_code: facts.category_code,
+                  raw_hex: elementEvidence.raw_hex,
+                });
+                if (
+                  !decoded ||
+                  Object.keys(decoded).some(
+                    (key) => JSON.stringify(decoded[key]) !== JSON.stringify(elementEvidence[key]),
+                  ) ||
+                  JSON.stringify(row.elements) !== JSON.stringify(decoded.elements) ||
+                  row.missing_fields.includes('elements')
+                )
+                  fail(`${row.id}: elements differ from native evidence`);
+              }
             }
           } catch {
             fail(`${row.id}: unreadable native article evidence`);
@@ -150,6 +177,8 @@ export function validateDataset(data) {
           const facts = JSON.parse(ev.excerpt);
           if (facts.row_id !== ev.game_origin.row_id || facts.resource !== ev.game_origin.resource)
             fail(`${ev.id}: native row differs from evidence`);
+          if (facts.slot !== ev.game_origin.slot)
+            fail(`${ev.id}: native slot differs from evidence`);
         } catch {
           fail(`${ev.id}: game-file evidence must contain JSON facts`);
         }
@@ -247,6 +276,27 @@ export function validateDataset(data) {
     for (const id of mission.aragami_ids) link('aragami', id, mission.id);
     if (mission.reward_table_status === 'complete' && mission.missing_fields.includes('rewards'))
       fail(`${mission.id}: complete reward table still marked missing`);
+    if (mission.game_origin?.resource === 'mission_en') {
+      try {
+        const ev = mission.references
+          .map((ref) => index.evidence.get(ref))
+          .find((e) => JSON.stringify(e?.game_origin) === JSON.stringify(mission.game_origin));
+        const facts = JSON.parse(ev?.excerpt ?? '{}');
+        const raw = missionRewardFields(facts.raw_hex, mission.game_origin.row_id);
+        if (
+          facts.decoder !== MISSION_REWARDS_DECODER ||
+          facts.name_en !== mission.name_en ||
+          facts.rank !== raw.rank ||
+          (mission.rank !== 'challenge' && mission.rank !== raw.rank) ||
+          !facts.context.includes(index.locations.get(mission.location_id)?.name_en) ||
+          JSON.stringify(facts.rewards) !== JSON.stringify(raw.rewards) ||
+          mission.reward_table_status !== 'partial'
+        )
+          fail(`${mission.id}: mission differs from native evidence`);
+      } catch {
+        fail(`${mission.id}: unreadable native mission evidence`);
+      }
+    }
   }
   const dropIdentities = new Set();
   for (const drop of data.drops) {
@@ -267,8 +317,46 @@ export function validateDataset(data) {
     );
     if (!matchingSources.some((s) => s?.url === drop.source_url))
       fail(`${drop.id}: source_url differs from evidence`);
+    if (drop.source_url === null && !drop.game_origin)
+      fail(`${drop.id}: null source URL requires game-file evidence`);
+    if (drop.game_origin) {
+      try {
+        const ev = drop.references
+          .map((ref) => index.evidence.get(ref))
+          .find((e) => JSON.stringify(e?.game_origin) === JSON.stringify(drop.game_origin));
+        const facts = JSON.parse(ev?.excerpt ?? '{}');
+        const raw = missionRewardFields(facts.raw_hex, drop.game_origin.row_id);
+        const reward = raw.rewards[drop.game_origin.slot];
+        const mission = index.missions.get(drop.mission_id);
+        if (
+          drop.game_origin.resource !== 'mission_en' ||
+          facts.decoder !== MISSION_REWARDS_DECODER ||
+          !reward ||
+          reward.article_id !== index.materials.get(drop.material_id)?.game_origin?.row_id ||
+          reward.rate_percent !== drop.drop_rate ||
+          reward.condition_code !== 0 ||
+          ['slot', 'article_id', 'rate_percent', 'condition_code'].some(
+            (key) => facts[key] !== reward[key],
+          ) ||
+          facts.condition_en !== 'Automatic' ||
+          drop.condition_en !== 'Automatic' ||
+          drop.method !== 'mission_reward' ||
+          drop.slot !== `mission_reward_${reward.slot}` ||
+          drop.quantity !== null ||
+          drop.aragami_id !== null ||
+          mission?.game_origin?.row_id !== drop.game_origin.row_id ||
+          facts.mission_name_en !== mission?.name_en ||
+          facts.material_name_en !== index.materials.get(drop.material_id)?.name_en ||
+          drop.source_url !== null
+        )
+          fail(`${drop.id}: reward differs from native evidence`);
+      } catch {
+        fail(`${drop.id}: unreadable native reward evidence`);
+      }
+    }
     if (
       drop.drop_rate !== null &&
+      !drop.game_origin &&
       !drop.references.some((ref) =>
         index.evidence.get(ref)?.excerpt.includes(`${drop.drop_rate}%`),
       )
@@ -390,7 +478,9 @@ export function qualityReport(data, issues = []) {
     completeness: 'partial',
     baseline: null,
     notice_ru: data.sources.some((s) => s.acquisition === 'game_files')
-      ? 'Материалы, снаряжение и рецепты дополнены данными установленной GER. Структура и контрольные суммы проверены автоматически; ручная проверка доступности контента и условий открытия не завершена. Миссии и способы получения пока основаны на копиях Wiki. Полнота относительно игры не установлена.'
+      ? data.drops.some((d) => d.game_origin?.resource === 'mission_en')
+        ? 'Материалы, снаряжение, элементы, рецепты и основные награды сопоставленных миссий дополнены данными установленной GER. Проценты наград относятся к отдельным позициям. Бонусные условия, пожирание, разрушения и сбор ещё не покрыты полностью. Структура и контрольные суммы проверены автоматически; ручная проверка не завершена. Полнота относительно игры не установлена.'
+        : 'Материалы, снаряжение и рецепты дополнены данными установленной GER. Структура и контрольные суммы проверены автоматически; ручная проверка доступности контента и условий открытия не завершена. Миссии и способы получения пока основаны на копиях Wiki. Полнота относительно игры не установлена.'
       : 'Начальный набор по поисковым копиям Wiki. Оригиналы недоступны (HTTP 403), игровые данные не подтверждены вручную. Полнота относительно игры не установлена.',
     coverage,
     translations: {

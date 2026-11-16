@@ -74,7 +74,7 @@ export const elements: Record<string, string> = {
   blaze: 'Огонь',
   freeze: 'Лёд',
   spark: 'Молния',
-  divine: 'Божественный',
+  divine: 'Свет',
 };
 export const number = (n: number) => n.toLocaleString('ru-RU');
 
