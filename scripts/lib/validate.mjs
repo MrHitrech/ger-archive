@@ -5,6 +5,7 @@ import { dataDir, hash } from './files.mjs';
 import { equipmentCategory } from './game-import.mjs';
 import { decodeRussianArticleName, RUSSIAN_ARTICLE_NAME_CODEC } from './game-text.mjs';
 import { decodeArticleElements, ARTICLE_ELEMENTS_DECODER } from './game-elements.mjs';
+import { decodeArticleStats, ARTICLE_STATS_DECODER } from './game-stats.mjs';
 import { missionRewardFields, MISSION_REWARDS_DECODER } from './mission-rewards.mjs';
 import {
   MISSION_CONDITIONS,
@@ -158,6 +159,36 @@ export function validateDataset(data) {
                   row.missing_fields.includes('elements')
                 )
                   fail(`${row.id}: elements differ from native evidence`);
+              }
+              const statsEvidence = row.references
+                .map((ref) => index.evidence.get(ref))
+                .filter(
+                  (ev) =>
+                    ev?.game_origin?.resource === 'article_en' &&
+                    ev.game_origin.row_id === row.game_origin.row_id,
+                )
+                .map((ev) => JSON.parse(ev.excerpt))
+                .find((f) => f.decoder === ARTICLE_STATS_DECODER);
+              if (
+                index.sources.get(row.game_origin.source_id)?.equipment_stats_decoder &&
+                !statsEvidence
+              )
+                fail(`${row.id}: base stats lack native evidence`);
+              if (statsEvidence) {
+                const decoded = decodeArticleStats({
+                  id: row.game_origin.row_id,
+                  category_code: facts.category_code,
+                  raw_hex: statsEvidence.raw_hex,
+                });
+                if (
+                  !decoded ||
+                  Object.keys(decoded).some(
+                    (key) => JSON.stringify(decoded[key]) !== JSON.stringify(statsEvidence[key]),
+                  ) ||
+                  JSON.stringify(row.stats) !== JSON.stringify(decoded.stats) ||
+                  row.missing_fields.includes('stats')
+                )
+                  fail(`${row.id}: base stats differ from native evidence`);
               }
             }
           } catch {

@@ -316,7 +316,8 @@ test('newly extracted equipment shows its recipe and native provenance and works
   await page.goto(`./#/craft/${blade.id}`);
   await page.getByRole('combobox', { name: 'Отображение названий' }).selectOption('en');
   await expect(page.getByRole('heading', { name: 'Blade P', exact: true })).toBeVisible();
-  await expect(page.getByText('Характеристики этого предмета ещё не расшифрованы.')).toBeVisible();
+  await expect(page.locator('.fact-strip').getByText('97', { exact: true })).toBeVisible();
+  await expect(page.getByText('Характеристики этого предмета ещё не расшифрованы.')).toHaveCount(0);
   await expect(page.getByText(/Условия открытия рецепта ещё не расшифрованы/)).toBeVisible();
   const proof = page
     .locator('.source-reference')
@@ -341,4 +342,47 @@ test('old English spelling remains searchable after mapping to a native material
   await expect(result).toHaveCount(1);
   await result.click();
   await expect(page).toHaveURL(new RegExp(canonical.id));
+});
+
+test('family filters use Russian root names and preserve selection when switching language', async ({
+  page,
+}) => {
+  await page.goto('./#/craft?family=Knife%20P');
+  const families = page.getByRole('combobox', { name: 'Семейство', exact: true });
+  await expect(families).toHaveValue('Knife P');
+  await expect(families.locator('option:checked')).toHaveText('Нож P');
+  const options = await families.locator('option').allTextContents();
+  expect(options.every((label) => /[\u0400-\u04ff]/u.test(label))).toBeTruthy();
+  const count = await page.locator('.results-header b').textContent();
+  await page.getByRole('combobox', { name: 'Отображение названий' }).selectOption('en');
+  await expect(families).toHaveValue('Knife P');
+  await expect(families.locator('option:checked')).toHaveText('Knife P');
+  await expect(page.locator('.results-header b')).toHaveText(count!);
+  await page.reload();
+  await expect(families).toHaveValue('Knife P');
+});
+
+test('equipment shows base attack, gun multipliers and shield defence with no fake clothing stats', async ({
+  page,
+}) => {
+  for (const [name, values] of [
+    ['Blade P', ['97']],
+    ['Falcon P', ['×0,60', '×0,91']],
+    ['Standard Buckler P', ['63']],
+  ] as const) {
+    await page.goto(`./#/craft/${item(name).id}`);
+    for (const value of values)
+      await expect(page.locator('.fact-strip').getByText(value, { exact: true })).toBeVisible();
+    await expect(page.getByText('Характеристики этого предмета ещё не расшифрованы.')).toHaveCount(
+      0,
+    );
+  }
+  const clothing = items.find((i: { category: string }) => i.category === 'clothing_top');
+  await page.goto(`./#/craft/${clothing.id}`);
+  await expect(
+    page.getByText(
+      'У одежды и модулей нет базовой атаки или защиты. Их свойства определяются отдельно.',
+    ),
+  ).toBeVisible();
+  await expect(page.locator('.fact-strip').getByText('Защита', { exact: true })).toHaveCount(0);
 });

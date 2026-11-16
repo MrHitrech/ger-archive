@@ -142,6 +142,7 @@
         "index_sha256": "0516a1753c38b30f498bae0095ebf666d5108b68d97c280e4254121f906d2c99"
       }
     ],
+    "equipment_stats_decoder": "ger-article-stats-v1",
     "resources": {
       "article_en": {
         "archive": "bin.qpck",

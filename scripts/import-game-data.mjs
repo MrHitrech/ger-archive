@@ -212,6 +212,7 @@ if (process.argv[1] && pathToFileURL(path.resolve(process.argv[1])).href === imp
           quarantined: result.quarantined_rows,
           factual_changes: result.factual_changes.length,
           translation_import: result.translation_import,
+          equipment_stats: result.equipment_stats,
           mission_rewards: result.mission_rewards,
           field_acquisition: result.field_acquisition,
           preserved_existing_ids: result.preserved_existing_ids,

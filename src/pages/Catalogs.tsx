@@ -19,6 +19,7 @@ import {
   elements,
 } from '../components';
 import { useCollections } from '../lib/data';
+import { equipmentFamilies, equipmentStatLabels, formatEquipmentStat } from '../lib/equipment';
 import {
   isMissionRoot,
   matchesMissionRank,
@@ -312,8 +313,10 @@ export function CraftCatalog() {
             <span>Семейство</span>
             <select value={family} onChange={(e) => f.set('family', e.target.value)}>
               <option value="">Все семейства</option>
-              {[...new Set(data.items.map((i) => i.family))].map((k) => (
-                <option key={k}>{k}</option>
+              {equipmentFamilies(data.items, name, category).map(({ value, label }) => (
+                <option key={value} value={value}>
+                  {label}
+                </option>
               ))}
             </select>
           </label>
@@ -364,8 +367,7 @@ export function CraftCatalog() {
                 <div className="equipment-stats">
                   {Object.entries(item.stats).map(([k, v]) => (
                     <span key={k}>
-                      {{ slash: 'Резание', pierce: 'Прокол', def: 'Защита', crush: 'Дробление' }[k]}{' '}
-                      <b>{v}</b>
+                      {equipmentStatLabels[k] || k} <b>{formatEquipmentStat(item, v)}</b>
                     </span>
                   ))}
                   {item.elements.map((e) => (

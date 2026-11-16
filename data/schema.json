@@ -153,6 +153,7 @@
         "authors_url": { "type": ["string", "null"], "pattern": "^https://" },
         "app_id": { "const": "460870" },
         "build_id": { "type": "string", "pattern": "^[0-9]+$" },
+        "equipment_stats_decoder": { "const": "ger-article-stats-v1" },
         "resources": {
           "type": "object", "additionalProperties": {
             "type": "object", "required": ["resource_path", "sha256", "archive", "entry_hash"],

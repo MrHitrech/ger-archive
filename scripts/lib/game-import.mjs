@@ -1,6 +1,7 @@
 import { idFor, hash } from './files.mjs';
 import { decodeRussianArticleName, RUSSIAN_ARTICLE_NAME_CODEC } from './game-text.mjs';
 import { decodeArticleElements, ARTICLE_ELEMENTS_DECODER } from './game-elements.mjs';
+import { decodeArticleStats, ARTICLE_STATS_DECODER } from './game-stats.mjs';
 
 export const equipmentCategories = {
   14: 'short_blade',
@@ -58,6 +59,13 @@ export function createGameImport(
     russian = new Map(decoded.article_ru.map((r) => [r.id, r.name]));
   const translationChanges = [];
   const translationSummary = { filled: 0, preserved_existing: 0, rejected: 0 };
+  const statsSummary = {
+    decoder: ARTICLE_STATS_DECODER,
+    decoded: 0,
+    combat_items: 0,
+    not_applicable: 0,
+    existing_stats_checked: 0,
+  };
   if (articles.size !== decoded.article_en.length || russian.size !== decoded.article_ru.length)
     throw new Error('Duplicate native article ID');
   if (articles.size !== russian.size || [...articles.keys()].some((id) => !russian.has(id)))
@@ -82,6 +90,9 @@ export function createGameImport(
     app_id: '460870',
     build_id: manifest.build_id,
     archives: manifest.archives,
+    ...(!sample && decoded.article_en.every((row) => row.raw_hex)
+      ? { equipment_stats_decoder: ARTICLE_STATS_DECODER }
+      : {}),
     resources: Object.fromEntries(
       Object.entries(manifest.resources)
         .filter(([key]) => !/^mission_\d+_/.test(key))
@@ -246,7 +257,7 @@ export function createGameImport(
     const fields =
       collection === 'recipes'
         ? ['item_id', 'operation', 'from_item_id', 'materials', 'cost_fc', 'required_rank']
-        : ['name_en', 'category', 'rank', ...(collection === 'items' ? ['elements'] : [])];
+        : ['name_en', 'category', 'rank', ...(collection === 'items' ? ['elements', 'stats'] : [])];
     const equivalent = (field, a, b) =>
       field === 'materials'
         ? same(
@@ -346,6 +357,19 @@ export function createGameImport(
       if (!old)
         record.missing_fields = unique([...record.missing_fields, 'stats', 'elements', 'skills']);
       const affinities = decodeArticleElements(row);
+      const baseStats = decodeArticleStats(row);
+      if (baseStats) {
+        record.stats = baseStats.stats;
+        record.missing_fields = record.missing_fields.filter((field) => field !== 'stats');
+        record.references = unique([
+          ...record.references,
+          proof('article_en', row, baseStats, ARTICLE_STATS_DECODER),
+        ]);
+        statsSummary.decoded++;
+        if (baseStats.meaning === 'not_applicable') statsSummary.not_applicable++;
+        else statsSummary.combat_items++;
+        if (old && Object.keys(old.stats ?? {}).length) statsSummary.existing_stats_checked++;
+      }
       if (affinities) {
         record.elements = affinities.elements;
         record.missing_fields = record.missing_fields.filter((field) => field !== 'elements');
@@ -608,6 +632,7 @@ export function createGameImport(
       preserved_existing_ids: idMap.filter((r) => r.preserved_existing_id).length,
       factual_changes: changes,
       translation_import: translationSummary,
+      equipment_stats: statsSummary,
       translation_changes: translationChanges,
       blocking,
       undecoded_russian_names: undecodedRussian,

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { ArrowRight, CircleHelp, GitBranch, ListPlus, Minus, Plus, Target } from 'lucide-react';
 import { useCollections } from '../lib/data';
+import { equipmentStatLabels, formatEquipmentStat, hasCombatStats } from '../lib/equipment';
 import { matchesMissionRank, missionPhases } from '../lib/missions';
 import { useApp } from '../context';
 import {
@@ -441,11 +442,8 @@ export function ItemDetail() {
         </div>
         {Object.entries(item.stats).map(([key, value]) => (
           <div key={key}>
-            <span>
-              {{ slash: 'Резание', pierce: 'Прокол', crush: 'Дробление', def: 'Защита' }[key] ||
-                key}
-            </span>
-            <b>{value}</b>
+            <span>{equipmentStatLabels[key] || key}</span>
+            <b>{formatEquipmentStat(item, value)}</b>
           </div>
         ))}
         <div>
@@ -465,6 +463,13 @@ export function ItemDetail() {
       </div>
       {item.missing_fields.includes('stats') && (
         <p className="footnote">Характеристики этого предмета ещё не расшифрованы.</p>
+      )}
+      {!item.missing_fields.includes('stats') && (
+        <p className="footnote">
+          {hasCombatStats(item)
+            ? 'Базовые значения без бонусов навыков и улучшений «+».'
+            : 'У одежды и модулей нет базовой атаки или защиты. Их свойства определяются отдельно.'}
+        </p>
       )}
       {!!item.skills_en?.length && (
         <div className="skills-line">
